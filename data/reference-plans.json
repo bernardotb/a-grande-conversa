@@ -1,0 +1,1221 @@
+[
+  {
+    "originalSlug": "start-here",
+    "slug": "ponto-de-partida",
+    "title": "O ponto de partida dos Grandes Livros",
+    "subtitle": "Um primeiro caminho pela Grande Conversa",
+    "description": "Um percurso por vinte Grandes Livros para leitores que desejam um lugar claro para começar.",
+    "workCount": 20,
+    "steps": [
+      {
+        "number": 1,
+        "heading": "1. Homero, Odisseia",
+        "date": "c. Século 8 a.C.",
+        "format": "Obra completa. É longo, mas seu formato episódico o torna o épico mais fácil de ler em porções constantes.",
+        "rationale": "A Odisseia começa com o retorno e não com a conquista. Odisseu sobrevive graças à coragem, astúcia, resistência e à ajuda de deuses cujos propósitos ele não consegue dominar. O poema dá ao iniciante o antigo vocabulário moral: honra, hospitalidade, memória, vingança, família, destino. Também é uma boa história, e isso importa desde o início.",
+        "connection": "Comece aqui porque Homero dá à tradição a sua primeira linguagem para a excelência humana. Antes que a justiça se torne um argumento ou a alma se torne uma doutrina, ela aparece como um homem tentando voltar para casa.",
+        "time": "Cerca de 16 horas",
+        "note": "Faça duas anotações: onde Odisseu está e que nome ou disfarce ele está usando. A trama fica muito mais fácil quando você percebe como o reconhecimento continua substituindo a ocultação.",
+        "books": [
+          "odyssey"
+        ],
+        "ideas": [
+          "virtude-e-vicio",
+          "destino",
+          "honra",
+          "coragem",
+          "familia",
+          "profecia"
+        ]
+      },
+      {
+        "number": 2,
+        "heading": "2. Sófocles, Antígona",
+        "date": "c. 441 a.C.",
+        "format": "Obra completa. É curto o suficiente para ser lido de uma só vez, o que é a melhor maneira de sentir sua pressão.",
+        "rationale": "Antígona transforma um dever familiar numa crise pública. Creonte defende a lei da cidade; Antígona defende a lei não escrita devida aos mortos. Nenhuma das posições é trivial e a peça se recusa a tornar o conflito indolor. Lei, consciência, piedade e autoridade política chegam ao mesmo tempo.",
+        "connection": "A Odisseia pergunta o que é necessário para restaurar uma família após a violência. Antígona pergunta o que acontece quando os deveres domésticos e a ordem cívica não podem ser obedecidos.",
+        "time": "Cerca de 2 horas",
+        "note": "Leia-o uma vez e releia o primeiro confronto entre Antígona e Creonte. A segunda leitura geralmente torna ambos menos fáceis de descartar.",
+        "books": [
+          "antigone"
+        ],
+        "ideas": [
+          "justica",
+          "lei",
+          "dever",
+          "familia",
+          "governo",
+          "punicao"
+        ]
+      },
+      {
+        "number": 3,
+        "heading": "3. Platão, Apologia e Críton",
+        "date": "c. 399-360 a.C.",
+        "format": "Leia ambos os diálogos completos. Juntos, eles formam a primeira entrada mais limpa em Sócrates.",
+        "rationale": "A Apologia mostra Sócrates defendendo a filosofia como um modo de vida, não como uma disciplina escolar. O Críton o mantém preso e pergunta se uma sentença injusta liberta um homem da obediência à lei. Esses breves diálogos apresentam os hábitos centrais de Platão: definição, argumento, ironia e seriedade moral. Eles também tornam a filosofia dramática.",
+        "connection": "Sófocles mostra um cidadão preso entre a lei divina e a lei humana. Platão dá ao conflito uma nova forma: um filósofo que acredita que a cidade está errada e ainda se recusa a responder à injustiça com fuga.",
+        "time": "Cerca de 4 horas",
+        "note": "Marque todos os lugares em que Sócrates recusa um apelo fácil à reputação, à família, à segurança ou à opinião pública. Essas recusas são a espinha dorsal dos dois diálogos.",
+        "books": [
+          "apology",
+          "crito"
+        ],
+        "ideas": [
+          "filosofia",
+          "sabedoria",
+          "lei",
+          "justica",
+          "vida-e-morte",
+          "dever"
+        ]
+      },
+      {
+        "number": 4,
+        "heading": "4. Platão, República",
+        "date": "c. 380 a.C.",
+        "format": "Leia os livros I, II, IV, VI e VII. Isso lhe dá o desafio da justiça, da analogia cidade-alma e das imagens do sol, da linha e da caverna.",
+        "rationale": "A República pergunta se a justiça é boa em si ou apenas útil para a reputação. Platão responde construindo uma cidade no discurso e depois voltando essa cidade de volta à alma. O resultado é em parte teoria política, em parte psicologia moral, em parte educação para ver. Os livros VI e VII fornecem ao plano um relato inicial do conhecimento, da verdade e da ascensão filosófica.",
+        "connection": "A Apologia mostra Sócrates vivendo sob julgamento. A República pergunta que tipo de alma, educação e cidade poderiam tornar essa vida inteligível.",
+        "time": "Cerca de 10 horas",
+        "note": "Desenhe duas colunas denominadas cidade e alma. Quando Platão descreve governantes, guardiões, trabalhadores, apetite, espírito ou razão, coloque o termo em ambas as colunas e observe como a analogia conduz o argumento.",
+        "books": [
+          "republic"
+        ],
+        "ideas": [
+          "justica",
+          "educacao",
+          "conhecimento",
+          "verdade",
+          "estado",
+          "virtude-e-vicio"
+        ]
+      },
+      {
+        "number": 5,
+        "heading": "5. Aristóteles, Ética a Nicômaco",
+        "date": "c. 340 a.C.",
+        "format": "Leia os livros I-IV e X. Eles cobrem a felicidade, a virtude habituada, as virtudes morais, a honra e a contemplação.",
+        "rationale": "Aristóteles desce a filosofia moral das alturas de Platão e pergunta para que serve a vida humana. A felicidade não é um estado de espírito, mas uma atividade da alma de acordo com a virtude. A virtude é aprendida pela prática, moldada pelo hábito e julgada pela prudência. Este é o primeiro relato sustentado de caráter do plano.",
+        "connection": "Platão olha para cima, em direção à forma do Bem. Aristóteles mantém a questão do bem, mas olha para a ação, o hábito, a amizade, o prazer, a honra e o tipo de vida que um ser humano pode realmente viver.",
+        "time": "Cerca de 12 horas",
+        "note": "Dê a cada virtude sua própria linha em suas anotações, com seu excesso e deficiência ao lado. Aristóteles fica mais claro quando você vê o padrão de ação excessiva, insuficiente e adequada.",
+        "books": [
+          "nicomachean-ethics"
+        ],
+        "ideas": [
+          "felicidade",
+          "virtude-e-vicio",
+          "habito",
+          "prudencia",
+          "prazer-e-dor",
+          "honra"
+        ]
+      },
+      {
+        "number": 6,
+        "heading": "6. Virgílio, Eneida",
+        "date": "19 a.C.",
+        "format": "Leia os livros I, II, IV, VI e XII. Estes mostram a queda de Tróia, Dido, o submundo e o ato final de guerra do poema.",
+        "rationale": "A Eneida transforma a peregrinação homérica em fundação romana. Enéias não está simplesmente tentando voltar para casa; ele deve deixar o lar para trás para que uma cidade futura possa existir. O poema pergunta quanto custa o império aos seres humanos que o sustentam. Destino, dever, piedade e violência estão interligados desde a primeira tempestade até o golpe final.",
+        "connection": "Aristóteles pergunta o que torna uma vida completa. Virgílio complica essa questão ao fazer com que a felicidade privada responda ao destino público.",
+        "time": "Cerca de 10 horas",
+        "note": "Antes do Livro IV, lembre-se do que foi dito a Enéias que ele deveria encontrar. A história de Dido dói mais quando você mantém a missão pública e a perda privada no mesmo quadro.",
+        "books": [
+          "aeneid"
+        ],
+        "ideas": [
+          "destino",
+          "guerra-e-paz",
+          "estado",
+          "dever",
+          "historia",
+          "honra"
+        ]
+      },
+      {
+        "number": 7,
+        "heading": "7. Escritores bíblicos, seleções bíblicas",
+        "date": "c. Século 10 a.C.-século 1 dC",
+        "format": "Leia Gênesis 1-4, Êxodo 20, Jó 1-3 e 38-42, Mateus 5-7 e Romanos 7-8. Essas seleções introduzem a criação, a lei, o sofrimento, o reino, o pecado, a graça e o conflito interior.",
+        "rationale": "A Bíblia entra no Grande Diálogo com um centro de gravidade diferente. O mundo é criado, a lei é ordenada, o sofrimento é apresentado a Deus e a pessoa humana é dividida pelo pecado e pela esperança. Estas passagens não substituem a filosofia grega; eles dão aos escritores posteriores outro vocabulário para Deus, a vontade, a lei, a história e a alma. Sem eles, Agostinho, Tomás de Aquino, Dante, Milton, Pascal e Dostoiévski tornam-se mais difíceis de ouvir.",
+        "connection": "O destino de Virgílio move a história em direção a Roma. Os textos bíblicos movem a história sob a criação, o mandamento, o julgamento e a promessa.",
+        "time": "Cerca de 8 horas",
+        "note": "Para Jó, escreva o que cada amigo acha que o sofrimento prova. Em seguida, compare suas explicações com os discursos de Deus no redemoinho antes de decidir o que o livro respondeu.",
+        "books": [
+          "biblical-selections"
+        ],
+        "ideas": [
+          "deus",
+          "religiao",
+          "lei",
+          "pecado",
+          "vontade",
+          "bem-e-mal"
+        ]
+      },
+      {
+        "number": 8,
+        "heading": "8. Agostinho, Confissões",
+        "date": "c. 397-400 DC",
+        "format": "Leia os livros I-IX e XI. Isso dá à autobiografia, à conversão, à Mônica e à meditação na hora certa.",
+        "rationale": "Agostinho faz do eu um campo de investigação. Sua história passa por ambição, luxúria, tristeza, ceticismo, amizade, conversão, memória e oração. As Confissões juntam-se à ascensão interior de Platão ao drama bíblico do pecado e da graça. Também ensina escritores posteriores como tratar uma vida como evidência.",
+        "connection": "As seleções bíblicas fornecem a linguagem da criação, da lei, do pecado e da graça. Agostinho volta essa linguagem para dentro e pergunta como uma alma inquieta chega a se conhecer diante de Deus.",
+        "time": "Cerca de 14 horas",
+        "note": "Não trate os livros autobiográficos como uma configuração para a filosofia. Agostinho já está fazendo filosofia quando se lembra de roubar peras, de lamentar um amigo ou de ouvir Ambrósio pregar.",
+        "books": [
+          "confessions"
+        ],
+        "ideas": [
+          "deus",
+          "tempo",
+          "alma",
+          "memoria-e-imaginacao",
+          "pecado",
+          "amor"
+        ]
+      },
+      {
+        "number": 9,
+        "heading": "9. Tomás de Aquino, Suma Teológica",
+        "date": "1265-1274",
+        "format": "Leia pequenas seleções sobre Deus, lei, virtude e felicidade: Parte I Q2; Parte I-II Q1-5, Q90-97; Parte II-II Q58. Este é um encontro direto com Tomás de Aquino, sem pedir a montanha inteira.",
+        "rationale": "Tomás de Aquino dá à conversação medieval a sua forma mais ordenada. Ele leva o relato de Aristóteles sobre natureza e virtude para a teologia cristã e pergunta como razão, lei, graça e felicidade se relacionam. A forma do artigo pode parecer estranha no início, mas treina o leitor para separar objeções, afirmações e respostas. Tomás de Aquino é difícil porque é exato, não porque é obscuro.",
+        "connection": "Agostinho escreve como uma alma que reza através da sua própria história. Tomás de Aquino escreve como um professor que organiza questões controversas para que a fé e a razão possam ser vistas em relação.",
+        "time": "Cerca de 12 horas",
+        "note": "Leia um artigo de cada vez na ordem estabelecida: objeções, autoridade contrária, resposta de Tomás de Aquino, respostas. Se você se perder, resuma apenas o parágrafo 'Eu respondo' antes de prosseguir.",
+        "books": [
+          "summa-theologica"
+        ],
+        "ideas": [
+          "deus",
+          "lei",
+          "felicidade",
+          "virtude-e-vicio",
+          "justica",
+          "teologia"
+        ]
+      },
+      {
+        "number": 10,
+        "heading": "10. Dante Alighieri, Divina Comédia",
+        "date": "c. 1308-1321",
+        "format": "Leia Inferno IV, X, XXVI, XXXIII; Purgatório I, XXVII-XXX; Paraíso I e XXXIII. Esses cantos dão a arquitetura moral e a visão final do poema.",
+        "rationale": "Dante transforma teologia, política, filosofia, poesia e amor pessoal em uma única jornada. O poema percorre a vida após a morte educando o desejo. O Inferno mostra as almas fixadas em falsos amores, o Purgatório mostra o amor sendo curado e o Paraíso mostra o amor como a ordem da realidade. Aqui o mapa deixa de parecer uma lista e começa a parecer um mundo.",
+        "connection": "Tomás de Aquino organiza a doutrina em perguntas e artigos. Dante pega o mesmo universo e faz o leitor percorrê-lo.",
+        "time": "Cerca de 12 horas",
+        "note": "Use notas para nomes e referências históricas, mas continue lendo o canto antes de perseguir qualquer alusão. Dante depende tanto do movimento para frente quanto da explicação.",
+        "books": [
+          "divine-comedy"
+        ],
+        "ideas": [
+          "amor",
+          "religiao",
+          "pecado",
+          "poesia",
+          "justica",
+          "eternidade"
+        ]
+      },
+      {
+        "number": 11,
+        "heading": "11. Niccolo Maquiavel, O Príncipe",
+        "date": "1513",
+        "format": "Obra completa. É curto, nítido e melhor lido sem pedir desculpas por sua severidade.",
+        "rationale": "O Príncipe quebra o clima moral do plano. Maquiavel estuda o poder como os governantes o usam, e não como os filósofos gostariam de usá-lo. Fortuna, força, medo, reputação, armas e necessidade substituem a linguagem da virtude cristã. O livro é perturbador porque vê algo verdadeiro na política e se recusa a suavizá-lo.",
+        "connection": "O universo de Dante é moralmente ordenado de cima a baixo. Maquiavel escreve como se os governantes devessem sobreviver num mundo onde a ordem moral não protege o bem de forma confiável.",
+        "time": "Cerca de 5 horas",
+        "note": "Mantenha uma pequena lista dos termos emparelhados de Maquiavel: amado e temido, armas e leis, fortuna e virtude, aparência e realidade. O livro muitas vezes pensa separando esses pares.",
+        "books": [
+          "the-prince"
+        ],
+        "ideas": [
+          "governo",
+          "guerra-e-paz",
+          "acaso",
+          "tirania",
+          "virtude-e-vicio",
+          "monarquia"
+        ]
+      },
+      {
+        "number": 12,
+        "heading": "12. William Shakespeare, Hamlet",
+        "date": "c. 1600",
+        "format": "Obra completa. Leia-o como uma brincadeira, não como um quebra-cabeça para decodificar linha por linha.",
+        "rationale": "Hamlet coloca em cena a interioridade renascentista. Um filho recebe a ordem de vingança, mas o pensamento, a consciência, o desgosto, a tristeza, o teatro e a dúvida continuam interrompendo a ação. A peça reúne questões sobre morte, aparência, corrupção, honra e vontade em uma única voz. Mostra uma mente observando a si mesma pensar.",
+        "connection": "Maquiavel pergunta o que um governante deve fazer quando a ação é necessária. Shakespeare nos dá um príncipe para quem a ação se tornou quase impossível porque a consciência continua ampliando o caso.",
+        "time": "Cerca de 5 horas",
+        "note": "Leia os solilóquios em voz alta, até mal. O pensamento de Hamlet muda de direção no meio da frase, e ouvir as mudanças ajuda mais do que admirar silenciosamente os famosos versos.",
+        "books": [
+          "hamlet"
+        ],
+        "ideas": [
+          "vida-e-morte",
+          "vontade",
+          "honra",
+          "emocao",
+          "verdade",
+          "bem-e-mal"
+        ]
+      },
+      {
+        "number": 13,
+        "heading": "13. Miguel de Cervantes, Dom Quixote",
+        "date": "1605 e 1615",
+        "format": "Leia a Parte I através dos moinhos de vento e depois os capítulos finais da Parte II. Isso dá a premissa cômica e a tristeza tardia sem exigir o romance completo.",
+        "rationale": "Dom Quixote pergunta o que a imaginação faz com a realidade. Um homem lê romances antigos até tentar habitá-los, e o mundo responde com insultos, piadas, ternura e humilhação. Cervantes é cômico, mas não é cruel. O livro faz o leitor sentir o perigo e a dignidade de viver uma história.",
+        "connection": "Hamlet está preso a um pensamento que não pode se transformar em ação. Dom Quixote é quase o contrário: a imaginação entra em ação antes que o julgamento possa capturá-la.",
+        "time": "Cerca de 12 horas",
+        "note": "Não traduza cada piada em um tema no primeiro contato. Deixe as cenas serem engraçadas e depois pergunte por que Cervantes continua fazendo a tolice parecer tão próxima da nobreza.",
+        "books": [
+          "don-quixote"
+        ],
+        "ideas": [
+          "opiniao",
+          "memoria-e-imaginacao",
+          "honra",
+          "verdade",
+          "costume-e-convencao",
+          "poesia"
+        ]
+      },
+      {
+        "number": 14,
+        "heading": "14. Rene Descartes, Meditações sobre a Filosofia Primeira",
+        "date": "1641",
+        "format": "Obra completa. É curto, mas cada meditação deve ser lida como um exercício de um dia.",
+        "rationale": "Descartes faz da certeza o problema. Ele elimina crenças herdadas, desconfia dos sentidos, confronta dúvidas radicais e tenta reconstruir o conhecimento a partir do eu pensante. As Meditações deixam a mente e o mundo precisando ser reconectados. Depois de Descartes, o conhecimento não parece mais inocente.",
+        "connection": "Cervantes mostra a imaginação perdendo contato com o mundo. Descartes pergunta se a crença comum tem algum contato seguro com o mundo.",
+        "time": "Cerca de 8 horas",
+        "note": "Leia uma meditação por sessão. No final de cada uma, escreva o que Descartes pensa ter perdido e o que, se é que alguma coisa, ele acha que recuperou.",
+        "books": [
+          "meditations-on-first-philosophy"
+        ],
+        "ideas": [
+          "conhecimento",
+          "mente",
+          "verdade",
+          "deus",
+          "alma",
+          "metafisica"
+        ]
+      },
+      {
+        "number": 15,
+        "heading": "15. John Locke, Segundo Tratado do Governo Civil",
+        "date": "1689",
+        "format": "Leia os Capítulos II, V, VII-IX e XIX. Estes abrangem o estado de natureza, propriedade, sociedade política, governo e revolução.",
+        "rationale": "Locke dá à liberdade moderna uma de suas formas políticas duradouras. O governo surge para proteger a vida, a liberdade e a propriedade; é limitado pelo propósito para o qual existe. Consentimento, trabalho, propriedade e resistência à tirania tornam-se termos centrais. O argumento ainda molda o discurso democrático mesmo quando os leitores já não conhecem a sua fonte.",
+        "connection": "Descartes começa com a mente individual em busca de certeza. Locke inicia a ordem política com pessoas que têm direitos antes que o governo os nomeie.",
+        "time": "Cerca de 7 horas",
+        "note": "Quando Locke diz propriedade, verifique se ele se refere a posses, trabalho, vida, liberdade ou todos eles juntos. O argumento muda se você ouvir a palavra de forma muito restrita.",
+        "books": [
+          "second-treatise-of-civil-government"
+        ],
+        "ideas": [
+          "governo",
+          "lei",
+          "liberdade",
+          "riqueza",
+          "revolucao",
+          "tirania"
+        ]
+      },
+      {
+        "number": 16,
+        "heading": "16. Jean-Jacques Rousseau, O Contrato Social",
+        "date": "1762",
+        "format": "Leia os Livros I-II e capítulos selecionados do Livro IV. Isto dá a vontade geral, a soberania, a lei e a religião civil.",
+        "rationale": "Rousseau aceita a linguagem da liberdade e volta-a contra o conforto liberal fácil. Um povo só é livre quando estabelece leis para si próprio, mas essa afirmação levanta questões difíceis sobre a dissidência, a cidadania e a vontade geral. O livro é breve e severo. Faz com que a liberdade política pareça menos uma permissão e mais uma forma exigente de adesão.",
+        "connection": "Locke limita o governo para proteger direitos anteriores. Rousseau pergunta se uma comunidade política pode criar uma liberdade mais profunda do que a independência privada.",
+        "time": "Cerca de 7 horas",
+        "note": "Continue perguntando quem tem permissão para falar pelas pessoas. O poder e o perigo de Rousseau concentram-se em torno dessa questão.",
+        "books": [
+          "the-social-contract"
+        ],
+        "ideas": [
+          "liberdade",
+          "governo",
+          "lei",
+          "cidadao",
+          "democracia",
+          "estado"
+        ]
+      },
+      {
+        "number": 17,
+        "heading": "17. Herman Melville, Moby Dick",
+        "date": "1851",
+        "format": "Leia os capítulos selecionados: 1-3, 9-10, 16, 28, 32, 36, 41-42, 54, 87, 99, 110, 119 e 132-135. O romance completo é uma leitura difícil. Esses capítulos apresentam Ismael, Acabe, a baleia, o navio, a perseguição e a catástrofe final sem destruir o ímpeto do plano.",
+        "rationale": "Moby-Dick dá ao plano um épico americano de trabalho, obsessão, natureza, Deus e vontade. É cômico, técnico, bíblico, shakespeariano e estranho, muitas vezes dentro do mesmo capítulo. Acabe transforma o dano privado em uma guerra metafísica, e todo o navio é atraído pela força do desejo de um homem. O livro é difícil, mas sua dificuldade abre muitas das questões anteriores do plano de uma só vez: destino, profecia, trabalho, amizade, conhecimento e rebelião contra a criação.",
+        "connection": "Rousseau pergunta como um povo pode tornar-se um só corpo sem perder a liberdade. Melville coloca uma tripulação mista sob o comando de um capitão cuja vontade única supera lentamente todos os outros propósitos a bordo.",
+        "time": "Cerca de 16 horas",
+        "note": "Trate os capítulos selecionados como uma rota traçada através de um livro difícil. Se um capítulo sobre taxonomia de baleias te surpreender, continue lendo. Se isso o atrapalhar, retorne à lista de capítulos e mantenha o plano em andamento.",
+        "books": [
+          "moby-dick"
+        ],
+        "ideas": [
+          "desejo",
+          "vontade",
+          "destino",
+          "deus",
+          "natureza",
+          "trabalho"
+        ]
+      },
+      {
+        "number": 18,
+        "heading": "18. John Stuart Mill, Sobre a Liberdade",
+        "date": "1859",
+        "format": "Obra completa. É um dos ensaios filosóficos mais simples do plano.",
+        "rationale": "Mill defende a individualidade tanto contra a coerção governamental quanto contra a pressão social. Seu princípio do dano é famoso, mas o argumento mais profundo é sobre a verdade, a experiência e a necessidade de viver desacordo. Uma sociedade que silencia o erro enfraquece o seu domínio sobre a verdade; uma sociedade que silencia a excentricidade enfraquece a sua oferta de possibilidades humanas. Mill dá à liberdade liberal uma forte defesa do século XIX.",
+        "connection": "Melville mostra como uma vontade avassaladora pode absorver uma comunidade inteira dentro de si. Mill volta-se para as condições que permitem às pessoas pensar, falar e viver sem serem engolidas pela força social.",
+        "time": "Cerca de 6 horas",
+        "note": "Após o Capítulo I, acompanhe os casos de Mill em busca de opiniões impopulares, vidas excêntricas e pressão social. O princípio do dano é apenas a porta de entrada.",
+        "books": [
+          "on-liberty"
+        ],
+        "ideas": [
+          "liberdade",
+          "verdade",
+          "opiniao",
+          "homem",
+          "governo",
+          "progresso"
+        ]
+      },
+      {
+        "number": 19,
+        "heading": "19. Charles Darwin, A Origem das Espécies",
+        "date": "1859",
+        "format": "Leia a introdução, os capítulos III-IV e o capítulo final. Estes fornecem a luta, a seleção natural e o resumo do argumento do próprio Darwin.",
+        "rationale": "Darwin muda a conversa sobre a natureza ao explicar a ordem sem formas fixas ou design direto em todos os pontos. As espécies tornam-se populações históricas, moldadas pela variação, herança, luta e seleção. O argumento diz respeito à ciência, à natureza, ao acaso, ao progresso e ao lugar do homem entre os seres vivos, mesmo antes de Darwin escrever diretamente sobre a descendência humana. Sua paciência faz parte de sua força.",
+        "connection": "A liberdade de Mill depende da variação de opiniões e modos de vida. Darwin dá ao mundo natural a sua própria explicação de variação, pressão, sobrevivência e mudança.",
+        "time": "Cerca de 8 horas",
+        "note": "Não leia os exemplos como decoração. Darwin está ensinando você a confiar em uma inferência lenta construída a partir de pombos, criadores, ilhas, fósseis e pequenas diferenças.",
+        "books": [
+          "the-origin-of-species"
+        ],
+        "ideas": [
+          "animal",
+          "evolucao",
+          "natureza",
+          "acaso",
+          "ciencia",
+          "progresso"
+        ]
+      },
+      {
+        "number": 20,
+        "heading": "20. Fiódor Dostoiévski, Crime e Castigo",
+        "date": "1866",
+        "format": "Obra completa. É longo, mas lê-se com a pressão de um thriller psicológico.",
+        "rationale": "Crime e Castigo traz o plano de volta à alma sob julgamento. Raskolnikov comete assassinato para testar uma teoria sobre homens extraordinários, depois descobre que uma ideia pode ser mais fácil de manter do que viver. Dostoiévski reúne pecado, liberdade, punição, sofrimento e confissão em um romance moderno. O plano termina dentro de uma consciência onde a filosofia, a teologia, a política e a psicologia se tornaram pessoais.",
+        "connection": "Darwin mostra os seres humanos dentro da história da natureza. Dostoiévski pergunta o que acontece com um ser humano que tenta ficar além do bem e do mal pela força da teoria.",
+        "time": "Cerca de 55 horas",
+        "note": "Anote quem sabe, quem suspeita e quem está esperando que Raskolnikov fale. O suspense é moral antes de ser legal.",
+        "books": [
+          "crime-and-punishment"
+        ],
+        "ideas": [
+          "pecado",
+          "bem-e-mal",
+          "vontade",
+          "liberdade",
+          "punicao",
+          "homem"
+        ]
+      }
+    ],
+    "sourceUrl": "https://greatconversationmap.com/plans/start-here"
+  },
+  {
+    "originalSlug": "faith-doubt-and-the-soul",
+    "slug": "fe-duvida-e-alma",
+    "title": "Fé, Dúvida e Alma",
+    "subtitle": "Criação, morte, graça, dúvida e juízo",
+    "description": "Criação, morte, graça, dúvida e juízo se encontram enquanto a crença religiosa responde às suas testemunhas mais exigentes.",
+    "workCount": 12,
+    "steps": [
+      {
+        "number": 1,
+        "heading": "1. Escritores bíblicos, seleções bíblicas",
+        "date": "c. Século 10 a.C.-século 1 dC",
+        "format": "Leia Gênesis 1-4, Êxodo 20, Jó 1-3 e 38-42, Salmos 22 e 51, Isaías 53, Mateus 5-7, João 1, Romanos 7-8 e 1 Coríntios 13 e 15.",
+        "rationale": "A Bíblia dá a primeira gramática: criação, comando, queda, aliança, profecia, encarnação, pecado, graça e ressurreição. Essas seleções não resumem toda a Bíblia, mas fornecem as passagens que os escritores posteriores continuaram respondendo. Deus não é um princípio abstrato aqui; Deus ordena, julga, cria, fala, esconde e promete. A alma humana aparece sob a lei, a dor, a culpa, a saudade e a esperança.",
+        "connection": "Comece aqui porque Agostinho, Tomás de Aquino, Dante, Pascal, Kierkegaard e Dostoiévski não podem ser ouvidos sem estas palavras de fundo.",
+        "time": "Cerca de 10 horas",
+        "note": "Para Jó, escreva o que cada amigo acha que o sofrimento prova. Depois compare seus discursos com a resposta de Deus antes de decidir o que o livro estabelece.",
+        "books": [
+          "biblical-selections"
+        ],
+        "ideas": [
+          "deus",
+          "religiao",
+          "lei",
+          "pecado",
+          "vontade",
+          "bem-e-mal"
+        ]
+      },
+      {
+        "number": 2,
+        "heading": "2. Platão, Fédon",
+        "date": "c. 380 a.C.",
+        "format": "Obra completa.",
+        "rationale": "O Fédon coloca a alma antes da morte. Sócrates defende a imortalidade enquanto os seus amigos o observam preparar-se para morrer, para que o diálogo nunca se torne meramente abstrato. A filosofia aparece como uma purificação da alma e um treino para a morte. Platão dá um relato grego da imortalidade antes que a ressurreição cristã entre na discussão.",
+        "connection": "As seleções bíblicas colocam a morte sob a criação, o julgamento e a promessa. Platão pergunta o que é a alma e se ela pode sobreviver à dissolução do corpo.",
+        "time": "Cerca de 6 horas",
+        "note": "Mantenha os argumentos e o drama juntos. O cenário é importante porque Sócrates não está apenas falando sobre a morte; ele está cumprindo isso.",
+        "books": [
+          "phaedo"
+        ],
+        "ideas": [
+          "alma",
+          "imortalidade",
+          "vida-e-morte",
+          "filosofia",
+          "verdade",
+          "bem-e-mal"
+        ]
+      },
+      {
+        "number": 3,
+        "heading": "3. Plotino, Enéadas",
+        "date": "c. 270 DC",
+        "format": "Leia Primeira Enéada I e VI; Quinta Enéada I e IX; e Sexta Enéada IX.",
+        "rationale": "Plotino traça uma ascensão da alma ao intelecto até o Um. O divino está além do ser e da fala comuns, mas a alma pode voltar-se para dentro e para cima em direção a ele. Beleza, unidade, contemplação e purificação tornam-se formas de pensar no retorno. Mais tarde, a teologia cristã fala muitas vezes perto das suas fronteiras, mesmo quando muda os seus termos.",
+        "connection": "Platão pergunta se a alma sobrevive à morte. Plotino pergunta como a alma pertence a uma ordem superior e como pode retornar à sua fonte.",
+        "time": "Cerca de 12 horas",
+        "note": "Não force Plotino a elaborar um diagrama muito rapidamente. Deixe que o movimento de retorno, para dentro e para cima, fique claro antes de nomear cada nível.",
+        "books": [
+          "enneads"
+        ],
+        "ideas": [
+          "alma",
+          "ser",
+          "uno-e-multiplo",
+          "beleza",
+          "deus",
+          "eternidade"
+        ]
+      },
+      {
+        "number": 4,
+        "heading": "4. Agostinho, Confissões",
+        "date": "c. 397-400 DC",
+        "format": "Leia os livros I-XI.",
+        "rationale": "Agostinho faz do eu um problema diante de Deus. Memória, desejo, tristeza, ambição, luxúria, amizade, conversão e tempo tornam-se evidências de uma alma que não consegue descansar em si mesma. As Confissões une a interioridade filosófica ao pecado e à graça bíblicos. Ensina o plano como uma vida pode ser lida como um argumento.",
+        "connection": "Plotino volta a alma para dentro e para cima. Agostinho também se volta para dentro, mas encontra uma vontade dividida pelo pecado e curada pela graça, em vez de apenas uma ascensão.",
+        "time": "Cerca de 16 horas",
+        "note": "Não trate o roubo da pêra como uma pequena anedota moral. Agostinho está perguntando por que a vontade pode amar o dano por si só.",
+        "books": [
+          "confessions"
+        ],
+        "ideas": [
+          "deus",
+          "alma",
+          "pecado",
+          "memoria-e-imaginacao",
+          "tempo",
+          "amor"
+        ]
+      },
+      {
+        "number": 5,
+        "heading": "5. Agostinho, Cidade de Deus",
+        "date": "413-426 DC",
+        "format": "Leia os livros XI-XIV e XIX-XXII.",
+        "rationale": "A Cidade de Deus expande o drama interior de Agostinho para a história. Dois amores fazem duas cidades: o amor a Deus e o amor a si mesmo. Criação, anjos, queda, pecado, ressurreição, paz e julgamento final tornam-se parte de um relato providencial. A fé não é apenas experiência privada; interpreta a história e a comunidade humana.",
+        "connection": "As Confissões mostram uma alma sendo sondada por Deus. A Cidade de Deus pergunta como cada cidade e cada história devem ser julgadas pelo fim último da alma.",
+        "time": "Cerca de 20 horas",
+        "note": "Mantenha as duas cidades ligadas a dois amores, não a duas instituições. A distinção de Agostinho é mais profunda do que Igreja versus Estado.",
+        "books": [
+          "city-of-god"
+        ],
+        "ideas": [
+          "deus",
+          "historia",
+          "pecado",
+          "estado",
+          "religiao",
+          "eternidade"
+        ]
+      },
+      {
+        "number": 6,
+        "heading": "6. Tomás de Aquino, Suma Teológica",
+        "date": "1265-1274",
+        "format": "Leia a Parte I Q2, Q12-13, Q75-83; Parte I-II Q1-5, Q90-97; e Parte II-II Q1-4, Q23, Q58.",
+        "rationale": "Tomás de Aquino dá à teologia uma forma argumentativa ordenada. Deus, a alma, a felicidade, a lei, a fé, a caridade e a justiça são tratadas por meio de objeções, autoridades, respostas e réplicas. O artigo disciplina o desacordo em vez de ocultá-lo. Ele une a filosofia de Aristóteles à doutrina cristã sem pretender que sejam a mesma coisa.",
+        "connection": "Agostinho escreve como alma e como bispo lendo a história sob Deus. Tomás de Aquino organiza as questões de modo que a fé e a razão possam encontrar-se numa disputa ordenada.",
+        "time": "Cerca de 18 horas",
+        "note": "Leia cada artigo em ordem: objeções, autoridade contrária, resposta, réplicas. As respostas muitas vezes mostram exatamente o que Tomás de Aquino acha que a objeção acertou.",
+        "books": [
+          "summa-theologica"
+        ],
+        "ideas": [
+          "deus",
+          "teologia",
+          "alma",
+          "felicidade",
+          "lei",
+          "religiao"
+        ]
+      },
+      {
+        "number": 7,
+        "heading": "7. Dante Alighieri, Divina Comédia",
+        "date": "c. 1308-1321",
+        "format": "Leia Inferno IV, X, XXVI, XXXIII; Purgatório I, XVI-XVIII, XXVII-XXX; e Paradiso I, X-XI, XVII, XXXIII.",
+        "rationale": "Dante torna a teologia visível como um caminho de desejo. O Inferno mostra as almas fixadas em falsos amores, o Purgatório mostra o amor sendo curado e o Paraíso mostra o amor como a ordem da realidade. Filosofia, política, poesia, confissão e doutrina tornam-se um movimento. O universo moral torna-se algo que o leitor deve percorrer.",
+        "connection": "Tomás de Aquino argumenta em artigos. Dante pega um mundo teológico relacionado e o transforma em visão, movimento, memória e canção.",
+        "time": "Cerca de 18 horas",
+        "note": "Use notas para nomes, mas não deixe que as notas destruam o poema. Leia cada canto como um todo antes de perseguir cada alusão.",
+        "books": [
+          "divine-comedy"
+        ],
+        "ideas": [
+          "amor",
+          "pecado",
+          "religiao",
+          "poesia",
+          "justica",
+          "eternidade"
+        ]
+      },
+      {
+        "number": 8,
+        "heading": "8. Blaise Pascal, Pensamentos",
+        "date": "1670",
+        "format": "Leia as seções sobre diversão, miséria, grandeza, a aposta, o Deus oculto, profecia e Jesus Cristo. A numeração difere de acordo com a edição; portanto, use os títulos das seções, se disponíveis.",
+        "rationale": "Pascal escreve a partir da ferida entre a razão e a necessidade. Os seres humanos são grandes o suficiente para saberem que são miseráveis, e miseráveis ​​o suficiente para procurarem distrair-se desse conhecimento. A aposta é apenas uma parte de uma apologética mais ampla construída em torno do ocultamento de Deus e da condição dividida do homem. A sua fé sabe quão frágil é o seu ouvinte.",
+        "connection": "Dante apresenta um cosmos ordenado que pode ser percorrido. Pascal escreve para leitores que já não sentem essa ordem tão óbvia e que deve ser alcançada através da sua instabilidade.",
+        "time": "Cerca de 10 horas",
+        "note": "Não isole a aposta dos fragmentos de diversão e miséria. Pascal está discutindo com um leitor que ainda não quer discutir.",
+        "books": [
+          "pensees"
+        ],
+        "ideas": [
+          "religiao",
+          "pecado",
+          "acaso",
+          "infinito",
+          "raciocinio",
+          "deus"
+        ]
+      },
+      {
+        "number": 9,
+        "heading": "9. David Hume, Diálogos sobre Religião Natural",
+        "date": "1779",
+        "format": "Obra completa.",
+        "rationale": "Hume testa a teologia natural através do diálogo. O argumento do design, a analogia, o ceticismo, o mal e os limites da inferência humana estão todos sob pressão. A forma é importante porque nenhuma voz apresenta simplesmente a conclusão de Hume. A obra força o plano a perguntar o que a razão pode ou não dizer sobre Deus no mundo.",
+        "connection": "Pascal argumenta que o coração, a miséria e a história são importantes onde as provas falham. Hume pressiona as próprias provas racionais e pergunta se as suas analogias podem suportar o peso que lhes é atribuído.",
+        "time": "Cerca de 8 horas",
+        "note": "Acompanhe Cleanthes, Demea e Philo separadamente. O diálogo fica mais nítido quando você vê que tipo de teologia cada palestrante defende.",
+        "books": [
+          "dialogues-concerning-natural-religion"
+        ],
+        "ideas": [
+          "deus",
+          "religiao",
+          "causa",
+          "conhecimento",
+          "verdade",
+          "bem-e-mal"
+        ]
+      },
+      {
+        "number": 10,
+        "heading": "10. Immanuel Kant, Religião dentro dos limites apenas da razão",
+        "date": "1793",
+        "format": "Leia os livros I-II e IV.",
+        "rationale": "Kant move a religião para o campo da razão moral. O mal é radical porque diz respeito à ordenação da vontade e não apenas aos maus atos. A fé histórica deve responder à religião moral, mas a religião moral ainda precisa de símbolos, de comunidade e de luta. A questão muda de provar Deus para perguntar como a religião se relaciona com a liberdade moral.",
+        "connection": "Hume limita o que a razão especulativa pode inferir sobre Deus. Kant aceita limites à especulação e volta-se para o significado moral da religião.",
+        "time": "Cerca de 14 horas",
+        "note": "Quando Kant diz que o mal é radical, não ouça melodrama. Ele quer dizer que a desordem atinge a raiz pela qual as máximas são escolhidas.",
+        "books": [
+          "religion-within-the-limits-of-reason-alone"
+        ],
+        "ideas": [
+          "religiao",
+          "vontade",
+          "bem-e-mal",
+          "pecado",
+          "dever",
+          "liberdade"
+        ]
+      },
+      {
+        "number": 11,
+        "heading": "11. Soren Kierkegaard, Medo e Tremor",
+        "date": "1843",
+        "format": "Obra completa.",
+        "rationale": "Kierkegaard retorna a Abraão e torna a fé estranha novamente. A ordem de sacrificar Isaque não pode ser reduzida à ética sem perder o que a aterroriza. A fé aparece como confiança em Deus além da mediação pública, além da prova e além da segurança de ser compreendido. A interioridade religiosa é testada.",
+        "connection": "Kant julga a religião dentro da razão moral. Kierkegaard pergunta se a fé pode colocar o indivíduo numa relação absoluta com Deus que a ética não pode compreender.",
+        "time": "Cerca de 8 horas",
+        "note": "Leia as recontagens de Abraão lentamente. Kierkegaard está ensinando o quanto se perde quando a história se torna familiar.",
+        "books": [
+          "fear-and-trembling"
+        ],
+        "ideas": [
+          "deus",
+          "religiao",
+          "dever",
+          "bem-e-mal",
+          "vontade",
+          "amor"
+        ]
+      },
+      {
+        "number": 12,
+        "heading": "12. Fiódor Dostoiévski, Os Irmãos Karamazov",
+        "date": "1880",
+        "format": "Leia o trabalho completo. Se o tempo for curto, não pule os Livros V, VI e XI-XII.",
+        "rationale": "Dostoiévski encerra o plano colocando fé, dúvida, culpa, liberdade, sofrimento e amor em uma provação familiar. A rebelião de Ivan contra o sofrimento inocente não pode ser respondida com piedade fácil. Aliócha e Zósima não refutam a dúvida, mas vivem outra forma de resposta. O romance reúne as questões do plano em pessoas que ferem, acusam, confessam e esperam.",
+        "connection": "Kierkegaard faz da fé uma provação diante de Deus. Dostoiévski situa essa provação dentro da dúvida moderna, da culpa familiar, do julgamento legal e do sofrimento das crianças.",
+        "time": "Cerca de 34 horas",
+        "note": "Leia os capítulos de Ivan e os ensinamentos de Zósima como respostas que não se anulam. A força do romance vem da recusa de uma vitória barata.",
+        "books": [
+          "the-brothers-karamazov"
+        ],
+        "ideas": [
+          "deus",
+          "pecado",
+          "bem-e-mal",
+          "amor",
+          "vontade",
+          "punicao"
+        ]
+      }
+    ],
+    "sourceUrl": "https://greatconversationmap.com/plans/faith-doubt-and-the-soul"
+  },
+  {
+    "originalSlug": "how-we-know",
+    "slug": "como-conhecemos",
+    "title": "Como Conhecemos",
+    "subtitle": "Prova, experiência, medida e história natural",
+    "description": "Euclides demonstra. Bacon coleta. Newton mede. Darwin reúne pequenas diferenças até que a natureza começa a parecer histórica.",
+    "workCount": 12,
+    "steps": [
+      {
+        "number": 1,
+        "heading": "1. Euclides, Elementos de Geometria",
+        "date": "c. 300 a.C.",
+        "format": "Leia o Livro I completo, depois as definições do Livro V e as proposições 1-5 do Livro VI. Isso fornece axiomas, construções, provas, proporções e figuras semelhantes.",
+        "rationale": "Euclides começa com definições, postulados, noções comuns e provas disciplinadas. Os Elementos mostram o conhecimento como demonstração ordenada, onde cada proposição depende do que já foi concedido ou provado. Treina o leitor para ver por que uma conclusão se segue, e não apenas que ela é plausível. O plano começa aqui porque a prova matemática se torna um padrão contra o qual outras formas de conhecimento são medidas.",
+        "connection": "Comece com Euclides porque ele oferece a experiência mais limpa de necessidade. Escritores posteriores perguntarão se a natureza, Deus, o movimento, a mente e a moral podem ser conhecidos com algo parecido com esta clareza.",
+        "time": "Cerca de 10 horas",
+        "note": "Desenhe você mesmo cada diagrama. Euclides é muito mais difícil se a figura for apenas algo impresso na página.",
+        "books": [
+          "elements-of-geometry"
+        ],
+        "ideas": [
+          "matematica",
+          "definicao",
+          "principio",
+          "raciocinio",
+          "verdade",
+          "conhecimento"
+        ]
+      },
+      {
+        "number": 2,
+        "heading": "2. Aristóteles, Análise Posterior",
+        "date": "c. 350 a.C.",
+        "format": "Leia o Livro I completo e o Livro II, capítulos 1-19.",
+        "rationale": "Aristóteles pergunta o que é o conhecimento científico. Conhecer cientificamente é conhecer pelas causas, pela demonstração a partir de princípios mais conhecidos. O Posterior Analytics fornece a primeira teoria de prova fora da geometria. Também levanta um problema que continuará a surgir: como os primeiros princípios são conhecidos se eles próprios não são demonstrados.",
+        "connection": "Euclides mostra demonstração em ação. Aristóteles explica o que a demonstração exige e por que o conhecimento deve atingir as causas, e não parar nos fatos observados.",
+        "time": "Cerca de 12 horas",
+        "note": "Não tente deixar todos os capítulos igualmente claros na primeira passagem. Acompanhe os principais termos de Aristóteles: demonstração, causa, princípio, definição e indução.",
+        "books": [
+          "posterior-analytics"
+        ],
+        "ideas": [
+          "conhecimento",
+          "ciencia",
+          "causa",
+          "definicao",
+          "principio",
+          "inducao"
+        ]
+      },
+      {
+        "number": 3,
+        "heading": "3. Aristóteles, Física",
+        "date": "c. 350 a.C.",
+        "format": "Leia os livros I-II, III capítulos 1-3, IV capítulos 10-14 e VIII capítulos 1-6.",
+        "rationale": "A Física estuda a natureza através da mudança, movimento, causa, lugar, tempo, acaso e necessidade. As quatro causas de Aristóteles dão à investigação natural uma gramática que os escritores posteriores aceitarão, revisarão ou rejeitarão. A natureza não é um amontoado de acontecimentos; é uma ordem de seres com princípios de movimento e repouso. Esta é a explicação clássica que os modernos devem responder.",
+        "connection": "A Análise Posterior define o conhecimento científico por causas. A Física aplica a investigação causal à própria natureza.",
+        "time": "Cerca de 16 horas",
+        "note": "O Livro II é a dobradiça. Se a explicação de Aristóteles sobre a natureza e as quatro causas for clara, o resto do plano torna-se mais fácil de seguir.",
+        "books": [
+          "physics"
+        ],
+        "ideas": [
+          "natureza",
+          "fisica",
+          "causa",
+          "mudanca",
+          "tempo",
+          "acaso"
+        ]
+      },
+      {
+        "number": 4,
+        "heading": "4. Lucrécio, Sobre a Natureza das Coisas",
+        "date": "c. 55 a.C.",
+        "format": "Leia os livros I-II, V e VI.",
+        "rationale": "Lucrécio oferece uma imagem atomista da natureza. O mundo é feito de corpos e vazio, e a explicação deveria libertar a mente do medo da interferência divina. O poema argumenta que as causas naturais podem explicar mundos, vida, sensações e eventos aterrorizantes. Oferece uma alternativa antiga à natureza teleológica de Aristóteles.",
+        "connection": "Aristóteles explica as coisas naturais através da forma, do fim e da mudança ordenada. Lucrécio reduz a natureza aos átomos, ao vazio, ao movimento e à necessidade de explicar sem medo.",
+        "time": "Cerca de 12 horas",
+        "note": "Deixe o poema permanecer um poema. Lucrécio não está apenas apresentando física; ele está tentando mudar o que o leitor teme.",
+        "books": [
+          "on-the-nature-of-things"
+        ],
+        "ideas": [
+          "natureza",
+          "materia",
+          "acaso",
+          "causa",
+          "sensacao",
+          "religiao"
+        ]
+      },
+      {
+        "number": 5,
+        "heading": "5. Francis Bacon, Novum Organum",
+        "date": "1620",
+        "format": "Leia o Livro I completo e os aforismos 1-20, 36 e 52 do Livro II.",
+        "rationale": "Bacon ataca argumentos estéreis e apela a um novo instrumento de investigação. A mente deve ser disciplinada contra os ídolos, e o conhecimento deve ser construído a partir da experiência ordenada e não da abstração prematura. A sua indução não é uma generalização casual; é um método para forçar a natureza a responder. A ciência útil e cumulativa torna-se uma exigência, não um sonho.",
+        "connection": "Lucrécio explica a natureza reduzindo-a a causas materiais ocultas. Bacon muda a questão do método: como devem os investigadores trabalhar para que a natureza produza conhecimento confiável?",
+        "time": "Cerca de 10 horas",
+        "note": "Mantenha os ídolos de Bacon em uma lista separada. Eles não são um prefácio; eles são o seu diagnóstico de por que a investigação dá errado.",
+        "books": [
+          "novum-organum"
+        ],
+        "ideas": [
+          "ciencia",
+          "inducao",
+          "experiencia",
+          "natureza",
+          "hipotese",
+          "progresso"
+        ]
+      },
+      {
+        "number": 6,
+        "heading": "6. René Descartes, Discurso sobre o Método",
+        "date": "1637",
+        "format": "Obra completa. Leia os resumos anexos dos ensaios científicos apenas se sua edição os incluir e você quiser mais contexto.",
+        "rationale": "Descartes busca método por meio da dúvida disciplinada, da ordem, da clareza e do raciocínio matemático. Ele quer que o conhecimento seja reconstruído para que a mente possa passar do que é evidente para o que é complexo. O Discurso também une o método a uma nova imagem da natureza como extensão e movimento mensuráveis. Ela vem depois de Bacon porque dá uma resposta moderna diferente: reformar a investigação através da reforma da ordem da mente.",
+        "connection": "Bacon desconfia dos ídolos da mente e volta-se para a experiência organizada. Descartes desconfia da opinião herdada e volta-se para a clareza metódica.",
+        "time": "Cerca de 6 horas",
+        "note": "Observe como o método é autobiográfico. Descartes apresenta uma forma de saber, contando como uma mente aprendeu a desconfiar de si mesma.",
+        "books": [],
+        "ideas": [
+          "raciocinio",
+          "conhecimento",
+          "verdade",
+          "mente",
+          "ciencia",
+          "matematica"
+        ]
+      },
+      {
+        "number": 7,
+        "heading": "7. Galileu Galilei, Duas Novas Ciências",
+        "date": "1638",
+        "format": "Leia o primeiro, terceiro e quarto dias. Eles fornecem resistência aos materiais, movimento, queda de corpos e projéteis.",
+        "rationale": "Galileu traz medição, matemática, experimento e idealização para o estudo do movimento. Ele não apenas observa corpos caindo; ele enquadra as condições sob as quais o movimento pode ser conhecido. A forma de diálogo mantém a investigação argumentativa, mas o argumento passa a depender de quantidades e demonstrações ligadas à experiência. Galileu marca uma mudança decisiva no que a física pode ser.",
+        "connection": "Descartes apresenta o método como uma ordem de pensamento. Galileu mostra o método em ação onde a matemática e a experiência encontram corpos em movimento.",
+        "time": "Cerca de 14 horas",
+        "note": "Não se preocupe em dominar todos os cálculos. Concentre-se em como o Galileu transforma o movimento em algo mensurável.",
+        "books": [
+          "two-new-sciences"
+        ],
+        "ideas": [
+          "fisica",
+          "matematica",
+          "mecanica",
+          "ciencia",
+          "hipotese",
+          "natureza"
+        ]
+      },
+      {
+        "number": 8,
+        "heading": "8. William Harvey, Sobre o Movimento do Coração",
+        "date": "1628",
+        "format": "Obra completa.",
+        "rationale": "Harvey oferece um modelo compacto de argumento biológico experimental. Ele estuda o coração e o sangue por meio de anatomia, vivissecção, raciocínio quantitativo e observação repetida. O resultado derruba a teoria médica herdada sem rejeitar a necessidade de raciocinar a partir da estrutura e da função. Seu trabalho mostra como os experimentos podem refazer o conhecimento dos corpos vivos.",
+        "connection": "Galileu matematiza o movimento na física. Harvey traz observação, experimento e cálculo para a fisiologia.",
+        "time": "Cerca de 6 horas",
+        "note": "Acompanhe a pergunta repetida de Harvey: para onde foi todo esse sangue? A sua pressão quantitativa é o que faz a antiga conta falhar.",
+        "books": [
+          "on-the-motion-of-the-heart"
+        ],
+        "ideas": [
+          "medicina",
+          "vida-e-morte",
+          "ciencia",
+          "experiencia",
+          "causa",
+          "natureza"
+        ]
+      },
+      {
+        "number": 9,
+        "heading": "9. Isaac Newton, Princípios Matemáticos da Filosofia Natural",
+        "date": "1687",
+        "format": "Leia o Prefácio, Definições, Axiomas ou Leis do Movimento, proposições de abertura do Livro I e Regras de Raciocínio do Livro III e Escólio Geral.",
+        "rationale": "Newton dá à física matemática sua forma dominante. Movimento, força e gravitação são tratados através de leis e demonstrações que vão desde os corpos terrestres até os céus. Suas Regras de Raciocínio disciplinam a inferência científica sem pretender que todas as causas sejam totalmente compreendidas. A nova ciência parece poderosa e contida.",
+        "connection": "Harvey mostra o raciocínio experimental dentro do corpo. Newton une matemática, observação e direito em uma filosofia natural que pode ordenar os céus e a terra juntos.",
+        "time": "Cerca de 18 horas",
+        "note": "Leia o Escólio Geral de acordo com as leis e regras. A restrição de Newton em relação às hipóteses é mais fácil de ouvir quando você vê o que seu sistema pode explicar.",
+        "books": [
+          "mathematical-principles-of-natural-philosophy"
+        ],
+        "ideas": [
+          "mecanica",
+          "fisica",
+          "astronomia",
+          "matematica",
+          "ciencia",
+          "hipotese"
+        ]
+      },
+      {
+        "number": 10,
+        "heading": "10. David Hume, Uma investigação sobre a compreensão humana",
+        "date": "1748",
+        "format": "Obra completa, com especial atenção às Seções IV-VII e X-XII.",
+        "rationale": "Hume pergunta o que a experiência pode justificar. Causa, indução, crença, milagres, probabilidade e ceticismo estão todos sob pressão. A mente espera que o futuro se assemelhe ao passado, mas Hume nega que a razão possa provar esta expectativa. A ciência moderna depende de hábitos de inferência que a sua filosofia torna recentemente difíceis.",
+        "connection": "A ciência de Newton usa regras de raciocínio a partir de fenômenos. Hume pergunta que tipo de garantia tal raciocínio pode ter quando vai além da experiência imediata.",
+        "time": "Cerca de 10 horas",
+        "note": "Quando Hume discute a causa, escreva o que a mente realmente observa e o que ela acrescenta. Essa distinção é a chave.",
+        "books": [
+          "an-enquiry-concerning-human-understanding"
+        ],
+        "ideas": [
+          "causa",
+          "conhecimento",
+          "verdade",
+          "experiencia",
+          "inducao",
+          "hipotese"
+        ]
+      },
+      {
+        "number": 11,
+        "heading": "11. Immanuel Kant, Crítica da Razão Pura",
+        "date": "1781 e 1787",
+        "format": "Leia os Prefácios, Introdução, Estética Transcendental e seleções da Analítica Transcendental sobre categorias e princípios.",
+        "rationale": "Kant responde a Hume perguntando como a experiência é possível. A mente não recebe passivamente um mundo ordenado; contribui com formas e conceitos sob os quais os objetos podem ser experimentados. A matemática e as ciências naturais são possíveis porque a experiência já tem condições. Esta seleção fornece aqui o relato mais profundo do papel do conhecedor no conhecimento.",
+        "connection": "Hume expõe o problema da inferência causal e da conexão necessária. Kant tenta mostrar que a necessidade pertence às condições sob as quais os objetos podem aparecer para nós.",
+        "time": "Cerca de 18 horas",
+        "note": "Mantenha a questão de Kant diante de você: não o que sabemos, mas como é possível a experiência dos objetos?",
+        "books": [
+          "critique-of-pure-reason"
+        ],
+        "ideas": [
+          "conhecimento",
+          "mente",
+          "experiencia",
+          "verdade",
+          "ciencia",
+          "metafisica"
+        ]
+      },
+      {
+        "number": 12,
+        "heading": "12. Charles Darwin, A Origem das Espécies",
+        "date": "1859",
+        "format": "Leia a Introdução, Capítulos I-IV, VI, X-XI e XIV.",
+        "rationale": "Darwin muda o significado da ordem natural. As espécies tornam-se populações históricas moldadas pela variação, herança, luta e seleção. O argumento é paciente, cumulativo e comparativo; depende de criadores, fósseis, distribuição, classificação e pequenas diferenças. Darwin fecha o plano porque mostra a ciência moderna explicando a forma e a adaptação sem a antiga estabilidade das espécies.",
+        "connection": "Kant pergunta como a natureza pode ser um objeto de experiência ordenada. Darwin mostra uma ciência da natureza viva em que a ordem é histórica, contingente e ainda inteligível.",
+        "time": "Cerca de 22 horas",
+        "note": "Não trate os exemplos de Darwin como preenchimento. O argumento funciona por acumulação, e é nos pequenos casos que a teoria ganha alcance.",
+        "books": [
+          "the-origin-of-species"
+        ],
+        "ideas": [
+          "evolucao",
+          "animal",
+          "natureza",
+          "acaso",
+          "ciencia",
+          "progresso"
+        ]
+      }
+    ],
+    "sourceUrl": "https://greatconversationmap.com/plans/how-we-know"
+  },
+  {
+    "originalSlug": "power-law-and-the-citizen",
+    "slug": "poder-lei-e-cidadao",
+    "title": "Poder, Lei e Cidadão",
+    "subtitle": "Da proibição do sepultamento à liberdade de expressão",
+    "description": "Acompanhe o argumento da proibição do sepultamento à liberdade de expressão, com cada obra testando o que os cidadãos devem à lei e o que a lei deve a eles.",
+    "workCount": 12,
+    "steps": [
+      {
+        "number": 1,
+        "heading": "1. Sófocles, Antígona",
+        "date": "c. 441 a.C.",
+        "format": "Obra completa. Leia de uma só vez, se possível.",
+        "rationale": "Antígona começa antes da teoria, com um corpo, um decreto e um dever familiar. Creonte fala pela ordem pública; Antígona fala em favor de uma lei não escrita que a cidade não fez. A peça torna a lei visível como uma reivindicação de consciência e também como um instrumento de governo. Também mostra como a autoridade política pode tornar-se frágil quando recusa aconselhamento.",
+        "connection": "Comece aqui porque o conflito é imediato. Antes de o plano perguntar o que é uma constituição, ele pergunta se todo comando legal merece obediência.",
+        "time": "Cerca de 2 horas",
+        "note": "Marque cada lugar onde Creonte trata o desacordo como deslealdade. Seu fracasso não é que ele se preocupe com a cidade; é que ele lentamente restringe a cidade ao seu próprio comando.",
+        "books": [
+          "antigone"
+        ],
+        "ideas": [
+          "lei",
+          "justica",
+          "dever",
+          "familia",
+          "governo",
+          "punicao"
+        ]
+      },
+      {
+        "number": 2,
+        "heading": "2. Platão, República",
+        "date": "c. 380 a.C.",
+        "format": "Leia os livros I, II, IV, V, VI, VII e VIII. Estes apresentam o argumento sobre a justiça, a analogia cidade-alma, o filósofo-governante, a educação e o declínio dos regimes.",
+        "rationale": "Platão transforma a questão da justiça numa questão sobre a forma da alma e da cidade. A República pergunta se a ordem política pode ser julgada pelo tipo de ser humano que produz. A sua sequência de regime passa da aristocracia à oligarquia, à democracia e à tirania. A democracia aparece aqui tanto com generosidade como com perigo: muitos modos de vida, mas pouca disciplina sobre quais desejos devem governar.",
+        "connection": "Antígona estabelece a lei contra a consciência. Platão amplia o caso e pergunta que tipo de cidade poderia educar cidadãos cujas almas são ordenadas o suficiente para julgar bem a lei.",
+        "time": "Cerca de 18 horas",
+        "note": "Não se apresse, Livro VIII. O relato de Platão de que a liberdade democrática se tornou um desejo tirânico é um dos pontos de pressão do plano.",
+        "books": [
+          "republic"
+        ],
+        "ideas": [
+          "justica",
+          "estado",
+          "educacao",
+          "democracia",
+          "tirania",
+          "liberdade"
+        ]
+      },
+      {
+        "number": 3,
+        "heading": "3. Aristóteles, Política",
+        "date": "c. 350 a.C.",
+        "format": "Leia os Livros I, III, IV e V. Eles cobrem a cidade, a cidadania, as constituições, os regimes mistos e a revolução.",
+        "rationale": "Aristóteles torna a vida política comum e exata. A cidade existe para viver bem, não apenas para segurança, e o cidadão é definido pela participação no julgamento e no cargo. Sua classificação de regimes fornece o vocabulário: monarquia, aristocracia, governo, oligarquia, democracia, tirania. Ele também trata a mudança constitucional como algo com causas, hábitos e prevenções.",
+        "connection": "Platão imagina a cidade justa fazendo uma analogia entre alma e regime. Aristóteles mantém a questão do regime, mas estuda as cidades existentes, os seus cidadãos e as condições que as mantêm unidas ou as separam.",
+        "time": "Cerca de 16 horas",
+        "note": "Mantenha notas separadas para cidadão, constituição e regime. Aristóteles usa essas distinções para evitar que a política desmorone em poder ou preferência.",
+        "books": [
+          "politics"
+        ],
+        "ideas": [
+          "cidadao",
+          "constituicao",
+          "governo",
+          "democracia",
+          "lei",
+          "revolucao"
+        ]
+      },
+      {
+        "number": 4,
+        "heading": "4. Agostinho, Cidade de Deus",
+        "date": "413-426 DC",
+        "format": "Leia os livros I, V, XIV, XIX e XXII. Isto dá a Roma, providência, orgulho, as duas cidades, paz e esperança final.",
+        "rationale": "Agostinho muda a escala da política. As cidades terrenas buscam a paz, a ordem, a vitória e a glória, mas não podem tornar-se o lar final da alma. A Cidade de Deus não dispensa a política; limita o que a política pode salvar. Esse limite é importante para todos os argumentos posteriores sobre igreja, estado, império, lei e cidadania.",
+        "connection": "Aristóteles trata a cidade como o lar natural do florescimento humano. Agostinho pergunta o que acontece quando a cidade é julgada por uma paz mais elevada do que qualquer império pode garantir.",
+        "time": "Cerca de 18 horas",
+        "note": "Observe o uso de Roma por Agostinho. Ele não está apenas atacando-o. Ele está perguntando o que qualquer ordem política se torna quando confunde glória com bem-aventurança.",
+        "books": [
+          "city-of-god"
+        ],
+        "ideas": [
+          "estado",
+          "religiao",
+          "historia",
+          "guerra-e-paz",
+          "justica",
+          "deus"
+        ]
+      },
+      {
+        "number": 5,
+        "heading": "5. Niccolo Maquiavel, O Príncipe",
+        "date": "1513",
+        "format": "Obra completa.",
+        "rationale": "Maquiavel rompe o plano ao tratar o poder sem as devoções habituais. Ele estuda principados, armas, fortuna, medo, reputação e necessidade à medida que os governantes realmente os enfrentam. O livro não faz desaparecer a moralidade, mas faz da sobrevivência política um problema à parte. É uma mudança difícil depois de Agostinho porque pergunta o que um governante pode fazer quando o mundo não recompensa a inocência.",
+        "connection": "Agostinho limita a política sob o julgamento de Deus. Maquiavel olha para a política do lado do governante e pergunta o que sobrevive quando o julgamento vem de inimigos, súditos, aliados e do acaso.",
+        "time": "Cerca de 5 horas",
+        "note": "Acompanhe os termos emparelhados: armas e leis, amor e medo, fortuna e virtude, aparência e verdade. Maquiavel muitas vezes pensa separando o que os escritores mais antigos juntaram.",
+        "books": [
+          "the-prince"
+        ],
+        "ideas": [
+          "governo",
+          "guerra-e-paz",
+          "acaso",
+          "tirania",
+          "monarquia",
+          "prudencia"
+        ]
+      },
+      {
+        "number": 6,
+        "heading": "6. Thomas Hobbes, Leviatã",
+        "date": "1651",
+        "format": "Leia a introdução e as partes I-II. Estes dão à pessoa artificial do estado, paixões humanas, aliança, soberania, lei e liberdade.",
+        "rationale": "Hobbes inicia a ordem política com medo, desejo, discurso e a necessidade de escapar da insegurança violenta. A lei depende do poder soberano porque os pactos sem aplicação são frágeis. A liberdade torna-se o espaço deixado onde a lei é silenciosa, e não a antiga atividade de governar e ser governado. O resultado é severo, mas dá ao pensamento político moderno uma das suas mais claras descrições de autoridade.",
+        "connection": "Maquiavel estuda o governante que deve deter o poder. Hobbes pergunta por que alguém deveria autorizar um poder suficientemente forte para governar.",
+        "time": "Cerca de 18 horas",
+        "note": "Não pule as definições de Hobbes. Palavras como pessoa, aliança, comando, lei e liberdade sustentam todo o argumento.",
+        "books": [
+          "leviathan"
+        ],
+        "ideas": [
+          "governo",
+          "lei",
+          "liberdade",
+          "estado",
+          "vontade",
+          "guerra-e-paz"
+        ]
+      },
+      {
+        "number": 7,
+        "heading": "7. John Locke, Segundo Tratado do Governo Civil",
+        "date": "1689",
+        "format": "Leia os Capítulos II, V, VII-XI, XIV e XIX.",
+        "rationale": "Locke responde ao absolutismo fundamentando o governo nos direitos naturais e no consentimento. O poder político existe para proteger a vida, a liberdade e a propriedade, e pode ser perdido quando se volta contra essa confiança. O trabalho dá à propriedade uma origem moral antes que a lei civil a garanta. A revolução torna-se um remédio, não uma mera rebelião.",
+        "connection": "Hobbes faz a paz depender da soberania autorizada. Locke aceita a necessidade de governo, mas faz com que a sua legitimidade dependa dos direitos que foi formado para proteger.",
+        "time": "Cerca de 8 horas",
+        "note": "Observe quantas vezes Locke argumenta com base na confiança. O seu governo é limitado não apenas pela estrutura, mas pelo propósito para o qual o poder foi concedido.",
+        "books": [
+          "second-treatise-of-civil-government"
+        ],
+        "ideas": [
+          "liberdade",
+          "lei",
+          "governo",
+          "riqueza",
+          "revolucao",
+          "tirania"
+        ]
+      },
+      {
+        "number": 8,
+        "heading": "8. Montesquieu, O Espírito das Leis",
+        "date": "1748",
+        "format": "Leia os livros I-III, V, XI, XII e XIX. Estas abrangem a lei, as formas de governo, a separação de poderes, a liberdade política e o carácter nacional.",
+        "rationale": "Montesquieu dá ao direito um amplo campo. As leis surgem em relação ao regime, clima, comércio, religião, costumes e instituições. A sua descrição dos poderes separados torna-se uma salvaguarda constitucional central, mas o trabalho mais amplo resiste a uma receita única para o governo. A liberdade é protegida por arranjos que fazem com que o poder verifique o poder.",
+        "connection": "Locke fornece a base moral para um governo limitado. Montesquieu pergunta como as leis e as instituições devem ser organizadas para que a limitação possa perdurar.",
+        "time": "Cerca de 12 horas",
+        "note": "Dê atenção especial ao Livro XI. Observe então como os livros ao redor evitam que esse argumento constitucional se torne uma fórmula simples.",
+        "books": [
+          "the-spirit-of-the-laws"
+        ],
+        "ideas": [
+          "lei",
+          "governo",
+          "constituicao",
+          "liberdade",
+          "democracia",
+          "costume-e-convencao"
+        ]
+      },
+      {
+        "number": 9,
+        "heading": "9. Jean-Jacques Rousseau, O Contrato Social",
+        "date": "1762",
+        "format": "Obra completa.",
+        "rationale": "Rousseau aceita a linguagem da liberdade e torna-a mais exigente. As pessoas são livres quando obedecem às leis que prescrevem a si mesmas, mas essa afirmação levanta o problema da vontade geral. A soberania não pode ser representada no sentido comum e a cidadania torna-se uma relação moral com o todo. O livro é curto porque é compactado, não porque é simples.",
+        "connection": "Montesquieu protege a liberdade através do equilíbrio institucional. Rousseau pergunta se a liberdade deve ser encontrada no autogoverno coletivo e não nos limites impostos aos governantes.",
+        "time": "Cerca de 7 horas",
+        "note": "Continue perguntando quem pode falar pela vontade geral. A força e o perigo de Rousseau concentram-se em torno desse ponto.",
+        "books": [
+          "the-social-contract"
+        ],
+        "ideas": [
+          "liberdade",
+          "cidadao",
+          "lei",
+          "democracia",
+          "estado",
+          "governo"
+        ]
+      },
+      {
+        "number": 10,
+        "heading": "10. Hamilton, Madison e Jay, O Federalista",
+        "date": "1787-1788",
+        "format": "Leia os números 1, 9, 10, 14, 37, 39, 47, 48, 49, 51, 70 e 78.",
+        "rationale": "O Federalista transforma a teoria política em argumento constitucional. Facção, representação, federalismo, separação de poderes, energia no executivo e revisão judicial tornam-se problemas práticos de design. Os jornais defendem uma república suficientemente grande para refinar as opiniões públicas e suficientemente estruturada para resistir à dominação de qualquer parte. Eles pertencem aqui porque testam a teoria contra a invenção institucional.",
+        "connection": "Rousseau teme que a representação possa enfraquecer a soberania. O Federalista faz da representação o dispositivo central pelo qual o governo republicano pode estender-se a um grande país.",
+        "time": "Cerca de 10 horas",
+        "note": "Leia o número 10 e o número 51 lentamente. Eles são curtos, mas trazem o relato mais claro do plano sobre a restrição partidária e institucional.",
+        "books": [
+          "the-federalist"
+        ],
+        "ideas": [
+          "democracia",
+          "constituicao",
+          "governo",
+          "lei",
+          "liberdade",
+          "justica"
+        ]
+      },
+      {
+        "number": 11,
+        "heading": "11. Alexis de Tocqueville, Democracia na América",
+        "date": "1835 e 1840",
+        "format": "Leia o Volume I, Parte I, Capítulos 2-5; Volume I, Parte II, Capítulos 6-8; e Volume II, Parte II, Capítulos 1-8.",
+        "rationale": "Tocqueville estuda a democracia como condição social, não apenas como forma de governo. A igualdade molda hábitos, religião, associações, ambição, opinião e o perigo do despotismo moderado. Ele vê a energia democrática e o estreitamento democrático ao mesmo tempo. A política moderna é a estrutura constitucional, mas é também o carácter de um povo.",
+        "connection": "O Federalista defende a estrutura constitucional americana antes que ela envelheça completamente. Tocqueville pergunta o que a vida democrática faz às almas, cidades, igrejas, associações, partidos e imaginação depois que essa estrutura começa a operar.",
+        "time": "Cerca de 18 horas",
+        "note": "Separe as afirmações de Tocqueville sobre as instituições das suas afirmações sobre os hábitos. Muitas vezes ele está mais interessado na alma democrática do que no voto.",
+        "books": [
+          "democracy-in-america"
+        ],
+        "ideas": [
+          "democracia",
+          "liberdade",
+          "opiniao",
+          "religiao",
+          "cidadao",
+          "tirania"
+        ]
+      },
+      {
+        "number": 12,
+        "heading": "12. John Stuart Mill, Sobre a liberdade",
+        "date": "1859",
+        "format": "Obra completa.",
+        "rationale": "Mill fecha o plano defendendo a individualidade tanto contra a lei quanto contra a pressão social. Seu princípio de dano é importante, mas o argumento mais profundo diz respeito à verdade, ao desacordo, à experiência e ao valor de vidas excêntricas. O governo da maioria ainda pode tornar-se tirania quando a opinião se transforma em coerção. A liberdade precisa de instituições, mas também precisa de uma cultura que deixe o pensamento respirar.",
+        "connection": "Tocqueville mostra a sociedade democrática pressionando em direção à mesmice. Mill dá a resposta liberal: proteger as condições sob as quais opiniões e modos de vida impopulares possam testar o que todos pensam que sabem.",
+        "time": "Cerca de 6 horas",
+        "note": "Não pare com o princípio do dano. A defesa da liberdade de Mill depende da sua explicação da verdade e do desenvolvimento humano.",
+        "books": [
+          "on-liberty"
+        ],
+        "ideas": [
+          "liberdade",
+          "verdade",
+          "opiniao",
+          "democracia",
+          "progresso",
+          "governo"
+        ]
+      }
+    ],
+    "sourceUrl": "https://greatconversationmap.com/plans/power-law-and-the-citizen"
+  }
+]

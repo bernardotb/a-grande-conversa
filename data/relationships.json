@@ -1,0 +1,16 @@
+[
+  { "source": "justica", "target": "governo", "type": "political", "strength": 3, "label": "legitimidade" },
+  { "source": "justica", "target": "virtude-e-vicio", "type": "ethical", "strength": 3, "label": "caráter" },
+  { "source": "justica", "target": "liberdade", "type": "political", "strength": 2, "label": "direitos" },
+  { "source": "verdade", "target": "conhecimento", "type": "epistemic", "strength": 3, "label": "justificação" },
+  { "source": "verdade", "target": "governo", "type": "political", "strength": 1, "label": "fatos" },
+  { "source": "conhecimento", "target": "natureza", "type": "epistemic", "strength": 2, "label": "ciência" },
+  { "source": "conhecimento", "target": "alma", "type": "metaphysical", "strength": 2, "label": "mente" },
+  { "source": "deus", "target": "natureza", "type": "metaphysical", "strength": 3, "label": "criação" },
+  { "source": "deus", "target": "alma", "type": "metaphysical", "strength": 2, "label": "imortalidade" },
+  { "source": "deus", "target": "virtude-e-vicio", "type": "ethical", "strength": 2, "label": "bem" },
+  { "source": "beleza", "target": "natureza", "type": "aesthetic", "strength": 2, "label": "forma" },
+  { "source": "beleza", "target": "verdade", "type": "aesthetic", "strength": 1, "label": "representação" },
+  { "source": "alma", "target": "liberdade", "type": "metaphysical", "strength": 2, "label": "vontade" },
+  { "source": "natureza", "target": "governo", "type": "political", "strength": 1, "label": "lei natural" }
+]

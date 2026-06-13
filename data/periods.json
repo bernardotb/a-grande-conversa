@@ -1,0 +1,6 @@
+[
+  { "slug": "antiguidade", "name": "Antiguidade", "range": "c. 800 a.C.–500 d.C.", "order": 1 },
+  { "slug": "idade-media", "name": "Idade Média", "range": "c. 500–1500", "order": 2 },
+  { "slug": "modernidade", "name": "Modernidade", "range": "c. 1500–1800", "order": 3 },
+  { "slug": "contemporaneidade", "name": "Contemporaneidade", "range": "c. 1800–presente", "order": 4 }
+]

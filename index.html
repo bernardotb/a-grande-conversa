@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syntopicon — Arquitetura de Eixos e Anéis</title>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <style>
+    :root {
+      color-scheme: dark;
+      --ink: #f3ead7;
+      --muted: #a99f8d;
+      --paper: #10100f;
+      --panel: rgba(25, 24, 21, 0.92);
+      --line: #8d8679;
+      --gold: #d8ad5b;
+      --gold-soft: #92733d;
+      --red: #d95d51;
+      --empty: #817d75;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      overflow-x: hidden;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 45% 44%, rgba(216, 173, 91, 0.08), transparent 30%),
+        linear-gradient(rgba(255, 255, 255, 0.018) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.018) 1px, transparent 1px),
+        var(--paper);
+      background-size: auto, 34px 34px, 34px 34px, auto;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .page {
+      width: min(1440px, 100%);
+      min-height: 100vh;
+      margin: 0 auto;
+      padding: 28px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 310px;
+      grid-template-rows: auto minmax(680px, 1fr);
+      gap: 20px 24px;
+    }
+
+    header {
+      grid-column: 1 / -1;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 0 4px;
+    }
+
+    .eyebrow {
+      margin: 0 0 7px;
+      color: var(--gold);
+      font: 600 11px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(30px, 4vw, 54px);
+      font-weight: 400;
+      line-height: 0.98;
+      letter-spacing: -0.035em;
+    }
+
+    .subtitle {
+      max-width: 460px;
+      margin: 0 0 3px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+      text-align: right;
+    }
+
+    .viz-shell {
+      position: relative;
+      min-width: 0;
+      overflow: hidden;
+      border: 1px solid rgba(216, 173, 91, 0.22);
+      border-radius: 3px;
+      background:
+        linear-gradient(135deg, rgba(216, 173, 91, 0.035), transparent 35%),
+        rgba(8, 8, 8, 0.42);
+      box-shadow: inset 0 0 90px rgba(0, 0, 0, 0.42);
+    }
+
+    .viz-shell::before,
+    .viz-shell::after {
+      content: "";
+      position: absolute;
+      z-index: 2;
+      width: 18px;
+      height: 18px;
+      pointer-events: none;
+    }
+
+    .viz-shell::before {
+      top: 12px;
+      left: 12px;
+      border-top: 1px solid var(--gold-soft);
+      border-left: 1px solid var(--gold-soft);
+    }
+
+    .viz-shell::after {
+      right: 12px;
+      bottom: 12px;
+      border-right: 1px solid var(--gold-soft);
+      border-bottom: 1px solid var(--gold-soft);
+    }
+
+    svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+      min-height: 680px;
+    }
+
+    .ring {
+      fill: none;
+      stroke: var(--line);
+      stroke-width: 1;
+      stroke-dasharray: 2 7;
+      opacity: 0.35;
+    }
+
+    .ring-tick {
+      stroke: var(--gold-soft);
+      stroke-width: 1;
+      opacity: 0.42;
+    }
+
+    .ring-label {
+      fill: #bbb19e;
+      font: 500 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      letter-spacing: 0.035em;
+    }
+
+    .ring-label-bg {
+      fill: #11110f;
+      stroke: rgba(216, 173, 91, 0.28);
+      stroke-width: 0.8;
+    }
+
+    .axis {
+      stroke: var(--gold);
+      stroke-width: 1.4;
+      opacity: 0.72;
+    }
+
+    .axis-ghost {
+      stroke: var(--gold);
+      stroke-width: 1;
+      stroke-dasharray: 3 8;
+      opacity: 0.2;
+    }
+
+    .axis-label {
+      fill: var(--gold);
+      font: 600 10px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      letter-spacing: 0.045em;
+    }
+
+    .link {
+      fill: none;
+      stroke: #8c8982;
+      stroke-width: 1.5;
+      opacity: 0.58;
+    }
+
+    .link.refutes {
+      stroke: var(--red);
+      stroke-width: 2.2;
+      opacity: 0.94;
+    }
+
+    .link-label {
+      fill: #918b80;
+      font: 600 8px/1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .link-label.refutes {
+      fill: #e47b70;
+    }
+
+    .node {
+      cursor: pointer;
+      outline: none;
+    }
+
+    .node .halo {
+      fill: none;
+      stroke: var(--gold);
+      stroke-width: 1;
+      opacity: 0;
+      transition: opacity 160ms ease;
+    }
+
+    .node:hover .halo,
+    .node:focus .halo,
+    .node.selected .halo {
+      opacity: 0.9;
+    }
+
+    .node-core {
+      fill: #c99b48;
+      stroke: #f1d49b;
+      stroke-width: 1.2;
+      filter: drop-shadow(0 0 8px rgba(216, 173, 91, 0.27));
+    }
+
+    .node.empty .node-core {
+      fill: #5f5d58;
+      stroke: #aaa59b;
+      stroke-dasharray: 3 3;
+      opacity: 0.68;
+      filter: none;
+    }
+
+    .node-label {
+      fill: #ece3d2;
+      font: 500 11px/1.2 Inter, ui-sans-serif, system-ui, sans-serif;
+      paint-order: stroke;
+      stroke: #10100f;
+      stroke-width: 4px;
+      stroke-linejoin: round;
+    }
+
+    .node.empty .node-label {
+      fill: #a8a39a;
+    }
+
+    .node-status {
+      fill: var(--gold);
+      font: 700 8px/1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      letter-spacing: 0.08em;
+      paint-order: stroke;
+      stroke: #10100f;
+      stroke-width: 3px;
+    }
+
+    .node.empty .node-status {
+      fill: #8e8a82;
+    }
+
+    aside {
+      min-height: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .info-card,
+    .legend {
+      border: 1px solid rgba(216, 173, 91, 0.22);
+      border-radius: 3px;
+      background: var(--panel);
+    }
+
+    .info-card {
+      min-height: 320px;
+      padding: 24px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .info-card::after {
+      content: attr(data-ring);
+      position: absolute;
+      right: -7px;
+      bottom: -30px;
+      color: rgba(216, 173, 91, 0.055);
+      font: 128px/1 Georgia, "Times New Roman", serif;
+      pointer-events: none;
+    }
+
+    .card-index {
+      color: var(--gold);
+      font: 600 10px/1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    .info-card h2 {
+      margin: 18px 0 13px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 1.12;
+    }
+
+    .info-card p {
+      position: relative;
+      z-index: 1;
+      margin: 0;
+      color: #beb5a5;
+      font-size: 14px;
+      line-height: 1.65;
+    }
+
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      margin-top: 22px;
+      padding: 7px 9px;
+      border: 1px solid rgba(216, 173, 91, 0.28);
+      color: #c9b17f;
+      font: 600 9px/1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .status-pill::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--gold);
+    }
+
+    .status-pill.empty {
+      color: #99958d;
+      border-style: dashed;
+      border-color: #65625c;
+    }
+
+    .status-pill.empty::before {
+      background: #77736c;
+    }
+
+    .legend {
+      padding: 19px 20px;
+    }
+
+    .legend h3 {
+      margin: 0 0 15px;
+      color: #d8cdb9;
+      font: 600 10px/1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .legend-row {
+      display: grid;
+      grid-template-columns: 26px 1fr;
+      align-items: center;
+      gap: 10px;
+      margin: 10px 0;
+      color: #9f988c;
+      font-size: 11px;
+      line-height: 1.35;
+    }
+
+    .swatch {
+      display: inline-block;
+      width: 22px;
+      height: 1px;
+      background: #8c8982;
+    }
+
+    .swatch.red {
+      height: 2px;
+      background: var(--red);
+    }
+
+    .swatch.node-swatch {
+      width: 11px;
+      height: 11px;
+      margin-left: 5px;
+      border: 1px solid #f1d49b;
+      border-radius: 50%;
+      background: #c99b48;
+    }
+
+    .swatch.empty {
+      width: 11px;
+      height: 11px;
+      margin-left: 5px;
+      border: 1px dashed #aaa59b;
+      border-radius: 50%;
+      background: #5f5d58;
+      opacity: 0.65;
+    }
+
+    .hint {
+      margin-top: auto;
+      padding: 4px 3px 2px;
+      color: #777269;
+      font: 500 9px/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 980px) {
+      .page {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto minmax(620px, 68vh) auto;
+      }
+
+      header {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .subtitle {
+        text-align: left;
+      }
+
+      aside {
+        display: grid;
+        grid-template-columns: 1.2fr 1fr;
+      }
+
+      .hint {
+        display: none;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        padding: 16px;
+        grid-template-rows: auto 620px auto;
+      }
+
+      aside {
+        display: flex;
+      }
+
+      .ring-label {
+        font-size: 8px;
+      }
+
+      .node-label {
+        font-size: 9px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <div>
+        <p class="eyebrow">Syntopicon / Modelo conceitual</p>
+        <h1>Eixos &amp; Anéis</h1>
+      </div>
+      <p class="subtitle">
+        O eixo mede a extensão de um tema. Os anéis medem a profundidade da evidência,
+        da ideia abstrata à passagem textual verificável.
+      </p>
+    </header>
+
+    <section class="viz-shell" aria-label="Astrolábio conceitual do Syntopicon">
+      <svg id="syntopicon" role="img" aria-labelledby="svg-title svg-desc">
+        <title id="svg-title">Arquitetura de Eixos e Anéis do Syntopicon</title>
+        <desc id="svg-desc">Cinco círculos concêntricos atravessados por um eixo temático, contendo nós de ideias, tópicos, posições, referências e passagens.</desc>
+      </svg>
+    </section>
+
+    <aside aria-live="polite">
+      <section class="info-card" id="info-card" data-ring="1">
+        <span class="card-index" id="card-index">Anel 1 / Centro</span>
+        <h2 id="card-title">Ideia: Bem e Mal</h2>
+        <p id="card-description">
+          Selecione um nó no astrolábio. Cada anel aprofunda a evidência; o eixo mantém
+          todos os registros ligados ao mesmo campo temático.
+        </p>
+        <span class="status-pill" id="card-status">Verificado</span>
+      </section>
+
+      <section class="legend" aria-label="Legenda">
+        <h3>Legenda de relações</h3>
+        <div class="legend-row"><span class="swatch"></span><span>Desce ou ancora na evidência</span></div>
+        <div class="legend-row"><span class="swatch red"></span><span>Refutação entre posições</span></div>
+        <div class="legend-row"><span class="swatch node-swatch"></span><span>Registro verificado</span></div>
+        <div class="legend-row"><span class="swatch empty"></span><span>Lacuna documental</span></div>
+      </section>
+
+      <p class="hint">Clique ou navegue com Tab pelos nós para inspecionar o contrato de dados.</p>
+    </aside>
+  </main>
+
+  <script>
+    const db = {
+      "nodes": [
+        { "id": "idea-good-evil", "label": "Ideia: Bem e Mal", "ring": 1, "status": "verified", "desc": "Anel 1: O centro gravitacional. Não contém opiniões, apenas o ponto de entrada." },
+        { "id": "topic-morality", "label": "Tópico: Moral sem o Absoluto?", "ring": 2, "status": "verified", "desc": "Anel 2: A arena de combate onde as mentes colidem." },
+        { "id": "pos-kant", "label": "Posição: Kant (A Razão)", "ring": 3, "status": "verified", "desc": "Anel 3: A tese de um autor. Aqui ocorrem as refutações." },
+        { "id": "pos-dostoevsky", "label": "Posição: Dostoiévski", "ring": 3, "status": "empty_state", "desc": "Anel 3: Tudo é permitido se Deus não existe." },
+        { "id": "ref-dostoevsky-vol52", "label": "Ref: Vol 52, Irmãos Karamazov", "ring": 4, "status": "empty_state", "desc": "Anel 4: A coordenada de GPS exata na coleção Great Books." },
+        { "id": "pass-dostoevsky", "label": "Passagem Bruta Pendente", "ring": 5, "status": "empty_state", "desc": "Anel 5: O texto intocado. O limite do nosso astrolábio." }
+      ],
+      "links": [
+        { "source": "idea-good-evil", "target": "topic-morality", "type": "drills_down" },
+        { "source": "topic-morality", "target": "pos-kant", "type": "drills_down" },
+        { "source": "topic-morality", "target": "pos-dostoevsky", "type": "drills_down" },
+        { "source": "pos-dostoevsky", "target": "pos-kant", "type": "refutes" },
+        { "source": "pos-dostoevsky", "target": "ref-dostoevsky-vol52", "type": "anchors_to" },
+        { "source": "ref-dostoevsky-vol52", "target": "pass-dostoevsky", "type": "extracts" }
+      ]
+    };
+
+    const ringNames = [
+      "Anel 1 (Centro): A Ideia (O Hub)",
+      "Anel 2: O Tópico (A Arena de Combate)",
+      "Anel 3: A Posição (As Teses e Tensões)",
+      "Anel 4: A Referência (A coordenada do Livro)",
+      "Anel 5 (Borda Externa): A Passagem (O Texto Bruto)"
+    ];
+
+    const svg = d3.select("#syntopicon");
+    const width = 1080;
+    const height = 760;
+    const center = { x: 535, y: 390 };
+    const radii = [54, 125, 202, 280, 350];
+    const axisAngle = -22 * Math.PI / 180;
+    const axisUnit = { x: Math.cos(axisAngle), y: Math.sin(axisAngle) };
+
+    svg.attr("viewBox", `0 0 ${width} ${height}`);
+
+    const defs = svg.append("defs");
+
+    defs.append("marker")
+      .attr("id", "axis-arrow")
+      .attr("viewBox", "0 -5 10 10")
+      .attr("refX", 8)
+      .attr("refY", 0)
+      .attr("markerWidth", 6)
+      .attr("markerHeight", 6)
+      .attr("orient", "auto")
+      .append("path")
+      .attr("d", "M0,-4L9,0L0,4")
+      .attr("fill", "#d8ad5b");
+
+    defs.append("marker")
+      .attr("id", "link-arrow")
+      .attr("viewBox", "0 -5 10 10")
+      .attr("refX", 18)
+      .attr("refY", 0)
+      .attr("markerWidth", 5)
+      .attr("markerHeight", 5)
+      .attr("orient", "auto")
+      .append("path")
+      .attr("d", "M0,-4L9,0L0,4")
+      .attr("fill", "#8c8982");
+
+    defs.append("marker")
+      .attr("id", "refutes-arrow")
+      .attr("viewBox", "0 -5 10 10")
+      .attr("refX", 18)
+      .attr("refY", 0)
+      .attr("markerWidth", 5)
+      .attr("markerHeight", 5)
+      .attr("orient", "auto")
+      .append("path")
+      .attr("d", "M0,-4L9,0L0,4")
+      .attr("fill", "#d95d51");
+
+    const instrument = svg.append("g").attr("aria-hidden", "true");
+
+    const rings = instrument.append("g")
+      .selectAll("g")
+      .data(radii)
+      .join("g");
+
+    rings.append("circle")
+      .attr("class", "ring")
+      .attr("cx", center.x)
+      .attr("cy", center.y)
+      .attr("r", d => d);
+
+    rings.each(function(radius) {
+      const ring = d3.select(this);
+      d3.range(0, 360, 30).forEach(degrees => {
+        const angle = degrees * Math.PI / 180;
+        const inner = radius - 4;
+        const outer = radius + 4;
+        ring.append("line")
+          .attr("class", "ring-tick")
+          .attr("x1", center.x + Math.cos(angle) * inner)
+          .attr("y1", center.y + Math.sin(angle) * inner)
+          .attr("x2", center.x + Math.cos(angle) * outer)
+          .attr("y2", center.y + Math.sin(angle) * outer);
+      });
+    });
+
+    const labelGroups = instrument.append("g")
+      .selectAll("g")
+      .data(ringNames.map((name, index) => ({ name, radius: radii[index], index })))
+      .join("g")
+      .attr("transform", d => `translate(${center.x + 16},${center.y - d.radius})`);
+
+    labelGroups.append("rect")
+      .attr("class", "ring-label-bg")
+      .attr("x", -6)
+      .attr("y", -10)
+      .attr("width", d => Math.min(400, d.name.length * 6.25 + 14))
+      .attr("height", 20)
+      .attr("rx", 2);
+
+    labelGroups.append("text")
+      .attr("class", "ring-label")
+      .attr("dominant-baseline", "middle")
+      .text(d => d.name);
+
+    const externalRadius = radii[radii.length - 1];
+    const axisStart = {
+      x: center.x - axisUnit.x * externalRadius,
+      y: center.y - axisUnit.y * externalRadius
+    };
+    const axisEnd = {
+      x: center.x + axisUnit.x * externalRadius,
+      y: center.y + axisUnit.y * externalRadius
+    };
+
+    instrument.append("line")
+      .attr("class", "axis-ghost")
+      .attr("x1", axisStart.x)
+      .attr("y1", axisStart.y)
+      .attr("x2", center.x)
+      .attr("y2", center.y);
+
+    instrument.append("line")
+      .attr("class", "axis")
+      .attr("x1", center.x)
+      .attr("y1", center.y)
+      .attr("x2", axisEnd.x)
+      .attr("y2", axisEnd.y)
+      .attr("marker-end", "url(#axis-arrow)");
+
+    const labelDistance = 238;
+    instrument.append("text")
+      .attr("class", "axis-label")
+      .attr("x", center.x + axisUnit.x * labelDistance)
+      .attr("y", center.y + axisUnit.y * labelDistance - 14)
+      .attr("text-anchor", "middle")
+      .attr("transform", `rotate(-22 ${center.x + axisUnit.x * labelDistance} ${center.y + axisUnit.y * labelDistance - 14})`)
+      .text("EIXO 1 · BEM E MAL / EXISTENCIALISMO");
+
+    instrument.append("circle")
+      .attr("cx", center.x)
+      .attr("cy", center.y)
+      .attr("r", 3)
+      .attr("fill", "#f1d49b");
+
+    // Cada nó recebe uma distância radial exata. O sinal define o lado do mesmo eixo.
+    const radialSide = new Map([
+      ["idea-good-evil", 0],
+      ["topic-morality", 1],
+      ["pos-kant", 1],
+      ["pos-dostoevsky", -1],
+      ["ref-dostoevsky-vol52", 1],
+      ["pass-dostoevsky", 1]
+    ]);
+
+    db.nodes.forEach(node => {
+      if (node.ring === 1) {
+        node.x = center.x;
+        node.y = center.y;
+        return;
+      }
+
+      const side = radialSide.get(node.id);
+      const radius = radii[node.ring - 1];
+      node.x = center.x + axisUnit.x * radius * side;
+      node.y = center.y + axisUnit.y * radius * side;
+    });
+
+    const nodeById = new Map(db.nodes.map(node => [node.id, node]));
+    const linksLayer = svg.append("g");
+
+    function linkPath(link) {
+      const source = nodeById.get(link.source);
+      const target = nodeById.get(link.target);
+
+      if (link.type === "refutes") {
+        const dx = target.x - source.x;
+        const dy = target.y - source.y;
+        const length = Math.hypot(dx, dy);
+        const normal = { x: -dy / length, y: dx / length };
+        const control = {
+          x: (source.x + target.x) / 2 + normal.x * 72,
+          y: (source.y + target.y) / 2 + normal.y * 72
+        };
+        return `M${source.x},${source.y} Q${control.x},${control.y} ${target.x},${target.y}`;
+      }
+
+      return `M${source.x},${source.y} L${target.x},${target.y}`;
+    }
+
+    const links = linksLayer.selectAll("path")
+      .data(db.links)
+      .join("path")
+      .attr("class", d => `link ${d.type === "refutes" ? "refutes" : ""}`)
+      .attr("d", linkPath)
+      .attr("marker-end", d => d.type === "refutes" ? "url(#refutes-arrow)" : "url(#link-arrow)");
+
+    links.each(function(link, index) {
+      const path = this;
+      const point = path.getPointAtLength(path.getTotalLength() * 0.5);
+      linksLayer.append("text")
+        .attr("class", `link-label ${link.type === "refutes" ? "refutes" : ""}`)
+        .attr("x", point.x)
+        .attr("y", point.y - (index % 2 === 0 ? 8 : -13))
+        .attr("text-anchor", "middle")
+        .text(link.type.replace("_", " "));
+    });
+
+    const nodeLayer = svg.append("g");
+    const nodes = nodeLayer.selectAll("g")
+      .data(db.nodes)
+      .join("g")
+      .attr("class", d => `node ${d.status === "empty_state" ? "empty" : ""}`)
+      .attr("transform", d => `translate(${d.x},${d.y})`)
+      .attr("tabindex", 0)
+      .attr("role", "button")
+      .attr("aria-label", d => `${d.label}. ${d.desc}`)
+      .on("click", (_, d) => selectNode(d))
+      .on("keydown", (event, d) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          selectNode(d);
+        }
+      });
+
+    nodes.append("circle")
+      .attr("class", "halo")
+      .attr("r", d => d.ring === 1 ? 20 : 16);
+
+    nodes.append("circle")
+      .attr("class", "node-core")
+      .attr("r", d => d.ring === 1 ? 10 : 8);
+
+    nodes.append("circle")
+      .attr("r", 2.2)
+      .attr("fill", d => d.status === "empty_state" ? "#aaa59b" : "#fff1cb")
+      .attr("opacity", 0.9);
+
+    const labels = nodes.append("text")
+      .attr("class", "node-label")
+      .attr("x", d => d.id === "pos-dostoevsky" ? -15 : 15)
+      .attr("y", d => d.id === "idea-good-evil" ? 28 : -7)
+      .attr("text-anchor", d => d.id === "pos-dostoevsky" ? "end" : "start");
+
+    labels.each(function(d) {
+      const text = d3.select(this);
+      const words = d.label.split(" ");
+      const limit = 25;
+      let line = "";
+      let lineNumber = 0;
+
+      words.forEach(word => {
+        const candidate = line ? `${line} ${word}` : word;
+        if (candidate.length > limit && line) {
+          text.append("tspan")
+            .attr("x", text.attr("x"))
+            .attr("dy", lineNumber === 0 ? 0 : 14)
+            .text(line);
+          line = word;
+          lineNumber += 1;
+        } else {
+          line = candidate;
+        }
+      });
+
+      text.append("tspan")
+        .attr("x", text.attr("x"))
+        .attr("dy", lineNumber === 0 ? 0 : 14)
+        .text(line);
+    });
+
+    nodes.append("text")
+      .attr("class", "node-status")
+      .attr("x", d => d.id === "pos-dostoevsky" ? -15 : 15)
+      .attr("y", d => d.id === "idea-good-evil" ? 43 : 10)
+      .attr("text-anchor", d => d.id === "pos-dostoevsky" ? "end" : "start")
+      .text(d => d.status === "empty_state" ? "LACUNA DOCUMENTAL" : "VERIFICADO");
+
+    function selectNode(node) {
+      nodes.classed("selected", d => d.id === node.id);
+
+      d3.select("#info-card").attr("data-ring", node.ring);
+      d3.select("#card-index").text(node.ring === 1 ? "Anel 1 / Centro" : `Anel ${node.ring} / Profundidade`);
+      d3.select("#card-title").text(node.label);
+      d3.select("#card-description").text(
+        `${node.desc} Este registro está sobre o Eixo 1, que reúne o debate “Bem e Mal / Existencialismo” através das diferentes camadas de evidência.`
+      );
+      d3.select("#card-status")
+        .classed("empty", node.status === "empty_state")
+        .text(node.status === "empty_state" ? "Lacuna documental" : "Verificado");
+    }
+
+    selectNode(db.nodes[0]);
+  </script>
+</body>
+</html>

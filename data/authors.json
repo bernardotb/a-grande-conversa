@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "platao",
+    "name": "Platão",
+    "birthDeath": "c. 428/427–348/347 a.C.",
+    "period": "antiguidade",
+    "areas": ["metafisica", "epistemologia", "filosofia-politica", "estetica"],
+    "bio": "Filósofo ateniense e autor de diálogos que situam Sócrates no centro de uma investigação sobre justiça, conhecimento, alma, política e realidade.",
+    "ideas": ["justica", "verdade", "conhecimento", "beleza", "virtude-e-vicio", "governo", "alma"],
+    "books": ["a-republica", "fedon", "banquete"],
+    "portrait": null,
+    "verified": true
+  },
+  {
+    "slug": "aristoteles",
+    "name": "Aristóteles",
+    "birthDeath": "384–322 a.C.",
+    "period": "antiguidade",
+    "areas": ["metafisica", "filosofia-moral", "filosofia-politica", "estetica"],
+    "bio": "Filósofo grego cuja obra sistematiza investigações sobre lógica, natureza, ser, ética, política, retórica e poética.",
+    "ideas": ["justica", "conhecimento", "beleza", "virtude-e-vicio", "governo", "alma", "natureza"],
+    "books": ["etica-a-nicomaco", "politica", "metafisica"],
+    "portrait": null,
+    "verified": true
+  },
+  {
+    "slug": "agostinho-de-hipona",
+    "name": "Agostinho de Hipona",
+    "birthDeath": "354–430",
+    "period": "idade-media",
+    "areas": ["metafisica", "filosofia-moral"],
+    "bio": "Teólogo e filósofo cristão de língua latina, central para debates sobre vontade, tempo, mal, conhecimento, alma e relação entre fé e razão.",
+    "ideas": ["liberdade", "verdade", "conhecimento", "deus", "virtude-e-vicio", "alma"],
+    "books": ["confissoes", "a-cidade-de-deus"],
+    "portrait": null,
+    "verified": true
+  },
+  {
+    "slug": "tomas-de-aquino",
+    "name": "Tomás de Aquino",
+    "birthDeath": "c. 1225–1274",
+    "period": "idade-media",
+    "areas": ["metafisica", "filosofia-moral"],
+    "bio": "Teólogo e filósofo escolástico que articulou fontes aristotélicas e cristãs em uma síntese sobre Deus, natureza, lei, virtude e conhecimento.",
+    "ideas": ["justica", "verdade", "conhecimento", "deus", "virtude-e-vicio", "alma", "natureza"],
+    "books": ["suma-teologica"],
+    "portrait": null,
+    "verified": true
+  },
+  {
+    "slug": "rene-descartes",
+    "name": "René Descartes",
+    "birthDeath": "1596–1650",
+    "period": "modernidade",
+    "areas": ["epistemologia", "metafisica"],
+    "bio": "Filósofo e matemático francês associado ao racionalismo moderno e ao uso metódico da dúvida na investigação dos fundamentos do conhecimento.",
+    "ideas": ["verdade", "conhecimento", "deus", "alma", "natureza"],
+    "books": ["meditacoes-metafisicas", "discurso-do-metodo"],
+    "portrait": null,
+    "verified": true
+  },
+  {
+    "slug": "john-locke",
+    "name": "John Locke",
+    "birthDeath": "1632–1704",
+    "period": "modernidade",
+    "areas": ["epistemologia", "filosofia-politica"],
+    "bio": "Filósofo inglês influente no empirismo e no pensamento político liberal, com estudos sobre entendimento, identidade, direitos e governo.",
+    "ideas": ["liberdade", "conhecimento", "governo", "natureza"],
+    "books": ["ensaio-sobre-o-entendimento-humano", "segundo-tratado-sobre-o-governo"],
+    "portrait": null,
+    "verified": true
+  },
+  {
+    "slug": "immanuel-kant",
+    "name": "Immanuel Kant",
+    "birthDeath": "1724–1804",
+    "period": "modernidade",
+    "areas": ["epistemologia", "metafisica", "filosofia-moral", "estetica"],
+    "bio": "Filósofo prussiano que reformulou os debates sobre os limites da razão, autonomia moral, juízo estético e condições da experiência.",
+    "ideas": ["liberdade", "verdade", "conhecimento", "deus", "beleza", "virtude-e-vicio", "natureza"],
+    "books": ["critica-da-razao-pura", "fundamentacao-da-metafisica-dos-costumes", "critica-da-faculdade-de-julgar"],
+    "portrait": null,
+    "verified": true
+  },
+  {
+    "slug": "john-stuart-mill",
+    "name": "John Stuart Mill",
+    "birthDeath": "1806–1873",
+    "period": "contemporaneidade",
+    "areas": ["filosofia-moral", "filosofia-politica", "epistemologia"],
+    "bio": "Filósofo e economista britânico ligado ao utilitarismo, à defesa da liberdade individual e ao debate sobre métodos de investigação.",
+    "ideas": ["justica", "liberdade", "verdade", "conhecimento", "governo"],
+    "books": ["sobre-a-liberdade", "utilitarismo"],
+    "portrait": null,
+    "verified": true
+  },
+  {
+    "slug": "friedrich-nietzsche",
+    "name": "Friedrich Nietzsche",
+    "birthDeath": "1844–1900",
+    "period": "contemporaneidade",
+    "areas": ["filosofia-moral", "estetica", "metafisica"],
+    "bio": "Filósofo alemão conhecido por sua crítica da moral, da metafísica e da cultura europeia, além de reflexões sobre arte e criação de valores.",
+    "ideas": ["verdade", "deus", "beleza", "virtude-e-vicio", "alma", "natureza"],
+    "books": ["genealogia-da-moral", "assim-falou-zaratustra"],
+    "portrait": null,
+    "verified": true
+  },
+  {
+    "slug": "hannah-arendt",
+    "name": "Hannah Arendt",
+    "birthDeath": "1906–1975",
+    "period": "contemporaneidade",
+    "areas": ["filosofia-politica"],
+    "bio": "Pensadora política germano-americana que analisou ação, liberdade, autoridade, revolução e as formas modernas de dominação.",
+    "ideas": ["justica", "liberdade", "verdade", "governo"],
+    "books": ["a-condicao-humana", "entre-o-passado-e-o-futuro"],
+    "portrait": null,
+    "verified": true
+  }
+]

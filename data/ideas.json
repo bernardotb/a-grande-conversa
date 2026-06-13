@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "justica",
+    "name": "Justiça",
+    "number": 1,
+    "category": "filosofia-moral",
+    "areas": ["filosofia-moral", "filosofia-politica"],
+    "summary": "A justiça investiga o que é devido a cada pessoa e como ordenar ações, instituições e comunidades segundo critérios legítimos de igualdade, mérito, necessidade e bem comum.",
+    "centralQuestion": "O que torna uma ação, uma lei ou uma sociedade justa?",
+    "academicExplanation": [
+      "A tradição filosófica trata a justiça tanto como virtude do caráter quanto como propriedade de instituições. Em Platão, ela articula a ordem da alma e da cidade; em Aristóteles, distingue-se entre justiça distributiva, corretiva e legal.",
+      "Na modernidade, o debate passa pelo direito natural, pelo consentimento e pela legitimidade do poder. Abordagens posteriores examinam utilidade, direitos, igualdade, reconhecimento e capacidades. Esses modelos não são equivalentes: divergem sobre a unidade de avaliação e sobre o que conta como distribuição legítima."
+    ],
+    "authors": ["platao", "aristoteles", "tomas-de-aquino", "john-stuart-mill", "hannah-arendt"],
+    "books": ["a-republica", "etica-a-nicomaco", "politica", "suma-teologica", "utilitarismo"],
+    "relatedIdeas": ["virtude-e-vicio", "governo", "liberdade", "verdade"],
+    "readingSuggestions": ["a-republica", "etica-a-nicomaco", "utilitarismo"],
+    "keywords": ["equidade", "direito", "igualdade", "mérito", "bem comum"],
+    "status": "complete"
+  },
+  {
+    "slug": "liberdade",
+    "name": "Liberdade",
+    "number": 2,
+    "category": "filosofia-politica",
+    "areas": ["filosofia-politica", "filosofia-moral", "metafisica"],
+    "summary": "Liberdade nomeia problemas distintos: ausência de coerção, capacidade de escolha, autogoverno racional, participação política e possibilidade de iniciar algo novo.",
+    "centralQuestion": "Em que sentido uma pessoa pode ser autora de seus atos e de sua vida?",
+    "academicExplanation": [
+      "O conceito oscila entre uma dimensão metafísica, relativa ao livre-arbítrio, e dimensões morais e políticas. Agostinho examina vontade e responsabilidade; Kant vincula liberdade à autonomia da razão prática.",
+      "No pensamento político, Locke associa liberdade a direitos e governo limitado, Mill à proteção da individualidade contra coerções, e Arendt à ação pública. Distinguir essas acepções evita que liberdade seja tratada como um único bem sem conflitos internos."
+    ],
+    "authors": ["agostinho-de-hipona", "john-locke", "immanuel-kant", "john-stuart-mill", "hannah-arendt"],
+    "books": ["confissoes", "segundo-tratado-sobre-o-governo", "fundamentacao-da-metafisica-dos-costumes", "sobre-a-liberdade", "a-condicao-humana"],
+    "relatedIdeas": ["justica", "governo", "virtude-e-vicio", "alma"],
+    "readingSuggestions": ["sobre-a-liberdade", "fundamentacao-da-metafisica-dos-costumes", "a-condicao-humana"],
+    "keywords": ["autonomia", "livre-arbítrio", "coerção", "ação", "direitos"],
+    "status": "complete"
+  },
+  {
+    "slug": "verdade",
+    "name": "Verdade",
+    "number": 3,
+    "category": "epistemologia",
+    "areas": ["epistemologia", "metafisica", "filosofia-politica"],
+    "summary": "A verdade diz respeito ao que torna juízos, crenças ou proposições corretos em relação à realidade, à coerência de um sistema ou às práticas de investigação.",
+    "centralQuestion": "O que significa dizer que uma afirmação é verdadeira?",
+    "academicExplanation": [
+      "Teorias da verdade procuram explicar a relação entre pensamento, linguagem e mundo. A tradição inclui formulações por correspondência, coerência e consequências práticas, além de análises semânticas e deflacionárias posteriores.",
+      "O problema também é político: a fragilidade dos fatos diante da manipulação não elimina a distinção entre opinião e verdade factual. A crítica filosófica das pretensões de verdade deve ser diferenciada da indiferença à evidência."
+    ],
+    "authors": ["platao", "aristoteles", "agostinho-de-hipona", "rene-descartes", "immanuel-kant", "friedrich-nietzsche", "hannah-arendt"],
+    "books": ["a-republica", "metafisica", "meditacoes-metafisicas", "critica-da-razao-pura", "genealogia-da-moral", "entre-o-passado-e-o-futuro"],
+    "relatedIdeas": ["conhecimento", "natureza", "deus", "governo"],
+    "readingSuggestions": ["meditacoes-metafisicas", "critica-da-razao-pura", "entre-o-passado-e-o-futuro"],
+    "keywords": ["correspondência", "coerência", "evidência", "fato", "linguagem"],
+    "status": "complete"
+  },
+  {
+    "slug": "conhecimento",
+    "name": "Conhecimento",
+    "number": 4,
+    "category": "epistemologia",
+    "areas": ["epistemologia", "metafisica"],
+    "summary": "O conhecimento envolve a possibilidade de sustentar crenças verdadeiras de modo racionalmente responsável, bem como os limites, fontes e formas dessa sustentação.",
+    "centralQuestion": "O que distingue saber de apenas acreditar corretamente?",
+    "academicExplanation": [
+      "Desde a Antiguidade, conhecimento é contrastado com opinião. A filosofia moderna torna central o problema do fundamento: Descartes procura certeza resistente à dúvida; Locke investiga a origem empírica das ideias; Kant pergunta pelas condições da experiência possível.",
+      "A epistemologia contemporânea ampliou o debate para confiabilidade, virtudes intelectuais, testemunho e dimensões sociais do saber. Não há uma definição consensual simples; exemplos de crença verdadeira justificada por acaso desafiam análises tradicionais."
+    ],
+    "authors": ["platao", "aristoteles", "agostinho-de-hipona", "tomas-de-aquino", "rene-descartes", "john-locke", "immanuel-kant"],
+    "books": ["a-republica", "metafisica", "meditacoes-metafisicas", "ensaio-sobre-o-entendimento-humano", "critica-da-razao-pura"],
+    "relatedIdeas": ["verdade", "natureza", "alma", "deus"],
+    "readingSuggestions": ["meditacoes-metafisicas", "ensaio-sobre-o-entendimento-humano", "critica-da-razao-pura"],
+    "keywords": ["crença", "justificação", "razão", "experiência", "ceticismo"],
+    "status": "complete"
+  },
+  {
+    "slug": "deus",
+    "name": "Deus",
+    "number": 5,
+    "category": "metafisica",
+    "areas": ["metafisica", "filosofia-moral"],
+    "summary": "A ideia de Deus reúne investigações sobre fundamento último da realidade, criação, perfeição, providência, experiência religiosa e relação entre fé e razão.",
+    "centralQuestion": "A razão pode conhecer algo sobre a existência e a natureza de Deus?",
+    "academicExplanation": [
+      "Argumentos filosóficos clássicos partem de causalidade, contingência, ordem, conceito de perfeição ou experiência moral. Agostinho e Tomás de Aquino oferecem modelos distintos de articulação entre filosofia e teologia; Descartes atribui às provas de Deus papel em seu projeto epistemológico.",
+      "Kant critica a capacidade da razão teórica de demonstrar Deus e desloca parte da questão para a razão prática. Nietzsche diagnostica consequências culturais do declínio da crença cristã. A análise acadêmica deve distinguir afirmações confessionais, argumentos metafísicos e estudos históricos da religião."
+    ],
+    "authors": ["agostinho-de-hipona", "tomas-de-aquino", "rene-descartes", "immanuel-kant", "friedrich-nietzsche"],
+    "books": ["confissoes", "suma-teologica", "meditacoes-metafisicas", "critica-da-razao-pura", "assim-falou-zaratustra"],
+    "relatedIdeas": ["natureza", "alma", "verdade", "conhecimento", "virtude-e-vicio"],
+    "readingSuggestions": ["confissoes", "suma-teologica", "meditacoes-metafisicas"],
+    "keywords": ["causa", "criação", "fé", "razão", "transcendência"],
+    "status": "complete"
+  },
+  {
+    "slug": "beleza",
+    "name": "Beleza",
+    "number": 6,
+    "category": "estetica",
+    "areas": ["estetica", "metafisica"],
+    "summary": "A beleza interroga por que certas formas, obras e experiências despertam prazer contemplativo, admiração ou juízos que aspiram a validade compartilhada.",
+    "centralQuestion": "A beleza pertence às coisas, ao olhar ou à relação entre ambos?",
+    "academicExplanation": [
+      "Em Platão, o belo pode conduzir do sensível ao inteligível. Aristóteles investiga a composição das obras e seus efeitos, sem reduzir estética a uma teoria geral da beleza.",
+      "Kant descreve o juízo de gosto como desinteressado e subjetivo, embora acompanhado de pretensão de universalidade. Debates posteriores questionam cânones, autonomia da arte, historicidade do gosto e relações entre estética, poder e vida."
+    ],
+    "authors": ["platao", "aristoteles", "immanuel-kant", "friedrich-nietzsche"],
+    "books": ["banquete", "a-republica", "critica-da-faculdade-de-julgar", "assim-falou-zaratustra"],
+    "relatedIdeas": ["verdade", "natureza", "virtude-e-vicio", "alma"],
+    "readingSuggestions": ["banquete", "critica-da-faculdade-de-julgar"],
+    "keywords": ["arte", "gosto", "forma", "sublime", "harmonia"],
+    "status": "complete"
+  },
+  {
+    "slug": "virtude-e-vicio",
+    "name": "Virtude e Vício",
+    "number": 7,
+    "category": "filosofia-moral",
+    "areas": ["filosofia-moral"],
+    "summary": "Virtudes e vícios são disposições relativamente estáveis que orientam percepção, emoção, escolha e ação, formando modos de viver melhores ou piores.",
+    "centralQuestion": "Que tipo de pessoa devemos nos tornar para viver bem?",
+    "academicExplanation": [
+      "A ética antiga põe a formação do caráter no centro. Aristóteles entende virtudes morais como hábitos guiados pela razão prática, situados entre extremos relativos a nós. Tradições cristãs reorganizam virtudes em relação à graça, à lei e ao fim último.",
+      "Kant enfatiza o dever e a autonomia, enquanto Nietzsche submete a história dos valores a uma crítica genealógica. A retomada contemporânea da ética das virtudes pergunta como caráter, práticas e comunidades complementam ou desafiam teorias centradas em regras e consequências."
+    ],
+    "authors": ["platao", "aristoteles", "agostinho-de-hipona", "tomas-de-aquino", "immanuel-kant", "friedrich-nietzsche"],
+    "books": ["a-republica", "etica-a-nicomaco", "suma-teologica", "fundamentacao-da-metafisica-dos-costumes", "genealogia-da-moral"],
+    "relatedIdeas": ["justica", "liberdade", "beleza", "alma", "deus"],
+    "readingSuggestions": ["etica-a-nicomaco", "fundamentacao-da-metafisica-dos-costumes", "genealogia-da-moral"],
+    "keywords": ["caráter", "hábito", "dever", "excelência", "valor"],
+    "status": "complete"
+  },
+  {
+    "slug": "governo",
+    "name": "Governo",
+    "number": 8,
+    "category": "filosofia-politica",
+    "areas": ["filosofia-politica"],
+    "summary": "Governo designa instituições e práticas que criam, interpretam e aplicam decisões coletivas, levantando questões de autoridade, legitimidade e limites do poder.",
+    "centralQuestion": "Quando e por que o exercício do poder político é legítimo?",
+    "academicExplanation": [
+      "Platão e Aristóteles relacionam formas de governo à educação, à finalidade da comunidade e à composição social. Agostinho limita as expectativas depositadas na ordem política terrena.",
+      "Locke fundamenta governo legítimo em direitos e consentimento, com possibilidade de resistência. Mill analisa limites da coerção, e Arendt diferencia poder compartilhado, violência e autoridade. Regime, Estado, governo e soberania devem ser tratados como conceitos relacionados, mas não idênticos."
+    ],
+    "authors": ["platao", "aristoteles", "agostinho-de-hipona", "john-locke", "john-stuart-mill", "hannah-arendt"],
+    "books": ["a-republica", "politica", "a-cidade-de-deus", "segundo-tratado-sobre-o-governo", "sobre-a-liberdade", "a-condicao-humana"],
+    "relatedIdeas": ["justica", "liberdade", "verdade", "natureza"],
+    "readingSuggestions": ["politica", "segundo-tratado-sobre-o-governo", "a-condicao-humana"],
+    "keywords": ["autoridade", "poder", "Estado", "lei", "legitimidade"],
+    "status": "complete"
+  },
+  {
+    "slug": "alma",
+    "name": "Alma",
+    "number": 9,
+    "category": "metafisica",
+    "areas": ["metafisica", "filosofia-moral"],
+    "summary": "A alma é um conceito histórico para pensar vida, identidade, consciência, princípio de movimento e relação entre dimensões mentais e corporais.",
+    "centralQuestion": "O que somos, e como mente, corpo, caráter e identidade se relacionam?",
+    "academicExplanation": [
+      "Platão apresenta argumentos sobre a sobrevivência da alma e sua estrutura interna. Aristóteles a define como forma de um corpo vivo, abrangendo capacidades vegetativas, sensitivas e racionais.",
+      "Agostinho explora interioridade, memória e vontade; Tomás de Aquino reelabora Aristóteles; Descartes formula uma distinção real entre mente pensante e corpo extenso. A linguagem contemporânea da mente não coincide simplesmente com o vocabulário antigo da alma."
+    ],
+    "authors": ["platao", "aristoteles", "agostinho-de-hipona", "tomas-de-aquino", "rene-descartes", "immanuel-kant", "friedrich-nietzsche"],
+    "books": ["fedon", "a-republica", "confissoes", "suma-teologica", "meditacoes-metafisicas", "critica-da-razao-pura"],
+    "relatedIdeas": ["conhecimento", "liberdade", "deus", "natureza", "virtude-e-vicio"],
+    "readingSuggestions": ["fedon", "confissoes", "meditacoes-metafisicas"],
+    "keywords": ["mente", "corpo", "identidade", "consciência", "vida"],
+    "status": "complete"
+  },
+  {
+    "slug": "natureza",
+    "name": "Natureza",
+    "number": 10,
+    "category": "metafisica",
+    "areas": ["metafisica", "epistemologia"],
+    "summary": "Natureza pode significar o conjunto do mundo físico, o princípio interno de desenvolvimento dos seres ou aquilo que é contrastado com convenção, técnica e cultura.",
+    "centralQuestion": "Que ordem, princípios ou finalidades pertencem ao mundo natural?",
+    "academicExplanation": [
+      "Em Aristóteles, seres naturais possuem em si princípios de movimento e repouso, e sua explicação mobiliza diferentes tipos de causa. A ciência moderna reformula a inteligibilidade da natureza em linguagem matemática e mecânica.",
+      "Locke distingue qualidades e investiga os limites de nosso acesso às substâncias; Kant pergunta como leis da natureza são possíveis para a experiência. Usos normativos da expressão “natural” exigem cautela: descrever como algo ocorre não basta para justificar como deveria ocorrer."
+    ],
+    "authors": ["aristoteles", "tomas-de-aquino", "rene-descartes", "john-locke", "immanuel-kant", "friedrich-nietzsche"],
+    "books": ["politica", "metafisica", "suma-teologica", "discurso-do-metodo", "ensaio-sobre-o-entendimento-humano", "critica-da-faculdade-de-julgar"],
+    "relatedIdeas": ["conhecimento", "verdade", "deus", "alma", "governo"],
+    "readingSuggestions": ["metafisica", "discurso-do-metodo", "critica-da-faculdade-de-julgar"],
+    "keywords": ["cosmos", "causa", "lei", "vida", "ciência"],
+    "status": "complete"
+  }
+]

@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cream: #f7f3ec;
+  --surface: #fbf8f2;
+  --primary: #211d1a;
+  --ink: #3f3934;
+  --secondary: #716861;
+  --faint: #a69c93;
+  --accent: #965c3d;
+  --accent-light: #b27655;
+  --border: #ddd5ca;
+}
+
+.dark {
+  --cream: #191714;
+  --surface: #211e1a;
+  --primary: #f4eee5;
+  --ink: #d6cdc3;
+  --secondary: #aaa097;
+  --faint: #746c65;
+  --accent: #d29069;
+  --accent-light: #e1ae8d;
+  --border: #3c3732;
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--ink);
+  background: var(--cream);
+  font-family: "Source Sans 3", "Segoe UI", Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-display,
+.gc-serif {
+  color: var(--primary);
+  font-family: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  color: var(--cream);
+  background: var(--accent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.text-muted {
+  color: var(--secondary);
+}
+
+.eyebrow,
+.gc-kicker {
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.paper-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.gc-page {
+  width: min(100% - 3rem, 48rem);
+  margin-inline: auto;
+}
+
+.gc-rule {
+  width: 4rem;
+  height: 1px;
+  background: var(--border);
+}
+
+.gc-link {
+  color: var(--primary);
+  transition: color 150ms ease;
+}
+
+.gc-link:hover {
+  color: var(--accent);
+}
+
+.gc-prose {
+  color: var(--ink);
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 1.08rem;
+  line-height: 1.78;
+}
+
+.gc-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: 0 14px 35px rgba(66, 52, 40, 0.04);
+}
+
+.gc-card[open] {
+  border-color: color-mix(in srgb, var(--accent) 50%, var(--border));
+}
+
+.gc-card summary::-webkit-details-marker {
+  display: none;
+}
+
+@keyframes gc-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.gc-fade-up {
+  animation: gc-fade-up 700ms ease both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

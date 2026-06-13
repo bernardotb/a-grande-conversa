@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "primeiros-passos-na-grande-conversa",
+    "title": "Primeiros passos na Grande Conversa",
+    "subtitle": "Um percurso introdutório em 8 semanas",
+    "level": "Iniciante",
+    "duration": "8 semanas",
+    "description": "Uma entrada gradual nos problemas de justiça, conhecimento, liberdade e vida boa, alternando textos antigos e modernos.",
+    "featured": true,
+    "steps": [
+      { "week": 1, "book": "a-republica", "section": "Livro I", "focus": "O desafio de definir justiça" },
+      { "week": 2, "book": "etica-a-nicomaco", "section": "Livros I–II", "focus": "Felicidade, hábito e virtude" },
+      { "week": 3, "book": "meditacoes-metafisicas", "section": "Meditações I–II", "focus": "Dúvida e certeza" },
+      { "week": 4, "book": "ensaio-sobre-o-entendimento-humano", "section": "Seleções dos Livros I–II", "focus": "Origem das ideias" },
+      { "week": 5, "book": "sobre-a-liberdade", "section": "Capítulos I–II", "focus": "Liberdade de pensamento" },
+      { "week": 6, "book": "fundamentacao-da-metafisica-dos-costumes", "section": "Seção I", "focus": "Boa vontade e dever" },
+      { "week": 7, "book": "genealogia-da-moral", "section": "Primeira dissertação", "focus": "História e crítica dos valores" },
+      { "week": 8, "book": "a-condicao-humana", "section": "Prólogo e capítulo V", "focus": "Ação e mundo comum" }
+    ]
+  },
+  {
+    "slug": "justica-e-vida-politica",
+    "title": "Justiça e vida política",
+    "subtitle": "Da pólis ao mundo moderno",
+    "level": "Intermediário",
+    "duration": "10 semanas",
+    "description": "Compara modelos de justiça, cidadania, legitimidade, direitos e liberdade política.",
+    "featured": true,
+    "steps": [
+      { "week": 1, "book": "a-republica", "section": "Livros I–II", "focus": "Justiça e poder" },
+      { "week": 2, "book": "a-republica", "section": "Livros IV e VII", "focus": "Cidade, alma e educação" },
+      { "week": 3, "book": "politica", "section": "Livros I e III", "focus": "Comunidade e cidadania" },
+      { "week": 4, "book": "etica-a-nicomaco", "section": "Livro V", "focus": "Formas de justiça" },
+      { "week": 5, "book": "a-cidade-de-deus", "section": "Livro XIX, seleções", "focus": "Paz, ordem e cidade terrena" },
+      { "week": 6, "book": "segundo-tratado-sobre-o-governo", "section": "Capítulos II–IX", "focus": "Direitos e consentimento" },
+      { "week": 7, "book": "sobre-a-liberdade", "section": "Capítulos I–III", "focus": "Limites do poder social" },
+      { "week": 8, "book": "utilitarismo", "section": "Capítulo V", "focus": "Utilidade e justiça" },
+      { "week": 9, "book": "a-condicao-humana", "section": "Capítulo V", "focus": "Ação e pluralidade" },
+      { "week": 10, "book": "entre-o-passado-e-o-futuro", "section": "O que é liberdade?", "focus": "Liberdade política" }
+    ]
+  },
+  {
+    "slug": "conhecimento-verdade-e-limites",
+    "title": "Conhecimento, verdade e limites",
+    "subtitle": "Uma oficina de leitura epistemológica",
+    "level": "Avançado",
+    "duration": "12 semanas",
+    "description": "Percurso concentrado em dúvida, experiência, razão, verdade e crítica das pretensões de conhecimento.",
+    "featured": false,
+    "steps": [
+      { "week": 1, "book": "a-republica", "section": "Livros VI–VII", "focus": "Opinião, conhecimento e educação" },
+      { "week": 2, "book": "metafisica", "section": "Livro IV", "focus": "Ser e princípio de não contradição" },
+      { "week": 3, "book": "confissoes", "section": "Livro X", "focus": "Memória e interioridade" },
+      { "week": 4, "book": "discurso-do-metodo", "section": "Partes II–IV", "focus": "Método e cogito" },
+      { "week": 5, "book": "meditacoes-metafisicas", "section": "Meditações I–III", "focus": "Dúvida e fundamento" },
+      { "week": 6, "book": "meditacoes-metafisicas", "section": "Meditações IV–VI", "focus": "Erro, mundo e distinção" },
+      { "week": 7, "book": "ensaio-sobre-o-entendimento-humano", "section": "Livro II, seleções", "focus": "Ideias e experiência" },
+      { "week": 8, "book": "ensaio-sobre-o-entendimento-humano", "section": "Livro IV, seleções", "focus": "Graus e limites do saber" },
+      { "week": 9, "book": "critica-da-razao-pura", "section": "Prefácios e Introdução", "focus": "A questão transcendental" },
+      { "week": 10, "book": "critica-da-razao-pura", "section": "Estética Transcendental", "focus": "Espaço e tempo" },
+      { "week": 11, "book": "genealogia-da-moral", "section": "Terceira dissertação", "focus": "Valor da verdade" },
+      { "week": 12, "book": "entre-o-passado-e-o-futuro", "section": "Verdade e política", "focus": "Fato, opinião e poder" }
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "filosofia-moral",
+    "name": "Filosofia Moral",
+    "description": "Questões sobre ação, caráter, dever, bem e vida digna.",
+    "color": "wine"
+  },
+  {
+    "slug": "filosofia-politica",
+    "name": "Filosofia Política",
+    "description": "Poder, leis, instituições, cidadania e formas de governo.",
+    "color": "library"
+  },
+  {
+    "slug": "epistemologia",
+    "name": "Epistemologia",
+    "description": "Conhecimento, crença, evidência, dúvida e verdade.",
+    "color": "antique"
+  },
+  {
+    "slug": "metafisica",
+    "name": "Metafísica",
+    "description": "Ser, realidade, causalidade, alma, Deus e natureza.",
+    "color": "ink"
+  },
+  {
+    "slug": "estetica",
+    "name": "Estética",
+    "description": "Beleza, arte, gosto, criação e experiência estética.",
+    "color": "wine"
+  }
+]
