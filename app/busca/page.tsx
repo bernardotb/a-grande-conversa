@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ReferenceNav } from "@/components/ReferenceNav";
 import { ReferenceSearch } from "@/components/ReferenceSearch";
 import { referenceBooks, referencePlans, syntopiconIdeas } from "@/lib/data";
+import { debates, bridgeConcepts } from "@/lib/knowledge-graph";
 
 export const metadata: Metadata = {
   title: "Busca",
@@ -33,6 +34,8 @@ export default function SearchPage() {
           ideas={syntopiconIdeas}
           books={referenceBooks}
           plans={referencePlans}
+          debates={debates}
+          concepts={bridgeConcepts}
         />
       </div>
     </main>

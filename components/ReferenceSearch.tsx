@@ -3,16 +3,19 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { ReferenceBook, ReferencePlan, SyntopiconIdea } from "@/lib/types";
+import type { Debate, BridgeConcept } from "@/lib/knowledge-graph";
 
-type SearchType = "todos" | "ideias" | "obras" | "planos";
+type SearchType = "todos" | "ideias" | "obras" | "planos" | "debates" | "conceitos";
 
 type ReferenceSearchProps = {
   ideas: SyntopiconIdea[];
   books: ReferenceBook[];
   plans: ReferencePlan[];
+  debates?: Debate[];
+  concepts?: BridgeConcept[];
 };
 
-export function ReferenceSearch({ ideas, books, plans }: ReferenceSearchProps) {
+export function ReferenceSearch({ ideas, books, plans, debates = [], concepts = [] }: ReferenceSearchProps) {
   const [query, setQuery] = useState("");
   const [type, setType] = useState<SearchType>("todos");
 
@@ -67,7 +70,29 @@ export function ReferenceSearch({ ideas, books, plans }: ReferenceSearchProps) {
       ].join(" "),
     }));
 
-    return [...ideaResults, ...bookResults, ...planResults]
+    const debateResults = debates.map((debate) => ({
+      type: "debates" as const,
+      label: "Debate",
+      title: debate.title,
+      subtitle: debate.centralQuestion,
+      href: `/debates/${debate.slug}`,
+      searchable: [
+        debate.title,
+        debate.centralQuestion,
+        debate.description ?? "",
+      ].join(" "),
+    }));
+
+    const conceptResults = concepts.map((concept) => ({
+      type: "conceitos" as const,
+      label: "Conceito",
+      title: concept.title,
+      subtitle: concept.description ?? "",
+      href: `/conceitos/${concept.slug}`,
+      searchable: [concept.title, concept.description ?? ""].join(" "),
+    }));
+
+    return [...ideaResults, ...bookResults, ...planResults, ...debateResults, ...conceptResults]
       .filter((item) => type === "todos" || item.type === type)
       .filter((item) =>
         item.searchable.toLocaleLowerCase("pt-BR").includes(normalizedQuery),
@@ -101,6 +126,8 @@ export function ReferenceSearch({ ideas, books, plans }: ReferenceSearchProps) {
             <option value="ideias">Ideias</option>
             <option value="obras">Obras</option>
             <option value="planos">Planos de leitura</option>
+            <option value="debates">Debates</option>
+            <option value="conceitos">Conceitos-Ponte</option>
           </select>
         </label>
       </div>

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { referenceBooks, syntopiconIdeas } from "@/lib/data";
-import { buildKnowledgeGraph } from "@/lib/knowledge-graph";
+import { buildKnowledgeGraph, debates, bridgeConcepts } from "@/lib/knowledge-graph";
 import { RelationshipMap } from "@/components/RelationshipMap";
 
 const featuredSlugs = ["justica", "liberdade", "verdade"];
@@ -100,6 +100,61 @@ export default function HomePage() {
               Obras fundamentais e os conceitos que cada uma ajudou a formar.
             </p>
             <p className="mt-8 text-sm text-[var(--accent)]">Explorar obras →</p>
+          </Link>
+        </div>
+      </section>
+
+      <section id="debates" className="gc-page border-t py-20">
+        <h2 className="text-center font-serif text-4xl">Grandes Debates</h2>
+        <p className="mx-auto mt-4 max-w-2xl text-center text-sm leading-6 text-[var(--secondary)]">
+          Questões centrais onde pensadores tomam posições opostas ao longo dos séculos.
+        </p>
+        <div className="mt-10 grid gap-px overflow-hidden border bg-[var(--border)] md:grid-cols-2">
+          {debates.slice(0, 4).map((debate) => (
+            <Link
+              key={debate.id}
+              href={`/debates/${debate.slug}`}
+              className="block bg-[var(--surface)] p-7 transition hover:bg-[var(--cream)]"
+            >
+              <h3 className="font-serif text-xl text-[var(--primary)]">{debate.title}</h3>
+              <p className="mt-2 text-sm italic leading-6 text-[var(--secondary)]">
+                {debate.centralQuestion}
+              </p>
+            </Link>
+          ))}
+        </div>
+        <div className="mt-8 text-center">
+          <Link
+            href="/debates"
+            className="text-sm text-[var(--accent)]"
+          >
+            Ver todos os {debates.length} debates →
+          </Link>
+        </div>
+      </section>
+
+      <section id="conceitos" className="gc-page border-t py-20">
+        <h2 className="text-center font-serif text-4xl">Conceitos-Ponte</h2>
+        <p className="mx-auto mt-4 max-w-2xl text-center text-sm leading-6 text-[var(--secondary)]">
+          Noções que conectam múltiplas grandes ideias e revelam como os domínios do pensamento se entrelaçam.
+        </p>
+        <div className="mt-10 flex flex-wrap justify-center gap-3">
+          {bridgeConcepts.map((concept) => (
+            <Link
+              key={concept.id}
+              href={`/conceitos/${concept.slug}`}
+              className="border border-[var(--border)] px-5 py-3 font-serif text-lg text-[var(--primary)] transition hover:border-[var(--accent)] hover:text-[var(--accent)]"
+            >
+              {concept.title}
+            </Link>
+          ))}
+        </div>
+        <div className="mt-8 text-center">
+          <Link
+            href="/conceitos"
+            className="text-sm text-[var(--accent)]"
+          >
+            Explorar conceitos-ponte →
           </Link>
         </div>
       </section>
