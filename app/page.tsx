@@ -11,6 +11,16 @@ const featured = featuredSlugs
 const thoughtCount = syntopiconIdeas.reduce((total, idea) => total + idea.thinkers.length, 0);
 const graph = buildKnowledgeGraph(syntopiconIdeas, referenceBooks);
 
+const domainGroups = Array.from(
+  syntopiconIdeas.reduce((acc, idea) => {
+    if (!acc.has(idea.domain)) {
+      acc.set(idea.domain, { name: idea.domainName, ideas: [] as (typeof syntopiconIdeas) });
+    }
+    acc.get(idea.domain)!.ideas.push(idea);
+    return acc;
+  }, new Map<string, { name: string; ideas: (typeof syntopiconIdeas) }>()),
+).map(([slug, { name, ideas }]) => ({ slug, name, ideas }));
+
 export default function HomePage() {
   return (
     <>
@@ -38,6 +48,48 @@ export default function HomePage() {
             Explorar
             <span className="text-lg">⌄</span>
           </Link>
+        </div>
+      </section>
+
+      <section id="indice" className="border-t bg-[var(--cream)]">
+        <div className="gc-page py-12">
+          <div className="flex items-baseline justify-between">
+            <div>
+              <p className="gc-kicker">Índice</p>
+              <h2 className="mt-2 font-serif text-3xl">102 Grandes Ideias</h2>
+            </div>
+            <Link href="/ideias" className="text-sm text-[var(--accent)]">
+              Ver todas →
+            </Link>
+          </div>
+          <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {domainGroups.map(({ slug, name, ideas }) => (
+              <details key={slug} className="group" open>
+                <summary className="cursor-pointer list-none">
+                  <div className="flex items-center justify-between border-b pb-1.5">
+                    <span className="text-[0.65rem] font-semibold uppercase tracking-[0.2em] text-[var(--accent)]">
+                      {name}
+                    </span>
+                    <span className="font-mono text-[0.6rem] text-[var(--faint)]">
+                      {ideas.length}
+                    </span>
+                  </div>
+                </summary>
+                <ul className="mt-2.5 space-y-1">
+                  {ideas.map((idea) => (
+                    <li key={idea.slug}>
+                      <Link
+                        href={`/ideias/${idea.slug}`}
+                        className="block text-sm text-[var(--secondary)] transition hover:text-[var(--accent)]"
+                      >
+                        {idea.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            ))}
+          </div>
         </div>
       </section>
 
