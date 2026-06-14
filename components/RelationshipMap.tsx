@@ -232,6 +232,7 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
   const [query, setQuery] = useState("");
   const [inspectedLink, setInspectedLink] = useState<string | null>(null);
   const [graphMode, setGraphMode] = useState<GraphMode>("overview");
+  const [zoomLevel, setZoomLevel] = useState(1);
 
   // Concept pseudo-nodes for "bridge_concepts" mode
   const conceptPseudoNodes = useMemo<KnowledgeGraphNode[]>(
@@ -433,6 +434,20 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
     return () => cancelAnimationFrame(frame);
   }, [activeSelectedSlug, domain]);
 
+  useEffect(() => {
+    const viewport = graphViewportRef.current;
+    if (!viewport) return;
+    const handler = (e: WheelEvent) => {
+      if (!e.ctrlKey && !e.metaKey) return;
+      e.preventDefault();
+      setZoomLevel((prev) =>
+        Math.max(0.3, Math.min(4, prev * (e.deltaY < 0 ? 1.1 : 0.9))),
+      );
+    };
+    viewport.addEventListener("wheel", handler, { passive: false });
+    return () => viewport.removeEventListener("wheel", handler);
+  }, []);
+
   function focusNode(slug: string) {
     const node = nodeBySlug.get(slug);
     if (!node) return;
@@ -555,7 +570,7 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
           }}
         >
           <svg
-            viewBox={`0 0 ${graphWidth} ${graphHeight}`}
+            viewBox={`${graphCenter.x - graphWidth / 2 / zoomLevel} ${graphCenter.y - graphHeight / 2 / zoomLevel} ${graphWidth / zoomLevel} ${graphHeight / zoomLevel}`}
             role="img"
             aria-labelledby="knowledge-graph-title knowledge-graph-description"
             className="min-h-[32rem] min-w-[760px] lg:min-w-0"
@@ -721,6 +736,33 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
               })}
             </g>
           </svg>
+
+          <div className="absolute bottom-3 right-3 flex items-center gap-1">
+            <button
+              type="button"
+              onClick={() => setZoomLevel((z) => Math.max(0.3, z * 0.8))}
+              aria-label="Reduzir zoom"
+              className="flex h-7 w-7 items-center justify-center border bg-[var(--surface)] text-sm text-[var(--primary)] transition hover:border-[var(--accent)] hover:text-[var(--accent)]"
+            >
+              −
+            </button>
+            <button
+              type="button"
+              onClick={() => setZoomLevel(1)}
+              aria-label="Zoom original"
+              className="border bg-[var(--surface)] px-2 py-1 font-mono text-[0.6rem] text-[var(--secondary)] transition hover:border-[var(--accent)] hover:text-[var(--accent)]"
+            >
+              {Math.round(zoomLevel * 100)}%
+            </button>
+            <button
+              type="button"
+              onClick={() => setZoomLevel((z) => Math.min(4, z * 1.25))}
+              aria-label="Aumentar zoom"
+              className="flex h-7 w-7 items-center justify-center border bg-[var(--surface)] text-sm text-[var(--primary)] transition hover:border-[var(--accent)] hover:text-[var(--accent)]"
+            >
+              +
+            </button>
+          </div>
 
           <div className="pointer-events-none absolute bottom-3 left-4 flex flex-wrap gap-x-4 gap-y-1 text-[0.68rem] text-[var(--secondary)]">
             {graphMode === "bridge_concepts" ? (
