@@ -605,15 +605,16 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
                     strokeDasharray={
                       isConceptLink ? "5 4" : isDirect ? undefined : "4 7"
                     }
-                    opacity={
-                      isHighlighted
+                    style={{
+                      opacity: isHighlighted
                         ? isDirect
                           ? isConceptLink
                             ? 0.6
                             : 0.42
                           : 0.14
-                        : 0.035
-                    }
+                        : 0.035,
+                      transition: "opacity 0.3s ease",
+                    }}
                   />
                 );
               })}
@@ -647,7 +648,6 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
                     role="button"
                     tabIndex={0}
                     aria-label={`${node.name}, ${node.domainName}. ${degree} conexões visíveis.`}
-                    transform={`translate(${point.x} ${point.y})`}
                     onMouseEnter={() => setHoveredSlug(node.slug)}
                     onMouseLeave={() => setHoveredSlug(null)}
                     onFocus={() => setHoveredSlug(node.slug)}
@@ -660,7 +660,12 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
                       }
                     }}
                     className="cursor-pointer outline-none"
-                    opacity={isHighlighted ? 1 : 0.16}
+                    style={{
+                      transform: `translate(${point.x}px, ${point.y}px)`,
+                      opacity: isHighlighted ? 1 : 0.16,
+                      transition:
+                        "transform 0.42s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 0.3s ease",
+                    }}
                   >
                     {isConcept ? (
                       <>

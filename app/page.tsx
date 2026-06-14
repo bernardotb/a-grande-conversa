@@ -2,6 +2,7 @@ import Link from "next/link";
 import { referenceBooks, syntopiconIdeas } from "@/lib/data";
 import { buildKnowledgeGraph, debates, bridgeConcepts } from "@/lib/knowledge-graph";
 import { RelationshipMap } from "@/components/RelationshipMap";
+import { AnimatedSection, AnimatedStagger, AnimatedItem } from "@/components/Animated";
 
 const featuredSlugs = ["justica", "liberdade", "verdade"];
 const featured = featuredSlugs
@@ -64,19 +65,21 @@ export default function HomePage() {
 
       <section id="ideias" className="gc-page border-t py-24">
         <h2 className="text-center font-serif text-4xl">As Ideias</h2>
-        <div className="mt-12 grid gap-5">
+        <AnimatedStagger className="mt-12 grid gap-5">
           {featured.map((idea) => (
-            <Link key={idea.slug} href={`/ideias/${idea.slug}`} className="gc-card block p-7 transition hover:-translate-y-0.5 hover:border-[var(--accent)]">
-              <p className="font-serif text-3xl text-[var(--primary)]">{idea.name}</p>
-              <p className="mt-3 font-serif text-lg italic leading-7 text-[var(--secondary)]">{idea.question}</p>
-              <p className="mt-6 text-xs text-[var(--faint)]">
-                {idea.thinkers.length} pensadores · {idea.readingList.length} obras e leituras
-              </p>
-            </Link>
+            <AnimatedItem key={idea.slug}>
+              <Link href={`/ideias/${idea.slug}`} className="gc-card block p-7 transition hover:-translate-y-0.5 hover:border-[var(--accent)]">
+                <p className="font-serif text-3xl text-[var(--primary)]">{idea.name}</p>
+                <p className="mt-3 font-serif text-lg italic leading-7 text-[var(--secondary)]">{idea.question}</p>
+                <p className="mt-6 text-xs text-[var(--faint)]">
+                  {idea.thinkers.length} pensadores · {idea.readingList.length} obras e leituras
+                </p>
+              </Link>
+            </AnimatedItem>
           ))}
-        </div>
+        </AnimatedStagger>
 
-        <div className="mt-20 grid gap-px overflow-hidden border bg-[var(--border)] md:grid-cols-3">
+        <AnimatedSection className="mt-20 grid gap-px overflow-hidden border bg-[var(--border)] md:grid-cols-3">
           <Link href="/ideias" className="bg-[var(--surface)] p-7 transition hover:bg-[var(--cream)]">
             <p className="gc-kicker">Percorrer</p>
             <h2 className="mt-3 font-serif text-3xl">As 102 Grandes Ideias</h2>
@@ -101,7 +104,7 @@ export default function HomePage() {
             </p>
             <p className="mt-8 text-sm text-[var(--accent)]">Explorar obras →</p>
           </Link>
-        </div>
+        </AnimatedSection>
       </section>
 
       <section id="debates" className="gc-page border-t py-20">
@@ -109,20 +112,21 @@ export default function HomePage() {
         <p className="mx-auto mt-4 max-w-2xl text-center text-sm leading-6 text-[var(--secondary)]">
           Questões centrais onde pensadores tomam posições opostas ao longo dos séculos.
         </p>
-        <div className="mt-10 grid gap-px overflow-hidden border bg-[var(--border)] md:grid-cols-2">
+        <AnimatedStagger className="mt-10 grid gap-px overflow-hidden border bg-[var(--border)] md:grid-cols-2">
           {debates.slice(0, 4).map((debate) => (
-            <Link
-              key={debate.id}
-              href={`/debates/${debate.slug}`}
-              className="block bg-[var(--surface)] p-7 transition hover:bg-[var(--cream)]"
-            >
-              <h3 className="font-serif text-xl text-[var(--primary)]">{debate.title}</h3>
-              <p className="mt-2 text-sm italic leading-6 text-[var(--secondary)]">
-                {debate.centralQuestion}
-              </p>
-            </Link>
+            <AnimatedItem key={debate.id}>
+              <Link
+                href={`/debates/${debate.slug}`}
+                className="block bg-[var(--surface)] p-7 transition hover:bg-[var(--cream)]"
+              >
+                <h3 className="font-serif text-xl text-[var(--primary)]">{debate.title}</h3>
+                <p className="mt-2 text-sm italic leading-6 text-[var(--secondary)]">
+                  {debate.centralQuestion}
+                </p>
+              </Link>
+            </AnimatedItem>
           ))}
-        </div>
+        </AnimatedStagger>
         <div className="mt-8 text-center">
           <Link
             href="/debates"
@@ -138,17 +142,18 @@ export default function HomePage() {
         <p className="mx-auto mt-4 max-w-2xl text-center text-sm leading-6 text-[var(--secondary)]">
           Noções que conectam múltiplas grandes ideias e revelam como os domínios do pensamento se entrelaçam.
         </p>
-        <div className="mt-10 flex flex-wrap justify-center gap-3">
+        <AnimatedStagger className="mt-10 flex flex-wrap justify-center gap-3">
           {bridgeConcepts.map((concept) => (
-            <Link
-              key={concept.id}
-              href={`/conceitos/${concept.slug}`}
-              className="border border-[var(--border)] px-5 py-3 font-serif text-lg text-[var(--primary)] transition hover:border-[var(--accent)] hover:text-[var(--accent)]"
-            >
-              {concept.title}
-            </Link>
+            <AnimatedItem key={concept.id}>
+              <Link
+                href={`/conceitos/${concept.slug}`}
+                className="block border border-[var(--border)] px-5 py-3 font-serif text-lg text-[var(--primary)] transition hover:border-[var(--accent)] hover:text-[var(--accent)]"
+              >
+                {concept.title}
+              </Link>
+            </AnimatedItem>
           ))}
-        </div>
+        </AnimatedStagger>
         <div className="mt-8 text-center">
           <Link
             href="/conceitos"
