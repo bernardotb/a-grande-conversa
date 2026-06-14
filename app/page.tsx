@@ -1,11 +1,14 @@
 import Link from "next/link";
-import { syntopiconIdeas } from "@/lib/data";
+import { referenceBooks, syntopiconIdeas } from "@/lib/data";
+import { buildKnowledgeGraph } from "@/lib/knowledge-graph";
+import { RelationshipMap } from "@/components/RelationshipMap";
 
 const featuredSlugs = ["justica", "liberdade", "verdade"];
 const featured = featuredSlugs
   .map((slug) => syntopiconIdeas.find((idea) => idea.slug === slug))
   .filter((idea): idea is (typeof syntopiconIdeas)[number] => Boolean(idea));
 const thoughtCount = syntopiconIdeas.reduce((total, idea) => total + idea.thinkers.length, 0);
+const graph = buildKnowledgeGraph(syntopiconIdeas, referenceBooks);
 
 export default function HomePage() {
   return (
@@ -30,14 +33,36 @@ export default function HomePage() {
           <p className="mt-8 font-mono text-xs tracking-[0.12em] text-[var(--faint)]">
             {syntopiconIdeas.length} ideias <span className="px-2">·</span> {thoughtCount.toLocaleString("pt-BR")}+ pensamentos
           </p>
-          <Link href="#ideias" className="mt-16 inline-flex flex-col items-center gap-3 text-[0.65rem] font-semibold uppercase tracking-[0.3em] text-[var(--accent)]">
+          <Link href="#mapa" className="mt-16 inline-flex flex-col items-center gap-3 text-[0.65rem] font-semibold uppercase tracking-[0.3em] text-[var(--accent)]">
             Explorar
             <span className="text-lg">⌄</span>
           </Link>
         </div>
       </section>
 
-      <section id="ideias" className="gc-page py-24">
+      <section id="mapa" className="border-t">
+        <div className="gc-page py-16 text-center">
+          <p className="gc-kicker">Cartografia do pensamento</p>
+          <h2 className="mt-3 font-serif text-4xl">Mapa Intelectual</h2>
+          <p className="mx-auto mt-4 max-w-2xl text-sm leading-6 text-[var(--secondary)]">
+            Cada círculo é uma das 102 grandes ideias. As linhas revelam pensadores e obras em comum.
+            Clique em qualquer ideia para explorar sua vizinhança intelectual.
+          </p>
+        </div>
+        <div className="mx-auto max-w-7xl px-4 pb-6 sm:px-8">
+          <RelationshipMap nodes={graph.nodes} links={graph.links} />
+        </div>
+        <div className="gc-page pb-16 text-center">
+          <Link
+            href="/mapa-intelectual"
+            className="inline-block border px-6 py-3 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--accent)] transition hover:border-[var(--accent)]"
+          >
+            Abrir mapa em tela cheia →
+          </Link>
+        </div>
+      </section>
+
+      <section id="ideias" className="gc-page border-t py-24">
         <h2 className="text-center font-serif text-4xl">As Ideias</h2>
         <div className="mt-12 grid gap-5">
           {featured.map((idea) => (
@@ -51,7 +76,7 @@ export default function HomePage() {
           ))}
         </div>
 
-        <div className="mt-20 grid gap-px overflow-hidden border bg-[var(--border)] md:grid-cols-2">
+        <div className="mt-20 grid gap-px overflow-hidden border bg-[var(--border)] md:grid-cols-3">
           <Link href="/ideias" className="bg-[var(--surface)] p-7 transition hover:bg-[var(--cream)]">
             <p className="gc-kicker">Percorrer</p>
             <h2 className="mt-3 font-serif text-3xl">As 102 Grandes Ideias</h2>
@@ -75,14 +100,6 @@ export default function HomePage() {
               Obras fundamentais e os conceitos que cada uma ajudou a formar.
             </p>
             <p className="mt-8 text-sm text-[var(--accent)]">Explorar obras →</p>
-          </Link>
-          <Link href="/mapa-intelectual" className="bg-[var(--surface)] p-7 transition hover:bg-[var(--cream)]">
-            <p className="gc-kicker">Visualizar</p>
-            <h2 className="mt-3 font-serif text-3xl">Mapa Intelectual</h2>
-            <p className="mt-4 text-sm leading-6 text-[var(--secondary)]">
-              Grafo interativo das 102 ideias e suas conexões — pensadores e obras em comum revelam a teia do pensamento ocidental.
-            </p>
-            <p className="mt-8 text-sm text-[var(--accent)]">Explorar o mapa →</p>
           </Link>
         </div>
       </section>
