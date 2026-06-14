@@ -10,8 +10,14 @@ export const metadata: Metadata = {
   description: "Grafo interativo das conexões entre as 102 grandes ideias."
 };
 
-export default function MapPage() {
+export default async function MapPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ foco?: string }>;
+}) {
   const graph = buildKnowledgeGraph(syntopiconIdeas, referenceBooks);
+  const { foco } = await searchParams;
+  const initialSlug = foco && graph.nodes.some((n) => n.slug === foco) ? foco : undefined;
 
   return (
     <>
@@ -42,7 +48,7 @@ export default function MapPage() {
             clique em qualquer ideia para reorganizar o mapa ao redor dela.
           </p>
         </div>
-        <RelationshipMap nodes={graph.nodes} links={graph.links} />
+        <RelationshipMap nodes={graph.nodes} links={graph.links} initialSlug={initialSlug} />
       </Container>
     </>
   );

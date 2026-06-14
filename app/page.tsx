@@ -51,7 +51,7 @@ export default function HomePage() {
           ))}
         </div>
 
-        <div className="mt-20 grid gap-px overflow-hidden border bg-[var(--border)] md:grid-cols-3">
+        <div className="mt-20 grid gap-px overflow-hidden border bg-[var(--border)] md:grid-cols-2">
           <Link href="/ideias" className="bg-[var(--surface)] p-7 transition hover:bg-[var(--cream)]">
             <p className="gc-kicker">Percorrer</p>
             <h2 className="mt-3 font-serif text-3xl">As 102 Grandes Ideias</h2>
@@ -75,6 +75,14 @@ export default function HomePage() {
               Obras fundamentais e os conceitos que cada uma ajudou a formar.
             </p>
             <p className="mt-8 text-sm text-[var(--accent)]">Explorar obras →</p>
+          </Link>
+          <Link href="/mapa-intelectual" className="bg-[var(--surface)] p-7 transition hover:bg-[var(--cream)]">
+            <p className="gc-kicker">Visualizar</p>
+            <h2 className="mt-3 font-serif text-3xl">Mapa Intelectual</h2>
+            <p className="mt-4 text-sm leading-6 text-[var(--secondary)]">
+              Grafo interativo das 102 ideias e suas conexões — pensadores e obras em comum revelam a teia do pensamento ocidental.
+            </p>
+            <p className="mt-8 text-sm text-[var(--accent)]">Explorar o mapa →</p>
           </Link>
         </div>
       </section>

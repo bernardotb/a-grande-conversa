@@ -96,8 +96,12 @@ export default async function IdeaPage({
           .
         </p>
       </main>
-      <div className="pb-12 text-center">
-        <Link href="/ideias" className="text-sm text-[var(--accent)]">← Voltar às 102 ideias</Link>
+      <div className="pb-12 flex items-center justify-center gap-8 text-sm">
+        <Link href="/ideias" className="text-[var(--accent)]">← Voltar às 102 ideias</Link>
+        <span className="text-[var(--border)]">|</span>
+        <Link href={`/mapa-intelectual?foco=${idea.slug}`} className="text-[var(--accent)]">
+          Ver no mapa intelectual →
+        </Link>
       </div>
     </>
   );

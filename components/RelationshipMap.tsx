@@ -33,6 +33,7 @@ type Point = {
 type RelationshipMapProps = {
   nodes: KnowledgeGraphNode[];
   links: KnowledgeGraphLink[];
+  initialSlug?: string;
 };
 
 function normalize(value: string) {
@@ -217,9 +218,9 @@ function buildFocusLayout(
   };
 }
 
-export function RelationshipMap({ nodes, links }: RelationshipMapProps) {
+export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapProps) {
   const graphViewportRef = useRef<HTMLDivElement>(null);
-  const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
+  const [selectedSlug, setSelectedSlug] = useState<string | null>(initialSlug ?? null);
   const [hoveredSlug, setHoveredSlug] = useState<string | null>(null);
   const [domain, setDomain] = useState("todos");
   const [query, setQuery] = useState("");
