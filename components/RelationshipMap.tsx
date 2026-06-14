@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -6,6 +6,7 @@ import type {
   KnowledgeGraphLink,
   KnowledgeGraphNode,
 } from "@/lib/knowledge-graph";
+import { bridgeConcepts } from "@/lib/knowledge-graph";
 
 const graphWidth = 1040;
 const graphHeight = 680;
@@ -23,12 +24,17 @@ const domainColors: Record<string, string> = {
   "estetica-e-historia": "#b46b2c",
   "vida-e-natureza": "#588157",
   "ciencias-naturais": "#6f7880",
+  "conceitos-ponte": "#2e6b5a",
 };
+
+const CONCEPT_DOMAIN = "conceitos-ponte";
 
 type Point = {
   x: number;
   y: number;
 };
+
+type GraphMode = "overview" | "bridge_concepts";
 
 type RelationshipMapProps = {
   nodes: KnowledgeGraphNode[];
@@ -39,7 +45,7 @@ type RelationshipMapProps = {
 function normalize(value: string) {
   return value
     .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[̀-ͯ]/g, "")
     .toLocaleLowerCase("pt-BR");
 }
 
@@ -225,10 +231,56 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
   const [domain, setDomain] = useState("todos");
   const [query, setQuery] = useState("");
   const [inspectedLink, setInspectedLink] = useState<string | null>(null);
+  const [graphMode, setGraphMode] = useState<GraphMode>("overview");
+
+  // Concept pseudo-nodes for "bridge_concepts" mode
+  const conceptPseudoNodes = useMemo<KnowledgeGraphNode[]>(
+    () =>
+      bridgeConcepts.map((c) => ({
+        slug: c.slug,
+        name: c.title,
+        domain: CONCEPT_DOMAIN,
+        domainName: "Conceito-Ponte",
+        question: c.description ?? "",
+        thinkerCount: 0,
+        bookCount: 0,
+      })),
+    [],
+  );
+
+  const conceptPseudoLinks = useMemo<KnowledgeGraphLink[]>(
+    () =>
+      bridgeConcepts.flatMap((c) =>
+        c.relatedIdeaIds.map((ideaSlug) => ({
+          source: c.slug,
+          target: ideaSlug,
+          score: 5,
+          sharedThinkers: [],
+          sharedBooks: [],
+        })),
+      ),
+    [],
+  );
+
+  const allNodes = useMemo(
+    () =>
+      graphMode === "bridge_concepts"
+        ? [...nodes, ...conceptPseudoNodes]
+        : nodes,
+    [graphMode, nodes, conceptPseudoNodes],
+  );
+
+  const allLinks = useMemo(
+    () =>
+      graphMode === "bridge_concepts"
+        ? [...links, ...conceptPseudoLinks]
+        : links,
+    [graphMode, links, conceptPseudoLinks],
+  );
 
   const nodeBySlug = useMemo(
-    () => new Map(nodes.map((node) => [node.slug, node])),
-    [nodes],
+    () => new Map(allNodes.map((node) => [node.slug, node])),
+    [allNodes],
   );
   const domains = useMemo(
     () =>
@@ -238,8 +290,8 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
     [nodes],
   );
   const filteredNodes = useMemo(
-    () => nodes.filter((node) => domain === "todos" || node.domain === domain),
-    [domain, nodes],
+    () => allNodes.filter((node) => domain === "todos" || node.domain === domain),
+    [domain, allNodes],
   );
   const filteredSlugs = useMemo(
     () => new Set(filteredNodes.map((node) => node.slug)),
@@ -247,10 +299,10 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
   );
   const filteredLinks = useMemo(
     () =>
-      links.filter(
+      allLinks.filter(
         (link) => filteredSlugs.has(link.source) && filteredSlugs.has(link.target),
       ),
-    [filteredSlugs, links],
+    [filteredSlugs, allLinks],
   );
   const overviewLinks = useMemo(
     () => selectStrongestLinks(filteredNodes, filteredLinks, 3),
@@ -276,15 +328,27 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
     () => new Set(visibleNodes.map((node) => node.slug)),
     [visibleNodes],
   );
-  const visibleLinks = useMemo(
-    () => {
-      const layoutLinks = focusLayout ? filteredLinks : overviewLinks;
-      return layoutLinks.filter(
-        (link) => visibleSlugs.has(link.source) && visibleSlugs.has(link.target),
+  const visibleLinks = useMemo(() => {
+    const layoutLinks = focusLayout ? filteredLinks : overviewLinks;
+    const base = layoutLinks.filter(
+      (link) => visibleSlugs.has(link.source) && visibleSlugs.has(link.target),
+    );
+    // In bridge_concepts overview, always include all concept links
+    if (graphMode === "bridge_concepts" && !focusLayout) {
+      const baseKeys = new Set(base.map(linkKey));
+      const extra = filteredLinks.filter(
+        (l) =>
+          visibleSlugs.has(l.source) &&
+          visibleSlugs.has(l.target) &&
+          (nodeBySlug.get(l.source)?.domain === CONCEPT_DOMAIN ||
+            nodeBySlug.get(l.target)?.domain === CONCEPT_DOMAIN) &&
+          !baseKeys.has(linkKey(l)),
       );
-    },
-    [filteredLinks, focusLayout, overviewLinks, visibleSlugs],
-  );
+      return [...base, ...extra];
+    }
+    return base;
+  }, [filteredLinks, focusLayout, graphMode, nodeBySlug, overviewLinks, visibleSlugs]);
+
   const overviewLayout = useMemo(
     () =>
       focusLayout
@@ -317,6 +381,10 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
   const selectedNode = activeSelectedSlug
     ? nodeBySlug.get(activeSelectedSlug) ?? null
     : null;
+  const selectedConcept =
+    selectedNode?.domain === CONCEPT_DOMAIN
+      ? bridgeConcepts.find((c) => c.slug === selectedNode.slug) ?? null
+      : null;
   const selectedConnections = useMemo(
     () =>
       activeSelectedSlug
@@ -342,14 +410,14 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
   const searchMatches = useMemo(() => {
     const normalizedQuery = normalize(query.trim());
     if (normalizedQuery.length < 2) return [];
-    return nodes
+    return allNodes
       .filter((node) =>
         normalize(`${node.name} ${node.domainName} ${node.question}`).includes(
           normalizedQuery,
         ),
       )
       .slice(0, 7);
-  }, [nodes, query]);
+  }, [allNodes, query]);
 
   useEffect(() => {
     const viewport = graphViewportRef.current;
@@ -380,12 +448,37 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
     setInspectedLink(null);
   }
 
+  function switchMode(mode: GraphMode) {
+    setGraphMode(mode);
+    setSelectedSlug(null);
+    setInspectedLink(null);
+  }
+
   return (
     <section className="paper-panel overflow-hidden">
+      {/* Mode selector */}
+      <div className="flex items-center gap-1 border-b px-5 py-3">
+        <span className="gc-kicker mr-3 hidden sm:block">Modo</span>
+        {(["overview", "bridge_concepts"] as const).map((mode) => (
+          <button
+            key={mode}
+            type="button"
+            onClick={() => switchMode(mode)}
+            className={`border px-3 py-1.5 text-[0.65rem] font-semibold uppercase tracking-[0.16em] transition ${
+              graphMode === mode
+                ? "border-[var(--accent)] text-[var(--accent)]"
+                : "border-transparent text-[var(--secondary)] hover:border-[var(--border)] hover:text-[var(--primary)]"
+            }`}
+          >
+            {mode === "overview" ? "Ideias" : "Conceitos-Ponte"}
+          </button>
+        ))}
+      </div>
+
       <div className="grid gap-4 border-b p-4 sm:grid-cols-[minmax(0,1fr)_15rem_auto] sm:p-5">
         <div className="relative">
           <label htmlFor="graph-search" className="gc-kicker block">
-            Buscar uma ideia
+            Buscar {graphMode === "bridge_concepts" ? "ideia ou conceito" : "uma ideia"}
           </label>
           <input
             id="graph-search"
@@ -405,8 +498,8 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
                   className="flex w-full items-center gap-3 px-3 py-2 text-left hover:bg-[var(--cream)]"
                 >
                   <span
-                    className="h-2.5 w-2.5 rounded-full"
-                    style={{ backgroundColor: domainColors[node.domain] }}
+                    className={`h-2.5 w-2.5 shrink-0 ${node.domain === CONCEPT_DOMAIN ? "rotate-45" : "rounded-full"}`}
+                    style={{ backgroundColor: domainColors[node.domain] ?? "#7a746d" }}
                   />
                   <span>
                     <span className="block font-serif text-lg text-[var(--primary)]">
@@ -488,6 +581,9 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
                   !highlightedSlugs ||
                   (highlightedSlugs.has(link.source) &&
                     highlightedSlugs.has(link.target));
+                const isConceptLink =
+                  nodeBySlug.get(link.source)?.domain === CONCEPT_DOMAIN ||
+                  nodeBySlug.get(link.target)?.domain === CONCEPT_DOMAIN;
 
                 return (
                   <line
@@ -496,10 +592,29 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
                     y1={source.y}
                     x2={target.x}
                     y2={target.y}
-                    stroke="var(--secondary)"
-                    strokeWidth={Math.min(3.6, 0.65 + link.score / 18)}
-                    strokeDasharray={isDirect ? undefined : "4 7"}
-                    opacity={isHighlighted ? (isDirect ? 0.42 : 0.14) : 0.035}
+                    stroke={
+                      isConceptLink
+                        ? domainColors[CONCEPT_DOMAIN]
+                        : "var(--secondary)"
+                    }
+                    strokeWidth={
+                      isConceptLink
+                        ? 1.5
+                        : Math.min(3.6, 0.65 + link.score / 18)
+                    }
+                    strokeDasharray={
+                      isConceptLink ? "5 4" : isDirect ? undefined : "4 7"
+                    }
+                    style={{
+                      opacity: isHighlighted
+                        ? isDirect
+                          ? isConceptLink
+                            ? 0.6
+                            : 0.42
+                          : 0.14
+                        : 0.035,
+                      transition: "opacity 0.3s ease",
+                    }}
                   />
                 );
               })}
@@ -523,6 +638,9 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
                   degree >= 7 ||
                   visibleNodes.length <= 28;
                 const labelOnLeft = point.x > graphCenter.x + 40;
+                const isConcept = node.domain === CONCEPT_DOMAIN;
+                const nodeColor = domainColors[node.domain] ?? "#7a746d";
+                const haloRadius = radius + (isSelected || isHovered ? (isConcept ? 9 : 7) : (isConcept ? 5 : 3));
 
                 return (
                   <g
@@ -530,7 +648,6 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
                     role="button"
                     tabIndex={0}
                     aria-label={`${node.name}, ${node.domainName}. ${degree} conexões visíveis.`}
-                    transform={`translate(${point.x} ${point.y})`}
                     onMouseEnter={() => setHoveredSlug(node.slug)}
                     onMouseLeave={() => setHoveredSlug(null)}
                     onFocus={() => setHoveredSlug(node.slug)}
@@ -543,19 +660,42 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
                       }
                     }}
                     className="cursor-pointer outline-none"
-                    opacity={isHighlighted ? 1 : 0.16}
+                    style={{
+                      transform: `translate(${point.x}px, ${point.y}px)`,
+                      opacity: isHighlighted ? 1 : 0.16,
+                      transition:
+                        "transform 0.42s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 0.3s ease",
+                    }}
                   >
-                    <circle
-                      r={radius + (isSelected || isHovered ? 7 : 3)}
-                      fill={domainColors[node.domain] ?? "#7a746d"}
-                      opacity={isSelected || isHovered ? 0.18 : 0.08}
-                    />
-                    <circle
-                      r={radius}
-                      fill={domainColors[node.domain] ?? "#7a746d"}
-                      stroke="var(--surface)"
-                      strokeWidth={isSelected ? 4 : 2}
-                    />
+                    {isConcept ? (
+                      <>
+                        <polygon
+                          points={`0,${-haloRadius} ${haloRadius},0 0,${haloRadius} ${-haloRadius},0`}
+                          fill={nodeColor}
+                          opacity={isSelected || isHovered ? 0.2 : 0.08}
+                        />
+                        <polygon
+                          points={`0,${-radius} ${radius},0 0,${radius} ${-radius},0`}
+                          fill={nodeColor}
+                          stroke="var(--surface)"
+                          strokeWidth={isSelected ? 3 : 2}
+                        />
+                      </>
+                    ) : (
+                      <>
+                        <circle
+                          r={haloRadius}
+                          fill={nodeColor}
+                          opacity={isSelected || isHovered ? 0.18 : 0.08}
+                        />
+                        <circle
+                          r={radius}
+                          fill={nodeColor}
+                          stroke="var(--surface)"
+                          strokeWidth={isSelected ? 4 : 2}
+                        />
+                      </>
+                    )}
                     {showLabel && (
                       <text
                         x={isSelected ? 0 : labelOnLeft ? -radius - 7 : radius + 7}
@@ -563,10 +703,10 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
                         textAnchor={
                           isSelected ? "middle" : labelOnLeft ? "end" : "start"
                         }
-                        fill="var(--primary)"
+                        fill={isConcept ? domainColors[CONCEPT_DOMAIN] : "var(--primary)"}
                         className="pointer-events-none select-none font-serif text-[13px]"
                         style={{
-                          fontWeight: isSelected || isHovered ? 700 : 500,
+                          fontWeight: isSelected || isHovered ? 700 : isConcept ? 600 : 500,
                           paintOrder: "stroke",
                           stroke: "var(--surface)",
                           strokeWidth: 4,
@@ -583,13 +723,80 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
           </svg>
 
           <div className="pointer-events-none absolute bottom-3 left-4 flex flex-wrap gap-x-4 gap-y-1 text-[0.68rem] text-[var(--secondary)]">
-            <span>círculo maior = mais conexões</span>
-            <span>linha mais espessa = mais evidências compartilhadas</span>
+            {graphMode === "bridge_concepts" ? (
+              <>
+                <span className="flex items-center gap-1.5">
+                  <span
+                    className="inline-block h-2.5 w-2.5 rotate-45"
+                    style={{ backgroundColor: domainColors[CONCEPT_DOMAIN] }}
+                  />
+                  conceito-ponte
+                </span>
+                <span className="flex items-center gap-1.5">
+                  <span className="inline-block h-2.5 w-2.5 rounded-full bg-[var(--secondary)]" />
+                  ideia
+                </span>
+                <span>linha tracejada = ligação por conceito</span>
+              </>
+            ) : (
+              <>
+                <span>círculo maior = mais conexões</span>
+                <span>linha mais espessa = mais evidências compartilhadas</span>
+              </>
+            )}
           </div>
         </div>
 
         <aside className="border-t p-5 lg:border-l lg:border-t-0">
-          {selectedNode ? (
+          {selectedConcept ? (
+            <>
+              <p className="gc-kicker">Conceito-Ponte</p>
+              <h2
+                className="mt-3 font-serif text-3xl"
+                style={{ color: domainColors[CONCEPT_DOMAIN] }}
+              >
+                {selectedConcept.title}
+              </h2>
+              {selectedConcept.description && (
+                <p className="mt-3 text-sm leading-6 text-[var(--secondary)]">
+                  {selectedConcept.description}
+                </p>
+              )}
+              <Link
+                href={`/conceitos/${selectedConcept.slug}`}
+                className="mt-4 inline-block text-sm font-semibold text-[var(--accent)]"
+              >
+                Abrir página do conceito →
+              </Link>
+
+              <h3 className="mt-8 text-xs font-semibold uppercase tracking-[0.16em] text-[var(--primary)]">
+                Ideias relacionadas
+              </h3>
+              <div className="mt-3 space-y-1">
+                {selectedConcept.relatedIdeaIds.map((ideaSlug) => {
+                  const idea = nodeBySlug.get(ideaSlug);
+                  return idea ? (
+                    <button
+                      key={ideaSlug}
+                      type="button"
+                      onClick={() => focusNode(ideaSlug)}
+                      className="flex w-full items-center gap-2 py-1 text-left hover:text-[var(--accent)]"
+                    >
+                      <span
+                        className="h-2 w-2 shrink-0 rounded-full"
+                        style={{
+                          backgroundColor: domainColors[idea.domain] ?? "#7a746d",
+                        }}
+                      />
+                      <span className="font-serif text-base text-[var(--primary)]">
+                        {idea.name}
+                      </span>
+                    </button>
+                  ) : null;
+                })}
+              </div>
+            </>
+          ) : selectedNode ? (
             <>
               <p className="gc-kicker">{selectedNode.domainName}</p>
               <h2 className="mt-3 font-serif text-3xl">{selectedNode.name}</h2>
@@ -618,6 +825,7 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
                     evidenceLink !== null &&
                     linkKey(connection) === linkKey(evidenceLink);
                   if (!neighbor) return null;
+                  const isConceptNeighbor = neighbor.domain === CONCEPT_DOMAIN;
 
                   return (
                     <button
@@ -631,66 +839,74 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
                       }`}
                     >
                       <span
-                        className="mt-1.5 h-2 w-2 shrink-0 rounded-full"
-                        style={{ backgroundColor: domainColors[neighbor.domain] }}
+                        className={`mt-1.5 h-2 w-2 shrink-0 ${isConceptNeighbor ? "rotate-45" : "rounded-full"}`}
+                        style={{ backgroundColor: domainColors[neighbor.domain] ?? "#7a746d" }}
                       />
                       <span>
                         <span className="block font-serif text-base text-[var(--primary)]">
                           {neighbor.name}
                         </span>
-                        <span className="block text-[0.68rem] text-[var(--secondary)]">
-                          {connection.sharedThinkers.length} pensadores ·{" "}
-                          {connection.sharedBooks.length} obras
-                        </span>
+                        {isConceptNeighbor ? (
+                          <span className="block text-[0.68rem] text-[var(--secondary)]">
+                            conceito-ponte
+                          </span>
+                        ) : (
+                          <span className="block text-[0.68rem] text-[var(--secondary)]">
+                            {connection.sharedThinkers.length} pensadores ·{" "}
+                            {connection.sharedBooks.length} obras
+                          </span>
+                        )}
                       </span>
                     </button>
                   );
                 })}
               </div>
 
-              {evidenceLink && evidenceNode && (
-                <div className="mt-6 border-t pt-5">
-                  <p className="gc-kicker">Por que se conectam</p>
-                  <p className="mt-2 font-serif text-xl">
-                    {selectedNode.name} + {evidenceNode.name}
-                  </p>
-                  <p className="mt-3 text-xs font-semibold uppercase tracking-[0.12em]">
-                    Pensadores em comum
-                  </p>
-                  <p className="mt-1 text-sm leading-5 text-[var(--secondary)]">
-                    {evidenceLink.sharedThinkers.slice(0, 5).join(", ")}
-                    {evidenceLink.sharedThinkers.length > 5
-                      ? ` e mais ${evidenceLink.sharedThinkers.length - 5}`
-                      : ""}
-                  </p>
-                  <p className="mt-3 text-xs font-semibold uppercase tracking-[0.12em]">
-                    Obras em comum
-                  </p>
-                  <div className="mt-1 space-y-1">
-                    {evidenceLink.sharedBooks.slice(0, 4).map((book) => (
-                      <Link
-                        key={book.slug}
-                        href={`/obras/${book.slug}`}
-                        className="block text-sm leading-5 text-[var(--accent)] hover:underline"
-                      >
-                        {book.title}
-                      </Link>
-                    ))}
-                    {evidenceLink.sharedBooks.length > 4 && (
-                      <p className="text-xs text-[var(--secondary)]">
-                        + {evidenceLink.sharedBooks.length - 4} outras obras
-                      </p>
-                    )}
+              {evidenceLink &&
+                evidenceNode &&
+                evidenceNode.domain !== CONCEPT_DOMAIN && (
+                  <div className="mt-6 border-t pt-5">
+                    <p className="gc-kicker">Por que se conectam</p>
+                    <p className="mt-2 font-serif text-xl">
+                      {selectedNode.name} + {evidenceNode.name}
+                    </p>
+                    <p className="mt-3 text-xs font-semibold uppercase tracking-[0.12em]">
+                      Pensadores em comum
+                    </p>
+                    <p className="mt-1 text-sm leading-5 text-[var(--secondary)]">
+                      {evidenceLink.sharedThinkers.slice(0, 5).join(", ")}
+                      {evidenceLink.sharedThinkers.length > 5
+                        ? ` e mais ${evidenceLink.sharedThinkers.length - 5}`
+                        : ""}
+                    </p>
+                    <p className="mt-3 text-xs font-semibold uppercase tracking-[0.12em]">
+                      Obras em comum
+                    </p>
+                    <div className="mt-1 space-y-1">
+                      {evidenceLink.sharedBooks.slice(0, 4).map((book) => (
+                        <Link
+                          key={book.slug}
+                          href={`/obras/${book.slug}`}
+                          className="block text-sm leading-5 text-[var(--accent)] hover:underline"
+                        >
+                          {book.title}
+                        </Link>
+                      ))}
+                      {evidenceLink.sharedBooks.length > 4 && (
+                        <p className="text-xs text-[var(--secondary)]">
+                          + {evidenceLink.sharedBooks.length - 4} outras obras
+                        </p>
+                      )}
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => focusNode(evidenceNode.slug)}
+                      className="mt-4 text-xs font-semibold uppercase tracking-[0.12em] text-[var(--accent)]"
+                    >
+                      Colocar {evidenceNode.name} no centro
+                    </button>
                   </div>
-                  <button
-                    type="button"
-                    onClick={() => focusNode(evidenceNode.slug)}
-                    className="mt-4 text-xs font-semibold uppercase tracking-[0.12em] text-[var(--accent)]"
-                  >
-                    Colocar {evidenceNode.name} no centro
-                  </button>
-                </div>
-              )}
+                )}
             </>
           ) : (
             <>
@@ -698,36 +914,70 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
               <h2 className="mt-3 font-serif text-3xl">
                 Uma cartografia das ideias
               </h2>
-              <p className="mt-4 text-sm leading-6 text-[var(--secondary)]">
-                Cada círculo representa uma das 102 grandes ideias. As cores indicam
-                domínios; as linhas mostram obras e pensadores compartilhados.
-              </p>
-              <p className="mt-4 text-sm leading-6 text-[var(--secondary)]">
-                Selecione um círculo para colocá-lo no centro e revelar sua vizinhança
-                intelectual.
-              </p>
-
-              <div className="mt-7 space-y-2">
-                {domains.map(([slug, name]) => (
-                  <button
-                    key={slug}
-                    type="button"
-                    onClick={() => setDomain(slug)}
-                    className="flex w-full items-center justify-between py-1 text-left text-sm hover:text-[var(--accent)]"
-                  >
-                    <span className="flex items-center gap-2">
-                      <span
-                        className="h-2.5 w-2.5 rounded-full"
-                        style={{ backgroundColor: domainColors[slug] }}
-                      />
-                      {name}
-                    </span>
-                    <span className="text-xs text-[var(--faint)]">
-                      {nodes.filter((node) => node.domain === slug).length}
-                    </span>
-                  </button>
-                ))}
-              </div>
+              {graphMode === "bridge_concepts" ? (
+                <>
+                  <p className="mt-4 text-sm leading-6 text-[var(--secondary)]">
+                    Os losangos representam conceitos-ponte — noções que conectam
+                    múltiplas grandes ideias. Clique em um para ver quais ideias
+                    ele articula.
+                  </p>
+                  <p className="mt-4 text-sm leading-6 text-[var(--secondary)]">
+                    Clique em qualquer círculo para ver as ideias e conceitos ao
+                    redor dela.
+                  </p>
+                  <div className="mt-7 space-y-2">
+                    {bridgeConcepts.map((c) => (
+                      <button
+                        key={c.slug}
+                        type="button"
+                        onClick={() => focusNode(c.slug)}
+                        className="flex w-full items-center gap-2 py-1 text-left text-sm hover:text-[var(--accent)]"
+                      >
+                        <span
+                          className="h-2.5 w-2.5 shrink-0 rotate-45"
+                          style={{ backgroundColor: domainColors[CONCEPT_DOMAIN] }}
+                        />
+                        <span className="font-serif text-[var(--primary)]">
+                          {c.title}
+                        </span>
+                      </button>
+                    ))}
+                  </div>
+                </>
+              ) : (
+                <>
+                  <p className="mt-4 text-sm leading-6 text-[var(--secondary)]">
+                    Cada círculo representa uma das 102 grandes ideias. As cores
+                    indicam domínios; as linhas mostram obras e pensadores
+                    compartilhados.
+                  </p>
+                  <p className="mt-4 text-sm leading-6 text-[var(--secondary)]">
+                    Selecione um círculo para colocá-lo no centro e revelar sua
+                    vizinhança intelectual.
+                  </p>
+                  <div className="mt-7 space-y-2">
+                    {domains.map(([slug, name]) => (
+                      <button
+                        key={slug}
+                        type="button"
+                        onClick={() => setDomain(slug)}
+                        className="flex w-full items-center justify-between py-1 text-left text-sm hover:text-[var(--accent)]"
+                      >
+                        <span className="flex items-center gap-2">
+                          <span
+                            className="h-2.5 w-2.5 rounded-full"
+                            style={{ backgroundColor: domainColors[slug] }}
+                          />
+                          {name}
+                        </span>
+                        <span className="text-xs text-[var(--faint)]">
+                          {nodes.filter((node) => node.domain === slug).length}
+                        </span>
+                      </button>
+                    ))}
+                  </div>
+                </>
+              )}
             </>
           )}
         </aside>

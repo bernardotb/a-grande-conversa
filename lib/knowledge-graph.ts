@@ -113,3 +113,32 @@ export function buildKnowledgeGraph(
     links: Array.from(selectedLinks.values()).map(({ key: _key, ...link }) => link),
   };
 }
+
+// ─── Re-export enrichment layer (debates, concepts, quotes, evidence) ─────────
+// Note: KnowledgeGraph from ./knowledge-graph/types is intentionally not
+// re-exported here to avoid a name collision with the display KnowledgeGraph
+// type defined above.
+
+export type {
+  EvidenceStatus,
+  Quote,
+  CuratorNote,
+  NodeType,
+  RelationType,
+  KnowledgeNode,
+  KnowledgeRelation,
+  Debate,
+  BridgeConcept,
+  IdeaEnrichment,
+  PlanStepEnrichment,
+} from "./knowledge-graph/types";
+export { debates, getDebate } from "./knowledge-graph/debates";
+export { bridgeConcepts, getConcept } from "./knowledge-graph/concepts";
+export {
+  ideaEnrichments,
+  planStepEnrichments,
+  getIdeaEnrichment,
+  getPlanStepEnrichment,
+} from "./knowledge-graph/enrichments";
+export { validateKnowledgeGraph } from "./knowledge-graph/validate";
+export type { ValidationReport } from "./knowledge-graph/validate";

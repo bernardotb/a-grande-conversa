@@ -7,7 +7,8 @@
   "contentNotice": "Esta edição inicial combina sínteses editoriais próprias com dados históricos básicos. Datas aproximadas são indicadas como tais. Entradas futuras ou ainda não verificadas devem ser marcadas explicitamente como provisórias.",
   "navigation": [
     { "label": "Ideias", "href": "/ideias" },
-    { "label": "Autores", "href": "/autores" },
+    { "label": "Debates", "href": "/debates" },
+    { "label": "Conceitos", "href": "/conceitos" },
     { "label": "Obras", "href": "/obras" },
     { "label": "Planos", "href": "/planos-de-leitura" },
     { "label": "Mapa", "href": "/mapa-intelectual" }
@@ -15,6 +16,7 @@
   "footerLinks": [
     { "label": "Sobre", "href": "/sobre" },
     { "label": "Metodologia e Fontes", "href": "/metodologia-e-fontes" },
+    { "label": "Autores", "href": "/autores" },
     { "label": "Busca", "href": "/busca" }
   ]
 }
