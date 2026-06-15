@@ -2827,6 +2827,834 @@ const emocaoEssay: IdeaEssay = {
   ]
 };
 
+const prazerEDorEssay: IdeaEssay = {
+  slug: "prazer-e-dor",
+  title: "A conversa sobre o prazer e a dor",
+  introduction:
+    "A questão de se o prazer constitui ou apenas acompanha o bem divide a tradição ocidental em dois grandes campos — os que fundam a moralidade na experiência do prazer e da dor, e os que recusam essa fundação. Do diálogo socrático à clínica psicanalítica, o debate revela que a pergunta mais aparentemente simples — o que queremos quando queremos prazer? — é uma das mais resistentes a qualquer resposta definitiva.",
+  sourceNote:
+    "Texto em português preparado a partir das fontes primárias do corpus Great Books, com citações verificadas.",
+  sections: [
+    {
+      thinkerId: "plato",
+      keyWork: "Fílebo e Górgias",
+      paragraphs: [
+        "Para Platão, nem a vida do prazer puro nem a da pura razão satisfaz o que o ser humano realmente precisa. No Fílebo, Sócrates e seu interlocutor concordam que a vida boa é uma mistura: prazeres puros da contemplação intelectual, dos sons musicais e das formas belas combinados com o conhecimento. A vida que prefere apenas a satisfação corporal é a de uma ostra — sem memória, antecipação ou consciência.",
+        "O Górgias aprofunda a questão. Cálicles defende que o feliz é quem satisfaz todos os desejos, os maiores possíveis. Sócrates responde com a imagem do homem que tem comichão e coça sem parar — nem toda satisfação de desejo constitui felicidade. A vida boa exige calibração, não maximização do prazer bruto.",
+        "Platão distingue prazeres puros dos prazeres misturados com dor. Os prazeres misturados — alívio da fome, da sede, do desejo sexual — parecem intensos apenas porque a carência que os precede era grande. Prazeres puros, como os da contemplação, não dependem de privação prévia e não deixam vazio depois. Essa distinção será o ponto de partida de toda a ética do prazer posterior."
+      ],
+      quotes: [
+        {
+          text: "A vida do prazer não é para ser desejada por si mesma, nem a vida da mente, mas a vida que tem uma mistura adequada de ambas.",
+          source: "Fílebo, 22a"
+        },
+        {
+          text: "O homem que tem uma comichão e pode coçar e coça à vontade — ele está vivendo feliz?",
+          source: "Górgias, 494c"
+        }
+      ]
+    },
+    {
+      thinkerId: "aristotle",
+      keyWork: "Ética a Nicômaco",
+      paragraphs: [
+        "Aristóteles recusa a oposição platônica entre prazer e bem. O prazer não é obstáculo à virtude nem distração perigosa — é o complemento natural de qualquer atividade perfeitamente realizada. Como a flor da juventude sobre quem está no auge das forças, o prazer sobrevém à ação virtuosa sem ser seu motor.",
+        "A diferença que importa não é entre mais ou menos prazer, mas entre prazeres bons e maus. A qualidade do prazer depende da qualidade da atividade que o produz. O homem perverso pode fruir da crueldade; isso não torna a crueldade boa. O virtuoso sente prazer exatamente nas coisas certas, no momento e na medida que a razão ordena.",
+        "A identificação do prazer como coroamento da atividade abre uma tensão que Hobbes aproveitará para demolir a distinção entre bem real e prazer percebido: se o prazer segue a atividade boa, quem define o que é boa atividade? Para Aristóteles, a resposta é a razão e o caráter formado pelo hábito. Para Hobbes, será apenas a preferência do indivíduo."
+      ],
+      quotes: [
+        {
+          text: "O prazer completa a atividade, não como a disposição inerente faz, mas como um fim que se acrescenta, como a flor da juventude naqueles que estão no vigor da vida.",
+          source: "Ética a Nicômaco, X.4"
+        }
+      ]
+    },
+    {
+      thinkerId: "lucretius",
+      keyWork: "De Rerum Natura",
+      paragraphs: [
+        "O epicurismo de Lucrécio radicaliza a tese de que o prazer é o padrão, mas ao contrário do estereótipo dissoluto, a meta epicurista é a ataraxia — a tranquilidade de quem removeu todo medo, toda perturbação e todo desejo insaciável. A natureza não pede luxo; pede ausência de dor no corpo e de agitação no espírito.",
+        "Lucrécio traduz essa ética em física: os átomos, os choques, o vazio. Se a alma se dispersa com a morte como fumaça no vento, o medo do além é irracional. Quem teme o nada depois da morte confunde-se tanto quanto quem temeria o nada que havia antes do nascimento.",
+        "A promessa epicurista é paradoxal: ao abdicar de prazeres intensos e transitórios, o sábio alcança um prazer estável, duradouro e superior. Epicteto aceitará a estrutura do desapego mas deslocará inteiramente o eixo — não basta querer menos, é preciso retirar o prazer e a dor da lista de coisas que nos constituem."
+      ],
+      quotes: [
+        {
+          text: "A natureza clama por nada mais senão que a dor seja mantida bem afastada do corpo e que, livre do cuidado e do medo, a mente desfrute do sentido do prazer.",
+          source: "De Rerum Natura, Livro II"
+        }
+      ]
+    },
+    {
+      thinkerId: "epictetus",
+      keyWork: "Enquiridion",
+      paragraphs: [
+        "Para Epicteto, prazer e dor são eventos externos — acontecem ao corpo, ao patrimônio, à reputação. Chamá-los de bens ou males é o erro fundamental. O que depende de nós não é o que acontece, mas o julgamento que fazemos sobre o que acontece. Não são as coisas que nos perturbam, mas os nossos julgamentos sobre elas.",
+        "Esse deslocamento é radical. Não se trata de moderar o prazer ou encontrar sua justa medida. Trata-se de remover prazer e dor da lista de coisas que constituem o bem. A doença é um impedimento do corpo; não é um impedimento da vontade, a menos que a vontade consinta. O filósofo estoico pratica o desapego não por ascetismo severo, mas por lucidez.",
+        "A Kant esse argumento interessará profundamente: a razão moral não pode ser fundada em inclinações variáveis. Mas Kant não seguirá Epicteto até o fim — o dever kantiano não é impassibilidade emocional, mas legislação racional que pode conviver com sentimentos, desde que eles não sejam o fundamento da ação moral."
+      ],
+      quotes: [
+        {
+          text: "Não são as coisas que nos perturbam, mas os nossos julgamentos sobre elas.",
+          source: "Enquiridion, Capítulo 5"
+        },
+        {
+          text: "A doença é um impedimento para o corpo, mas não para a vontade, a menos que a vontade consinta.",
+          source: "Enquiridion, Capítulo 9"
+        }
+      ]
+    },
+    {
+      thinkerId: "aquinas",
+      keyWork: "Suma Teológica",
+      paragraphs: [
+        "Aquino herda de Aristóteles a análise do prazer como movimento do apetite em direção ao bem. O prazer (delectatio) ocorre quando o apetite repousa no bem obtido; a dor, quando é impedido ou separado dele. Nem um nem outro são intrinsecamente maus — são respostas naturais a bens e males reais.",
+        "O que distingue prazeres bons de maus é a conformidade com a razão e a ordem natural. Prazeres da contemplação e da amizade são naturalmente moderados; os prazeres do tato — comida, bebida, sexualidade — ameaçam o excesso porque satisfazem necessidades vitais e o apetite sensitivo não tem limite natural próprio.",
+        "Aquino acompanha Aristóteles na recusa de identificar bem e prazer: o prazer é sinal de que o apetite alcançou seu objeto, mas não é o bem em si mesmo. A felicidade última está na visão de Deus — e essa beatitude inclui a mais profunda alegria, mas não se reduz a prazer sensível de nenhuma espécie."
+      ],
+      quotes: [
+        {
+          text: "O prazer é um repouso do apetite no bem que possui.",
+          source: "Suma Teológica, I-II, q. 31, a. 1"
+        }
+      ]
+    },
+    {
+      thinkerId: "hobbes",
+      keyWork: "Leviatã",
+      paragraphs: [
+        "Hobbes vira o esquema de cabeça para baixo. Não chamamos algo de 'bom' porque é bom e depois sentimos prazer nele — chamamos de bom o que nos dá prazer, e de mau o que nos causa dor. Não existe bem ou mal objetivo no mundo, apenas preferências de criaturas movidas mecanicamente pelo apetite e pela aversão.",
+        "Essa tese tem consequências políticas imensas. Se todos os homens perseguem seu prazer como definidor do bem, e se o bem de um choca com o do outro, o estado de natureza é necessariamente guerra. O Leviatã não existe para ensinar virtude, mas para tornar possível a vida ao impor regras que permitam a cada um buscar seu prazer sem destruir os demais.",
+        "A redução hobbesiana libera a filosofia moral de pretensões metafísicas, mas cria um problema que Kant formulará com precisão: se o bem é apenas o que me agrada, como fundar qualquer imperativo que se aplique a todos? A resposta de Hobbes — o contrato pelo medo — não satisfaz quem quer que a moral tenha fundamento além da coerção."
+      ],
+      quotes: [
+        {
+          text: "O prazer, portanto, ou deleite, é a aparência ou sentido do bem; e o incômodo ou desprazer, a aparência ou sentido do mal.",
+          source: "Leviatã, I.6"
+        }
+      ]
+    },
+    {
+      thinkerId: "locke",
+      keyWork: "Ensaio sobre o Entendimento Humano",
+      paragraphs: [
+        "Locke aceita a premissa hobbesiana: prazer e dor são os motores da ação humana. O que chamamos de 'bom' é o que nos produz prazer; o 'mau', o que produz dor. Mas insere um elemento que Hobbes recusara: Deus criou prazer e dor precisamente para orientar nossas escolhas em direção ao que é bom para nós e para a convivência com os outros.",
+        "A felicidade é o estado de maior prazer possível, tanto nesta vida quanto na vida futura. A perspectiva da recompensa ou punição divina entra como cálculo racional — o prazer eterno de Deus supera infinitamente qualquer prazer temporal, de modo que a ação moralmente correta é também a racionalmente prudente.",
+        "O que Locke preserva que Hobbes dissolve é a possibilidade de um bem comum: se Deus projetou o prazer e a dor para guiar os homens à cooperação, então há uma convergência de interesses que torna a vida social mais do que um armistício forçado. Mill aproveitará esse otimismo, despojando-o inteiramente da teologia."
+      ],
+      quotes: [
+        {
+          text: "As coisas são boas ou más apenas em referência ao prazer ou à dor.",
+          source: "Ensaio sobre o Entendimento Humano, II.20"
+        }
+      ]
+    },
+    {
+      thinkerId: "kant",
+      keyWork: "Crítica da Razão Prática",
+      paragraphs: [
+        "Kant rompe com toda a tradição que funda a moral no prazer. Prazer e dor são estados empíricos, subjetivos e contingentes: o que agrada a um não agrada a outro, e mesmo o que agrada a um agora pode não agradar amanhã. Fundar a lei moral em algo tão volúvel é condená-la à arbitrariedade.",
+        "A lei moral deve ser universalmente válida — e universalidade exige que a lei seja derivada apenas da razão pura, independente de qualquer inclinação. Um ato tem valor moral apenas quando é feito por dever, não por inclinação nem por cálculo de prazer. O homem que ajuda o próximo porque sente prazer em ajudar age bem, mas não age moralmente no sentido kantiano.",
+        "Kant não ignora o prazer; apenas o remove do fundamento da ética. A felicidade — que inclui o prazer — é um bem condicionado: merece ser perseguida, mas apenas quando conjugada com a virtude. O sumo bem não é prazer, mas virtude merecedora de felicidade. Essa distinção será o grande alvo da crítica de Mill."
+      ],
+      quotes: [
+        {
+          text: "A razão pura prática não quer dizer que o prazer seja uma coisa ruim, mas que ao se fazer do princípio do prazer a lei moral, ela deixa de ser universal.",
+          source: "Crítica da Razão Prática"
+        }
+      ]
+    },
+    {
+      thinkerId: "mill",
+      keyWork: "Utilitarismo",
+      paragraphs: [
+        "Mill aceita a premissa hedonista: prazer e ausência de dor são os únicos bens em si mesmos. Mas refuta Bentham, para quem prazeres diferem apenas em quantidade. Mill insiste que diferem em qualidade — os prazeres do intelecto, da criatividade e dos sentimentos morais são superiores, não apenas maiores, do que os prazeres corporais.",
+        "A evidência de Mill é o testemunho de quem conhece ambos os tipos. Quem já experimentou a insatisfação de Sócrates não trocaria esse estado pela satisfação completa de um tolo. O critério é a preferência de quem viveu os dois modos, não um cálculo abstrato de intensidade.",
+        "A distinção qualitativa expõe uma tensão que Mill não dissolve completamente: se prazeres diferem em qualidade, quem os qualifica? A resposta — o perito que os conheceu — introduz uma hierarquia de experiências que Freud subverterá ao mostrar que o que julgamos prazer superior pode ser apenas prazer inferior bem disfarçado."
+      ],
+      quotes: [
+        {
+          text: "É melhor ser um ser humano insatisfeito do que um porco satisfeito; melhor ser Sócrates insatisfeito do que um tolo satisfeito.",
+          source: "Utilitarismo, Capítulo 2"
+        }
+      ]
+    },
+    {
+      thinkerId: "freud",
+      keyWork: "O Mal-Estar na Civilização",
+      paragraphs: [
+        "O princípio do prazer governa a vida mental desde o início: o aparelho psíquico busca descarregar tensão, atingir o mínimo de excitação. Mas esse princípio colide com o princípio da realidade — o mundo não entrega prazer na hora certa — e com a pulsão de morte, que deseja a dissolução mais radical de toda tensão.",
+        "A civilização exige a renúncia das satisfações pulsionais mais imediatas. O preço dessa renúncia é o mal-estar: angústia difusa, culpa inconsciente, insatisfação crônica. A promessa de felicidade que o prazer faz não pode ser cumprida no interior da vida social organizada.",
+        "Freud encerra o debate com uma sobriedade impiedosa: o programa de tornar-se feliz que o princípio do prazer nos impõe não pode ser realizado, mas também não podemos abandonar o esforço de nos aproximarmos dele. A conversa permanece aberta — não porque não saibamos o que o prazer é, mas porque sabemos demais sobre o que nos impede de alcançá-lo."
+      ],
+      quotes: [
+        {
+          text: "O programa de tornar-se feliz que o princípio do prazer nos impõe não pode ser realizado; contudo, não devemos — na verdade, não podemos — abandonar os esforços para o aproximar da realização.",
+          source: "O Mal-Estar na Civilização, Capítulo 2"
+        }
+      ]
+    }
+  ]
+};
+
+const honraEssay: IdeaEssay = {
+  slug: "honra",
+  title: "A conversa sobre a honra",
+  introduction:
+    "A honra é o bem mais disputado da tradição ocidental — e o mais ambíguo. Entre a timé homérica que move o guerreiro à morte gloriosa e a análise hobbesiana que a reduz ao preço de mercado de um indivíduo, percorremos a tensão entre fama pública e consciência privada, entre reputação merecida e vaidade fabricada. A pergunta permanece: a honra é virtude que os outros reconhecem em nós, ou apenas o reflexo do que querem que sejamos?",
+  sourceNote:
+    "Texto em português preparado a partir das fontes primárias do corpus Great Books, com citações verificadas.",
+  sections: [
+    {
+      thinkerId: "homer",
+      keyWork: "Ilíada",
+      paragraphs: [
+        "A timé — honra, valor, estima pública — é o bem supremo no mundo épico de Homero. Aquiles, convocado pelo destino a escolher entre vida longa e obscura ou vida breve e gloriosa, elege a glória. O kleos, a fama que ecoa além da morte pela boca dos poetas, é a única forma de imortalidade disponível ao herói grego.",
+        "O enredo da Ilíada nasce do insulto à honra de Aquiles: Agamémnon confisca Briseida, a parte do espólio que marcava o valor do herói. A ira de Aquiles não é capricho — é a resposta necessária de quem tem sua posição pública violada. Sem honra, Aquiles perde o sentido de sua própria existência guerreira.",
+        "O mundo homérico estabelece os termos que toda a tradição subsequente terá de enfrentar: a honra como bem externo que depende do reconhecimento dos outros. Aristóteles aceitará sua importância mas questionará sua suficiência; Montaigne a rejeitará em favor da consciência privada; Hobbes a dissolverá em preço de mercado."
+      ],
+      quotes: [
+        {
+          text: "Minha mãe Tétis, deusa dos pés de prata, diz que carrego dois destinos em direção ao dia de minha morte. Ou, se ficar e combater junto à cidade dos troianos, meu retorno se vai, mas minha glória será eterna...",
+          source: "Ilíada, IX"
+        }
+      ]
+    },
+    {
+      thinkerId: "thucydides",
+      keyWork: "História da Guerra do Peloponeso",
+      paragraphs: [
+        "No discurso fúnebre de Péricles, a honra migra do herói individual para a cidade inteira. Atenas é honrada pela coragem coletiva de seus cidadãos, pela beleza de suas obras públicas e pela peculiaridade de um povo que cultiva mente e força sem que uma enfraqueça a outra. A glória é agora da polis.",
+        "Tucídides também identifica, com frieza analítica, os motores reais das guerras: medo, interesse e honra. A honra aparece aqui não como virtude mas como força política — os Estados se lançam ao conflito para preservar sua reputação diante dos rivais. A prudência de Péricles e a crueldade em Melos convivem sob o mesmo estandarte.",
+        "A tensão entre a honra cívica celebrada no discurso fúnebre e a honra como poder que Tucídides descreve nas guerras cria uma dissonância que Agostinho aproveitará para atacar a glória romana como ficção: o amor pela fama que gerou a república também gerou seus impérios."
+      ],
+      quotes: [
+        {
+          text: "Somos amantes do belo, mas sem extravagância; e cultivamos a mente sem perder a virilidade.",
+          source: "História da Guerra do Peloponeso, II (Oração Fúnebre)"
+        }
+      ]
+    },
+    {
+      thinkerId: "aristotle",
+      keyWork: "Ética a Nicômaco",
+      paragraphs: [
+        "Para Aristóteles, a honra é o maior dos bens externos — e é devida à virtude como recompensa justa. O homem magnânimo (megalopsychos) conhece exatamente o que merece e não aceita nem mais nem menos. Aceitar honra desproporcional é vaidade; recusá-la é falsa modéstia.",
+        "Mas a honra não é o fim da vida boa — é seu sinal externo. O magnânimo a aceita porque é recompensa merecida, mas não a persegue por si mesma. Sua identidade não depende do aplauso dos outros: confere benefícios mas se envergonha de recebê-los, porque conferir é atributo do superior.",
+        "A análise aristotélica coloca a honra em seu lugar adequado: necessária para confirmar externamente o valor do virtuoso, mas insuficiente para constituí-lo. Ela anuncia o que se merece; não cria o mérito. Aquino refinará esse ponto; Hobbes o negará inteiramente ao reduzir o valor humano a preço."
+      ],
+      quotes: [
+        {
+          text: "O magnânimo é o tipo de homem que presta benefícios, mas se envergonha de recebê-los; pois o primeiro é sinal de um superior, o segundo de um inferior.",
+          source: "Ética a Nicômaco, IV.3"
+        }
+      ]
+    },
+    {
+      thinkerId: "plutarch",
+      keyWork: "Vidas Paralelas",
+      paragraphs: [
+        "Plutarco escreve vidas, não histórias — a distinção é sua, feita no prefácio de Alexandre. Os grandes feitos militares importam menos do que os gestos miúdos que revelam caráter: uma palavra sutil, uma recusa silenciosa, uma generosidade discreta. A honra verdadeira se manifesta nessas fissuras do comportamento cotidiano.",
+        "A estrutura comparativa das Vidas Paralelas serve uma pedagogia moral. Ao aproximar um romano de um grego com trajetórias similares, Plutarco convida o leitor a julgar onde cada um foi fiel ao ideal que perseguia. A honra torna-se critério de avaliação histórica — mas um critério complexo, cheio de paradoxos entre intenção e resultado.",
+        "Plutarco herda de Aristóteles a ideia de que a verdadeira honra está ligada à virtude real, não ao renome passageiro. Mas sua escolha por personagens políticos e trágicos mostra que virtude e honra raramente coincidem sem custo. Agostinho usará esse material para atacar a glória romana como soberba disfarçada."
+      ],
+      quotes: [
+        {
+          text: "Não são histórias que escrevo, mas vidas; e nas ações mais ilustrosas nem sempre há manifestação de virtude ou vício.",
+          source: "Vidas Paralelas, Alexandre"
+        }
+      ]
+    },
+    {
+      thinkerId: "augustine",
+      keyWork: "Cidade de Deus",
+      paragraphs: [
+        "Agostinho reconhece que o amor romano pela glória produziu feitos admiráveis: homens que resistiram à corrupção, que morreram pela república, que preferiram a pobreza à desonra. Mas esse amor pela fama pública é uma forma refinada de soberba — o pecado que substitui Deus pela imagem que os outros fazem de nós.",
+        "A república romana teve suficiente semelhança com a justiça para se sustentar, e suficiente amor pela glória para alcançar grandeza por ela. Mas essa grandeza não é a glória verdadeira: é o prêmio que Deus concede aos virtuosos pagãos no único nível em que podem recebê-lo, o nível terreno e transitório.",
+        "A contraposição entre Cidade de Deus e Cidade dos Homens atravessa o tema da honra: na primeira, os santos buscam a glória que só Deus pode conferir; na segunda, os grandes homens buscam a memória pública. Aquino tentará salvar um espaço para a honra legítima dentro da ordem cristã sem que ela vire soberba."
+      ],
+      quotes: [
+        {
+          text: "Os romanos não tinham justiça verdadeira; mas tinham suficiente do que se assemelha à justiça para manter a república viva, e suficiente amor pela glória para preferi-la a tudo o mais.",
+          source: "Cidade de Deus, II"
+        }
+      ]
+    },
+    {
+      thinkerId: "aquinas",
+      keyWork: "Suma Teológica",
+      paragraphs: [
+        "Aquino distingue honra legítima de vainglory. A honra é devida em justiça à excelência real — o superior merece ser reconhecido, e recusar esse reconhecimento é uma forma de injustiça. O virtuoso aceita honra como recompensa extrínseca que corresponde à virtude intrínseca.",
+        "A vainglory perturba essa ordem: busca honra sem mérito real, ou por mérito que não é o próprio, ou de quem não tem condições de julgar. O pecado não está em ser honrado — está em fazer da honra o fim a que a virtude serve, invertendo a relação entre meio e fim.",
+        "Aquino preserva espaço para a honra humana legítima que Agostinho deixara problemática. Mas insiste que a honra última, aquela que constitui o sumo bem do homem, é a glória divina — o reconhecimento de Deus que nenhuma fama terrena pode substituir. Montaigne deslocará o eixo para a consciência privada."
+      ],
+      quotes: [
+        {
+          text: "A honra é a recompensa da virtude; por isso não é seu fim, mas pertence à virtude no sentido de que a virtude se ordena a ela como a uma recompensa extrínseca.",
+          source: "Suma Teológica, II-II, q. 129"
+        }
+      ]
+    },
+    {
+      thinkerId: "montaigne",
+      keyWork: "Ensaios",
+      paragraphs: [
+        "Montaigne desconfia da fama porque depende de outros: é instável, arbitrária, condicionada pelos humores do público e pelos acasos da história. Um homem pode passar à posteridade por algo que fez em descuido, enquanto o que mais valorizou fica sepultado no esquecimento. A honra pública é uma loteria.",
+        "Sua alternativa não é a ascese cristã nem a virtude aristotélica, mas o testemunho da consciência privada. Importa mais saber o que se é do que ser reconhecido pelo que se fez. Montaigne prefere se apresentar e se justificar a si mesmo a convencer qualquer outro — a integridade interna substitui a aprovação externa.",
+        "Esse deslocamento inaugura uma tradição moderna de interioridade que separará a ética da reputação social. Cervantes pega esse fio e o torce com ironia: é possível fabricar honra por ato de vontade pura, mesmo contra toda evidência externa?"
+      ],
+      quotes: [
+        {
+          text: "Quero me apresentar e me justificar a mim mesmo, não a outrem. Nada ganho em ser visto como virtuoso se de fato não o sou.",
+          source: "Ensaios, II.16 (Da Glória)"
+        }
+      ]
+    },
+    {
+      thinkerId: "cervantes",
+      keyWork: "Dom Quixote",
+      paragraphs: [
+        "Dom Quixote decide por vontade que é cavaleiro. Sem cerimônia, sem armadura aprovada, sem reconhecimento de nenhuma autoridade, declara-se nobre e parte para suas aventuras. A frase 'Eu sei quem sou' é a mais audaciosa do romance: contra toda evidência externa, o protagonista fabrica sua própria honra.",
+        "O leitor oscila entre admiração pela integridade absurda e compaixão pelo isolamento trágico. Quixote honra um código que o mundo abandonou — e nisso é simultaneamente mais íntegro e mais perdido que qualquer personagem ao seu redor. A honra solitária pode ser glória genuína ou ilusão patética?",
+        "Cervantes não responde. A ambiguidade é o ponto. A modernidade herda esse problema: quando os critérios externos de honra desapareceram, sobrou apenas a consciência privada — mas a consciência privada pode estar errada de formas que ninguém ao redor corrige. Shakespeare dramatizará a catástrofe dessa ambiguidade."
+      ],
+      quotes: [
+        {
+          text: "Eu sei quem sou, e quem posso ser, se escolher.",
+          source: "Dom Quixote, Parte I, Capítulo 5"
+        }
+      ]
+    },
+    {
+      thinkerId: "shakespeare",
+      keyWork: "Otelo",
+      paragraphs: [
+        "Em Otelo, Iago compreende que a honra é reputação — e que reputação pode ser fabricada e destruída por palavras. Otelo destrói Desdêmona e a si mesmo porque é incapaz de sustentar a dúvida sobre a fidelidade da esposa. A honra que ele perderia — ser o marido traído — é insuportável não pelo fato em si mas pela imagem que os outros terão dele.",
+        "A tragédia revela a fragilidade da honra quando fundada em como somos vistos pelos outros: basta um mentiroso competente para que o edifício desabe. Brutus, em Júlio César, representa o avesso — honra como integridade da consciência que o leva a erros políticos fatais, como a recusa de eliminar Antônio por considerá-lo honorável.",
+        "Shakespeare não resolve a tensão entre honra-reputação e honra-consciência: mostra as duas formas destruindo seus portadores por razões diferentes. É a dramatização mais severa do dilema entre Montaigne e Aristóteles que a literatura ocidental produziu."
+      ],
+      quotes: [
+        {
+          text: "O bom nome em homem e mulher, caro senhor, é a joia imediata de suas almas.",
+          source: "Otelo, Ato III"
+        }
+      ]
+    },
+    {
+      thinkerId: "hobbes",
+      keyWork: "Leviatã",
+      paragraphs: [
+        "Hobbes reduz a honra a preço. O valor de um homem é o que se pagaria pelo uso de seu poder — não é absoluto, mas relativo ao julgamento e à necessidade dos outros. A 'dignidade' é o preço público; a 'honra' é a atribuição de poder superior. Não existe honra sem quem a conceda.",
+        "Essa análise dissolve qualquer distinção entre honra merecida e honra obtida por intimidação. O que importa é a eficácia do poder — sua capacidade de mover os outros a valorizarem quem o detém. O mérito aristotélico, a consciência montaigniana, a virtude cristã: todas essas noções de honra intrínseca são, para Hobbes, autoenganos que camuflam relações de poder nuas.",
+        "A frieza da análise hobbesiana é seu trunfo analítico: ela descreve o que a honra realmente faz na política e nos mercados. A questão de se isso é o que a honra deve ser fica suspensa — e é exatamente essa suspensão que Tolstói não suportará."
+      ],
+      quotes: [
+        {
+          text: "O valor de um homem é, como de todas as outras coisas, o seu preço; isto é, tanto quanto seria dado pelo uso de seu poder; e portanto não é absoluto, mas coisa que depende da necessidade e do julgamento de outro.",
+          source: "Leviatã, I.10"
+        }
+      ]
+    },
+    {
+      thinkerId: "tolstoy",
+      keyWork: "Guerra e Paz",
+      paragraphs: [
+        "O general Kutuzov e o príncipe Andrei representam dois modos opostos de honra em Guerra e Paz. Andrei busca a glória napoleônica — a conquista individual, a afirmação pessoal no campo de batalha. Kutuzov espera, evita batalhas desnecessárias e age com a paciência de quem sabe que a grandeza não se anuncia.",
+        "A batalha de Borodino é o momento em que as ilusões se desfazem. A glória militar, que parecia o bem mais alto, revela-se vaidade coletiva: homens morrendo por abstrações, generais fingindo controlar o que o acaso decide. Pierre, ao final, chega à mesma conclusão por caminho diferente e mais silencioso.",
+        "Para Tolstói, onde reinam simplicidade, bondade e verdade existe grandeza real. A honra que Homero celebrava e que Napoleão encarnava é, nesse julgamento final, indistinguível da vaidade mais comum. A conversa fecha-se com uma inversão: o herói autêntico é quem não busca ser herói."
+      ],
+      quotes: [
+        {
+          text: "Não há grandeza onde não existem simplicidade, bondade e verdade.",
+          source: "Guerra e Paz, Epílogo"
+        }
+      ]
+    }
+  ]
+};
+
+const habitoEssay: IdeaEssay = {
+  slug: "habito",
+  title: "A conversa sobre o hábito",
+  introduction:
+    "Tornamo-nos o que repetidamente fazemos. A formulação condensa um dos consensos mais resistentes da filosofia ocidental — mas a aparente concordância se fratura quando a questão muda de 'o que é o hábito' para 'quem o controla'. Entre a segunda natureza que Aristóteles entreviu e a compulsão à repetição que Freud descobriu, o hábito oscila entre aliado da liberdade e sua mais eficiente prisão.",
+  sourceNote:
+    "Texto em português preparado a partir das fontes primárias do corpus Great Books, com citações verificadas.",
+  sections: [
+    {
+      thinkerId: "plato",
+      keyWork: "A República",
+      paragraphs: [
+        "Platão coloca o hábito no fundamento da educação porque a razão chega tarde: o caráter se forma antes de termos condições de justificá-lo. A criança é como cera mole — os gestos, as histórias, os ritmos musicais que recebe nos primeiros anos deixam marcas que a razão adulta, quando enfim chega, encontrará já esculpidas.",
+        "Por isso a República é tão rigorosa quanto à seleção dos mitos, das músicas e dos ritmos permitidos às crianças. Não é censura por medo da verdade — é reconhecimento de que o hábito precede e facilita ou obstaculiza a razão. Uma alma habituada a reações violentas resistirá à filosofia da alma moderada.",
+        "Platão vê no hábito uma força ambígua: é indispensável que os jovens sejam moldados bem antes de poderem deliberar, mas isso significa que o caráter de um adulto já foi em grande parte decidido por outros antes que ele pudesse consentir. Aristóteles aproveitará essa intuição e a tornará mais precisa; Agostinho questionará se a moldagem consciente é suficiente."
+      ],
+      quotes: [
+        {
+          text: "E o início, como sabem, é sempre a parte mais importante, especialmente ao lidar com algo jovem e tenro. Pois é o momento em que o caráter está sendo formado.",
+          source: "A República, II"
+        }
+      ]
+    },
+    {
+      thinkerId: "aristotle",
+      keyWork: "Ética a Nicômaco",
+      paragraphs: [
+        "O ponto central de Aristóteles é que a virtude não é dom nem teoria — é prática. Tornamo-nos justos fazendo atos justos; corajosos, fazendo atos corajosos; temperantes, fazendo atos temperantes. O hábito (ethos, de onde vem 'ética') é o processo pelo qual a ação repetida se converte em disposição estável do caráter.",
+        "Aristóteles distingue disposição de impulso. O impulso é momentâneo; a hexis, a disposição habitual, é parte constituinte do caráter. O homem habituado ao bem não apenas age bem: sente prazer no bem, enfrenta o mal sem esforço agônico, porque a virtude tornou-se sua segunda natureza.",
+        "A questão que Aristóteles deixa em aberto é a origem dos primeiros hábitos. A resposta implícita — os pais, a cidade, os legisladores — revela que o caráter individual depende da saúde da comunidade que o forma. Isso antecipa Hegel: o hábito como mediação necessária entre o indivíduo singular e a vida ética coletiva."
+      ],
+      quotes: [
+        {
+          text: "Tornamo-nos justos praticando atos justos, temperantes praticando atos temperantes, corajosos praticando atos corajosos.",
+          source: "Ética a Nicômaco, II.1"
+        }
+      ]
+    },
+    {
+      thinkerId: "epictetus",
+      keyWork: "Discursos",
+      paragraphs: [
+        "Epicteto inverte a perspectiva: o hábito que mais importa não é o de atos externos, mas o de julgamentos internos. Habituar-se é habituar-se a distinguir o que depende de nós — julgamentos, impulsos, desejos — do que não depende. Cada vez que consentimos com uma impressão falsa, reforçamos um hábito mental ruim.",
+        "A prática diária estoica é uma reeducação das reações automáticas: ao invés de recuar instintivamente diante da dor, o filósofo pratica perceber que é apenas um fato do corpo, não um mal para a alma. Ao invés de ser arrastado pelo prazer, aprende a dar um passo atrás antes do assentimento.",
+        "O hábito estoico é, paradoxalmente, o hábito de não ter hábitos que condicionem a liberdade interior. Agostinho verá esse projeto como quimera — não porque a prática seja inútil, mas porque a vontade humana está fraturada em um nível mais profundo do que qualquer treinamento filosófico alcança por si mesmo."
+      ],
+      quotes: [
+        {
+          text: "Geralmente, então, se queres fazer de algo um hábito, faz isso; se não queres torná-lo hábito, não o faças, mas acostuma-te a fazer outra coisa em seu lugar.",
+          source: "Discursos, II.18"
+        }
+      ]
+    },
+    {
+      thinkerId: "marcus-aurelius",
+      keyWork: "Meditações",
+      paragraphs: [
+        "As Meditações são o diário de um hábito: Marco Aurélio retorna diariamente aos mesmos princípios estoicos, não porque os tenha esquecido, mas porque a vida o afasta deles a cada hora. O hábito essencial é a renovação constante — acordar com a intenção de agir segundo a razão e retornar a ela depois de cada desvio.",
+        "Como imperador, Marco Aurélio enfrenta o paradoxo de exercer poder enquanto prega a indiferença ao poder. As Meditações revelam não a serenidade conquistada, mas a luta contínua de quem sabe o que deve ser e força o ritmo diário a se conformar a esse saber.",
+        "A prática marciana é menos teoria que exercício espiritual repetido. Nisso antecipa William James: hábito é fisiologia antes de ser filosofia. Mas para Marco Aurélio a fisiologia serve ao espírito, não o constitui — distinção que o século XIX inverterá."
+      ],
+      quotes: [
+        {
+          text: "Tens poder sobre a tua mente, não sobre os acontecimentos externos. Percebe isso, e encontrarás força.",
+          source: "Meditações, VI.8"
+        }
+      ]
+    },
+    {
+      thinkerId: "augustine",
+      keyWork: "Confissões",
+      paragraphs: [
+        "'Hábito não resistido torna-se necessidade.' Com essa sentença, Agostinho dinamita o otimismo greco-romano: o filósofo pode conhecer o bem, querer o bem, praticar o bem — e ainda assim ser arrastado pelos hábitos do vício formados antes de conhecer a verdade. A vontade está partida.",
+        "O Livro VIII das Confissões é a anatomia dessa fratura. Agostinho relata sua paralisia diante da conversão: a mente manda à vontade que queira converter-se, e a vontade obedece pela metade. Dois querers opostos coexistem; a razão não resolve. O hábito do prazer corporal, formado em anos de indulgência, resiste com força que nenhuma deliberação racional supera sozinha.",
+        "A saída agostiniana é a graça — não um esforço adicional do sujeito, mas uma intervenção que refaz a vontade de dentro. Isso relança a questão do hábito: se o hábito bom exige graça, qual o papel do esforço individual? Aquino tentará salvar o contributo humano sem negar a necessidade divina."
+      ],
+      quotes: [
+        {
+          text: "O hábito não resistido torna-se necessidade.",
+          source: "Confissões, VIII"
+        }
+      ]
+    },
+    {
+      thinkerId: "aquinas",
+      keyWork: "Suma Teológica",
+      paragraphs: [
+        "Aquino integra Aristóteles e Agostinho. O hábito é uma qualidade estável que dispõe o ser bem ou mal com respeito a si mesmo ou a outro. Há hábitos naturais — adquiridos por repetição de atos — e hábitos sobrenaturais — virtudes teologais como fé, esperança e caridade, infundidas diretamente por Deus.",
+        "No domínio natural, Aristóteles tem razão: repetição forma disposição. No domínio sobrenatural, Agostinho tem razão: certas virtudes excedem a capacidade humana de aquisição por esforço isolado. A graça não anula o hábito natural — eleva-o para além do que o esforço sozinho poderia atingir.",
+        "A síntese tomista preserva o valor da prática moral sem a ingenuidade de que qualquer prática humana baste. Hume atacará o fundamento sobrenatural; James e Freud substituirão 'graça' por neurologia — com consequências que nem um nem outro previu completamente."
+      ],
+      quotes: [
+        {
+          text: "O hábito é uma qualidade pela qual um ser está bem ou mal disposto com relação a si mesmo ou a outro.",
+          source: "Suma Teológica, I-II, q. 49, a. 1"
+        }
+      ]
+    },
+    {
+      thinkerId: "hume",
+      keyWork: "Investigação sobre o Entendimento Humano",
+      paragraphs: [
+        "Hume transfere o hábito do território moral para o epistemológico: o costume é o fundamento de toda crença na causalidade. Não porque tenhamos provado logicamente que o futuro se assemelhará ao passado, mas porque nossa mente foi habituada a esperar isso. Toda ciência empírica, toda expectativa prática, repousa nessa rotina psicológica.",
+        "Isso tem implicações perturbadoras: se o hábito é o guia da razão prática, então a diferença entre crenças racionais e superstições é menos uma questão de fundamento lógico do que de quais hábitos foram formados pela experiência. O hábito não serve à razão — a razão serve ao hábito.",
+        "Hegel pegará esse fio e o tornará fecundo: o hábito não é apenas o guia do sujeito individual, mas a substância viva da vida ética de uma comunidade. O que Hume leu como limitação epistemológica, Hegel lerá como mediação ontológica necessária entre liberdade abstrata e vida concreta."
+      ],
+      quotes: [
+        {
+          text: "O costume, então, é o grande guia da vida humana. É esse princípio sozinho que torna a experiência útil para nós.",
+          source: "Investigação sobre o Entendimento Humano, Seção V"
+        }
+      ]
+    },
+    {
+      thinkerId: "hegel",
+      keyWork: "Filosofia do Espírito",
+      paragraphs: [
+        "O hábito é, para Hegel, a 'segunda natureza' que o sujeito produz para si mesmo ao interiorizar as formas objetivas da vida ética. Quando o dever moral deixa de ser uma imposição externa — o deves socrático, o imperativo kantiano — e se torna a morada espiritual onde o indivíduo se sente em casa, o hábito ético foi completamente formado.",
+        "Essa domesticação do dever não é alienação — é liberdade concreta. A criança que aprendeu a ser justa não precisa mais calcular cada ato; a justiça tornou-se sua forma natural de existir com os outros. O esforço moralizante foi absorvido pelo caráter, que agora age com a espontaneidade de quem age segundo sua natureza mais profunda.",
+        "Hegel dialetiza o hábito: é uma negação da espontaneidade natural (primeira natureza), mas uma negação que afirma uma espontaneidade superior, ética. William James adicionará a fisiologia a essa dialética sem saber que estava repetindo Hegel em linguagem científica."
+      ],
+      quotes: [
+        {
+          text: "O hábito é chamado com razão de segunda natureza; primeiro, porque é uma imediatidade natural, e segundo, porque é uma negação dessa primeira imediatidade, uma imediatidade posta pela própria alma.",
+          source: "Filosofia do Espírito, §410"
+        }
+      ]
+    },
+    {
+      thinkerId: "william-james",
+      keyWork: "Os Princípios de Psicologia",
+      paragraphs: [
+        "James naturaliza o hábito: é um fato do sistema nervoso. Comportamentos repetidos cavam trilhas nos tecidos cerebrais plásticos, tornando os impulsos automáticos. O hábito não é metáfora — é anatomia da conduta, e a neurologia da repetição confirma o que Aristóteles intuiu por observação do caráter.",
+        "O 'volante da sociedade' é a imagem que James escolhe: o hábito mantém a maioria das pessoas dentro dos limites da ordenação sem exigir esforço deliberado contínuo. Isso liberta energia mental para problemas novos. Mas também conserva estamentos, preconceitos e formas de vida que o progresso deveria superar.",
+        "O conselho prático de James é concreto: não deixar que um único dia passe sem praticar algum ato de coragem ou esforço que não seja estritamente necessário, para que o sistema nervoso seja aliado, e não adversário, de quem se propõe melhorar. Freud mostrará por que isso não basta."
+      ],
+      quotes: [
+        {
+          text: "O hábito é o enorme volante da sociedade, seu agente conservador mais precioso. Ele sozinho é o que nos mantém a todos dentro dos limites da ordenação.",
+          source: "Os Princípios de Psicologia, Capítulo IV"
+        }
+      ]
+    },
+    {
+      thinkerId: "freud",
+      keyWork: "Conferências Introdutórias sobre Psicanálise",
+      paragraphs: [
+        "Freud descobre que os hábitos mais resistentes são formados abaixo do limiar da consciência. A compulsão à repetição não é erro de julgamento — é a reencenação automática de material reprimido que o sujeito não lembra mas não consegue parar de reencarnar em suas relações presentes.",
+        "O paciente não sabe que está repetindo. Ao contrário: imagina que está reagindo a algo novo. O analista reconhece o padrão porque o viu antes, em outras formas, com outros personagens. O hábito traumático é o mais tenaz precisamente porque não foi formado por prática consciente — foi impresso por experiências que o sujeito não pôde processar na época.",
+        "A conversa sobre o hábito fecha-se num paradoxo: os hábitos que mais nos definem são aqueles que menos escolhemos. A promessa aristotélica — tornamo-nos virtuosos praticando atos virtuosos — permanece válida, mas sua abrangência é menor do que Aristóteles supunha. Há uma camada mais funda onde a repetição governa sem pedir consentimento."
+      ],
+      quotes: [
+        {
+          text: "O paciente é obrigado a repetir o material reprimido como experiência contemporânea, em vez de... lembrá-lo como algo pertencente ao passado.",
+          source: "Conferências Introdutórias sobre Psicanálise, Conferência 18"
+        }
+      ]
+    }
+  ]
+};
+
+const temperancaEssay: IdeaEssay = {
+  slug: "temperanca",
+  title: "A conversa sobre a temperança",
+  introduction:
+    "A temperança é a virtude mais mal-compreendida da tradição ocidental: confundida com austeridade puritana, reduzida a uma lista de proibições, ou descartada como repressão disfarçada de virtude. Mas desde Platão até Freud, o debate revela uma questão mais profunda — não quanto prazer é permitido, mas quem governa quem dentro de nós quando queremos.",
+  sourceNote:
+    "Texto em português preparado a partir das fontes primárias do corpus Great Books, com citações verificadas.",
+  sections: [
+    {
+      thinkerId: "plato",
+      keyWork: "A República",
+      paragraphs: [
+        "Para Platão, temperança é harmonia na alma: o estado em que o apetite concorda em obedecer à razão, não porque foi suprimido pela força, mas porque reconheceu sua posição adequada na ordem psíquica. É a única virtude que pertence à cidade inteira — enquanto coragem é dos guardiões e sabedoria é dos filósofos, a temperança é o acordo de todas as partes.",
+        "No Fédon, Platão distingue a verdadeira temperança da falsa: quem resiste ao prazer apenas para obter prazer maior pratica uma forma de hedonismo disfarçado — troca prazer por prazer. A temperança genuína é indiferença ao prazer como padrão de valor, não seu cálculo mais refinado.",
+        "O aspecto mais fecundo da análise platônica é a ideia de que a temperança não aniquila o desejo — ordena-o. O apetite temperante não é o que nada deseja, mas o que deseja as coisas certas. Aristóteles desenvolverá exatamente essa distinção com mais precisão empírica."
+      ],
+      quotes: [
+        {
+          text: "A temperança é uma espécie de ordem e continência de certos prazeres e desejos.",
+          source: "A República, IV"
+        }
+      ]
+    },
+    {
+      thinkerId: "aristotle",
+      keyWork: "Ética a Nicômaco",
+      paragraphs: [
+        "Aristóteles é preciso: o temperante deseja as coisas certas, à maneira certa e no momento certo. Não luta contra seus apetites por força de vontade — seus apetites já foram educados para querer o que a razão aprova. Isso o distingue do 'continente' (enkratos), que resiste heroicamente à tentação mas ainda a sente como tentação.",
+        "A distinção entre temperança e continência é sutil mas decisiva: ambos agem bem, mas apenas o temperante age sem conflito interno. O continente ainda tem duas vozes dentro de si — o apetite que quer o excesso e a razão que resiste. A virtude completa é a fusão, não o equilíbrio tenso.",
+        "Aristóteles limita a temperança aos prazeres do tato — comida, bebida, sexualidade — porque são os únicos que compartilhamos com todos os animais e os únicos em que o excesso é mais fácil e mais frequente. Epicteto questionará essa limitação ao propor que a raiz do problema não é o excesso mas a dependência."
+      ],
+      quotes: [
+        {
+          text: "O temperante deseja as coisas certas, da maneira certa e no momento certo; e é o que o princípio racional dirige.",
+          source: "Ética a Nicômaco, III.11"
+        }
+      ]
+    },
+    {
+      thinkerId: "epictetus",
+      keyWork: "Enquiridion",
+      paragraphs: [
+        "Epicteto desafia a própria arquitetura do problema. A questão não é moderar o prazer sensual — é libertar-se da dependência de qualquer resultado externo. O que perturba não é o excesso, mas o apego: a crença de que precisamos desta comida, desta relação, desta saúde para sermos felizes.",
+        "A temperança estoica não é moderação; é desapego. O sábio pode comer bem ou comer mal — o que não pode é sofrer porque comeu mal. A liberdade interior exige que o prazer e a dor sejam identificados como indiferentes para que a vontade permaneça soberana sobre qualquer circunstância.",
+        "Esse radicalismo tem consequências práticas: o estoico aprende a ser grato pelo que tem enquanto tem, sabendo que pode ser retirado sem que sua paz seja perturbada. Montaigne aproveitará o espírito mas recusará o ascetismo; Kant aceitará a ideia de governar as inclinações mas a fundará em bases completamente diferentes."
+      ],
+      quotes: [
+        {
+          text: "Não busques que as coisas que acontecem aconteçam como desejas; mas deseja que as coisas que acontecem sejam como são, e terás uma vida tranquila.",
+          source: "Enquiridion, Capítulo 8"
+        }
+      ]
+    },
+    {
+      thinkerId: "aquinas",
+      keyWork: "Suma Teológica",
+      paragraphs: [
+        "Aquino parte de uma premissa que distingue sua posição da cristã mais pessimista: os apetites corporais não são maus em si. Foram criados por Deus para fins legítimos — o prazer da comida sustenta a vida; o prazer sexual serve à procriação. A temperança não é a negação desses prazeres, mas sua ordenação à natureza e à razão.",
+        "A virtude da temperança tem duas dimensões: a moderação dos prazeres que excedem o necessário, e a disposição pela qual o excessivo se torna intrinsecamente repugnante ao temperante. O homem virtuoso não apenas resiste ao excesso — encontra-o genuinamente feio e inconveniente.",
+        "Aquino preserva o corpo como parte integrante da pessoa humana, recusando o dualismo que o degradaria. Montaigne ampliará essa reabilitação do corporal até o ponto em que a temperança se torna arte de desfrutar, não arte de renunciar."
+      ],
+      quotes: [
+        {
+          text: "A temperança é a virtude que modera o movimento do apetite sensitivo em relação aos prazeres do tato, de acordo com a razão e a ordem da natureza.",
+          source: "Suma Teológica, II-II, q. 141"
+        }
+      ]
+    },
+    {
+      thinkerId: "montaigne",
+      keyWork: "Ensaios",
+      paragraphs: [
+        "Para Montaigne, a intemperança é a praga do prazer — e a temperança não é seu chicote, mas seu tempero. O homem que come com moderação e atenção retira mais prazer da refeição do que o glutão que devora sem presença. A temperança como arte de viver bem é mais prazeirosa do que a intemperança.",
+        "O asceta e o libertino erram do mesmo modo, porque ambos estão distraídos da experiência presente — um por medo de gozar, o outro pela compulsão de gozar mais. O temperante é quem está completamente presente no prazer que tem, sem antecipar o próximo nem lamentar o que passou.",
+        "A sabedoria de Montaigne aqui é a do suficiente — a noção de que há um ponto em que o prazer é perfeito e que ultrapassá-lo o degrada. Esse ponto é diferente para cada um, em cada circunstância. Por isso a temperança é uma arte, não uma regra — julgamento, não código."
+      ],
+      quotes: [
+        {
+          text: "A intemperança é a praga do prazer; e a temperança não é seu flagelo, mas seu tempero.",
+          source: "Ensaios, III.13 (Da Experiência)"
+        }
+      ]
+    },
+    {
+      thinkerId: "kant",
+      keyWork: "Crítica da Razão Prática",
+      paragraphs: [
+        "Kant rejeita a temperança como virtude prudencial — a moderação pelos benefícios que traz — e a refunda como dever da razão. Governar as inclinações tem valor moral não porque nos torne mais felizes ou mais saudáveis, mas porque a lei moral exige que sejamos autores racionais de nossa própria conduta, não objetos passivos das inclinações.",
+        "A diferença entre Kant e Aristóteles aqui é de fundamento, não apenas de vocabulário. Aristóteles valoriza a temperança porque produz o florescimento humano — um fim natural. Kant valora o autocontrole porque é expressão da autonomia racional — independente de qualquer fim empírico determinado.",
+        "Para Kant, um ato de moderação praticado por medo das consequências ou por busca de prazer maior não tem valor moral, mesmo que seja externamente idêntico ao ato do genuinamente temperante. O que conta é o motivo: obediência ao dever, não cálculo de resultados. Mill verá nessa exigência uma abstração que ignora como os seres humanos realmente funcionam."
+      ],
+      quotes: [
+        {
+          text: "O controle das inclinações é um dever da razão prática; não porque traga benefícios, mas porque a autonomia racional o exige.",
+          source: "Crítica da Razão Prática"
+        }
+      ]
+    },
+    {
+      thinkerId: "mill",
+      keyWork: "Sobre a Liberdade",
+      paragraphs: [
+        "Mill desloca o debate da psicologia do indivíduo para os limites do Estado. A temperança diz respeito apenas a si mesmo — e enquanto o indivíduo ferir apenas a si mesmo com sua intemperança, o Estado não tem direito de intervir. A única liberdade que merece o nome é a de buscar o próprio bem à própria maneira.",
+        "O argumento milleano não é que a intemperança seja boa — é que coagi-la legalmente produz males piores do que ela mesma. A pressão da opinião pública já é um instrumento de conformidade poderoso o suficiente; acrescentar coerção legal à pressão social é sufocar a individualidade que torna a civilização criativa.",
+        "A posição de Mill tem uma tensão que ele não resolve: ele acredita que prazeres superiores do intelecto são melhores que os inferiores dos sentidos, mas recusa que o Estado imponha essa hierarquia. Como convencer alguém a preferir prazeres mais altos, sem nunca coagi-lo? Pela educação e pelo exemplo — única resposta compatível com sua ética liberal."
+      ],
+      quotes: [
+        {
+          text: "A única liberdade que merece o nome é a de perseguir o nosso próprio bem à nossa própria maneira, desde que não tentemos privar outros do deles.",
+          source: "Sobre a Liberdade, Capítulo I"
+        }
+      ]
+    },
+    {
+      thinkerId: "freud",
+      keyWork: "O Mal-Estar na Civilização",
+      paragraphs: [
+        "Freud encerra o debate com o diagnóstico mais sombrio: a temperança que a civilização exige foi imposta ao sujeito de fora para dentro, pela família e pela cultura, e internalizou-se como Superego — instância psíquica que proíbe, pune e vigia sem cessar. O custo não é a virtude, mas a neurose.",
+        "A moderação generalizada que permite a vida em comum foi adquirida ao preço de uma renúncia pulsional maciça que a energia psíquica não simplesmente aceita — ela se transforma em angústia, agressividade voltada contra o próprio ego, ou sintoma. A pergunta que Platão formulou — quem governa quem dentro de nós? — recebe a resposta freudiana: o Superego governa, e o custo de seu governo é alto.",
+        "A conversa sobre temperança fica em aberto: é possível educar o desejo sem destruir a alegria? Platão acreditava que sim, desde que a educação começasse cedo e bem. Freud duvida não porque o projeto seja errado, mas porque o preço que cobra de todos — mesmo quando funciona — é maior do que qualquer ética anterior quis admitir."
+      ],
+      quotes: [
+        {
+          text: "A questão é se é possível, e em que medida, escapar ao fardo das exigências culturais.",
+          source: "O Mal-Estar na Civilização, Capítulo V"
+        }
+      ]
+    }
+  ]
+};
+
+const costumeEConvencaoEssay: IdeaEssay = {
+  slug: "costume-e-convencao",
+  title: "A conversa sobre o costume e a convenção",
+  introduction:
+    "Dois guerreiros se encontram no campo de batalha. Um carrega seus mortos; o outro os come. Heródoto observa que cada um considera a prática do outro abominável. A cena condensa a questão: existe alguma ordem moral que transcende os costumes particulares, ou o costume é a única moral disponível? A conversa dura vinte e cinco séculos sem resolução.",
+  sourceNote:
+    "Texto em português preparado a partir das fontes primárias do corpus Great Books, com citações verificadas.",
+  sections: [
+    {
+      thinkerId: "herodotus",
+      keyWork: "As Histórias",
+      paragraphs: [
+        "A intuição de Heródoto no Livro III é inaugural: se você oferecer a cada povo a chance de escolher os melhores costumes do mundo e depois de examinar todos cada povo preferirá os seus. O costume não é apenas prática herdada — é a lente pela qual o que é herdado parece natural, óbvio e inevitável.",
+        "Heródoto usa isso descritivamente, não como abdicação moral. Ele registra práticas egípcias, persas, citas e gregas com a mesma curiosidade, revelando que o que cada cultura chama de 'natural' é historicamente contingente. Essa suspensão do julgamento etnocêntrico é uma das fundações do pensamento antropológico moderno.",
+        "A pergunta que ele deixa em aberto — se a diversidade implica relativismo moral ou apenas pluralismo de práticas dentro de valores mais universais — dividirá todos os pensadores seguintes. Platão irá direto ao confronto com os que tiram dessa diversidade a conclusão de que a moral é mera convenção dos mais fortes."
+      ],
+      quotes: [
+        {
+          text: "Se se oferecesse a todos os homens a escolha de todos os costumes do mundo para que selecionassem os melhores, cada nação, depois de examinar todos eles, acabaria escolhendo os seus próprios.",
+          source: "As Histórias, III.38"
+        }
+      ]
+    },
+    {
+      thinkerId: "plato",
+      keyWork: "A República",
+      paragraphs: [
+        "Platão reage à tese sofística de que o justo é simplesmente o que a cidade decide — uma convenção em favor dos mais fortes. Contra isso, a República propõe que existe uma Justiça atrelada à ordem da alma e do universo, que serve de padrão pelo qual julgamos os costumes falhos.",
+        "O argumento não nega que os homens discordem sobre o justo — evidentemente discordam. Mas dissenso não implica relativismo: os homens também discordam sobre medicina, e isso não prova que não exista saúde objetiva. A Ideia de Justiça existe independente dos costumes que a encarnam ou traem.",
+        "Essa posição tem um custo político: quem conhece a Justiça verdadeira tem o direito de reformar os costumes que dela se afastam. O filósofo-rei é o corretor dos costumes pela razão pura. Aristóteles aceitará a distinção natural-convencional mas a tornará menos absoluta e mais sensível ao papel insubstituível da tradição."
+      ],
+      quotes: [
+        {
+          text: "A justiça é, não é assim, fazer o que é seu e não se meter no que é alheio?",
+          source: "A República, IV"
+        }
+      ]
+    },
+    {
+      thinkerId: "aristotle",
+      keyWork: "Ética a Nicômaco",
+      paragraphs: [
+        "Aristóteles estabelece uma distinção cuidadosa entre justo natural — como o fogo, que queima aqui e na Pérsia — e justo convencional, que poderia ser diferente do que é mas que, uma vez estabelecido em lei ou costume, obriga. A lei positiva não é arbitrária, mas tampouco é necessária: requer deliberação e convenção para existir.",
+        "O costume preenche o espaço entre o princípio geral da lei natural e as circunstâncias particulares sempre variáveis. A lei diz que o homicídio é ilícito; o costume e a convenção determinam como se organiza o julgamento, como se distribui a punição, quem tem o direito de acusar. Sem convenção, o princípio fica suspenso no abstrato.",
+        "Aristóteles salva tanto o padrão natural quanto a necessidade da convenção. Essa dupla âncora — recusando o relativismo sofístico e o racionalismo platônico que despreza o histórico — será o modelo que Aquino ampliará ao adicionar a lei divina como terceiro nível."
+      ],
+      quotes: [
+        {
+          text: "Da justiça política, uma parte é natural e outra parte é legal. Natural é aquela que tem em todo lugar a mesma força e não depende de aprovarmos ou não.",
+          source: "Ética a Nicômaco, V.7"
+        }
+      ]
+    },
+    {
+      thinkerId: "augustine",
+      keyWork: "Confissões",
+      paragraphs: [
+        "Agostinho aceita a diversidade dos costumes humanos como fato — mas acrescenta que atrás da história variável existe uma lei imutável e eterna que é a vontade de Deus. Os costumes mais bárbaros não provam o relativismo; provam a corrupção do homem pecador ao longo de caminhos diferentes.",
+        "O que Heródoto lera como objeto de curiosidade antropológica, Agostinho lê como evidência da Queda. A diversidade de práticas não é sinal de riqueza cultural — é sinal de que a humanidade se afastou do padrão divino. O crítico dos costumes não é o filósofo com sua Ideia, mas o crente com sua lei revelada.",
+        "A lei divina imutável que Agostinho invoca tem mais autoridade que a Ideia platônica — é pessoal, histórica e pronunciada por um legislador com nome próprio. Aquino tentará integrar lei natural e lei divina de modo que a razão, mesmo sem revelação, possa conhecer ao menos os princípios gerais."
+      ],
+      quotes: [
+        {
+          text: "Os costumes dos homens são diversos, mas ainda assim uma só lei, eterna, abarca todos os povos; e essa lei é chamada de vontade de Deus.",
+          source: "Confissões, III"
+        }
+      ]
+    },
+    {
+      thinkerId: "aquinas",
+      keyWork: "Suma Teológica",
+      paragraphs: [
+        "Aquino eleva o costume ao estatuto de lei interpretada: quando uma prática é repetida sistematicamente por uma comunidade, ela revela o julgamento deliberado da razão coletiva sobre o que é útil e justo naquela situação. O costume não é oposição à lei — é sua expressão mais viva e adaptada.",
+        "A sistematização tomista é precisa: o costume pode criar lei nova, abolir lei existente e determinar como uma lei geral deve ser aplicada em casos particulares. O que parecia mero hábito coletivo torna-se, nessa leitura, um processo racional de adaptação do princípio à circunstância histórica.",
+        "Essa dignificação do costume tem um limite: costumes que contradizem a lei natural ou a lei divina não podem, por acúmulo de uso, tornar-se legítimos. Montaigne verá nessa linha um problema — quem a traça, e com que autoridade, é sempre uma questão de poder além da lógica."
+      ],
+      quotes: [
+        {
+          text: "Quando uma coisa é feita repetidamente, parece que procede de um julgamento deliberado da razão. Por isso o costume tem força de lei, e abole a lei, e é o intérprete da lei.",
+          source: "Suma Teológica, I-II, q. 97, a. 3"
+        }
+      ]
+    },
+    {
+      thinkerId: "montaigne",
+      keyWork: "Ensaios",
+      paragraphs: [
+        "Montaigne é o grande crítico do costume de dentro: ele mesmo é um filho de costumes, e por isso sabe melhor do que ninguém como eles operam. O costume é uma mestra violenta e traiçoeira — violenta porque impõe suas regras sem argumentar, traiçoeira porque nos faz confundir o habitual com o racional.",
+        "O ensaio sobre o costume reúne práticas que diferentes culturas consideram naturais e necessárias — e que são completamente opostas entre si. Montaigne usa essa diversidade não para concluir que tudo é relativo, mas para tornar-nos mais humildes diante dos nossos próprios costumes: o que me parece evidente pode parecer absurdo a outro, e ambos estamos dentro de nossa moldura sem enxergar a moldura.",
+        "A saída de Montaigne não é o relativismo cético — é a modéstia reflexiva. Questionar os próprios costumes não é abandonar toda norma, mas aprender a distinguir o que veio do hábito do que vem da razão. Hobbes tirará desse ceticismo conclusões completamente diferentes."
+      ],
+      quotes: [
+        {
+          text: "Pois, com efeito, o costume é uma mestra violenta e traiçoeira.",
+          source: "Ensaios, I.22 (Do Costume)"
+        }
+      ]
+    },
+    {
+      thinkerId: "hobbes",
+      keyWork: "Leviatã",
+      paragraphs: [
+        "Hobbes radicaliza Montaigne: não existe justo e injusto antes do Estado. Toda noção de ordem social é convencional — nasce do medo mútuo e do contrato que cria o soberano. O costume tem força de lei apenas na medida em que o poder político o sustenta e o faz cumprir.",
+        "Isso não é niilismo: Hobbes não diz que qualquer convenção é igualmente boa. Diz que sem convenção imposta por um poder real, os costumes são instáveis — qualquer grupo pode invocar 'os velhos costumes' para justificar desobediência. A paz social exige que o soberano tenha autoridade para decidir quais costumes prevalecem.",
+        "A visão hobbesiana é politicamente conservadora no sentido mais profundo: o costume que existe e que é sustentado pelo poder é preferível ao costume ideal que ninguém pode impor. Hume herdará o empirismo sem o mecanismo do medo como fundamento único."
+      ],
+      quotes: [
+        {
+          text: "As noções de certo e errado, justiça e injustiça, não têm lugar aí. São qualidades que se referem aos homens em sociedade, não em solidão.",
+          source: "Leviatã, XIII"
+        }
+      ]
+    },
+    {
+      thinkerId: "hume",
+      keyWork: "Investigação sobre o Entendimento Humano",
+      paragraphs: [
+        "Hume aprofunda a análise do costume para além da política: o costume molda não apenas os julgamentos morais, mas os próprios processos cognitivos. A crença de que o passado se repetirá no futuro — base de toda expectativa prática e científica — é um costume mental, não uma dedução lógica.",
+        "Para Hume, isso não é um defeito da razão humana — é simplesmente a sua estrutura. Somos criaturas de hábito antes de sermos criaturas de razão. O filósofo que pretende deduzir a moral de princípios puros está desconhecendo como a mente humana realmente opera.",
+        "A conclusão é pragmática: já que o costume é inevitável e irredutível, a questão é quais costumes cultivar, não como escapar deles. Rousseau vai na direção oposta: os costumes modernos são a doença, e a questão é como substituí-los por um contrato genuíno fundado na vontade geral."
+      ],
+      quotes: [
+        {
+          text: "Toda crença em matéria de fato ou existência real deriva meramente de algum objeto presente à memória ou aos sentidos, e de uma conjunção costumeira entre esse e algum outro objeto.",
+          source: "Investigação sobre o Entendimento Humano, Seção V"
+        }
+      ]
+    },
+    {
+      thinkerId: "rousseau",
+      keyWork: "Discurso sobre a Desigualdade",
+      paragraphs: [
+        "Rousseau inverte o juízo favorável ao costume civilizado. As convenções da sociedade moderna não são o amadurecimento da razão coletiva — são o acúmulo de desigualdades institucionalizadas, protegidas pela aparência de legalidade e necessidade. O homem que primeiro cercou um pedaço de terra e encontrou pessoas crédulas o suficiente para acreditar que lhe pertencia foi o fundador real da sociedade — e de toda a miséria.",
+        "O homem natural de Rousseau não é o guerreiro hobbesiano de todos contra todos. É uma criatura simples, com necessidades limitadas, que a civilização corrompeu ao criar dependências artificiais, vaidades sociais e desigualdades que nenhum costume natural justifica.",
+        "A tensão rousseauniana é permanente: não podemos voltar ao estado natural, e as convenções existentes são injustas. A resposta — o contrato fundado na vontade geral — é uma convenção nova que supostamente desfaz a injustiça das antigas. Hegel verá nessa proposta uma ilusão abstrata que ignora o desenvolvimento histórico real da vida ética."
+      ],
+      quotes: [
+        {
+          text: "O primeiro homem que, tendo cercado um pedaço de terra, pensou em dizer 'isto é meu' e encontrou pessoas simples o suficiente para acreditar nele, foi o verdadeiro fundador da sociedade civil.",
+          source: "Discurso sobre a Desigualdade, Parte II"
+        }
+      ]
+    },
+    {
+      thinkerId: "hegel",
+      keyWork: "Filosofia do Direito",
+      paragraphs: [
+        "Para Hegel, a Vida Ética (Sittlichkeit) é o sistema de costumes e instituições de uma comunidade historicamente desenvolvida — e é o nível mais concreto da liberdade. Não a liberdade abstrata do indivíduo que inventa normas do nada, mas a liberdade encarnada nas formas de vida que uma nação amadureceu ao longo do tempo.",
+        "Numa comunidade ética, saber o que se deve fazer não requer filosofia especulativa: basta seguir as regras explícitas da própria situação. O costume não é obstáculo ao espírito — é sua realização mais imediata. O que Montaigne chamou de tirania do costume, Hegel chama de eticidade consolidada e fecunda.",
+        "Hegel não ignora a possibilidade de costumes corrompidos: há momentos históricos em que o costume existente conflita com o estágio mais avançado do Espírito, e a filosofia serve para articular essa contradição. Mas o movimento é sempre de dentro — a razão histórica reformando a tradição, não abolindo-a de fora por decreto racional. Mill verá no hábito coletivo, ao contrário, o inimigo por excelência do progresso."
+      ],
+      quotes: [
+        {
+          text: "Numa comunidade ética, é fácil dizer o que o homem deve fazer, quais são os deveres que deve cumprir para ser virtuoso. Ele simplesmente tem de seguir as regras conhecidas e explícitas de sua própria situação.",
+          source: "Filosofia do Direito, §150"
+        }
+      ]
+    },
+    {
+      thinkerId: "mill",
+      keyWork: "Sobre a Liberdade",
+      paragraphs: [
+        "Mill nomeia o adversário: o despotismo do costume. Em toda civilização estabelecida, o hábito coletivo tende a se tornar o padrão que persegue qualquer desvio. Isso pode manter a ordem, mas mata exatamente o que torna uma sociedade capaz de progredir — a originalidade, a energia peculiar, a capacidade de questionar o óbvio.",
+        "O que Mill chama de despotismo não é necessariamente violento: é a pressão silenciosa da aprovação e desaprovação social. Ninguém precisa proibir legalmente o excêntrico — basta ignorá-lo, ridicularizá-lo, excluí-lo das recompensas sociais. O efeito é o mesmo: a conformidade se impõe sem deixar marcas visíveis de coerção.",
+        "Para Mill, o antídoto não é a anomia, mas a proteção ativa da individualidade. Sociedades que cultivam pessoas originais e dissidentes têm mais recursos para enfrentar problemas novos do que aquelas que punem o desvio. Freud será profundamente pessimista quanto à possibilidade real de libertar-se das convenções que nos constituem."
+      ],
+      quotes: [
+        {
+          text: "O despotismo do costume é em toda parte o obstáculo permanente ao avanço humano.",
+          source: "Sobre a Liberdade, Capítulo III"
+        }
+      ]
+    },
+    {
+      thinkerId: "freud",
+      keyWork: "O Mal-Estar na Civilização",
+      paragraphs: [
+        "Freud fecha o debate com seu diagnóstico mais sombrio: as convenções morais de uma cultura são a forma objetivada da repressão coletiva. O Superego do sujeito individual é o representante interno das exigências culturais — e como essas exigências foram impostas à criança antes que ela pudesse resistir, o Superego carrega em si a violência original que toda convenção social esconde.",
+        "O custo das convenções não é apenas a perda de certas satisfações — é a transformação das pulsões reprimidas em culpa, angústia e agressividade voltada contra o ego. A cultura exige renúncia; a renúncia não se dissolve — apenas muda de forma, tornando-se o mal-estar difuso que nenhuma organização social eliminou até hoje.",
+        "O paradoxo final: sem convenções, não há vida social possível. Com convenções, pagamos um preço em sofrimento que nenhuma filosofia anterior quis calcular completamente. Heródoto abriu a questão com a curiosidade do viajante; Freud a fecha com o diagnóstico do clínico. Entre os dois, a conversa sobre o que os homens devem uns aos outros ainda não encontrou um acordo permanente."
+      ],
+      quotes: [
+        {
+          text: "A civilização é construída sobre a renúncia ao instinto.",
+          source: "O Mal-Estar na Civilização, III-V"
+        }
+      ]
+    }
+  ]
+};
+
 const ideaEssays: Record<string, IdeaEssay> = {
   [justicaEssay.slug]: justicaEssay,
   [bemEMalEssay.slug]: bemEMalEssay,
@@ -2838,7 +3666,12 @@ const ideaEssays: Record<string, IdeaEssay> = {
   [punicaoEssay.slug]: punicaoEssay,
   [deverEssay.slug]: deverEssay,
   [emocaoEssay.slug]: emocaoEssay,
-  [democracyEssay.slug]: democracyEssay
+  [democracyEssay.slug]: democracyEssay,
+  [prazerEDorEssay.slug]: prazerEDorEssay,
+  [honraEssay.slug]: honraEssay,
+  [habitoEssay.slug]: habitoEssay,
+  [temperancaEssay.slug]: temperancaEssay,
+  [costumeEConvencaoEssay.slug]: costumeEConvencaoEssay
 };
 
 export function getIdeaEssay(slug: string) {
