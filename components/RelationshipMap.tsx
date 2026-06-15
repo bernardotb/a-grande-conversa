@@ -234,6 +234,7 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
   const [inspectedLink, setInspectedLink] = useState<string | null>(null);
   const [graphMode, setGraphMode] = useState<GraphMode>("overview");
   const [zoomLevel, setZoomLevel] = useState(1);
+  const [showAllConnections, setShowAllConnections] = useState(false);
 
   // Concept pseudo-nodes for "bridge_concepts" mode
   const conceptPseudoNodes = useMemo<KnowledgeGraphNode[]>(
@@ -477,6 +478,7 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
     if (domain !== "todos" && node.domain !== domain) setDomain("todos");
     setSelectedSlug(slug);
     setInspectedLink(null);
+    setShowAllConnections(false);
     setQuery("");
   }
 
@@ -788,27 +790,25 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
             </button>
           </div>
 
-          <div className="pointer-events-none absolute bottom-3 left-4 flex flex-wrap gap-x-4 gap-y-1 text-[0.68rem] text-[var(--secondary)]">
+          <div className="pointer-events-none absolute bottom-3 left-4 rounded-sm border border-[var(--border)] bg-[var(--surface)]/90 px-3 py-2 text-[0.62rem] leading-relaxed text-[var(--secondary)] backdrop-blur-sm">
             {graphMode === "bridge_concepts" ? (
-              <>
+              <div className="grid gap-1">
                 <span className="flex items-center gap-1.5">
-                  <span
-                    className="inline-block h-2.5 w-2.5 rotate-45"
-                    style={{ backgroundColor: domainColors[CONCEPT_DOMAIN] }}
-                  />
+                  <span className="inline-block h-2 w-2 rotate-45" style={{ backgroundColor: domainColors[CONCEPT_DOMAIN] }} />
                   conceito-ponte
                 </span>
                 <span className="flex items-center gap-1.5">
-                  <span className="inline-block h-2.5 w-2.5 rounded-full bg-[var(--secondary)]" />
+                  <span className="inline-block h-2 w-2 rounded-full bg-[var(--secondary)]" />
                   ideia
                 </span>
-                <span>linha tracejada = ligação por conceito</span>
-              </>
+                <span>- - -  ligação por conceito</span>
+              </div>
             ) : (
-              <>
-                <span>círculo maior = mais conexões</span>
-                <span>linha mais espessa = mais evidências compartilhadas</span>
-              </>
+              <div className="grid gap-1">
+                <span>○  tamanho = número de conexões</span>
+                <span>─  espessura = evidências compartilhadas</span>
+                <span>●  cor = domínio temático</span>
+              </div>
             )}
           </div>
         </div>
@@ -864,18 +864,20 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
             </>
           ) : selectedNode ? (
             <>
-              <p className="gc-kicker">{selectedNode.domainName}</p>
+              <span className="badge-domain">{selectedNode.domainName}</span>
               <h2 className="mt-3 font-serif text-3xl">{selectedNode.name}</h2>
-              <p className="mt-3 text-sm leading-6 text-[var(--secondary)]">
-                {selectedNode.question}
-              </p>
-              <div className="mt-4 flex gap-4 border-y py-3 text-xs text-[var(--secondary)]">
-                <span>{selectedNode.thinkerCount} pensadores</span>
-                <span>{selectedNode.bookCount} obras</span>
+              {selectedNode.question && (
+                <p className="mt-3 text-sm leading-6 text-[var(--secondary)]">
+                  {selectedNode.question}
+                </p>
+              )}
+              <div className="mt-4 flex flex-wrap gap-3 border-y py-3">
+                <span className="stat-pill">{selectedNode.thinkerCount} pensadores</span>
+                <span className="stat-pill">{selectedNode.bookCount} obras</span>
               </div>
               <Link
                 href={`/ideias/${selectedNode.slug}`}
-                className="mt-4 inline-block text-sm font-semibold text-[var(--accent)]"
+                className="mt-4 inline-block text-sm font-semibold text-[var(--color-accent)]"
               >
                 Abrir página da ideia →
               </Link>
@@ -883,8 +885,8 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
               <h3 className="mt-8 text-xs font-semibold uppercase tracking-[0.16em] text-[var(--primary)]">
                 Conexões mais fortes
               </h3>
-              <div className="mt-3 max-h-56 space-y-1 overflow-y-auto pr-1">
-                {selectedConnections.map((connection) => {
+              <div className="mt-3 space-y-1">
+                {(showAllConnections ? selectedConnections : selectedConnections.slice(0, 10)).map((connection) => {
                   const neighborSlug = otherEnd(connection, selectedNode.slug);
                   const neighbor = nodeBySlug.get(neighborSlug);
                   const isInspected =
@@ -927,6 +929,17 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
                   );
                 })}
               </div>
+              {selectedConnections.length > 10 && (
+                <button
+                  type="button"
+                  onClick={() => setShowAllConnections((v) => !v)}
+                  className="mt-2 text-[0.68rem] uppercase tracking-[0.14em] text-[var(--color-accent)] hover:opacity-70 transition-opacity"
+                >
+                  {showAllConnections
+                    ? "Ver menos"
+                    : `Ver todas as ${selectedConnections.length} conexões`}
+                </button>
+              )}
 
               {evidenceLink &&
                 evidenceNode &&

@@ -9,34 +9,58 @@ export const metadata: Metadata = {
 
 export default function ReadingPlansPage() {
   return (
-    <>
-      <article className="gc-page pb-20 pt-12">
-        <header className="mb-16 max-w-2xl">
-          <h1 className="font-serif text-5xl leading-none">Planos de Leitura dos Grandes Livros</h1>
-          <p className="mt-3 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--secondary)]">
-            Caminhos guiados pelos Grandes Livros do Mundo Ocidental
-          </p>
-          <div className="gc-prose mt-9 grid gap-5">
+    <div className="min-h-screen pb-24 pt-12">
+      <div className="mx-auto max-w-4xl px-5 sm:px-8">
+        <header className="mb-14 max-w-2xl">
+          <p className="section-eyebrow">Percursos de leitura</p>
+          <h1 className="mt-3 font-serif text-5xl leading-none">
+            Planos de Leitura dos Grandes Livros
+          </h1>
+          <div className="gc-prose mt-6 grid gap-4">
             <p>
-              O mapa foi construído para a exploração livre, mas um primeiro leitor frequentemente
-              precisa de um caminho. Estes planos oferecem sequência, ritmo e uma razão para cada passagem.
+              O mapa foi construído para a exploração livre, mas um primeiro leitor
+              frequentemente precisa de um caminho. Estes planos oferecem sequência,
+              ritmo e uma razão para cada passagem.
             </p>
             <p>
-              Cada percurso organiza filosofia, literatura, teologia e ciência em uma única ordem de leitura.
+              Cada percurso organiza filosofia, literatura, teologia e ciência em
+              uma única ordem de leitura.
             </p>
           </div>
         </header>
-        <div className="grid gap-5">
+
+        <div className="grid gap-6">
           {referencePlans.map((plan) => (
-            <Link key={plan.slug} href={`/planos-de-leitura/${plan.slug}`} className="gc-card block p-7 transition hover:border-[var(--accent)]">
-              <p className="text-xs uppercase tracking-[0.17em] text-[var(--faint)]">{plan.workCount} obras</p>
-              <h2 className="mt-3 font-serif text-3xl">{plan.title}</h2>
-              <p className="mt-3 font-serif text-lg italic leading-7 text-[var(--secondary)]">{plan.description}</p>
-              <p className="mt-7 text-sm text-[var(--accent)]">Começar o plano →</p>
+            <Link
+              key={plan.slug}
+              href={`/planos-de-leitura/${plan.slug}`}
+              className="card-editorial group block p-8"
+            >
+              <div className="flex items-start justify-between gap-4">
+                <div className="flex-1">
+                  <div className="flex flex-wrap items-center gap-3">
+                    <span className="stat-pill">{plan.workCount} obras</span>
+                  </div>
+                  <h2 className="mt-4 font-serif text-3xl leading-tight text-[var(--primary)]">
+                    {plan.title}
+                  </h2>
+                  {plan.subtitle && (
+                    <p className="mt-1 font-sans text-sm text-[var(--secondary)]">
+                      {plan.subtitle}
+                    </p>
+                  )}
+                  <p className="mt-4 font-serif text-lg italic leading-7 text-[var(--secondary)]">
+                    {plan.description}
+                  </p>
+                </div>
+              </div>
+              <p className="mt-8 text-sm text-[var(--color-accent)]">
+                Começar o plano →
+              </p>
             </Link>
           ))}
         </div>
-      </article>
-    </>
+      </div>
+    </div>
   );
 }

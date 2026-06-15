@@ -24,29 +24,34 @@ const domainGroups = Array.from(
 export default function HomePage() {
   return (
     <>
-      <section className="flex min-h-screen items-center justify-center px-6 py-20 text-center">
+      <section className="flex min-h-[calc(100vh-5rem)] items-center justify-center px-6 py-16 text-center">
         <div className="gc-fade-up max-w-3xl">
-          <p className="text-[0.68rem] font-semibold uppercase tracking-[0.34em] text-[var(--secondary)]">
-            Explore os Grandes Livros do Mundo Ocidental
-          </p>
-          <h1 className="mt-10 font-serif text-[clamp(4rem,10vw,7.5rem)] font-light italic leading-[0.78] tracking-[-0.045em]">
-            A Grande
-            <span className="mt-3 block">Conversa</span>
+          <p className="section-eyebrow">Explore os Grandes Livros do Mundo Ocidental</p>
+          <h1 className="mt-10 font-serif text-[clamp(3.5rem,9vw,7rem)] font-light italic leading-[0.82] tracking-[-0.04em]">
+            Acompanhe uma ideia
+            <span className="mt-2 block text-[var(--accent)]">através de 2.500 anos</span>
+            <span className="mt-2 block">de pensamento.</span>
           </h1>
-          <div className="gc-rule mx-auto mt-12" />
-          <p className="mt-8 font-serif text-xl italic text-[var(--secondary)] sm:text-2xl">
-            Siga uma ideia através de 2.500 anos de pensamento ocidental.
+          <div className="gc-rule mx-auto mt-10" />
+          <p className="mx-auto mt-8 max-w-2xl font-serif text-lg leading-8 italic text-[var(--secondary)] sm:text-xl">
+            Explore como Justiça, Liberdade, Verdade, Alma, Deus, Estado e outras grandes
+            ideias foram discutidas por autores de Homero a Freud.
           </p>
-          <p className="mx-auto mt-7 max-w-xl text-sm leading-6 text-[var(--faint)]">
-            Uma ferramenta interativa baseada no <em>Syntopicon</em>, de Adler e Van Doren,
-            com autores, obras e percursos de leitura em português.
-          </p>
-          <p className="mt-8 font-mono text-xs tracking-[0.12em] text-[var(--faint)]">
-            {syntopiconIdeas.length} ideias <span className="px-2">·</span> {thoughtCount.toLocaleString("pt-BR")}+ pensamentos
-          </p>
-          <Link href="#mapa" className="mt-16 inline-flex flex-col items-center gap-3 text-[0.65rem] font-semibold uppercase tracking-[0.3em] text-[var(--accent)]">
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
+            <Link href="/ideias" className="btn-primary">
+              Começar por uma ideia
+            </Link>
+            <Link href="/mapa-intelectual" className="btn-secondary">
+              Ver o mapa intelectual
+            </Link>
+          </div>
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
+            <span className="stat-pill">{syntopiconIdeas.length} grandes ideias</span>
+            <span className="stat-pill">{thoughtCount.toLocaleString("pt-BR")}+ posições de pensadores</span>
+          </div>
+          <Link href="#indice" className="mt-12 inline-flex flex-col items-center gap-2 text-[0.65rem] font-semibold uppercase tracking-[0.3em] text-[var(--faint)] hover:text-[var(--accent)] transition-colors">
             Explorar
-            <span className="text-lg">⌄</span>
+            <span className="text-base">⌄</span>
           </Link>
         </div>
       </section>
