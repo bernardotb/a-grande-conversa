@@ -29,7 +29,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "Justiça é harmonia: cada parte da alma e da cidade fazendo o seu devido trabalho.",
         "respondsTo": [
@@ -131,7 +131,7 @@
       "6. Tomás de Aquino, Summa Theologica II-II, Questões 57–61",
       "7. Hobbes, Leviatã, Parte I Capítulos 14–15",
       "8. Hume, Tratado da Natureza Humana Livro III, Parte II; Investigação sobre os Princípios Morais, Seções III-IV",
-      "9. Kant, Fundamentos da Metafísica da Moral; Metafísica da Moral, Parte I",
+      "9. Kant, Fundamentação da Metafísica dos Costumes; Metafísica dos Costumes, Parte I",
       "10. Mill, Utilitarismo, Capítulo V",
       "11. Marx, Crítica do Programa de Gotha; Capital, Volume I, Capítulo 10"
     ],
@@ -149,7 +149,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O Bem é a Forma mais elevada: fonte de todo ser, beleza e verdade.",
         "respondsTo": []
@@ -167,7 +167,7 @@
       {
         "id": "epictetus",
         "name": "Epicteto",
-        "dates": "50–135 d.C.",
+        "dates": "c. 50–135 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "O bem e o mal residem apenas em nossos próprios julgamentos, nunca em coisas externas.",
         "respondsTo": [
@@ -246,7 +246,7 @@
       },
       {
         "id": "dostoyevsky",
-        "name": "Fyodor Dostoyevsky",
+        "name": "Fiódor Dostoiévski",
         "dates": "1821–1881",
         "era": "Século XIX",
         "summary": "Se Deus não existe, então tudo é permitido; e se tudo for permitido, então a ideia do bem e do mal perdeu a base em que a tradição a colocou.",
@@ -265,7 +265,7 @@
         "respondsTo": [
           "John Stuart Mill",
           "Immanuel Kant",
-          "Fyodor Dostoyevsky"
+          "Fiódor Dostoiévski"
         ]
       }
     ],
@@ -277,7 +277,7 @@
       "5. Tomás de Aquino, Summa Theologica I-II, Questões 18–21, 71–74",
       "6. Shakespeare, Rei Lear; Otelo; Macbeth",
       "7. Hobbes, Leviatã, Parte I Capítulo 6",
-      "8. Kant, Fundamentos da Metafísica da Moral, Seção I; Religião apenas dentro dos limites da razão",
+      "8. Kant, Fundamentação da Metafísica dos Costumes, Seção I; Religião apenas dentro dos limites da razão",
       "9. Mill, Utilitarismo, Capítulos II, IV",
       "10. Dostoiévski, Os Irmãos Karamázov; Crime e Castigo; Notas do Subterrâneo",
       "11. Freud, a civilização e seus descontentes"
@@ -296,7 +296,7 @@
       {
         "id": "homer",
         "name": "Homero",
-        "dates": "~8th c. a.C.",
+        "dates": "c. século VIII a.C.",
         "era": "Grécia Antiga",
         "summary": "A virtude é a excelência heróica: a destreza marcial, a honra e a lealdade que tornam alguém digno de glória.",
         "respondsTo": []
@@ -304,7 +304,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A virtude é a harmonia da alma: sabedoria, coragem, temperança e justiça juntas.",
         "respondsTo": [
@@ -335,7 +335,7 @@
       {
         "id": "epictetus",
         "name": "Epicteto",
-        "dates": "50–135 d.C.",
+        "dates": "c. 50–135 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "A virtude é o uso correto das impressões: viver de acordo com a natureza e a razão.",
         "respondsTo": [
@@ -368,7 +368,7 @@
       },
       {
         "id": "machiavelli",
-        "name": "Niccolò Machiavelli",
+        "name": "Nicolau Maquiavel",
         "dates": "1469–1527",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "Virtù não é virtude cristã; é uma excelência política eficaz, adaptável à necessidade.",
@@ -385,7 +385,7 @@
         "summary": "Virtude é o que produz aprovação em um observador imparcial: uma qualidade agradável ou útil para si mesmo ou para os outros.",
         "respondsTo": [
           "Aristóteles",
-          "Niccolò Machiavelli"
+          "Nicolau Maquiavel"
         ]
       },
       {
@@ -422,7 +422,7 @@
       "7. Tomás de Aquino, Summa Theologica I-II, Questões 55–67",
       "8. Maquiavel, O Príncipe, Capítulos 15–19; Discursos sobre Tito Lívio, Livro III",
       "9. Hume, Um Tratado da Natureza Humana, Livro III, Parte III",
-      "10. Kant, Metafísica da Moral, Doutrina da Virtude",
+      "10. Kant, Metafísica dos Costumes, Doutrina da Virtude",
       "11. Mill, Utilitarismo, Capítulo IV"
     ],
     "sourceUrl": "https://greatconversationmap.com/ideas/virtue-and-vice"
@@ -439,7 +439,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A felicidade pertence à alma justa: a vida bem ordenada é a única que vale a pena ser vivida.",
         "respondsTo": []
@@ -468,7 +468,7 @@
       {
         "id": "plotinus",
         "name": "Plotino",
-        "dates": "204–270",
+        "dates": "c. 204–270 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "A felicidade do sábio pertence inteiramente ao eu contemplativo e não é afetada pelo que a fortuna pode receber ou dar.",
         "respondsTo": [
@@ -549,7 +549,7 @@
       },
       {
         "id": "dostoyevsky",
-        "name": "Fyodor Dostoyevsky",
+        "name": "Fiódor Dostoiévski",
         "dates": "1821–1881",
         "era": "Século XIX",
         "summary": "Os homens trocarão a sua liberdade pelo pão e pela suave felicidade do rebanho; quem lhes der isso será amado como nenhum deus jamais foi.",
@@ -568,7 +568,7 @@
         "respondsTo": [
           "Aristóteles",
           "John Stuart Mill",
-          "Fyodor Dostoyevsky"
+          "Fiódor Dostoiévski"
         ]
       }
     ],
@@ -581,7 +581,7 @@
       "6. Tomás de Aquino, Summa Theologica I–II, Questões 1–5",
       "7. Montaigne, Ensaios, \"Da Experiência\"; “Que Filosofar é Aprender a Morrer”",
       "8. Locke, Ensaio sobre a compreensão humana II.xxi",
-      "9. Kant, Fundamentos da Metafísica da Moral; Crítica da Razão Prática",
+      "9. Kant, Fundamentação da Metafísica dos Costumes; Crítica da Razão Prática",
       "10. Mill, Utilitarismo, Capítulos II, IV",
       "11. Dostoiévski, Os Irmãos Karamazov, Livro V, Capítulo 5 (\"O Grande Inquisidor\")",
       "12. Freud, a civilização e seus descontentes"
@@ -599,7 +599,7 @@
     "thinkers": [
       {
         "id": "euripides",
-        "name": "Euripides",
+        "name": "Eurípides",
         "dates": "480–406 a.C.",
         "era": "Grécia Antiga",
         "summary": "A paixão do amor é capaz de uma fixação total e exclusiva no ser amado, e quando essa fixação é traída, a mesma paixão transforma-se sem intervalo em ódio de igual intensidade, de modo que o amor e o seu oposto não são dois afetos diferentes, mas um e o mesmo, dirigidos de maneira diferente.",
@@ -608,11 +608,11 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "Eros é a ascensão da alma dos belos corpos ao próprio Belo.",
         "respondsTo": [
-          "Euripides"
+          "Eurípides"
         ]
       },
       {
@@ -754,7 +754,7 @@
       {
         "id": "homer",
         "name": "Homero",
-        "dates": "c. 8th century a.C.",
+        "dates": "c. século VIII a.C.",
         "era": "Grécia Antiga",
         "summary": "A coragem é a glória do guerreiro, testada na batalha e inseparável da busca pela honra.",
         "respondsTo": []
@@ -772,7 +772,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "Coragem é o conhecimento do que realmente vale a pena temer, e não a mera resistência na batalha.",
         "respondsTo": [
@@ -793,7 +793,7 @@
       },
       {
         "id": "plutarch",
-        "name": "Plutarch",
+        "name": "Plutarco",
         "dates": "c. 46–120 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "As Vidas mostram a coragem como uma virtude moldada por instituições, hábitos e pela companhia dos corajosos – diversas em formas, mas constantes na exigência de ousadia e julgamento.",
@@ -811,7 +811,7 @@
         "summary": "A verdadeira coragem exige distinguir o que está ao nosso alcance daquilo que não está, enfrentando o primeiro com cautela e o segundo com aceitação confiante.",
         "respondsTo": [
           "Aristóteles",
-          "Plutarch"
+          "Plutarco"
         ]
       },
       {
@@ -838,13 +838,13 @@
       },
       {
         "id": "machiavelli",
-        "name": "Niccolò Machiavelli",
+        "name": "Nicolau Maquiavel",
         "dates": "1469–1527",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "Audácia e força são virtudes não porque aperfeiçoam a alma, mas porque a fortuna favorece os ousados, e aqueles que desejam agir no mundo devem dominá-la.",
         "respondsTo": [
           "Aristóteles",
-          "Plutarch",
+          "Plutarco",
           "Tomás de Aquino"
         ]
       },
@@ -858,8 +858,8 @@
           "Platão",
           "Aristóteles",
           "Tomás de Aquino",
-          "Plutarch",
-          "Niccolò Machiavelli"
+          "Plutarco",
+          "Nicolau Maquiavel"
         ]
       },
       {
@@ -870,7 +870,7 @@
         "summary": "A coragem é uma paixão que nasce da confiança para superar obstáculos; no estado de natureza, é o motor do conflito.",
         "respondsTo": [
           "Aristóteles",
-          "Niccolò Machiavelli",
+          "Nicolau Maquiavel",
           "Michel de Montaigne"
         ]
       },
@@ -883,7 +883,7 @@
         "respondsTo": [
           "Aristóteles",
           "Thomas Hobbes",
-          "Niccolò Machiavelli"
+          "Nicolau Maquiavel"
         ]
       },
       {
@@ -906,7 +906,7 @@
         "summary": "A verdadeira coragem é a disposição do cidadão em sacrificar o interesse privado pela vida ética do Estado.",
         "respondsTo": [
           "Aristóteles",
-          "Niccolò Machiavelli",
+          "Nicolau Maquiavel",
           "Baruch Spinoza",
           "Immanuel Kant",
           "Thomas Hobbes"
@@ -914,7 +914,7 @@
       },
       {
         "id": "tolstoy",
-        "name": "Leo Tolstoy",
+        "name": "Liev Tolstói",
         "dates": "1828–1910",
         "era": "Século XIX",
         "summary": "A verdadeira coragem na guerra é confusa, acidental e muitas vezes invisível; as definições dos filósofos dissolvem-se sob o fogo.",
@@ -937,9 +937,9 @@
       "10. Montaigne, Ensaios, \"Do Medo\", \"Da Covardia\", \"Da Crueldade\"",
       "11. Hobbes, Leviatã, Parte I, Capítulos 6, 13-15",
       "12. Spinoza, Ética, Parte III, Proposições 51, 59; Parte IV, Proposições 69-73",
-      "13. Kant, Fundamentos da Metafísica da Moral",
+      "13. Kant, Fundamentação da Metafísica dos Costumes",
       "14. Hegel, Filosofia do Direito, Parte III",
-      "15. Tolstoi, Guerra e Paz, Livros V-VI, VIII-X"
+      "15. Tolstói, Guerra e Paz, Livros V-VI, VIII-X"
     ],
     "sourceUrl": "https://greatconversationmap.com/ideas/courage"
   },
@@ -955,7 +955,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O desejo é o esforço incansável da alma em direção ao que lhe falta; eros é a força que impulsiona a ascensão do apetite corporal à visão do Bem.",
         "respondsTo": []
@@ -1091,7 +1091,7 @@
       "6. Dante, Divina Comédia, Purgatório XVII-XVIII, Paraíso I, XXXIII",
       "7. Spinoza, Ética, Partes III-IV",
       "8. Hobbes, Leviatã, Parte I, Capítulos 6, 11",
-      "9. Kant, Crítica da Razão Prática; Fundamentos da Metafísica da Moral",
+      "9. Kant, Crítica da Razão Prática; Fundamentação da Metafísica dos Costumes",
       "10. Melville, Moby-Dick, Capítulos 36, 41, 44, 119, 132",
       "11. William James, Os Princípios da Psicologia, Capítulos XXV-XXVI",
       "12. Freud, Civilização e seus descontentes; O Ego e o Id"
@@ -1118,7 +1118,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O castigo é remédio para a alma: o malfeitor que escapa fica mais doente do que aquele que se submete.",
         "respondsTo": [
@@ -1237,7 +1237,7 @@
       "6. Hobbes, Leviatã, Parte II, Capítulos 28, 30",
       "7. Locke, Segundo Tratado de Governo, Capítulos II, IX",
       "8. Montesquieu, O Espírito das Leis, Livros VI, XII",
-      "9. Kant, Metafísica da Moral, Parte I, \"A Ciência do Direito\"",
+      "9. Kant, Metafísica dos Costumes, Parte I, \"A Ciência do Direito\"",
       "10. Hegel, Filosofia do Direito, Parte I",
       "11. Mill, Utilitarismo, Capítulo V; Na liberdade"
     ],
@@ -1263,7 +1263,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A justiça como harmonia interna cria dever; o justo age corretamente porque a justiça é essencial à saúde da alma.",
         "respondsTo": [
@@ -1294,7 +1294,7 @@
       {
         "id": "epictetus",
         "name": "Epicteto",
-        "dates": "50–135 d.C.",
+        "dates": "c. 50–135 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "O dever é apegar-se ao princípio dominante da razão; o estóico cumpre as obrigações de sua posição sem perturbações.",
         "respondsTo": [
@@ -1388,7 +1388,7 @@
       "7. Tomás de Aquino, Summa Theologica I-II, Q. 94; II-II, Q. 58",
       "8. Hobbes, Leviatã Partes I – II",
       "9. Locke, Um Ensaio sobre a Compreensão Humana, Livro II, cap. 28",
-      "10. Kant, Fundamentos da Metafísica da Moral; Crítica da Razão Prática",
+      "10. Kant, Fundamentação da Metafísica dos Costumes; Crítica da Razão Prática",
       "11. Hegel, Filosofia do Direito §§133-156",
       "12. Mill, Utilitarismo cap. 5"
     ],
@@ -1405,7 +1405,7 @@
     "thinkers": [
       {
         "id": "euripides",
-        "name": "Euripides",
+        "name": "Eurípides",
         "dates": "480–406 a.C.",
         "era": "Grécia Antiga",
         "summary": "As paixões podem levar um agente deliberado, em plena posse do seu julgamento sobre o que é melhor, a fazer o que sabe ser pior, de modo que a antiga imagem da razão a dirigir as emoções é substituída por outra em que a razão é ouvida por uma voz mais forte e actua como testemunha da sua própria derrota.",
@@ -1414,11 +1414,11 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "As paixões pertencem às partes inferiores da alma; a razão deve governar o espírito e o apetite para que a alma seja harmoniosa.",
         "respondsTo": [
-          "Euripides"
+          "Eurípides"
         ]
       },
       {
@@ -1556,7 +1556,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "Os prazeres puros da mente superam os prazeres corporais mistos; a boa vida combina prazer com sabedoria, mas a sabedoria tem precedência.",
         "respondsTo": []
@@ -1574,7 +1574,7 @@
       {
         "id": "lucretius",
         "name": "Lucrécio",
-        "dates": "99–55 a.C.",
+        "dates": "c. 99–55 a.C.",
         "era": "Período Helenístico e Romano",
         "summary": "A natureza exige apenas que a dor esteja ausente do corpo; os sábios buscam prazeres puros da mente em vez dos tormentos do desejo.",
         "respondsTo": [
@@ -1584,7 +1584,7 @@
       {
         "id": "epictetus",
         "name": "Epicteto",
-        "dates": "50–135 d.C.",
+        "dates": "c. 50–135 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "Prazer e dor são indiferentes; o que importa é o uso que fazemos das impressões, não as sensações em si.",
         "respondsTo": [
@@ -1683,7 +1683,7 @@
       {
         "id": "homer",
         "name": "Homero",
-        "dates": "fl. c. 750 a.C.",
+        "dates": "c. século VIII a.C.",
         "era": "Grécia Antiga",
         "summary": "A honra é o bem supremo do guerreiro: o reconhecimento público do valor que torna a vida significativa e a morte suportável.",
         "respondsTo": []
@@ -1711,7 +1711,7 @@
       },
       {
         "id": "plutarch",
-        "name": "Plutarch",
+        "name": "Plutarco",
         "dates": "c. 46–120 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "A biografia é uma instrução moral: as Vidas mostram como a honra e a virtude se acompanham e quando se separam.",
@@ -1729,7 +1729,7 @@
         "summary": "O amor dos romanos pela glória era uma verdadeira virtude – mas era orgulho, e o orgulho é a raiz de todos os pecados.",
         "respondsTo": [
           "Aristóteles",
-          "Plutarch"
+          "Plutarco"
         ]
       },
       {
@@ -1775,7 +1775,7 @@
           "Homero",
           "Tucídides",
           "Aristóteles",
-          "Plutarch",
+          "Plutarco",
           "Michel de Montaigne",
           "Miguel de Cervantes"
         ]
@@ -1794,7 +1794,7 @@
       },
       {
         "id": "tolstoy",
-        "name": "Leo Tolstoy",
+        "name": "Liev Tolstói",
         "dates": "1828–1910",
         "era": "Século XIX",
         "summary": "A honra pela qual os homens matam e morrem é uma ficção coletiva – e os romances mostram, em detalhes, quanto custa.",
@@ -1816,7 +1816,7 @@
       "8. Cervantes, Dom Quixote, Parte I, Capítulos 1–3, 21 (o código cavalheiresco como autoinvenção; honra sem o reconhecimento da comunidade)",
       "9. Shakespeare, Otelo, Atos III–V; Júlio César (a integridade de Bruto e a oração fúnebre de Antônio); Henrique IV; Coriolano",
       "10. Hobbes, Leviathan, Parte I, Capítulos 10, 15 (o valor de um homem; honra no estado de natureza)",
-      "11. Tolstoi, Guerra e Paz, Livros IX–XII; Epílogo (a campanha de Moscou; a transformação de Pierre; a vaidade da glória napoleônica)"
+      "11. Tolstói, Guerra e Paz, Livros IX–XII; Epílogo (a campanha de Moscou; a transformação de Pierre; a vaidade da glória napoleônica)"
     ],
     "sourceUrl": "https://greatconversationmap.com/ideas/honor"
   },
@@ -1832,7 +1832,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A formação inicial da alma por meio de ações repetidas estabelece a base sobre a qual a virtude ou o vício serão posteriormente construídos.",
         "respondsTo": []
@@ -1964,7 +1964,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A temperança é o acordo de toda a alma e da cidade de que a razão deve governar – não a destruição do desejo, mas a sua ordenação adequada.",
         "respondsTo": []
@@ -2084,7 +2084,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A justiça pertence à natureza, não à convenção; os sofistas que reduzem o direito ao costume estão errados quanto à alma.",
         "respondsTo": [
@@ -2115,7 +2115,7 @@
       {
         "id": "aquinas",
         "name": "Tomás de Aquino",
-        "dates": "c. 1225–1274",
+        "dates": "1225–1274",
         "era": "Patrística e Idade Média",
         "summary": "O costume tem força de lei, abole a lei e é o intérprete da lei; a conduta habitual de uma comunidade expressa a sua razão de forma pública.",
         "respondsTo": [
@@ -2248,7 +2248,7 @@
       {
         "id": "epictetus",
         "name": "Epicteto",
-        "dates": "50–135 d.C.",
+        "dates": "c. 50–135 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "A liberdade é interior: é a liberdade da perturbação, o domínio daquilo que depende de você.",
         "respondsTo": [
@@ -2366,7 +2366,7 @@
       },
       {
         "id": "dostoyevsky",
-        "name": "Fyodor Dostoyevsky",
+        "name": "Fiódor Dostoiévski",
         "dates": "1821–1881",
         "era": "Século XIX",
         "summary": "A liberdade é o fardo que Cristo colocou sobre o homem ao recusar fazer por ele o que ele poderia ter feito; e a grande tentação do mundo moderno é trocar esta liberdade pelo pão, pelo mistério e pela autoridade que livraria o homem dela.",
@@ -2388,7 +2388,7 @@
       "6. Hobbes, Leviatã, Parte II Capítulo 21",
       "7. Locke, Segundo Tratado do Governo Civil, Capítulo 4",
       "8. Rousseau, O Contrato Social, Livros I-II",
-      "9. Kant, Fundamentos da Metafísica da Moral; Crítica da Razão Prática",
+      "9. Kant, Fundamentação da Metafísica dos Costumes; Crítica da Razão Prática",
       "10. Hegel, Filosofia do Direito, Introdução; Filosofia da História, Introdução",
       "11. Moinho, Na Liberdade",
       "12. Marx, Sobre a Questão Judaica; Manuscritos Econômicos e Filosóficos de 1844",
@@ -2436,7 +2436,7 @@
       },
       {
         "id": "machiavelli",
-        "name": "Niccolò Machiavelli",
+        "name": "Nicolau Maquiavel",
         "dates": "1469–1527",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "A legitimidade é uma questão de poder efetivo. Os governantes devem aprender a “não ser bons”.",
@@ -2452,7 +2452,7 @@
         "era": "Renascimento e Primeira Modernidade",
         "summary": "O governo legítimo é a soberania absoluta, autorizada pelo consentimento dos governados.",
         "respondsTo": [
-          "Niccolò Machiavelli"
+          "Nicolau Maquiavel"
         ]
       },
       {
@@ -2544,7 +2544,7 @@
       "6. Locke, Segundo Tratado do Governo Civil, Capítulos 7–19",
       "7. Montesquieu, O Espírito das Leis, Livros II-VIII, XI",
       "8. Rousseau, O Contrato Social, Livros I-III",
-      "9. Kant, Metafísica da Moral, Parte II (Doutrina do Direito)",
+      "9. Kant, Metafísica dos Costumes, Parte II (Doutrina do Direito)",
       "10. Hegel, Filosofia do Direito, §257-320",
       "11. Mill, Considerações sobre o Governo Representativo",
       "12. Marx, O Dezoito Brumário de Luís Bonaparte; A Guerra Civil na França"
@@ -2571,7 +2571,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A boa lei é a razão livre de paixão: a regra da inteligência incorporada na política.",
         "respondsTo": [
@@ -2701,7 +2701,7 @@
       "7. Locke, Segundo Tratado do Governo Civil, Capítulo 11",
       "8. Montesquieu, O Espírito das Leis, Livros I, XI, XII, XXIX",
       "9. Rousseau, O Contrato Social, Livro II Capítulos 6–12",
-      "10. Kant, Metafísica da Moral, Doutrina do Direito",
+      "10. Kant, Metafísica dos Costumes, Doutrina do Direito",
       "11. Hegel, Filosofia do Direito, §211-218",
       "12. Marx, Crítica da Filosofia do Direito de Hegel; Sobre a questão judaica"
     ],
@@ -2719,7 +2719,7 @@
       {
         "id": "homer",
         "name": "Homero",
-        "dates": "~8th c. a.C.",
+        "dates": "c. século VIII a.C.",
         "era": "Grécia Antiga",
         "summary": "A guerra é terrível e gloriosa ao mesmo tempo. É simplesmente parte da condição humana.",
         "respondsTo": []
@@ -2727,7 +2727,7 @@
       {
         "id": "thucydides",
         "name": "Tucídides",
-        "dates": "~460–400 a.C.",
+        "dates": "c. 460–400 a.C.",
         "era": "Grécia Antiga",
         "summary": "A guerra é inevitável porque o poder, o medo e o interesse próprio governam as relações entre os Estados.",
         "respondsTo": [
@@ -2737,7 +2737,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A guerra tem origem na ganância, no luxo e no apetite: um sintoma de desordem política e moral.",
         "respondsTo": [
@@ -2792,7 +2792,7 @@
       },
       {
         "id": "machiavelli",
-        "name": "Niccolò Machiavelli",
+        "name": "Nicolau Maquiavel",
         "dates": "1469–1527",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "A guerra é a principal preocupação do príncipe. A questão não é justiça, mas sobrevivência.",
@@ -2809,7 +2809,7 @@
         "era": "Renascimento e Primeira Modernidade",
         "summary": "A guerra é a condição natural da humanidade sem governo.",
         "respondsTo": [
-          "Niccolò Machiavelli",
+          "Nicolau Maquiavel",
           "Tucídides",
           "Aristóteles"
         ]
@@ -2861,7 +2861,7 @@
       {
         "id": "federalists",
         "name": "Hamilton & Madison",
-        "dates": "1787–1788",
+        "dates": "Alexander Hamilton 1755–1804; James Madison 1751–1836",
         "era": "Iluminismo",
         "summary": "A união federal é a cura prática para a guerra entre estados.",
         "respondsTo": [
@@ -2883,14 +2883,14 @@
       },
       {
         "id": "tolstoy",
-        "name": "Leo Tolstoy",
+        "name": "Liev Tolstói",
         "dates": "1828–1910",
         "era": "Século XIX",
         "summary": "A guerra é caos, não estratégia. Os generais que afirmam controlá-lo estão iludidos.",
         "respondsTo": [
           "Homero",
           "G.W.F. Hegel",
-          "Niccolò Machiavelli"
+          "Nicolau Maquiavel"
         ]
       }
     ],
@@ -2910,7 +2910,7 @@
       "13. Kant, Paz Perpétua; Ideia de uma História Universal",
       "14. Hamilton e Madison, The Federalist Nos.",
       "15. Hegel, Filosofia do Direito, Parte III, parágrafos 324-340",
-      "16. Tolstoi, Guerra e Paz (completo, ou a sequência de Borodino e o Epílogo)"
+      "16. Tolstói, Guerra e Paz (completo, ou a sequência de Borodino e o Epílogo)"
     ],
     "sourceUrl": "https://greatconversationmap.com/ideas/war-and-peace"
   },
@@ -2934,7 +2934,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A democracia é liberdade sem restrições e o seu fim natural é a tirania.",
         "respondsTo": [
@@ -3018,7 +3018,7 @@
       {
         "id": "federalists",
         "name": "Hamilton & Madison",
-        "dates": "1787–1788",
+        "dates": "Alexander Hamilton 1755–1804; James Madison 1751–1836",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "A república ampliada cura as doenças do governo popular; facção de verificação de escala e representação.",
         "respondsTo": [
@@ -3091,7 +3091,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O estado é a alma em grande escala; uma política justa reflete a ordem racional da pessoa justa.",
         "respondsTo": []
@@ -3252,7 +3252,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A riqueza corrompe a alma e a cidade; o amor ao dinheiro é a raiz da decadência oligárquica.",
         "respondsTo": []
@@ -3386,7 +3386,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "As constituições degeneram num ciclo fixo e a revolução segue a corrupção da classe dominante.",
         "respondsTo": []
@@ -3413,7 +3413,7 @@
       },
       {
         "id": "machiavelli",
-        "name": "Niccolò Machiavelli",
+        "name": "Nicolau Maquiavel",
         "dates": "1469–1527",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "Os tumultos populares são a força vital de uma república; o conflito entre classes, devidamente canalizado, produz liberdade.",
@@ -3429,7 +3429,7 @@
         "summary": "A rebelião é a guerra renovada; nenhuma revolução pode ser justificada porque só o poder do soberano impede a guerra universal.",
         "respondsTo": [
           "Aristóteles",
-          "Niccolò Machiavelli"
+          "Nicolau Maquiavel"
         ]
       },
       {
@@ -3468,7 +3468,7 @@
       {
         "id": "federalists",
         "name": "Hamilton & Madison",
-        "dates": "1787–1788",
+        "dates": "Alexander Hamilton 1755–1804; James Madison 1751–1836",
         "era": "Iluminismo",
         "summary": "A emenda constitucional é a alternativa pacífica à revolução; a separação de poderes diminui a necessidade de mudanças violentas.",
         "respondsTo": [
@@ -3515,7 +3515,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O tirano é o mais miserável dos homens, escravizado aos seus próprios apetites, governando pelo medo e fazendo da cidade um espelho da sua alma desordenada.",
         "respondsTo": []
@@ -3542,7 +3542,7 @@
       },
       {
         "id": "machiavelli",
-        "name": "Niccolò Machiavelli",
+        "name": "Nicolau Maquiavel",
         "dates": "1469–1527",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "Um novo príncipe às vezes deve agir tiranicamente para proteger o Estado; a crueldade bem utilizada, aplicada de uma vez e de forma decisiva, pode ser necessária.",
@@ -3561,7 +3561,7 @@
           "Platão",
           "Aristóteles",
           "Tomás de Aquino",
-          "Niccolò Machiavelli"
+          "Nicolau Maquiavel"
         ]
       },
       {
@@ -3572,7 +3572,7 @@
         "summary": "O nome “tirania” é apenas “monarquia rejeitada”; o poder absoluto é necessário, e chamar o soberano de tirano é mero desagrado.",
         "respondsTo": [
           "Aristóteles",
-          "Niccolò Machiavelli",
+          "Nicolau Maquiavel",
           "William Shakespeare"
         ]
       },
@@ -3613,7 +3613,7 @@
       {
         "id": "federalists",
         "name": "Hamilton & Madison",
-        "dates": "1787–1788",
+        "dates": "Alexander Hamilton 1755–1804; James Madison 1751–1836",
         "era": "Iluminismo",
         "summary": "A acumulação de todos os poderes nas mesmas mãos é a própria definição de tirania; a solução é a separação de poderes e o federalismo.",
         "respondsTo": [
@@ -3677,7 +3677,7 @@
       },
       {
         "id": "euripides",
-        "name": "Euripides",
+        "name": "Eurípides",
         "dates": "480–406 a.C.",
         "era": "Grécia Antiga",
         "summary": "Quando o vínculo entre marido e mulher for rompido, o vínculo entre mãe e filho pode tornar-se, não o refúgio da esposa ferida, mas o instrumento pelo qual ela inflige ao marido uma ferida que não pode ser respondida, de modo que os próprios laços do lar se transformem em armas de sua destruição.",
@@ -3695,7 +3695,7 @@
         "respondsTo": [
           "Ésquilo",
           "Sófocles",
-          "Euripides"
+          "Eurípides"
         ]
       },
       {
@@ -3783,7 +3783,7 @@
       },
       {
         "id": "tolstoy",
-        "name": "Leo Tolstoy",
+        "name": "Liev Tolstói",
         "dates": "1828–1910",
         "era": "Século XIX",
         "summary": "A família é um território moral onde vidas são feitas e desfeitas pelos atos comuns de fidelidade e traição que nenhuma teoria do casamento pode prever.",
@@ -3802,7 +3802,7 @@
           "Aristóteles",
           "G.W.F. Hegel",
           "John Stuart Mill",
-          "Leo Tolstoy"
+          "Liev Tolstói"
         ]
       }
     ],
@@ -3818,7 +3818,7 @@
       "9. Rousseau, Emílio, Livros I–II; O Contrato Social, Livro I, Capítulo II (a família natural; educação e transformação social)",
       "10. Hegel, Filosofia do Direito, Seções 158-181 (a família como o primeiro momento da vida ética; o amor como seu princípio)",
       "11. Mill, Sobre a Liberdade, Capítulos I, IV; A Sujeição das Mulheres, Capítulos I, IV",
-      "12. Tolstoi, Anna Karenina, Partes I, V, VII-VIII (dois casamentos em contraponto; adultério e o interior moral da família)",
+      "12. Tolstói, Anna Karenina, Partes I, V, VII-VIII (dois casamentos em contraponto; adultério e o interior moral da família)",
       "13. Freud, Civilização e seus descontentes, capítulos III-IV (Eros, a família e o preço da civilização)"
     ],
     "sourceUrl": "https://greatconversationmap.com/ideas/family"
@@ -3835,7 +3835,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A verdadeira cidadania é a devoção ao bem da cidade, moldada pela educação e pelo tipo de alma, não pelo nascimento ou profissão.",
         "respondsTo": []
@@ -3852,7 +3852,7 @@
       },
       {
         "id": "plutarch",
-        "name": "Plutarch",
+        "name": "Plutarco",
         "dates": "c. 46–120 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "Através da biografia, Plutarco mostra a cidadania como uma prática de caráter: o estadista é o cidadão em sua plenitude.",
@@ -3870,7 +3870,7 @@
         "respondsTo": [
           "Platão",
           "Aristóteles",
-          "Plutarch"
+          "Plutarco"
         ]
       },
       {
@@ -3892,7 +3892,7 @@
         "summary": "Fora da autoridade do soberano não existem cidadãos, apenas indivíduos em guerra; a aliança cria súditos, não membros autônomos.",
         "respondsTo": [
           "Aristóteles",
-          "Plutarch",
+          "Plutarco",
           "Agostinho de Hipona"
         ]
       },
@@ -3904,7 +3904,7 @@
         "summary": "O cidadão não é sujeito: a pertença política baseia-se no consentimento e o governo que viola os direitos naturais perde o direito à obediência.",
         "respondsTo": [
           "Aristóteles",
-          "Plutarch",
+          "Plutarco",
           "Thomas Hobbes"
         ]
       },
@@ -4000,7 +4000,7 @@
       "7. John Locke, Segundo Tratado do Governo Civil, Capítulos VII-XIX — consentimento, direitos naturais e o direito de dissolver o governo",
       "8. Montesquieu, O Espírito das Leis, Livros III-IV, VII-VIII, XI — cada forma constitucional exige um tipo diferente de cidadão; virtude republicana vs. honra monárquica",
       "9. Jean-Jacques Rousseau, O Contrato Social, Livros I-II — o cidadão como participante do poder soberano, virtude cívica versus interesse próprio burguês",
-      "10. Immanuel Kant, Metafísica da Moral, Parte I, §§43-49 — os três atributos jurídicos da cidadania e a distinção ativo/passivo",
+      "10. Immanuel Kant, Metafísica dos Costumes, Parte I, §§43-49 — os três atributos jurídicos da cidadania e a distinção ativo/passivo",
       "11. Hamilton & Madison, The Federalist, Nos. 10, 51, 57, 63 – governo representativo, república estendida e vigilância cívica",
       "12. John Stuart Mill, Considerações sobre o Governo Representativo, Capítulos 3, 8, 15 — o argumento do desenvolvimento para o direito de voto universal e o voto plural",
       "13. Alexis de Tocqueville, Democracia na América, Volume II — cidadania democrática, associações voluntárias e o perigo do despotismo brando"
@@ -4118,7 +4118,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A escravidão pertence à família da cidade justa; a questão é o tratamento, não a legitimidade.",
         "respondsTo": []
@@ -4260,7 +4260,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A melhor constituição mistura monarquia e democracia, vinculando até os governantes à autoridade da lei.",
         "respondsTo": []
@@ -4331,7 +4331,7 @@
       {
         "id": "federalists",
         "name": "Hamilton & Madison",
-        "dates": "1755–1836",
+        "dates": "Alexander Hamilton 1755–1804; James Madison 1751–1836",
         "era": "Iluminismo",
         "summary": "Uma constituição bem construída canaliza a ambição contra a ambição através de controlos, equilíbrios e da separação de poderes numa república alargada.",
         "respondsTo": [
@@ -4389,7 +4389,7 @@
       "7. Montesquieu, O Espírito das Leis, Livros II-III, XI",
       "8. Rousseau, O Contrato Social, Livros II-III",
       "9. Hamilton & Madison, The Federalist, Nos.",
-      "10. Kant, Metafísica da Moral, Parte I (A Ciência do Direito), §§43-62; Paz Perpétua",
+      "10. Kant, Metafísica dos Costumes, Parte I (A Ciência do Direito), §§43-62; Paz Perpétua",
       "11. Hegel, Filosofia do Direito, Parte III, §§260-320; Filosofia da História, Introdução",
       "12. Mill, Considerações sobre Governo Representativo, Capítulos I-V"
     ],
@@ -4407,7 +4407,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O rei-filósofo governa pela sabedoria, não pela lei; a monarquia é o melhor regime quando o governante realmente sabe.",
         "respondsTo": []
@@ -4435,7 +4435,7 @@
       },
       {
         "id": "machiavelli",
-        "name": "Niccolò Machiavelli",
+        "name": "Nicolau Maquiavel",
         "dates": "1469–1527",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "O príncipe deve dominar a lei e a força, aprendendo quando ser leão e quando ser raposa.",
@@ -4452,7 +4452,7 @@
         "summary": "A soberania deve ser absoluta e indivisa; a monarquia é a melhor forma porque um sofre menos divisões do que muitos.",
         "respondsTo": [
           "Aristóteles",
-          "Niccolò Machiavelli"
+          "Nicolau Maquiavel"
         ]
       },
       {
@@ -4532,7 +4532,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A melhor cidade é governada por quem conhece o Bem; os reis-filósofos são o ideal aristocrático cumprido.",
         "respondsTo": [
@@ -4552,7 +4552,7 @@
       },
       {
         "id": "plutarch",
-        "name": "Plutarch",
+        "name": "Plutarco",
         "dates": "c. 46–120 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "A biografia, e não a teoria, revela o que realmente é o tipo aristocrático; As Vidas de Plutarco mostram tanto a excelência que a forma exige como a patologia que ela gera.",
@@ -4572,14 +4572,14 @@
       },
       {
         "id": "machiavelli",
-        "name": "Niccolò Machiavelli",
+        "name": "Nicolau Maquiavel",
         "dates": "1469–1527",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "Os nobres querem dominar e o povo não quer ser dominado; cada república deve gerir este conflito ou perecer.",
         "respondsTo": [
           "Aristóteles",
           "Tomás de Aquino",
-          "Plutarch"
+          "Plutarco"
         ]
       },
       {
@@ -4590,8 +4590,8 @@
         "summary": "A soberania é sempre absoluta; a diferença entre monarquia, aristocracia e democracia é uma questão de conveniência, não de princípio.",
         "respondsTo": [
           "Aristóteles",
-          "Niccolò Machiavelli",
-          "Plutarch"
+          "Nicolau Maquiavel",
+          "Plutarco"
         ]
       },
       {
@@ -4602,7 +4602,7 @@
         "summary": "As repúblicas aristocráticas sobrevivem através da moderação; os nobres devem conter-se ou destruir o estado.",
         "respondsTo": [
           "Aristóteles",
-          "Niccolò Machiavelli",
+          "Nicolau Maquiavel",
           "Thomas Hobbes"
         ]
       },
@@ -4620,7 +4620,7 @@
       {
         "id": "federalists",
         "name": "Hamilton & Madison",
-        "dates": "1755–1836",
+        "dates": "Alexander Hamilton 1755–1804; James Madison 1751–1836",
         "era": "Iluminismo",
         "summary": "A representação filtra a vontade popular através de uma aristocracia natural de talento e carácter, refinando a opinião pública sem trair a soberania popular.",
         "respondsTo": [
@@ -4680,7 +4680,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A oligarquia é uma cidade dividida pela riqueza, onde o amor ao dinheiro substitui o amor à honra e os pobres são excluídos do governo.",
         "respondsTo": []
@@ -4697,8 +4697,8 @@
       },
       {
         "id": "plutarch",
-        "name": "Plutarch",
-        "dates": "c. 46–120",
+        "name": "Plutarco",
+        "dates": "c. 46–120 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "As vidas de legisladores e estadistas mostram como a riqueza concentrada corrompe as repúblicas e como uma legislação sensata pode impedi-lo.",
         "respondsTo": [
@@ -4719,13 +4719,13 @@
       },
       {
         "id": "machiavelli",
-        "name": "Niccolò Machiavelli",
+        "name": "Nicolau Maquiavel",
         "dates": "1469–1527",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "As aristocracias decaem inevitavelmente em oligarquias à medida que as famílias governantes procuram vantagens privadas; apenas instituições populares podem controlar esse ciclo.",
         "respondsTo": [
           "Aristóteles",
-          "Plutarch"
+          "Plutarco"
         ]
       },
       {
@@ -4736,7 +4736,7 @@
         "summary": "Quando a moderação abandona uma aristocracia e a riqueza se torna o seu único princípio, a república morre.",
         "respondsTo": [
           "Aristóteles",
-          "Niccolò Machiavelli",
+          "Nicolau Maquiavel",
           "Tomás de Aquino"
         ]
       },
@@ -4748,7 +4748,7 @@
         "summary": "A propriedade privada cria desigualdade, a desigualdade cria a oligarquia e a oligarquia corrompe o vínculo social que torna possível o governo livre.",
         "respondsTo": [
           "Platão",
-          "Niccolò Machiavelli",
+          "Nicolau Maquiavel",
           "Montesquieu"
         ]
       },
@@ -4802,7 +4802,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O divino é a Forma do Bem: fonte do ser e da inteligibilidade, conhecida pela mente.",
         "respondsTo": []
@@ -4829,7 +4829,7 @@
       },
       {
         "id": "anselm",
-        "name": "Anselm of Canterbury",
+        "name": "Anselmo de Cantuária",
         "dates": "1033–1109",
         "era": "Patrística e Idade Média",
         "summary": "Deus é aquilo sobre o qual nada maior pode ser concebido – e portanto deve existir.",
@@ -4850,7 +4850,7 @@
       },
       {
         "id": "calvin",
-        "name": "John Calvin",
+        "name": "João Calvino",
         "dates": "1509–1564",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "Deus não está vinculado a nada fora de si mesmo, e o que ele quer é bom porque ele o quer, de modo que a parte da criatura não é medir os decretos divinos pelo seu próprio senso de justiça, mas reconhecer a soberania da qual flui toda a justiça.",
@@ -4868,7 +4868,7 @@
         "respondsTo": [
           "Tomás de Aquino",
           "Agostinho de Hipona",
-          "John Calvin"
+          "João Calvino"
         ]
       },
       {
@@ -4918,7 +4918,7 @@
       },
       {
         "id": "dostoyevsky",
-        "name": "Fyodor Dostoyevsky",
+        "name": "Fiódor Dostoiévski",
         "dates": "1821–1881",
         "era": "Século XIX",
         "summary": "O argumento a favor de Deus é testado não em abstração, mas contra o sofrimento das crianças, e a questão é se qualquer resposta que a tradição possa dar é adequada à rebelião que tal sofrimento provoca.",
@@ -4939,7 +4939,7 @@
         "respondsTo": [
           "G.W.F. Hegel",
           "Immanuel Kant",
-          "Fyodor Dostoyevsky"
+          "Fiódor Dostoiévski"
         ]
       },
       {
@@ -4984,7 +4984,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A alma é imortal e racional. A filosofia é a preparação para a sua libertação do corpo.",
         "respondsTo": []
@@ -5113,7 +5113,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O que realmente existe é o que é imutável: as Formas, não o mutável mundo dos sentidos.",
         "respondsTo": []
@@ -5131,7 +5131,7 @@
       {
         "id": "lucretius",
         "name": "Lucrécio",
-        "dates": "99–55 a.C.",
+        "dates": "c. 99–55 a.C.",
         "era": "Período Helenístico e Romano",
         "summary": "Somente os átomos realmente o são; todo o resto é seu arranjo temporário.",
         "respondsTo": [
@@ -5141,7 +5141,7 @@
       {
         "id": "plotinus",
         "name": "Plotino",
-        "dates": "204–270",
+        "dates": "c. 204–270 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "Além do Ser está o Um: fonte inefável da qual flui toda a realidade.",
         "respondsTo": [
@@ -5276,7 +5276,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A verdadeira causa de qualquer coisa não é a sua matéria, mas a Forma e o Bem para os quais existe.",
         "respondsTo": []
@@ -5429,7 +5429,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O tempo é a imagem em movimento da eternidade: a sucessão ordenada que espelha as Formas imutáveis.",
         "respondsTo": []
@@ -5447,7 +5447,7 @@
       {
         "id": "plotinus",
         "name": "Plotino",
-        "dates": "204–270",
+        "dates": "c. 204–270 d.C.",
         "era": "Grécia Antiga",
         "summary": "O tempo é a vida da Alma em movimento; a eternidade é o intelecto em repouso em si mesmo.",
         "respondsTo": [
@@ -5480,7 +5480,7 @@
       {
         "id": "newton",
         "name": "Isaac Newton",
-        "dates": "1642–1727",
+        "dates": "1643–1727",
         "era": "Grécia Antiga",
         "summary": "O tempo absoluto, verdadeiro e matemático flui igualmente, sem relação com nada externo.",
         "respondsTo": [
@@ -5681,7 +5681,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A alma é imortal porque participa da Forma de Vida e não pode admitir o seu oposto.",
         "respondsTo": []
@@ -5699,7 +5699,7 @@
       {
         "id": "lucretius",
         "name": "Lucrécio",
-        "dates": "99–55 a.C.",
+        "dates": "c. 99–55 a.C.",
         "era": "Período Helenístico e Romano",
         "summary": "A alma são átomos mortais que se dispersam na morte; o verdadeiro terror não é morrer, mas temer a vida após a morte.",
         "respondsTo": [
@@ -5709,7 +5709,7 @@
       {
         "id": "plotinus",
         "name": "Plotino",
-        "dates": "204–270 d.C.",
+        "dates": "c. 204–270 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "A alma desce do Um para o corpo e sobe novamente; seu parentesco com o eterno garante sua sobrevivência.",
         "respondsTo": [
@@ -5809,7 +5809,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O pecado é a desordem da alma: agir injustamente não é apenas prejudicar o outro, mas corromper-se, e o tirano que faz o que deseja é o mais miserável dos homens.",
         "respondsTo": []
@@ -5849,7 +5849,7 @@
       },
       {
         "id": "calvin",
-        "name": "John Calvin",
+        "name": "João Calvino",
         "dates": "1509–1564",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "A queda corrompeu todos os poderes da alma humana, de modo que não resta nenhuma faculdade da qual um bem possa proceder sem a graça de Deus, e a imagem de Deus no homem não é apenas danificada, mas apagada, deixando o homem totalmente dependente de uma redenção que ele não pode iniciar por si mesmo.",
@@ -5869,7 +5869,7 @@
           "Agostinho de Hipona",
           "Tomás de Aquino",
           "Dante Alighieri",
-          "John Calvin"
+          "João Calvino"
         ]
       },
       {
@@ -5902,7 +5902,7 @@
       },
       {
         "id": "dostoyevsky",
-        "name": "Fyodor Dostoyevsky",
+        "name": "Fiódor Dostoiévski",
         "dates": "1821–1881",
         "era": "Século XIX",
         "summary": "O ato de pecar separa o pecador de todos os outros homens mais completamente do que qualquer punição externa, e o retorno dessa separação não requer discussão, mas uma confissão feita na presença de outra pessoa.",
@@ -5924,7 +5924,7 @@
           "Platão",
           "Agostinho de Hipona",
           "Blaise Pascal",
-          "Fyodor Dostoyevsky"
+          "Fiódor Dostoiévski"
         ]
       }
     ],
@@ -5954,7 +5954,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A teologia é a parte mais elevada da filosofia: o conhecimento das coisas divinas alcançado através da dialética.",
         "respondsTo": []
@@ -6069,7 +6069,7 @@
       {
         "id": "homer",
         "name": "Homero",
-        "dates": "c. 8th century a.C.",
+        "dates": "c. século VIII a.C.",
         "era": "Grécia Antiga",
         "summary": "Os deuses revelam o destino através de sinais, oráculos e videntes; os mortais que dão ouvidos à profecia podem compreender o seu destino, mas não podem escapar dele.",
         "respondsTo": []
@@ -6077,7 +6077,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A loucura profética é um dom divino, superior ao cálculo humano; os deuses falam através daqueles cuja razão está suspensa.",
         "respondsTo": [
@@ -6167,7 +6167,7 @@
     ],
     "readingList": [
       "1. Homero, Ilíada Livros I, XVI, XXIV; Odisseia Livros XI, XV",
-      "2. Platão, Íon; Fedro 244–245; Desculpas 33c",
+      "2. Platão, Íon; Fedro 244–245; Apologia de Sócrates 33c",
       "3. Aristóteles, De Divinatione per Somnum",
       "4. Agostinho, Cidade de Deus Livros XVII–XVIII",
       "5. Tomás de Aquino, Suma Teológica II-II, QQ. 171–175",
@@ -6190,7 +6190,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A dialética é a ciência suprema, apreendendo as Formas e ascendendo ao Bem, a base de todo ser e conhecimento.",
         "respondsTo": []
@@ -6208,7 +6208,7 @@
       {
         "id": "plotinus",
         "name": "Plotino",
-        "dates": "204–270",
+        "dates": "c. 204–270 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "A metafísica é a ascensão da alma além do ser até o Um, o princípio que transcende toda determinação.",
         "respondsTo": [
@@ -6313,7 +6313,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O que muitos chamam de acaso é, na verdade, o trabalho da mente, da necessidade e da cooperação da arte divina.",
         "respondsTo": []
@@ -6341,7 +6341,7 @@
       {
         "id": "epictetus",
         "name": "Epicteto",
-        "dates": "50–135 d.C.",
+        "dates": "c. 50–135 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "Só o que depende de nós é verdadeiramente nosso; a fortuna, que governa tudo o mais, deve ser recebida com aceitação e não com resistência.",
         "respondsTo": [
@@ -6364,7 +6364,7 @@
       {
         "id": "plotinus",
         "name": "Plotino",
-        "dates": "204–270 d.C.",
+        "dates": "c. 204–270 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "A Providência ordena todas as coisas através dos princípios racionais da Alma do Mundo; o que parece fortuito no nível da matéria pertence ao padrão inteligível do todo.",
         "respondsTo": [
@@ -6376,7 +6376,7 @@
       {
         "id": "augustine",
         "name": "Agostinho de Hipona",
-        "dates": "354–430 d.C.",
+        "dates": "354–430",
         "era": "Patrística e Idade Média",
         "summary": "O que os homens chamam de acaso é apenas a face oculta da providência divina; nada acontece aleatoriamente no mundo de Deus.",
         "respondsTo": [
@@ -6398,7 +6398,7 @@
       },
       {
         "id": "machiavelli",
-        "name": "Niccolò Machiavelli",
+        "name": "Nicolau Maquiavel",
         "dates": "1469–1527",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "A fortuna governa metade de nossas ações, mas deixa a outra metade para os ousados.",
@@ -6426,7 +6426,7 @@
         "summary": "Na natureza não há nada contingente; o acaso é apenas o nome da nossa ignorância da ordem das causas.",
         "respondsTo": [
           "Tomás de Aquino",
-          "Niccolò Machiavelli"
+          "Nicolau Maquiavel"
         ]
       },
       {
@@ -6443,14 +6443,14 @@
       },
       {
         "id": "tolstoy",
-        "name": "Leo Tolstoy",
+        "name": "Liev Tolstói",
         "dates": "1828–1910",
         "era": "Século XIX",
         "summary": "O que o historiador chama de acaso é apenas a lacuna na sua compreensão das causas infinitesimais que compõem a história.",
         "respondsTo": [
           "Baruch Spinoza",
           "David Hume",
-          "Niccolò Machiavelli"
+          "Nicolau Maquiavel"
         ]
       },
       {
@@ -6462,7 +6462,7 @@
         "respondsTo": [
           "Baruch Spinoza",
           "David Hume",
-          "Leo Tolstoy"
+          "Liev Tolstói"
         ]
       }
     ],
@@ -6479,7 +6479,7 @@
       "10. Pascal, Pensamentos §§200–233; Correspondência com Fermat (1654)",
       "11. Spinoza, Ética, Parte I, Props. 28–33; Apêndice",
       "12. Hume, Investigação sobre a compreensão humana, Seitas. VI, VIII",
-      "13. Tolstoi, Guerra e Paz, Livros IX–XIII; Epílogo II",
+      "13. Tolstói, Guerra e Paz, Livros IX–XIII; Epílogo II",
       "14. William James, O Dilema do Determinismo; Princípios de Psicologia"
     ],
     "sourceUrl": "https://greatconversationmap.com/ideas/chance"
@@ -6496,7 +6496,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O que está sempre se tornando e nunca é não pode ser verdadeiramente conhecido; somente as Formas imutáveis ​​podem.",
         "respondsTo": []
@@ -6593,7 +6593,7 @@
       {
         "id": "newton",
         "name": "Isaac Newton",
-        "dates": "1642–1727",
+        "dates": "1643–1727",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "Um corpo em movimento continua em movimento; a mudança de movimento requer uma força impressa.",
         "respondsTo": [
@@ -6666,7 +6666,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "As formas são os arquétipos eternos e separados dos quais participam as coisas sensíveis e pelas quais elas são o que são.",
         "respondsTo": []
@@ -6684,7 +6684,7 @@
       {
         "id": "plotinus",
         "name": "Plotino",
-        "dates": "204–270",
+        "dates": "c. 204–270 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "As formas são os conteúdos vivos do Intelecto, emanando do Um e moldando toda a realidade inferior através da participação.",
         "respondsTo": [
@@ -6801,7 +6801,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "Abaixo do mundo visível existe um receptáculo sem forma: aquilo que recebe todas as coisas, mas nunca é nenhuma delas.",
         "respondsTo": []
@@ -6819,7 +6819,7 @@
       {
         "id": "lucretius",
         "name": "Lucrécio",
-        "dates": "99–55 a.C.",
+        "dates": "c. 99–55 a.C.",
         "era": "Período Helenístico e Romano",
         "summary": "Nada existe além dos átomos e do vazio, e toda a variedade da natureza é a dança de partículas materiais indestrutíveis.",
         "respondsTo": [
@@ -6830,7 +6830,7 @@
       {
         "id": "plotinus",
         "name": "Plotino",
-        "dates": "204–270 d.C.",
+        "dates": "c. 204–270 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "A matéria é a última sombra lançada pelo Um: a privação absoluta, a escuridão no limite do ser, quase nada.",
         "respondsTo": [
@@ -6944,7 +6944,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A razão convence a necessidade; o cosmos é construído onde a ordem inteligível encontra a causa errante.",
         "respondsTo": []
@@ -6962,7 +6962,7 @@
       {
         "id": "lucretius",
         "name": "Lucrécio",
-        "dates": "99–55 a.C.",
+        "dates": "c. 99–55 a.C.",
         "era": "Período Helenístico e Romano",
         "summary": "Os átomos caem por necessidade, mas um ligeiro desvio quebra as correntes do destino e deixa espaço para a liberdade.",
         "respondsTo": [
@@ -6972,7 +6972,7 @@
       {
         "id": "plotinus",
         "name": "Plotino",
-        "dates": "204–270 d.C.",
+        "dates": "c. 204–270 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "O Um está além da necessidade e da contingência; sua autoprocissão é a própria liberdade.",
         "respondsTo": [
@@ -6983,7 +6983,7 @@
       {
         "id": "augustine",
         "name": "Agostinho de Hipona",
-        "dates": "354–430 d.C.",
+        "dates": "354–430",
         "era": "Patrística e Idade Média",
         "summary": "Deus necessariamente conhece de antemão todas as coisas, mas as vontades humanas permanecem genuinamente contingentes.",
         "respondsTo": [
@@ -7086,7 +7086,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "Se o Um simplesmente existe, não pode ser muitos; no entanto, tudo o que existe já é um e muitos.",
         "respondsTo": []
@@ -7104,7 +7104,7 @@
       {
         "id": "plotinus",
         "name": "Plotino",
-        "dates": "204–270",
+        "dates": "c. 204–270 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "O Um está além do Ser; todo o resto é um-muitos fluindo dele.",
         "respondsTo": [
@@ -7227,7 +7227,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O espaço é o receptáculo, a enfermeira informe de todo devir, apreendido apenas por uma espécie de razão espúria.",
         "respondsTo": []
@@ -7245,7 +7245,7 @@
       {
         "id": "lucretius",
         "name": "Lucrécio",
-        "dates": "99–55 a.C.",
+        "dates": "c. 99–55 a.C.",
         "era": "Período Helenístico e Romano",
         "summary": "O vazio é tão fundamental quanto os átomos; sem espaço vazio, nenhum movimento ou divisão é possível.",
         "respondsTo": [
@@ -7357,7 +7357,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O mundo é uma criatura viva moldada por um artesão divino que considerou as Formas eternas como seu modelo.",
         "respondsTo": []
@@ -7375,7 +7375,7 @@
       {
         "id": "lucretius",
         "name": "Lucrécio",
-        "dates": "99–55 a.C.",
+        "dates": "c. 99–55 a.C.",
         "era": "Período Helenístico e Romano",
         "summary": "O mundo é uma concorrência acidental de átomos no vazio, sem projeto, sem deuses, sem propósito.",
         "respondsTo": [
@@ -7386,7 +7386,7 @@
       {
         "id": "plotinus",
         "name": "Plotino",
-        "dates": "204–270",
+        "dates": "c. 204–270 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "O mundo emana do Um num transbordamento contínuo de ser; a matéria é o grau mais baixo de realidade, não uma substância independente.",
         "respondsTo": [
@@ -7491,7 +7491,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O não-ser não é a negação do ser, mas a marca da diferença, e a oposição entre as grandes espécies é o que torna o discurso possível.",
         "respondsTo": []
@@ -7607,7 +7607,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "As próprias formas são relacionais: cada grande espécie comunga com outras, e nenhuma pode ser apreendida isoladamente.",
         "respondsTo": []
@@ -7722,7 +7722,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "Cada Forma é igual a si mesma e diferente de qualquer outra Forma; a mesmice e a alteridade estão entrelaçadas na estrutura da realidade.",
         "respondsTo": []
@@ -7740,7 +7740,7 @@
       {
         "id": "plotinus",
         "name": "Plotino",
-        "dates": "204–270",
+        "dates": "c. 204–270 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "Os Muitos procedem do Um por uma necessidade enraizada na alteridade; no entanto, todo ser derivado retém a sua identidade apenas voltando-se para a sua fonte.",
         "respondsTo": [
@@ -7837,7 +7837,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "As qualidades sensíveis pertencem ao mundo do devir; as Formas, que realmente existem, estão além do quente e do frio, do doce e do amargo.",
         "respondsTo": []
@@ -7951,7 +7951,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O número pertence ao reino inteligível, e o estudo da aritmética treina a alma para ascender do devir ao ser.",
         "respondsTo": []
@@ -8065,7 +8065,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "Entre os deuses e os homens existe toda uma ordem de espíritos intermediários, demônios que transportam orações para cima e respostas para baixo.",
         "respondsTo": []
@@ -8083,7 +8083,7 @@
       {
         "id": "plotinus",
         "name": "Plotino",
-        "dates": "204–270",
+        "dates": "c. 204–270 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "O Princípio Intelectual é em si um reino de inteligências puras: ser e pensar perfeitamente idênticos, contemplando o Um.",
         "respondsTo": [
@@ -8236,7 +8236,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A eternidade é o ser imutável das Formas; o tempo é sua imagem em movimento.",
         "respondsTo": []
@@ -8254,7 +8254,7 @@
       {
         "id": "plotinus",
         "name": "Plotino",
-        "dates": "204–270",
+        "dates": "c. 204–270 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "A eternidade é a vida do Intelecto mantida unida em um “é” único e indiviso; o tempo é seu fluxo em sucessão.",
         "respondsTo": [
@@ -8393,7 +8393,7 @@
       {
         "id": "homer",
         "name": "Homero",
-        "dates": "c. 8th century a.C.",
+        "dates": "c. século VIII a.C.",
         "era": "Grécia Antiga",
         "summary": "Moira é a porção distribuída no nascimento; nem mesmo Zeus tirará seu filho de debaixo dela.",
         "respondsTo": []
@@ -8422,7 +8422,7 @@
       {
         "id": "herodotus",
         "name": "Heródoto",
-        "dates": "c. 484–425 a.C.",
+        "dates": "c. 484–c. 425 a.C.",
         "era": "Grécia Antiga",
         "summary": "O que está predestinado acontece, mas os oráculos são enigmas e os homens ainda devem escolher como lê-los.",
         "respondsTo": [
@@ -8490,7 +8490,7 @@
       {
         "id": "augustine",
         "name": "Agostinho de Hipona",
-        "dates": "354–430 d.C.",
+        "dates": "354–430",
         "era": "Patrística e Idade Média",
         "summary": "Abandone a palavra 'destino'; o que governa o mundo é a providência, e a providência não esmaga o livre arbítrio que criou.",
         "respondsTo": [
@@ -8501,7 +8501,7 @@
       },
       {
         "id": "boethius",
-        "name": "Boethius",
+        "name": "Boécio",
         "dates": "c. 480–524 d.C.",
         "era": "Patrística e Idade Média",
         "summary": "O destino é o desdobramento no tempo daquilo que a providência vê de uma só vez na eternidade.",
@@ -8519,7 +8519,7 @@
         "respondsTo": [
           "Aristóteles",
           "Agostinho de Hipona",
-          "Boethius"
+          "Boécio"
         ]
       },
       {
@@ -8529,7 +8529,7 @@
         "era": "Patrística e Idade Média",
         "summary": "Troilo conclui da Providência Boécia que a livre escolha é um sonho inútil; o poema testa se essa conclusão é filosofia ou desespero.",
         "respondsTo": [
-          "Boethius",
+          "Boécio",
           "Tomás de Aquino"
         ]
       },
@@ -8560,7 +8560,7 @@
       },
       {
         "id": "tolstoy",
-        "name": "Leo Tolstoy",
+        "name": "Liev Tolstói",
         "dates": "1828–1910",
         "era": "Século XIX",
         "summary": "Napoleão não moveu os exércitos; a história é a soma de inúmeras vontades e sua lei não é visível para seus atores.",
@@ -8573,7 +8573,7 @@
     ],
     "readingList": [
       "1. Homero, Ilíada Livros XVI, XVIII, XXII",
-      "2. Ésquilo, Oresteia (Agamenon, Portadores da Libação, Eumênides); Prometeu vinculado",
+      "2. Ésquilo, Oresteia (Agamenon, Portadores da Libação, Eumênides); Prometeu Acorrentado",
       "3. Sófocles, Édipo Rei; Édipo em Colono",
       "4. Heródoto, Livros de História I, VII",
       "5. Aristóteles, Sobre a Interpretação, Capítulo 9; Ética a Nicômaco Livro III",
@@ -8587,7 +8587,7 @@
       "13. Chaucer, Troilus e Criseyde, Livro IV",
       "14.Shakespeare, Macbeth; Júlio César; Romeu e Julieta",
       "15. Spinoza, Ética, Parte I, Apêndice; Parte II",
-      "16. Tolstoi, Guerra e Paz, Epílogos e os capítulos históricos dos Livros IX-XV"
+      "16. Tolstói, Guerra e Paz, Epílogos e os capítulos históricos dos Livros IX-XV"
     ],
     "sourceUrl": "https://greatconversationmap.com/ideas/fate"
   },
@@ -8611,7 +8611,7 @@
       {
         "id": "lucretius",
         "name": "Lucrécio",
-        "dates": "99–55 a.C.",
+        "dates": "c. 99–55 a.C.",
         "era": "Período Helenístico e Romano",
         "summary": "O universo é ilimitado em todas as direções, cheio de um número infinito de átomos caindo no vazio infinito.",
         "respondsTo": [
@@ -8621,7 +8621,7 @@
       {
         "id": "plotinus",
         "name": "Plotino",
-        "dates": "204–270 d.C.",
+        "dates": "c. 204–270 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "O Um é infinito não em extensão, mas em poder: uma plenitude além de toda forma, medida e limite.",
         "respondsTo": [
@@ -8632,7 +8632,7 @@
       {
         "id": "augustine",
         "name": "Agostinho de Hipona",
-        "dates": "354–430 d.C.",
+        "dates": "354–430",
         "era": "Patrística e Idade Média",
         "summary": "A infinidade de Deus abrange todos os números e tempos ao mesmo tempo, conhecidos não sucessivamente, mas num único ato eterno de compreensão.",
         "respondsTo": [
@@ -8737,7 +8737,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A verdade é eterna e imutável: uma propriedade do que é, não do que parece.",
         "respondsTo": []
@@ -8860,7 +8860,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O verdadeiro conhecimento vem das Formas: realidades eternas e imutáveis ​​apreendidas pela razão, não pelos sentidos.",
         "respondsTo": [
@@ -9005,7 +9005,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A mente (nous) apreende as Formas: seus objetos próprios são eternos e ela conhece por lembrança.",
         "respondsTo": []
@@ -9318,7 +9318,7 @@
       },
       {
         "id": "calvin",
-        "name": "John Calvin",
+        "name": "João Calvino",
         "dates": "1509–1564",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "A vontade do homem caído é livre apenas para escolher entre várias formas de pecado, e perdeu completamente a liberdade de querer o bem, de modo que a obra de salvação não pode começar do lado da criatura, e o emparelhamento escolástico da graça com um livre arbítrio cooperante deve ser rejeitado como uma concessão ao orgulho humano.",
@@ -9337,7 +9337,7 @@
           "Aristóteles",
           "Agostinho de Hipona",
           "Tomás de Aquino",
-          "John Calvin"
+          "João Calvino"
         ]
       },
       {
@@ -9410,7 +9410,7 @@
       },
       {
         "id": "dostoyevsky",
-        "name": "Fyodor Dostoyevsky",
+        "name": "Fiódor Dostoiévski",
         "dates": "1821–1881",
         "era": "Século XIX",
         "summary": "A vontade não é serva da razão ou da vantagem, mas a capacidade de recusar a vantagem que a razão prescreveria, e esta recusa, por mais irracional que possa parecer, é a raiz de qualquer liberdade que se possa dizer que um homem possui.",
@@ -9432,7 +9432,7 @@
       "8. Spinoza, Ética, Partes III-IV",
       "9. Locke, Um Ensaio sobre a Compreensão Humana, Livro II, Capítulo XXI",
       "10. Hume, Um Tratado da Natureza Humana, Livro II, Parte III",
-      "11. Kant, Fundamentos da Metafísica da Moral; Crítica da Razão Prática",
+      "11. Kant, Fundamentação da Metafísica dos Costumes; Crítica da Razão Prática",
       "12. Dostoiévski, Notas do Subterrâneo, Parte I; Os Irmãos Karamazov, Livro V"
     ],
     "sourceUrl": "https://greatconversationmap.com/ideas/will"
@@ -9449,7 +9449,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "Os nomes são atribuídos às coisas por natureza, refletindo sua essência, ou por convenção; Platão deixa a questão em aberto.",
         "respondsTo": []
@@ -9568,7 +9568,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "Todo aprendizado é lembrança; o conhecimento prévio da alma sobre as Formas é recuperado através do questionamento.",
         "respondsTo": []
@@ -9706,7 +9706,7 @@
     "thinkers": [
       {
         "id": "aristophanes",
-        "name": "Aristophanes",
+        "name": "Aristófanes",
         "dates": "446–386 a.C.",
         "era": "Grécia Antiga",
         "summary": "A arte de falar pode ser ensinada como o poder de fazer com que o pior argumento pareça ser o melhor, e quando assim é ensinada, a antiga retórica de uma cidade limitada pelos seus costumes é substituída por uma nova retórica que a derrota não por razões melhores, mas pela pura novidade e inteligência dos argumentos que pode reunir de qualquer lado.",
@@ -9715,11 +9715,11 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A retórica é lisonja, a menos que esteja unida ao conhecimento da verdade; o orador que convence sem saber o que é justo prejudica.",
         "respondsTo": [
-          "Aristophanes"
+          "Aristófanes"
         ]
       },
       {
@@ -9801,7 +9801,7 @@
       {
         "id": "federalists",
         "name": "Hamilton & Madison",
-        "dates": "1755–1836",
+        "dates": "Alexander Hamilton 1755–1804; James Madison 1751–1836",
         "era": "Iluminismo",
         "summary": "A retórica política deve abordar honestamente a paixão e o interesse; os Documentos Federalistas exemplificam a persuasão a serviço da razão constitucional.",
         "respondsTo": [
@@ -9860,7 +9860,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A opinião diz respeito ao mundo em mudança do devir; o conhecimento diz respeito ao mundo eterno do ser; somente a filosofia pode preencher a lacuna entre eles.",
         "respondsTo": []
@@ -9983,7 +9983,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "As ideias são as Formas eternas: as realidades imutáveis ​​que coisas particulares imitam e a mente ascende para conhecer.",
         "respondsTo": []
@@ -10001,7 +10001,7 @@
       {
         "id": "plotinus",
         "name": "Plotino",
-        "dates": "204–270",
+        "dates": "c. 204–270 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "As ideias são os pensamentos vivos do Intelecto Divino, os padrões eternos dos quais flui toda a realidade.",
         "respondsTo": [
@@ -10114,7 +10114,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O julgamento é o diálogo silencioso da alma consigo mesma, chegando a uma conclusão sobre o que é ou não o caso.",
         "respondsTo": []
@@ -10234,7 +10234,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "Os sentidos nos mostram sombras na parede de uma caverna; o verdadeiro conhecimento exige que a mente ascenda além do que pode ser visto ou tocado.",
         "respondsTo": []
@@ -10369,7 +10369,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "Os nomes não são arbitrários nem perfeitamente naturais: a questão é se a linguagem pode atingir a natureza das coisas.",
         "respondsTo": []
@@ -10489,7 +10489,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "Uma hipótese é um local de descanso provisório para o pensamento, um degrau na escada que a razão deve eventualmente abandonar.",
         "respondsTo": []
@@ -10537,7 +10537,7 @@
       {
         "id": "newton",
         "name": "Isaac Newton",
-        "dates": "1642–1727",
+        "dates": "1643–1727",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "Não finjo hipóteses: tudo o que não é deduzido dos fenómenos não tem lugar na filosofia experimental.",
         "respondsTo": [
@@ -10604,7 +10604,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "Os objetos matemáticos são formas inteligíveis apreendidas apenas pela razão, não abstraídas da experiência sensorial.",
         "respondsTo": []
@@ -10621,7 +10621,7 @@
       },
       {
         "id": "euclid",
-        "name": "Euclid",
+        "name": "Euclides",
         "dates": "fl. c. 300 a.C.",
         "era": "Grécia Antiga",
         "summary": "A geometria passa de definições, postulados e noções comuns para uma demonstração rigorosa, estabelecendo o paradigma da ciência dedutiva.",
@@ -10647,7 +10647,7 @@
         "era": "Renascimento e Primeira Modernidade",
         "summary": "A matemática é o modelo para todo o conhecimento, alicerçado em ideias claras e distintas e em cadeias dedutivas de raciocínio.",
         "respondsTo": [
-          "Euclid",
+          "Euclides",
           "Aristóteles"
         ]
       },
@@ -10658,7 +10658,7 @@
         "era": "Renascimento e Primeira Modernidade",
         "summary": "Matemática é computação com nomes: adicionar, subtrair e calcular consequências de definições.",
         "respondsTo": [
-          "Euclid"
+          "Euclides"
         ]
       },
       {
@@ -10697,7 +10697,7 @@
     "readingList": [
       "1. Platão, Livro VII da República (521c–531e); Meno 80d–86c; Timeu 31b-36d",
       "2. Aristóteles, Analítica Posterior Livro I, cap. 10–12; Livros de Metafísica I, XIII-XIV",
-      "3. Euclides, Elementos Livros I, V, VII",
+      "3. Euclideses, Elementos Livros I, V, VII",
       "4. Tomás de Aquino, Suma Teológica I, Q. 1, a. 2; Sobre Ser e Essência, cap. 4",
       "5. Descartes, Regras para a Direção da Mente Regras IV, XIV; Discurso sobre o Método Parte II",
       "6. Hobbes, Leviatã Parte I, cap. 4–5",
@@ -10719,7 +10719,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A dialética é a ciência mais elevada, ascendendo da hipótese ao primeiro princípio não hipotético através do pensamento puro.",
         "respondsTo": []
@@ -10737,7 +10737,7 @@
       {
         "id": "plotinus",
         "name": "Plotino",
-        "dates": "204–270",
+        "dates": "c. 204–270 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "A dialética é a disciplina de purificação e ascensão da alma, elevando-se através da ordem inteligível ao Um.",
         "respondsTo": [
@@ -10878,7 +10878,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O primeiro princípio é a Forma do Bem, não hipotética e autofundamentada, da qual flui toda a inteligibilidade.",
         "respondsTo": []
@@ -10896,7 +10896,7 @@
       {
         "id": "plotinus",
         "name": "Plotino",
-        "dates": "204–270",
+        "dates": "c. 204–270 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "O primeiro princípio é o Um, além do ser e do pensamento, do qual o Intelecto e a Alma procedem por emanação.",
         "respondsTo": [
@@ -10999,7 +10999,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O raciocínio é o movimento da alma da hipótese ao primeiro princípio, ascendendo através da dialética ao Bem.",
         "respondsTo": []
@@ -11120,7 +11120,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A dialética é o método intelectual mais elevado, ascendendo das hipóteses aos primeiros princípios incondicionados – a lógica não é um conjunto de regras, mas um caminho para as Formas.",
         "respondsTo": []
@@ -11270,7 +11270,7 @@
       {
         "id": "newton",
         "name": "Isaac Newton",
-        "dates": "1642–1727",
+        "dates": "1643–1727",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "Na filosofia experimental, as proposições devem ser colhidas dos fenómenos por indução e generalizadas apenas na medida em que os fenómenos o justifiquem; Não formulo hipóteses.",
         "respondsTo": [
@@ -11350,7 +11350,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A exigência de definição é a exigência do universal: a busca de Sócrates pelo que a virtude ou a beleza “realmente é” define a agenda de toda a filosofia subsequente.",
         "respondsTo": []
@@ -11502,7 +11502,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "Universais são Formas: objetos eternos, existentes separadamente, que dão natureza a coisas particulares e tornam possível a definição e a ciência.",
         "respondsTo": []
@@ -11664,7 +11664,7 @@
       {
         "id": "newton",
         "name": "Isaac Newton",
-        "dates": "1642–1727",
+        "dates": "1643–1727",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "A ciência procede reunindo proposições de fenômenos por indução; hipóteses sobre causas ocultas que vão além do que a observação garante não têm lugar na filosofia experimental.",
         "respondsTo": [
@@ -11748,7 +11748,7 @@
     "thinkers": [
       {
         "id": "aristophanes",
-        "name": "Aristophanes",
+        "name": "Aristófanes",
         "dates": "446–386 a.C.",
         "era": "Grécia Antiga",
         "summary": "A nova educação, que promete tornar um jovem hábil na argumentação, proporciona uma inteligência que se volta primeiro contra o credor e depois contra o pai, de modo que aquilo que era procurado como uma arma para a família se torna o instrumento da sua destruição, e o poeta cômico pode perguntar se uma educação assim constituída é de fato uma educação.",
@@ -11757,11 +11757,11 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A educação é a orientação da alma para o Bem, uma conversão de toda a pessoa.",
         "respondsTo": [
-          "Aristophanes"
+          "Aristófanes"
         ]
       },
       {
@@ -12017,7 +12017,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A sabedoria pertence ao filósofo que apreende o Bem e ordena a alma e a cidade pela sua luz.",
         "respondsTo": []
@@ -12114,7 +12114,7 @@
       }
     ],
     "readingList": [
-      "1. Platão, República, Livros IV-VII; Desculpa; Leis, Livro III",
+      "1. Platão, República, Livros IV-VII; Apologia de Sócrates; Leis, Livro III",
       "2. Aristóteles, Ética a Nicômaco, Livro VI; Metafísica, Livros I, XII",
       "3. Agostinho, Cidade de Deus, Livros VIII, XI, XIX; Confissões, Livros VII, X",
       "4. Tomás de Aquino, Summa Theologica, I-II, Q. 57; II-II, Q. 45-46",
@@ -12138,7 +12138,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "Só o conhecimento genuíno do Bem permite a ação correta – o estadista que governa pela opinião e não pelo conhecimento não pode explicar ou replicar o sucesso.",
         "respondsTo": []
@@ -12231,7 +12231,7 @@
       "4. Tomás de Aquino, Summa Theologica, II-II, Questões 47-56 (prudência e suas oito partes integrantes)",
       "5. Montaigne, Ensaios, I.20 “Que Filosofar é Aprender a Morrer”; III.13 \"Sobre a experiência\"",
       "6. Hobbes, Leviathan, Parte I, Capítulo 8 (inteligência natural; prudência como experiência acumulada)",
-      "7. Kant, Fundamentos da Metafísica da Moral, Seção I (dever versus cálculo prudencial)",
+      "7. Kant, Fundamentação da Metafísica dos Costumes, Seção I (dever versus cálculo prudencial)",
       "8. Mill, Utilitarismo, Capítulos II, IV (a arte da vida; princípios secundários e sabedoria acumulada)"
     ],
     "sourceUrl": "https://greatconversationmap.com/ideas/prudence"
@@ -12247,7 +12247,7 @@
     "thinkers": [
       {
         "id": "aristophanes",
-        "name": "Aristophanes",
+        "name": "Aristófanes",
         "dates": "446–386 a.C.",
         "era": "Grécia Antiga",
         "summary": "A filosofia, como parece ao cidadão comum que não foi treinado para isso, é uma ocupação suspeita em que homens adultos investigam os movimentos das pulgas e as fases da lua e ensinam os jovens como fazer o pior argumento parecer o melhor, e cabe ao poeta cômico colocar essa aparência no palco antes que os próprios filósofos tenham explicado o que estão fazendo.",
@@ -12256,11 +12256,11 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O filósofo ascende das sombras à luz do Bem e depois retorna à caverna para governar.",
         "respondsTo": [
-          "Aristophanes"
+          "Aristófanes"
         ]
       },
       {
@@ -12276,7 +12276,7 @@
       {
         "id": "epictetus",
         "name": "Epicteto",
-        "dates": "50–135 d.C.",
+        "dates": "c. 50–135 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "A filosofia não trata de teorias, mas de como você vive; sua oficina é uma conduta diária.",
         "respondsTo": [
@@ -12353,7 +12353,7 @@
     ],
     "readingList": [
       "1. Aristófanes, Nuvens (o pensamento e a imagem cômica do filósofo; a suspeita do cidadão comum em relação ao novo saber)",
-      "2. Platão, República, Livros V-VII; Desculpa",
+      "2. Platão, República, Livros V-VII; Apologia de Sócrates",
       "3. Aristóteles, Metafísica, Livros I-II",
       "4. Epicteto, Discursos, Livros I-II",
       "5. Agostinho, Confissões, Livros III, VII; Cidade de Deus, Livros VIII, XIX",
@@ -12377,7 +12377,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O homem é uma alma composta: razão, espírito e apetite em aliança incômoda, com a regra da razão definindo a boa vida humana.",
         "respondsTo": []
@@ -12475,7 +12475,7 @@
       },
       {
         "id": "dostoyevsky",
-        "name": "Fyodor Dostoyevsky",
+        "name": "Fiódor Dostoiévski",
         "dates": "1821–1881",
         "era": "Século XIX",
         "summary": "O homem do século XIX, na sua forma urbana, isolada e excessivamente pensante, não deve ser explicado pelas velhas taxonomias da virtude e do vício, mas deve ser descrito nos seus próprios termos, como uma criatura cuja vida interior ultrapassou o que as suas condições podem conter.",
@@ -12510,7 +12510,7 @@
       "6. Hobbes, Leviatã, Parte I, Capítulos 1-6, 13",
       "7. Descartes, Meditações sobre a Filosofia Primeira; Discurso sobre o Método, Parte V",
       "8. Rousseau, Discurso sobre a Desigualdade, Partes I-II",
-      "9. Kant, Fundamentos da Metafísica da Moral; Crítica da Razão Pura, Dialética Transcendental",
+      "9. Kant, Fundamentação da Metafísica dos Costumes; Crítica da Razão Pura, Dialética Transcendental",
       "10. Dostoiévski, Notas do Subterrâneo; Os Irmãos Karamazov; Crime e Castigo",
       "11. Freud, Civilização e seus descontentes; O Ego e o Id"
     ],
@@ -12528,7 +12528,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "As coisas belas participam da própria Beleza: eterna, imutável, objeto da ascensão de Eros.",
         "respondsTo": []
@@ -12546,7 +12546,7 @@
       {
         "id": "plotinus",
         "name": "Plotino",
-        "dates": "204–270",
+        "dates": "c. 204–270 d.C.",
         "era": "Grécia Antiga",
         "summary": "A beleza é o brilho da Forma através da matéria, e a alma só se torna bela quando se torna semelhante a ela.",
         "respondsTo": [
@@ -12636,7 +12636,7 @@
       },
       {
         "id": "tolstoy",
-        "name": "Leo Tolstoy",
+        "name": "Liev Tolstói",
         "dates": "1828–1910",
         "era": "Século XIX",
         "summary": "A beleza é uma distração; a verdadeira tarefa da arte é comunicar o sentimento que une as pessoas no amor.",
@@ -12669,7 +12669,7 @@
       "8. Kant, Crítica do Julgamento, Parte I",
       "9. Hegel, Palestras sobre Estética",
       "10. Darwin, A Descendência do Homem, Parte II, Capítulos 12–14",
-      "11. Tolstoi, o que é arte?",
+      "11. Tolstói, O que é arte?",
       "12. William James, Os Princípios da Psicologia, Capítulo 22"
     ],
     "sourceUrl": "https://greatconversationmap.com/ideas/beauty"
@@ -12686,7 +12686,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A arte é imitação de imitação, três vezes afastada da verdade e perigosa quando substitui a filosofia.",
         "respondsTo": []
@@ -12704,7 +12704,7 @@
       {
         "id": "plotinus",
         "name": "Plotino",
-        "dates": "204–270",
+        "dates": "c. 204–270 d.C.",
         "era": "Grécia Antiga",
         "summary": "A arte remonta às Formas das quais deriva a própria natureza; a visão do artista é superior à sua cópia material.",
         "respondsTo": [
@@ -12777,7 +12777,7 @@
       },
       {
         "id": "tolstoy",
-        "name": "Leo Tolstoy",
+        "name": "Liev Tolstói",
         "dates": "1828–1910",
         "era": "Século XIX",
         "summary": "A arte é a infecção do sentimento: a boa arte une as pessoas, a má arte lisonjeia e divide.",
@@ -12808,7 +12808,7 @@
       "7. Milton, Areopagítica; Paraíso Perdido, Invocações (Livros I, III, VII, IX)",
       "8. Kant, Crítica do Julgamento, §§ 43–54",
       "9. Hegel, Palestras sobre Estética, Introdução",
-      "10. Tolstoi, o que é arte?",
+      "10. Tolstói, O que é arte?",
       "11. Freud, Civilização e seus descontentes; \"O Moisés de Michelangelo\""
     ],
     "sourceUrl": "https://greatconversationmap.com/ideas/art"
@@ -12825,7 +12825,7 @@
       {
         "id": "herodotus",
         "name": "Heródoto",
-        "dates": "c. 484–425 a.C.",
+        "dates": "c. 484–c. 425 a.C.",
         "era": "Grécia Antiga",
         "summary": "A história é investigação, preservando os grandes feitos dos gregos e bárbaros para que o tempo não os apague.",
         "respondsTo": []
@@ -12842,8 +12842,8 @@
       },
       {
         "id": "plutarch",
-        "name": "Plutarch",
-        "dates": "c. 46–120",
+        "name": "Plutarco",
+        "dates": "c. 46–120 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "A biografia revela no pequeno gesto e na palavra privada o que os exércitos e os tratados não conseguem: o personagem que move a história.",
         "respondsTo": [
@@ -12852,8 +12852,8 @@
       },
       {
         "id": "tacitus",
-        "name": "Tacitus",
-        "dates": "c. 56–120",
+        "name": "Tácito",
+        "dates": "c. 56–120 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "A tarefa da história é salvar as virtudes do esquecimento e submeter os governantes perversos ao julgamento da posteridade.",
         "respondsTo": [
@@ -12870,13 +12870,13 @@
       },
       {
         "id": "machiavelli",
-        "name": "Niccolò Machiavelli",
+        "name": "Nicolau Maquiavel",
         "dates": "1469–1527",
         "era": "Período Helenístico e Romano",
         "summary": "A história se repete porque a natureza humana é constante; exemplos antigos ensinam o presente se ousarmos imitá-los.",
         "respondsTo": [
           "Tucídides",
-          "Tacitus"
+          "Tácito"
         ]
       },
       {
@@ -12886,8 +12886,8 @@
         "era": "Iluminismo",
         "summary": "A história é pouco mais que o registro dos crimes, das loucuras e dos infortúnios da humanidade, escrito com ironia e peso moral.",
         "respondsTo": [
-          "Tacitus",
-          "Niccolò Machiavelli"
+          "Tácito",
+          "Nicolau Maquiavel"
         ]
       },
       {
@@ -12912,7 +12912,7 @@
       },
       {
         "id": "tolstoy",
-        "name": "Leo Tolstoy",
+        "name": "Liev Tolstói",
         "dates": "1828–1910",
         "era": "Século XIX",
         "summary": "A história é a soma de inúmeras pequenas ações; os grandes homens são rótulos, não causas, do que as massas fazem.",
@@ -12931,7 +12931,7 @@
       "7. Gibbon, O Declínio e Queda do Império Romano, Capítulos 1–3, 15–16, 38",
       "8. Hegel, Palestras sobre Filosofia da História",
       "9. Marx, A Ideologia Alemã; Prefácio a uma contribuição à crítica da economia política",
-      "10. Tolstoi, Guerra e Paz, Epílogos I–II"
+      "10. Tolstói, Guerra e Paz, Epílogos I–II"
     ],
     "sourceUrl": "https://greatconversationmap.com/ideas/history"
   },
@@ -12947,7 +12947,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A poesia é uma imitação a dois passos da realidade; o poeta compete com o filósofo e deve ser banido da cidade justa.",
         "respondsTo": []
@@ -13029,7 +13029,7 @@
       },
       {
         "id": "tolstoy",
-        "name": "Leo Tolstoy",
+        "name": "Liev Tolstói",
         "dates": "1828–1910",
         "era": "Século XIX",
         "summary": "A arte deve comunicar sentimentos sinceros e servir a fraternidade moral da humanidade; a arte mais célebre falha neste teste.",
@@ -13058,7 +13058,7 @@
       "5. Hume, Do Padrão de Gosto",
       "6. Kant, Crítica do Julgamento §§43-54",
       "7. Hegel, Palestras sobre Estética Parte III",
-      "8. Tolstoi, o que é arte?",
+      "8. Tolstói, O que é arte?",
       "9. Mill, Reflexões sobre Poesia e Suas Variedades"
     ],
     "sourceUrl": "https://greatconversationmap.com/ideas/poetry"
@@ -13093,7 +13093,7 @@
       {
         "id": "augustine",
         "name": "Agostinho de Hipona",
-        "dates": "354–430 d.C.",
+        "dates": "354–430",
         "era": "Patrística e Idade Média",
         "summary": "A história não é cíclica, mas direcional: desde a criação, passando pela queda, até a redenção e o julgamento final; o progresso terreno é real, mas provisório, e o único progresso que importa em última análise é o movimento da alma em direção a Deus.",
         "respondsTo": [
@@ -13204,7 +13204,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A alma é imortal; a morte é a separação da alma do corpo, e a filosofia é a preparação para essa libertação.",
         "respondsTo": []
@@ -13222,7 +13222,7 @@
       {
         "id": "lucretius",
         "name": "Lucrécio",
-        "dates": "99–55 a.C.",
+        "dates": "c. 99–55 a.C.",
         "era": "Período Helenístico e Romano",
         "summary": "A morte não é nada para nós; a alma é mortal, composta de átomos que se dispersam na morte.",
         "respondsTo": [
@@ -13354,7 +13354,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–347 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "Os animais são criaturas com alma classificadas pelo grau de alma que possuem; o bruto é a forma para a qual descem as almas humanas degradadas.",
         "respondsTo": []
@@ -13381,8 +13381,8 @@
       },
       {
         "id": "galen",
-        "name": "Galen",
-        "dates": "129–c. 216",
+        "name": "Galeno",
+        "dates": "129–c. 216 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "A anatomia revela o design: cada parte do corpo animal é formada com um propósito, e a dissecação comparativa prova isso.",
         "respondsTo": [
@@ -13397,7 +13397,7 @@
         "summary": "Os animais possuem almas sensíveis, mas carecem de razão e livre arbítrio; eles agem por instinto, não por deliberação.",
         "respondsTo": [
           "Aristóteles",
-          "Galen"
+          "Galeno"
         ]
       },
       {
@@ -13419,7 +13419,7 @@
         "summary": "A circulação do sangue, descoberta através da observação e da experiência, mostra que o corpo animal só pode ser compreendido traçando as relações intencionais entre as suas partes vivas.",
         "respondsTo": [
           "Aristóteles",
-          "Galen"
+          "Galeno"
         ]
       },
       {
@@ -13497,7 +13497,7 @@
       "1. Platão, Timeu 41d–42d, 91d–92c; Fédon 79a-84b",
       "2. Aristóteles, História dos Animais Livros I, VIII; Partes de Animais Livro I; De Anima Livro II, cap. 1–3",
       "3. Lucrécio, Sobre a Natureza das Coisas, Livro V",
-      "4. Galeno, Sobre as Faculdades Naturais, Livro I",
+      "4. Galenoo, Sobre as Faculdades Naturais, Livro I",
       "5. Tomás de Aquino, Suma Teológica I, QQ. 75, 78",
       "6. Montaigne, Ensaios II.12 (\"Apologia a Raymond Sebond\")",
       "7. Harvey, Sobre o Movimento do Coração e do Sangue nos Animais; Sobre a Geração de Animais",
@@ -13522,7 +13522,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "Os quatro elementos são poliedros regulares construídos a partir de triângulos, tornando a própria matéria uma espécie de geometria.",
         "respondsTo": []
@@ -13550,10 +13550,10 @@
       },
       {
         "id": "galen",
-        "name": "Galen",
-        "dates": "129–c. 216",
+        "name": "Galeno",
+        "dates": "129–c. 216 d.C.",
         "era": "Período Helenístico e Romano",
-        "summary": "Os quatro elementos da física grega tornam-se, através de Hipócrates e depois pelas próprias mãos de Galeno, os quatro humores que compõem o corpo vivo e governam a sua saúde.",
+        "summary": "Os quatro elementos da física grega tornam-se, através de Hipócrates e depois pelas próprias mãos de Galenoo, os quatro humores que compõem o corpo vivo e governam a sua saúde.",
         "respondsTo": [
           "Aristóteles",
           "Platão"
@@ -13567,7 +13567,7 @@
         "summary": "Os quatro elementos são os corpos naturais mais simples, possuindo formas substanciais que fundamentam seus poderes.",
         "respondsTo": [
           "Aristóteles",
-          "Galen"
+          "Galeno"
         ]
       },
       {
@@ -13607,7 +13607,7 @@
       {
         "id": "newton",
         "name": "Isaac Newton",
-        "dates": "1642–1727",
+        "dates": "1643–1727",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "Toda matéria consiste em partículas sólidas, duras e impenetráveis ​​que se combinam através de forças de atração e repulsão.",
         "respondsTo": [
@@ -13654,7 +13654,7 @@
       "1. Platão, Timeu 47e-57c",
       "2. Aristóteles, Sobre Geração e Corrupção, Livro II; Livro de Física I, cap. 4–6; Metafísica Livro V, cap. 3",
       "3. Lucrécio, Sobre a Natureza das Coisas, Livros I–II",
-      "4. Galeno, Sobre as Faculdades Naturais, Livros I-II",
+      "4. Galenoo, Sobre as Faculdades Naturais, Livros I-II",
       "5. Tomás de Aquino, Suma Teológica I, Q. 66, a. 2; Suma Contra Gentios II, cap. 43",
       "6. Bacon, Novum Organum Livro II, Aph. 5, 48",
       "7. Galileu, primeiro dia de duas novas ciências",
@@ -13677,7 +13677,7 @@
     "thinkers": [
       {
         "id": "hippocrates",
-        "name": "Hippocrates",
+        "name": "Hipócrates",
         "dates": "c. 460–370 a.C.",
         "era": "Grécia Antiga",
         "summary": "A doença tem causas naturais, e a arte do médico consiste em observar o corpo, e não em apaziguar os deuses.",
@@ -13686,11 +13686,11 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "A medicina é para o corpo o que a justiça é para a alma, e uma cidade que precisa de muitos médicos já está doente.",
         "respondsTo": [
-          "Hippocrates"
+          "Hipócrates"
         ]
       },
       {
@@ -13700,18 +13700,18 @@
         "era": "Grécia Antiga",
         "summary": "A saúde é uma conquista da própria natureza; o médico apenas remove o que atrapalha a natureza.",
         "respondsTo": [
-          "Hippocrates",
+          "Hipócrates",
           "Platão"
         ]
       },
       {
         "id": "galen",
-        "name": "Galen",
-        "dates": "129–c. 216",
+        "name": "Galeno",
+        "dates": "129–c. 216 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "O corpo funciona através de faculdades naturais cujo funcionamento pode ser rastreado pela anatomia, e a saúde depende do equilíbrio correto dos quatro humores.",
         "respondsTo": [
-          "Hippocrates",
+          "Hipócrates",
           "Aristóteles"
         ]
       },
@@ -13723,7 +13723,7 @@
         "summary": "A medicina é uma arte subordinada que coopera com o poder curativo da natureza, e os hábitos do corpo refletem os hábitos da alma.",
         "respondsTo": [
           "Aristóteles",
-          "Galen"
+          "Galeno"
         ]
       },
       {
@@ -13733,7 +13733,7 @@
         "era": "Renascimento e Primeira Modernidade",
         "summary": "A medicina deve abandonar a antiga autoridade e avançar através de experiências metódicas; o prolongamento da vida é um objetivo legítimo e alcançável.",
         "respondsTo": [
-          "Galen",
+          "Galeno",
           "Aristóteles"
         ]
       },
@@ -13744,7 +13744,7 @@
         "era": "Renascimento e Primeira Modernidade",
         "summary": "O corpo é uma máquina e a medicina é a mecânica da matéria viva; o conhecimento completo da física nos daria domínio sobre as doenças.",
         "respondsTo": [
-          "Galen",
+          "Galeno",
           "Francis Bacon"
         ]
       },
@@ -13775,7 +13775,7 @@
       "1. Hipócrates, O Juramento; Sobre Medicina Antiga; Sobre a doença sagrada",
       "2. Platão, Timeu 81e-89d; Livro da República III (405a-410a)",
       "3. Aristóteles, Partes dos Animais, Livro I; Ética a Nicômaco Livro II, cap. 6",
-      "4. Galeno, Sobre as Faculdades Naturais, Livros I–III",
+      "4. Galenoo, Sobre as Faculdades Naturais, Livros I–III",
       "5. Tomás de Aquino, Summa Theologica I-II, Q. 50, a. 1",
       "6. Bacon, O Avanço da Aprendizagem, Livro II; Novum Organum Livro II, Aph. 48",
       "7. Descartes, Discurso sobre o Método Parte VI",
@@ -13796,7 +13796,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O estudo dos céus ordena a alma: a contemplação astronômica é o treino da própria razão.",
         "respondsTo": []
@@ -13824,7 +13824,7 @@
       },
       {
         "id": "ptolemy",
-        "name": "Ptolemy",
+        "name": "Ptolomeu",
         "dates": "c. 100–170 d.C.",
         "era": "Período Helenístico e Romano",
         "summary": "A astronomia é uma ciência matemática que salva as aparências por meio de epiciclos, deferentes e equantes, sem a pretensão de descrever causas físicas.",
@@ -13842,7 +13842,7 @@
         "respondsTo": [
           "Platão",
           "Lucrécio",
-          "Ptolemy"
+          "Ptolomeu"
         ]
       },
       {
@@ -13853,18 +13853,18 @@
         "summary": "Os corpos celestes declaram a glória de Deus, mas o conhecimento astronômico não é necessário para a salvação; a fé repousa na revelação, não nas estrelas.",
         "respondsTo": [
           "Aristóteles",
-          "Ptolemy",
+          "Ptolomeu",
           "Agostinho de Hipona"
         ]
       },
       {
         "id": "copernicus",
-        "name": "Nicolaus Copernicus",
+        "name": "Nicolau Copérnico",
         "dates": "1473–1543",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "A terra é um planeta orbitando o sol; a hipótese heliocêntrica restaura a simplicidade matemática aos céus.",
         "respondsTo": [
-          "Ptolemy",
+          "Ptolomeu",
           "Aristóteles"
         ]
       },
@@ -13876,8 +13876,8 @@
         "summary": "A astronomia exemplifica a presunção humana; não podemos compreender os movimentos dos céus quando não podemos compreender a nós mesmos.",
         "respondsTo": [
           "Platão",
-          "Ptolemy",
-          "Nicolaus Copernicus"
+          "Ptolomeu",
+          "Nicolau Copérnico"
         ]
       },
       {
@@ -13887,8 +13887,8 @@
         "era": "Renascimento e Primeira Modernidade",
         "summary": "A astronomia faz parte da física; os planetas movem-se em elipses, não em círculos, e os seus movimentos são governados por causas físicas e não por meros dispositivos matemáticos.",
         "respondsTo": [
-          "Nicolaus Copernicus",
-          "Ptolemy",
+          "Nicolau Copérnico",
+          "Ptolomeu",
           "Aristóteles"
         ]
       },
@@ -13900,14 +13900,14 @@
         "summary": "O telescópio revela que os céus não são perfeitos e incorruptíveis; evidências observacionais confirmam o sistema copernicano contra a cosmologia aristotélica.",
         "respondsTo": [
           "Aristóteles",
-          "Ptolemy",
-          "Nicolaus Copernicus"
+          "Ptolomeu",
+          "Nicolau Copérnico"
         ]
       },
       {
         "id": "newton",
         "name": "Isaac Newton",
-        "dates": "1642–1727",
+        "dates": "1643–1727",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "A gravitação universal unifica a mecânica celeste e terrestre; a mesma força que deixa cair uma maçã curva a órbita da lua.",
         "respondsTo": [
@@ -14084,7 +14084,7 @@
       },
       {
         "id": "archimedes",
-        "name": "Archimedes",
+        "name": "Arquimedes",
         "dates": "c. 287–212 a.C.",
         "era": "Grécia Antiga",
         "summary": "A alavanca e o corpo flutuante obedecem a leis matemáticas exatas; a mecânica é uma ciência dedutiva, não um ramo da filosofia especulativa.",
@@ -14100,7 +14100,7 @@
         "summary": "Os corpos em queda aceleram uniformemente, independentemente do peso; o livro da natureza está escrito na linguagem da matemática.",
         "respondsTo": [
           "Aristóteles",
-          "Archimedes"
+          "Arquimedes"
         ]
       },
       {
@@ -14128,14 +14128,14 @@
       {
         "id": "newton",
         "name": "Isaac Newton",
-        "dates": "1642–1727",
+        "dates": "1643–1727",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "Três leis do movimento e a lei da gravitação universal respondem por todos os fenômenos mecânicos, desde a queda de maçãs até as órbitas planetárias.",
         "respondsTo": [
           "Galileo Galilei",
           "René Descartes",
           "Johannes Kepler",
-          "Archimedes"
+          "Arquimedes"
         ]
       },
       {
@@ -14196,7 +14196,7 @@
       {
         "id": "plato",
         "name": "Platão",
-        "dates": "428–348 a.C.",
+        "dates": "c. 428–347 a.C.",
         "era": "Grécia Antiga",
         "summary": "O mundo físico é uma imagem em movimento da eternidade, moldada por um artesão divino de acordo com formas matemáticas eternas; a física pode oferecer uma história provável, não um conhecimento certo.",
         "respondsTo": []
@@ -14247,7 +14247,7 @@
       {
         "id": "newton",
         "name": "Isaac Newton",
-        "dates": "1642–1727",
+        "dates": "1643–1727",
         "era": "Renascimento e Primeira Modernidade",
         "summary": "A física procede reunindo proposições de fenômenos por meio da indução; seus princípios são matemáticos, seu teste é experimental e hipóteses sobre causas ocultas não têm lugar nele.",
         "respondsTo": [

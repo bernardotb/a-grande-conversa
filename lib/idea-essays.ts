@@ -135,7 +135,7 @@ const democracyEssay: IdeaEssay = {
     },
     {
       thinkerId: "locke",
-      keyWork: "Segundo Tratado sobre o Governo",
+      keyWork: "Segundo Tratado do Governo Civil",
       paragraphs: [
         "Locke reconstrói a política sobre consentimento e direitos. No estado de natureza, cada pessoa possui direitos à vida, à liberdade e à propriedade, além do poder de defendê-los. Para escapar aos inconvenientes da justiça exercida por conta própria, os indivíduos formam uma sociedade política e consentem em ser governados. Como a unanimidade é impraticável, a comunidade precisa mover-se pela decisão da maioria.",
         "O poder majoritário, entretanto, não é ilimitado. O governo existe para proteger direitos naturais. Quando um governo, inclusive uma legislatura eleita, viola esses direitos, rompe a confiança da qual recebe autoridade. O povo conserva o direito de resistir e, se necessário, de se revoltar. A soberania está no povo, mas o próprio povo permanece vinculado à lei moral que tornou o consentimento obrigatório.",
@@ -286,7 +286,7 @@ const democracyEssay: IdeaEssay = {
     },
     {
       thinkerId: "marx",
-      keyWork: "Manifesto do Partido Comunista",
+      keyWork: "O Manifesto Comunista",
       paragraphs: [
         "Marx trata a democracia liberal com uma mistura de reconhecimento e desprezo. Reconhece que as revoluções burguesas derrubaram hierarquias feudais, proclamaram igualdade perante a lei e conquistaram direitos formais de expressão, reunião e voto. Mas considera esses direitos insuficientes: por trás do Estado democrático está o capital, proprietário dos meios de produção e, portanto, das condições reais da vida.",
         "Em Sobre a Questão Judaica, distingue emancipação política de emancipação humana. O Estado moderno pode reconhecer cidadãos juridicamente iguais enquanto a sociedade permanece fraturada por classes. O sufrágio universal não elimina a relação salarial e as eleições não submetem a economia ao controle coletivo. Enquanto persistir o capitalismo, a democracia permanece, em última análise, uma forma de domínio burguês.",
@@ -2019,7 +2019,7 @@ const desejoEssay: IdeaEssay = {
     },
     {
       thinkerId: "william-james",
-      keyWork: "Princípios de Psicologia",
+      keyWork: "Os Princípios da Psicologia",
       paragraphs: [
         "William James descreve desejo como consciência sentida de algo ausente. A ideia retorna à atenção acompanhada pela percepção de impedimento, e essa tensão distingue querer de apenas imaginar.",
         "O princípio ideomotor afirma que uma ideia de movimento tende a realizá-lo quando nenhuma ideia rival a inibe. Nos conflitos difíceis, esforço de vontade é esforço de atenção para manter uma possibilidade presente até que se converta em ato.",
@@ -2029,12 +2029,12 @@ const desejoEssay: IdeaEssay = {
         {
           text:
             "Desejo, anseio e vontade são estados mentais que todos conhecem e que nenhuma definição pode tornar mais claros.",
-          source: "Princípios de Psicologia, Capítulo XXVI"
+          source: "Os Princípios da Psicologia, Capítulo XXVI"
         },
         {
           text:
             "O esforço de atenção é, portanto, o fenômeno essencial da vontade.",
-          source: "Princípios de Psicologia, Capítulo XI"
+          source: "Os Princípios da Psicologia, Capítulo XI"
         }
       ]
     },
@@ -2196,7 +2196,7 @@ const punicaoEssay: IdeaEssay = {
     },
     {
       thinkerId: "locke",
-      keyWork: "Segundo Tratado sobre o Governo",
+      keyWork: "Segundo Tratado do Governo Civil",
       paragraphs: [
         "Locke afirma que a lei natural obriga antes da sociedade civil e concede a cada pessoa poder de conter seus violadores. Esse direito não autoriza crueldade: a pena deve ser proporcional à reparação e à prevenção.",
         "Ao entrar na comunidade política, indivíduos transferem ao magistrado o poder de executar a lei. A vítima conserva interesse na reparação, enquanto o Estado exerce a punição em nome da segurança comum.",
@@ -2785,7 +2785,7 @@ const emocaoEssay: IdeaEssay = {
     },
     {
       thinkerId: "william-james",
-      keyWork: "Princípios de Psicologia",
+      keyWork: "Os Princípios da Psicologia",
       paragraphs: [
         "William James inverte a explicação ordinária da emoção. Não trememos porque sentimos medo; sentimos medo porque percebemos as mudanças corporais desencadeadas pela situação excitante.",
         "Se retirarmos aceleração cardíaca, postura, respiração e tensão muscular, restaria uma avaliação intelectual fria, não a emoção vivida. O corpo não expressa um sentimento já formado; constitui sua matéria consciente.",
@@ -2795,12 +2795,12 @@ const emocaoEssay: IdeaEssay = {
         {
           text:
             "Minha tese é que as mudanças corporais seguem diretamente a percepção do fato excitante e que nosso sentimento dessas mesmas mudanças, enquanto ocorrem, é a emoção.",
-          source: "Princípios de Psicologia, Capítulo 25"
+          source: "Os Princípios da Psicologia, Capítulo 25"
         },
         {
           text:
             "Se desejamos vencer tendências emocionais indesejáveis, devemos realizar assiduamente, e a princípio a sangue-frio, os movimentos externos das disposições contrárias que preferimos cultivar.",
-          source: "Princípios de Psicologia, Capítulo 25"
+          source: "Os Princípios da Psicologia, Capítulo 25"
         }
       ]
     },
@@ -3023,7 +3023,7 @@ const honraEssay: IdeaEssay = {
       thinkerId: "thucydides",
       keyWork: "História da Guerra do Peloponeso",
       paragraphs: [
-        "No discurso fúnebre de Péricles, a honra migra do herói individual para a cidade inteira. Atenas é honrada pela coragem coletiva de seus cidadãos, pela beleza de suas obras públicas e pela peculiaridade de um povo que cultiva mente e força sem que uma enfraqueça a outra. A glória é agora da polis.",
+        "No discurso fúnebre de Péricles, a honra migra do herói individual para a cidade inteira. Atenas é honrada pela coragem coletiva de seus cidadãos, pela beleza de suas obras públicas e pela peculiaridade de um povo que cultiva mente e força sem que uma enfraqueça a outra. A glória é agora da pólis.",
         "Tucídides também identifica, com frieza analítica, os motores reais das guerras: medo, interesse e honra. A honra aparece aqui não como virtude mas como força política — os Estados se lançam ao conflito para preservar sua reputação diante dos rivais. A prudência de Péricles e a crueldade em Melos convivem sob o mesmo estandarte.",
         "A tensão entre a honra cívica celebrada no discurso fúnebre e a honra como poder que Tucídides descreve nas guerras cria uma dissonância que Agostinho aproveitará para atacar a glória romana como ficção: o amor pela fama que gerou a república também gerou seus impérios."
       ],
@@ -3066,7 +3066,7 @@ const honraEssay: IdeaEssay = {
     },
     {
       thinkerId: "augustine",
-      keyWork: "Cidade de Deus",
+      keyWork: "A Cidade de Deus",
       paragraphs: [
         "Agostinho reconhece que o amor romano pela glória produziu feitos admiráveis: homens que resistiram à corrupção, que morreram pela república, que preferiram a pobreza à desonra. Mas esse amor pela fama pública é uma forma refinada de soberba — o pecado que substitui Deus pela imagem que os outros fazem de nós.",
         "A república romana teve suficiente semelhança com a justiça para se sustentar, e suficiente amor pela glória para alcançar grandeza por ela. Mas essa grandeza não é a glória verdadeira: é o prêmio que Deus concede aos virtuosos pagãos no único nível em que podem recebê-lo, o nível terreno e transitório.",
@@ -3075,7 +3075,7 @@ const honraEssay: IdeaEssay = {
       quotes: [
         {
           text: "Os romanos não tinham justiça verdadeira; mas tinham suficiente do que se assemelha à justiça para manter a república viva, e suficiente amor pela glória para preferi-la a tudo o mais.",
-          source: "Cidade de Deus, II"
+          source: "A Cidade de Deus, II"
         }
       ]
     },
@@ -3302,7 +3302,7 @@ const habitoEssay: IdeaEssay = {
     },
     {
       thinkerId: "william-james",
-      keyWork: "Os Princípios de Psicologia",
+      keyWork: "Os Princípios da Psicologia",
       paragraphs: [
         "James naturaliza o hábito: é um fato do sistema nervoso. Comportamentos repetidos cavam trilhas nos tecidos cerebrais plásticos, tornando os impulsos automáticos. O hábito não é metáfora — é anatomia da conduta, e a neurologia da repetição confirma o que Aristóteles intuiu por observação do caráter.",
         "O 'volante da sociedade' é a imagem que James escolhe: o hábito mantém a maioria das pessoas dentro dos limites da ordenação sem exigir esforço deliberado contínuo. Isso liberta energia mental para problemas novos. Mas também conserva estamentos, preconceitos e formas de vida que o progresso deveria superar.",
@@ -3311,13 +3311,13 @@ const habitoEssay: IdeaEssay = {
       quotes: [
         {
           text: "O hábito é o enorme volante da sociedade, seu agente conservador mais precioso. Ele sozinho é o que nos mantém a todos dentro dos limites da ordenação.",
-          source: "Os Princípios de Psicologia, Capítulo IV"
+          source: "Os Princípios da Psicologia, Capítulo IV"
         }
       ]
     },
     {
       thinkerId: "freud",
-      keyWork: "Conferências Introdutórias sobre Psicanálise",
+      keyWork: "Conferências Introdutórias à Psicanálise",
       paragraphs: [
         "Freud descobre que os hábitos mais resistentes são formados abaixo do limiar da consciência. A compulsão à repetição não é erro de julgamento — é a reencenação automática de material reprimido que o sujeito não lembra mas não consegue parar de reencarnar em suas relações presentes.",
         "O paciente não sabe que está repetindo. Ao contrário: imagina que está reagindo a algo novo. O analista reconhece o padrão porque o viu antes, em outras formas, com outros personagens. O hábito traumático é o mais tenaz precisamente porque não foi formado por prática consciente — foi impresso por experiências que o sujeito não pôde processar na época.",
@@ -3594,7 +3594,7 @@ const costumeEConvencaoEssay: IdeaEssay = {
     },
     {
       thinkerId: "rousseau",
-      keyWork: "Discurso sobre a Desigualdade",
+      keyWork: "Discurso sobre a Origem da Desigualdade",
       paragraphs: [
         "Rousseau inverte o juízo favorável ao costume civilizado. As convenções da sociedade moderna não são o amadurecimento da razão coletiva — são o acúmulo de desigualdades institucionalizadas, protegidas pela aparência de legalidade e necessidade. O homem que primeiro cercou um pedaço de terra e encontrou pessoas crédulas o suficiente para acreditar que lhe pertencia foi o fundador real da sociedade — e de toda a miséria.",
         "O homem natural de Rousseau não é o guerreiro hobbesiano de todos contra todos. É uma criatura simples, com necessidades limitadas, que a civilização corrompeu ao criar dependências artificiais, vaidades sociais e desigualdades que nenhum costume natural justifica.",
@@ -3603,13 +3603,13 @@ const costumeEConvencaoEssay: IdeaEssay = {
       quotes: [
         {
           text: "O primeiro homem que, tendo cercado um pedaço de terra, pensou em dizer 'isto é meu' e encontrou pessoas simples o suficiente para acreditar nele, foi o verdadeiro fundador da sociedade civil.",
-          source: "Discurso sobre a Desigualdade, Parte II"
+          source: "Discurso sobre a Origem da Desigualdade, Parte II"
         }
       ]
     },
     {
       thinkerId: "hegel",
-      keyWork: "Filosofia do Direito",
+      keyWork: "Princípios da Filosofia do Direito",
       paragraphs: [
         "Para Hegel, a Vida Ética (Sittlichkeit) é o sistema de costumes e instituições de uma comunidade historicamente desenvolvida — e é o nível mais concreto da liberdade. Não a liberdade abstrata do indivíduo que inventa normas do nada, mas a liberdade encarnada nas formas de vida que uma nação amadureceu ao longo do tempo.",
         "Numa comunidade ética, saber o que se deve fazer não requer filosofia especulativa: basta seguir as regras explícitas da própria situação. O costume não é obstáculo ao espírito — é sua realização mais imediata. O que Montaigne chamou de tirania do costume, Hegel chama de eticidade consolidada e fecunda.",
@@ -3618,7 +3618,7 @@ const costumeEConvencaoEssay: IdeaEssay = {
       quotes: [
         {
           text: "Numa comunidade ética, é fácil dizer o que o homem deve fazer, quais são os deveres que deve cumprir para ser virtuoso. Ele simplesmente tem de seguir as regras conhecidas e explícitas de sua própria situação.",
-          source: "Filosofia do Direito, §150"
+          source: "Princípios da Filosofia do Direito, §150"
         }
       ]
     },
@@ -3668,7 +3668,7 @@ const liberdadeEssay: IdeaEssay = {
       keyWork: "Política",
       paragraphs: [
         "Aristóteles inaugura a conversa vinculando liberdade à constituição da cidade. Na democracia, a premissa fundamental é que todos os cidadãos são livres por natureza: liberdade significa não ser escravo, não depender da vontade de um senhor para existir politicamente. Daí derivam duas marcas práticas — o cidadão governa e é governado em turnos, e o homem livre vive como quer dentro dos limites da lei.",
-        "Essa liberdade é essencialmente pública. Ela se exerce dentro da polis, pressupondo a comunidade de iguais. Fora da cidade, o conceito perde sentido: o escravo, o bárbaro e o animal carecem da racionalidade que permite participar da deliberação comum e, por isso, não partilham desse estatuto.",
+        "Essa liberdade é essencialmente pública. Ela se exerce dentro da pólis, pressupondo a comunidade de iguais. Fora da cidade, o conceito perde sentido: o escravo, o bárbaro e o animal carecem da racionalidade que permite participar da deliberação comum e, por isso, não partilham desse estatuto.",
         "Aristóteles alerta que a liberdade democrática mal compreendida degenera em licença. Quando os cidadãos a interpretam como o direito de viver exatamente como desejam, sem submissão a lei ou autoridade alguma, a cidade se dissolve em particularidades incompatíveis. A liberdade política autêntica exige moderação — e a moderação exige educação. O fio que Epicteto puxará em seguida, a liberdade como disciplina interior, não contradiz Aristóteles; aprofunda-o em outra direção."
       ],
       quotes: []
@@ -3800,7 +3800,7 @@ const governoEssay: IdeaEssay = {
     },
     {
       thinkerId: "aquinas",
-      keyWork: "Sobre a Realeza",
+      keyWork: "Do Reino",
       paragraphs: [
         "Tomás de Aquino herdou de Aristóteles a tese de que o governo é natural, mas a reformulou em termos cristãos. Os homens são seres sociais não apenas por necessidade biológica, mas porque o fim da razão e da virtude exige comunidade. A ausência de governo não produziria liberdade — produziria dissolução. Assim, o governo não é consequência do pecado original, como queria Agostinho, mas uma exigência da própria natureza racional do homem.",
         "A distinção de Aquino entre governo legítimo e tirania é crucial. O governante que ordena a comunidade ao bem comum exerce autoridade genuína; aquele que governa para seu próprio benefício é tirano e pode, em casos extremos, ser resistido. A lei humana só obriga moralmente quando é justa — derivada da lei natural —, e a lei natural é a participação racional na lei eterna de Deus.",
@@ -3810,7 +3810,7 @@ const governoEssay: IdeaEssay = {
         {
           text:
             "A vida social não pode existir entre muitas pessoas a menos que alguém governe visando ao bem comum.",
-          source: "Sobre a Realeza"
+          source: "Do Reino"
         }
       ]
     },
@@ -3868,7 +3868,7 @@ const governoEssay: IdeaEssay = {
     },
     {
       thinkerId: "hegel",
-      keyWork: "Filosofia do Direito",
+      keyWork: "Princípios da Filosofia do Direito",
       paragraphs: [
         "Hegel inverteu a perspectiva contratualista de modo radical. Para ele, o Estado não é resultado de um acordo entre indivíduos pré-políticos: é a realidade objetiva da eticidade, o lugar onde a liberdade racional se encarna no mundo histórico. Antes do Estado, os indivíduos existem apenas como abstrações; é nele e por meio dele que alcançam existência ética concreta.",
         "O Estado hegeliano não é o instrumento do indivíduo — o indivíduo é, em certo sentido, produto do Estado. Direitos, deveres e identidade se constituem dentro da vida ética que o Estado organiza. Locke errou ao imaginar indivíduos com direitos pré-políticos; Rousseau errou ao reduzir o Estado à vontade coletiva. O governo não expressa a vontade dos cidadãos: expressa a razão histórica objetiva.",
@@ -3878,13 +3878,13 @@ const governoEssay: IdeaEssay = {
         {
           text:
             "O Estado é a atualidade da ideia ética.",
-          source: "Filosofia do Direito, Parte III"
+          source: "Princípios da Filosofia do Direito, Parte III"
         }
       ]
     },
     {
       thinkerId: "marx",
-      keyWork: "Manifesto Comunista",
+      keyWork: "O Manifesto Comunista",
       paragraphs: [
         "Marx diagnosticou o governo moderno como instrumento de dominação de classe travestido de interesse geral. O Estado não existe para proteger os direitos naturais de todos, como queria Locke, nem para realizar a razão histórica, como afirmava Hegel. Existe para garantir as condições de reprodução do capital e da dominação da burguesia sobre o proletariado.",
         "O governo capitalista executa funções de repressão direta — exército, polícia, judiciário — e funções ideológicas: apresenta os interesses da classe dominante como interesses universais, naturalizando relações de poder contingentes. A democracia liberal não supera esse problema; aprofunda-o, ao dar aparência de consenso a uma dominação estrutural.",
@@ -3993,7 +3993,7 @@ const leiEssay: IdeaEssay = {
     },
     {
       thinkerId: "marx",
-      keyWork: "Manifesto Comunista",
+      keyWork: "O Manifesto Comunista",
       paragraphs: [
         "Marx encerrou o percurso desmontando a pretensão de neutralidade da lei. A lei não é a expressão da razão universal nem do consentimento geral: é o conjunto de normas que uma classe dominante precisa para reproduzir as condições de sua dominação. O direito à propriedade privada não é uma conquista da razão — é a forma jurídica que o capitalismo exige para funcionar.",
         "A lei criminal protege a propriedade dos que possuem contra os que não possuem; a lei contratual regula trocas entre partes formalmente iguais mas materialmente desiguais; o direito internacional garante a propriedade colonial. Por baixo da linguagem universal dos direitos corre a lógica particular dos interesses de classe.",
@@ -4076,7 +4076,7 @@ const estadoEssay: IdeaEssay = {
     },
     {
       thinkerId: "hegel",
-      keyWork: "Filosofia do Direito",
+      keyWork: "Princípios da Filosofia do Direito",
       paragraphs: [
         "Hegel inverteu o argumento contratualista de modo radical. O Estado não é instrumento criado por indivíduos pré-políticos com direitos anteriores; é a condição para que os indivíduos existam como seres éticos e racionais. Antes do Estado — ou fora dele — o que existe são apenas abstrações: vontades particulares sem forma objetiva. É no Estado que a liberdade deixa de ser mera capacidade interior e se realiza concretamente no mundo.",
         "O Estado hegeliano não é o Estado real de qualquer nação histórica particular — é a Ideia do Estado, a forma racional que os Estados históricos aproximam em graus variados. A Prússia de seu tempo era, para Hegel, uma aproximação superior, mas não o término do desenvolvimento histórico.",
@@ -4086,7 +4086,7 @@ const estadoEssay: IdeaEssay = {
     },
     {
       thinkerId: "marx",
-      keyWork: "Manifesto Comunista",
+      keyWork: "O Manifesto Comunista",
       paragraphs: [
         "Marx reuniu as críticas anteriores e acrescentou uma nova: o Estado não é o bem comum aristotélico, não é o Leviatã hobbesiano, não é o trust lockeano, não é a Ideia hegeliana. É o comitê executivo da burguesia — o conjunto de instituições que garantem a reprodução das relações de produção capitalistas.",
         "A história é a história da luta de classes, e o Estado é o campo em que essa luta se institucionaliza. O Estado feudal servia aos senhores de terras; o Estado moderno serve ao capital. A democracia representativa é a forma política mais adequada ao capitalismo porque mascara com linguagem de universalidade uma dominação de classe real.",
@@ -4096,7 +4096,7 @@ const estadoEssay: IdeaEssay = {
         {
           text:
             "A história de toda sociedade até hoje existente é a história das lutas de classes.",
-          source: "Manifesto Comunista, Parte I"
+          source: "O Manifesto Comunista, Parte I"
         }
       ]
     }
@@ -4171,7 +4171,7 @@ const riquezaEssay: IdeaEssay = {
     },
     {
       thinkerId: "rousseau",
-      keyWork: "Discurso sobre a Desigualdade",
+      keyWork: "Discurso sobre a Origem da Desigualdade",
       paragraphs: [
         "Rousseau inverteu a narrativa lockeana: o primeiro homem que cercou um pedaço de terra, declarou 'isto é meu' e encontrou pessoas simples o suficiente para acreditar nele foi o verdadeiro fundador da sociedade civil — e de todos os seus crimes. A propriedade privada não protegeu a liberdade natural: destruiu-a, substituindo a independência primitiva pela dependência recíproca e pela desigualdade.",
         "No estado de natureza rousseauniano, o homem era livre, são e bom — não porque fosse racional, mas porque suas necessidades eram simples e a natureza as satisfazia. A sociedade civil corrompeu essa condição introduzindo a comparação, a inveja, o status e a dependência econômica. A riqueza não é o fruto do trabalho honesto; é o produto da desigualdade que o contrato social original legalizou.",
@@ -4356,7 +4356,7 @@ const guerraEPazEssay: IdeaEssay = {
     },
     {
       thinkerId: "marx",
-      keyWork: "Manifesto Comunista / O Capital",
+      keyWork: "O Manifesto Comunista / O Capital",
       paragraphs: [
         "Marx rejeitou as análises morais e institucionalistas da guerra como insuficientes. Para ele, as guerras modernas são conflitos de classe disfarçados de conflitos nacionais — expressões das contradições do capitalismo na disputa por mercados, matérias-primas, rotas comerciais e zonas de influência.",
         "O Manifesto Comunista proclama que os trabalhadores não têm pátria. Isso não é apenas retórica: significa que as lealdades nacionais que mobilizam os trabalhadores para as guerras são uma forma de falsa consciência — um instrumento pelo qual as classes dominantes recrutam os oprimidos para defender interesses que não são os seus. O proletário que morre numa guerra imperialista defende o capital do seu patrão, não a si mesmo.",
@@ -4366,7 +4366,7 @@ const guerraEPazEssay: IdeaEssay = {
       quotes: [
         {
           text: "Os trabalhadores não têm pátria. Não podemos tirar deles o que não têm.",
-          source: "Manifesto Comunista, Seção II"
+          source: "O Manifesto Comunista, Seção II"
         }
       ]
     },
@@ -4503,9 +4503,9 @@ const destinoEssay: IdeaEssay = {
     },
     {
       thinkerId: "boethius",
-      keyWork: "Consolação da Filosofia",
+      keyWork: "A Consolação da Filosofia",
       paragraphs: [
-        "Boécio escreveu a Consolação da Filosofia na prisão, aguardando a execução. A Fortuna que o havia elevado ao cargo de cônsul e depois o derrubou é a protagonista de uma das imagens mais duradouras da Idade Média: a Roda da Fortuna. A própria Fortuna fala na obra e declara sua natureza: ela gira continuamente, eleva quem estava em baixo e derruba quem estava em cima. Não é crueldade — é sua essência. Quem confia nos dons da Fortuna está confiando em algo que é, por definição, instável.",
+        "Boécio escreveu A Consolação da Filosofia na prisão, aguardando a execução. A Fortuna que o havia elevado ao cargo de cônsul e depois o derrubou é a protagonista de uma das imagens mais duradouras da Idade Média: a Roda da Fortuna. A própria Fortuna fala na obra e declara sua natureza: ela gira continuamente, eleva quem estava em baixo e derruba quem estava em cima. Não é crueldade — é sua essência. Quem confia nos dons da Fortuna está confiando em algo que é, por definição, instável.",
         "Boécio distingue entre Fortuna (o destino mundano, variável) e Providência (o plano divino estável que dirige tudo ao bem). Por trás da aparente arbitrariedade da Fortuna existe uma Providência que Deus conhece integralmente, embora os humanos não possam apreendê-la. O mal que nos parece injusto pode ser, do ponto de vista da eternidade, um bem disfarçado.",
         "O problema mais agudo que Boécio formula — e que dominará a teologia medieval — é a tensão entre providência e livre-arbítrio. Se Deus conhece todos os eventos futuros, inclusive as escolhas humanas, como pode o humano ser livre? Boécio resolve com o conceito de eternidade divina: Deus não conhece o futuro como futuro, mas como eterno presente. O que, para nós, ainda não aconteceu, para Deus já está diante de si. A presciência divina não constrange a escolha humana assim como ver alguém caminhar não o força a caminhar.",
         "A Consolação tornou-se um dos livros mais lidos da Idade Média — traduzido por Alfred, o Grande, por Chaucer e por Rainha Elizabeth I. A Roda da Fortuna penetrou na iconografia e na literatura medievais como a imagem mais precisa do que o destino mundano pode fazer: elevar e derrubar, sem distinção de mérito."
@@ -4513,7 +4513,7 @@ const destinoEssay: IdeaEssay = {
       quotes: [
         {
           text: "Giro a roda que gira. Alegro-me em ver o alto descer e o baixo ascender. Sobe se queres, mas, pela mesma regra, não tomes como ofensa descer quando é minha lei.",
-          source: "Consolação da Filosofia, Livro II, Prosa 2 (Fortuna falando)"
+          source: "A Consolação da Filosofia, Livro II, Prosa 2 (Fortuna falando)"
         }
       ]
     },
@@ -4622,7 +4622,7 @@ const deusEssay: IdeaEssay = {
     },
     {
       thinkerId: "augustine",
-      keyWork: "Confissões / Cidade de Deus",
+      keyWork: "Confissões / A Cidade de Deus",
       paragraphs: [
         "Agostinho é o primeiro pensador a partir de uma crise pessoal para uma teologia filosófica de âmbito universal. As Confissões abrem com uma das frases mais citadas da história do pensamento ocidental: 'Fizeste-nos para Ti, e nosso coração está inquieto até que repousa em Ti.' A inquietude não é uma falha moral — é a estrutura ontológica do ser humano criado por Deus e incompleto sem ele.",
         "O percurso agostiniano até Deus passa pelo maniqueísmo (que explicava o mal com um segundo princípio divino) e pelo neoplatonismo (que apontava para a imaterialidade e a transcendência do bem) antes de chegar ao Deus cristão. A contribuição específica do neoplatonismo foi mostrar que Deus não pode ser uma substância corpórea — que a verdade é interior, imaterial, imutável. A contribuição específica do Evangelho foi mostrar que esse Deus imaterial e transcendente se tornou carne e sofreu.",

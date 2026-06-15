@@ -111,29 +111,29 @@ Nota: Peripéteia e anagnorisis são a anatomia dramática do momento em que o d
 
 ## 7. BOÉCIO
 Posição: Fortuna (destino mundano) é mutável por essência — sua roda gira e esmaga os que nela confiam. Mas por trás da Fortuna aparente existe uma Providência estável que dirige tudo ao bem. A sabedoria consiste em não confundir os presentes passageiros da Fortuna com o bem verdadeiro e eterno.
-Fonte: Consolação da Filosofia
+Fonte: A Consolação da Filosofia
 Relação: refines Platão
 
 CITAÇÃO 1
 Original: "I turn the wheel that spins. I delight to see the high come down and the low ascend. Mount up if you will, but by the same token, regard it not as an affront when by my rule you descend."
-Fonte: Consolação da Filosofia, Livro II, Prosa 2 (Fortuna falando)
+Fonte: A Consolação da Filosofia, Livro II, Prosa 2 (Fortuna falando)
 Nota: A Roda da Fortuna como síntese medieval do destino: imparcial, incessante e indiferente ao mérito humano.
 
 CITAÇÃO 2
 Original: "This is my art, this the game I never cease to play. I turn the wheel that spins. I delight to see the high come down and the low ascend... If Fortuna were to cease her ceaseless turning, she would no longer be Fortune."
-Fonte: Consolação da Filosofia, Livro II, Prosa 2
+Fonte: A Consolação da Filosofia, Livro II, Prosa 2
 Nota: Fortuna define-se pela instabilidade — sua crueldade é, paradoxalmente, sua fidelidade à própria natureza.
 
 CITAÇÃO 3
 Original: "If God knows all future events and cannot be deceived, then that must necessarily happen which in His Providence He foresees will be. Wherefore, if from eternity He foreknows not only the deeds of men but also their counsels and their wills, there will be no freedom of will."
-Fonte: Consolação da Filosofia, Livro V, Prosa 3
+Fonte: A Consolação da Filosofia, Livro V, Prosa 3
 Nota: Boécio formula o problema clássico providência × livre-arbítrio que dominará a Escolástica.
 
 ---
 
 ## 8. DANTE
 Posição: A Providência divina é a inteligência que governa os céus e a história humana. O destino individual das almas — salvação ou perdição — manifesta a justiça perfeita de Deus. Mas Dante reserva ao homem livre-arbítrio suficiente para que a condenação seja sempre autoinfligida.
-Fonte: Divina Comédia (Inferno, Purgatório, Paraíso)
+Fonte: A Divina Comédia (Inferno, Purgatório, Paraíso)
 Relação: extends Boécio
 
 CITAÇÃO 1

@@ -38,7 +38,7 @@ Nota: Distinção crucial entre causa eficiente e causa final: Deus move como o 
 
 ## 3. AGOSTINHO
 Posição: Agostinho parte de uma crise pessoal — a inquietude interior que nenhum sucesso mundano consegue saciar — e a generaliza: o coração humano foi feito para Deus e só nEle repousa. Deus é o Ser Supremo, a Verdade imutável, a Beleza sempre antiga e sempre nova. A busca agostiniana passa pelo maniqueísmo e pelo neoplatonismo até culminar na conversão: só o Deus encarnado pode responder ao que a filosofia apenas indica.
-Fonte: Confissões / Cidade de Deus
+Fonte: Confissões / A Cidade de Deus
 Relação: extends Platão (incorpora o Deus pessoal cristão à tradição neoplatônica)
 
 CITAÇÃO 1
@@ -89,17 +89,17 @@ Nota: A definição de mal como privatio boni resolve o problema do mal sem comp
 
 ## 6. DANTE ALIGHIERI
 Posição: Na Divina Comédia, Deus não é objeto de argumento filosófico mas de visão beatífica — luz absoluta que transcende toda linguagem. O poema inteiro é uma allegoria da alma que retorna ao seu criador: o Inferno mostra o afastamento de Deus como consequência da escolha pelo amor próprio; o Purgatório, a purificação do amor mal ordenado; o Paraíso, a progressiva capacitação para ver a luz divina. No verso final, Dante descreve a harmonia perfeita de sua vontade com "o amor que move o sol e as outras estrelas."
-Fonte: Divina Comédia
+Fonte: A Divina Comédia
 Relação: extends Agostinho + Aquino (une poesia, teologia e experiência mística num único arco narrativo)
 
 CITAÇÃO 1
 Original: "But now my desire and will, like a wheel that spins with even motion, were revolved by the Love that moves the sun and the other stars."
-Fonte: Divina Comédia (The Divine Comedy), Paraíso (Paradiso), Canto XXXIII, versos 143-145
+Fonte: A Divina Comédia (The Divine Comedy), Paraíso (Paradiso), Canto XXXIII, versos 143-145
 Nota: Verso final do poema. "Amor que move o sol e as outras estrelas" — Deus como força cósmica de atração que, quando alinhada com a vontade humana, constitui a bem-aventurança.
 
 CITAÇÃO 2
 Original: "The glory of Him who moves all things / penetrates through the universe and glows / in one part more, and in another less."
-Fonte: Divina Comédia (The Divine Comedy), Paraíso (Paradiso), Canto I, versos 1-3
+Fonte: A Divina Comédia (The Divine Comedy), Paraíso (Paradiso), Canto I, versos 1-3
 Nota: Abertura do Paraíso: a glória divina é a luz que atravessa e gradua toda a realidade, princípio de toda a teologia da luz medieval.
 
 ---
@@ -121,7 +121,7 @@ Nota: A prova cartesiana é cosmológica pelo viés do sujeito: parte da existê
 
 ---
 
-## 8. ESPINOSA
+## 8. BARUCH SPINOZA
 Posição: A Ética de Espinosa propõe uma teologia radicalmente imanente: existe uma única substância infinita com infinitos atributos, da qual tudo o mais são modos — e essa substância é Deus, ou seja, a Natureza (Deus sive Natura). Não há transcendência: Deus não é um ser pessoal que criou o mundo, mas a própria totalidade necessária do que existe. Tudo segue de Deus com necessidade geométrica, como a soma dos ângulos de um triângulo segue da sua definição.
 Fonte: Ética
 Relação: refutes Descartes + Anselmo (elimina o Deus pessoal e transcendente; panteísmo imanentista)

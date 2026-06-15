@@ -50,7 +50,7 @@ Relação: extends Heródoto
 CITAÇÃO 1
 Original: "The growth of the power of Athens, and the alarm which this inspired in Sparta, made war inevitable."
 Fonte: História da Guerra do Peloponeso, Livro I, Cap. 23
-Nota: A "Thucydides Trap" — citação estrutural para introduzir a tese central do ensaio.
+Nota: A "Armadilha de Tucídides" — citação estrutural para introduzir a tese central do ensaio.
 
 CITAÇÃO 2
 Original: "The strong do what they can and the weak suffer what they must."
@@ -146,12 +146,12 @@ Nota: Kant concorda com Hobbes sobre o estado natural, mas tira a conclusão opo
 
 ## 9. KARL MARX
 Posição: As guerras modernas são conflitos de classe disfarçados de conflitos nacionais — expressão da contradição entre as potências capitalistas na disputa por mercados, matérias-primas e rotas comerciais. O proletariado não tem pátria a defender; sua emancipação é internacionalista por definição.
-Fonte: Manifesto Comunista (Communist Manifesto); O Capital (Das Kapital)
+Fonte: O Manifesto Comunista (Communist Manifesto); O Capital (Das Kapital)
 Relação: refutes Kant
 
 CITAÇÃO 1
 Original: "The working men have no country. We cannot take from them what they have not got."
-Fonte: Manifesto Comunista (Communist Manifesto), Seção II
+Fonte: O Manifesto Comunista (Communist Manifesto), Seção II
 Nota: A recusa da lealdade nacional como fundamento do internacionalismo operário — útil para contrastar com o pacifismo republicano kantiano.
 
 ---
