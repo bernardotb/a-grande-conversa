@@ -38,7 +38,7 @@ body {
   min-height: 100vh;
   color: var(--ink);
   background: var(--cream);
-  font-family: "Source Sans 3", "Segoe UI", Arial, sans-serif;
+  font-family: var(--font-source-sans), "Segoe UI", Arial, sans-serif;
 }
 
 h1,
@@ -48,7 +48,7 @@ h4,
 .font-display,
 .gc-serif {
   color: var(--primary);
-  font-family: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+  font-family: var(--font-cormorant), "Iowan Old Style", Georgia, serif;
 }
 
 a,

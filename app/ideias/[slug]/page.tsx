@@ -22,9 +22,12 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const idea = getSyntopiconIdea((await params).slug);
-  return idea
-    ? { title: idea.name, description: idea.question }
-    : { title: "Ideia não encontrada" };
+  if (!idea) return { title: "Ideia não encontrada" };
+  const n = idea.thinkers.length;
+  return {
+    title: idea.name,
+    description: `${idea.question} Um debate com ${n} pensador${n !== 1 ? "es" : ""} ao longo de 2.500 anos de filosofia ocidental.`,
+  };
 }
 
 export default async function IdeaPage({
