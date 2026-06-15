@@ -1547,7 +1547,7 @@ const coragemEssay: IdeaEssay = {
   introduction:
     "A coragem começa como glória do guerreiro que enfrenta a morte e, ao longo de mais de dois milênios, torna-se conhecimento do que temer, hábito moral, firmeza interior, serviço político e resistência cotidiana. A tradição nunca elimina a tensão entre avançar e suportar, entre o gesto visível e a força silenciosa, nem entre a valentia como potência e o bem que deveria orientá-la.",
   sourceNote:
-    "Texto em português preparado com base em greatconversationmap.com/ideas/courage, data/source_coragem.md e nos textos primários.",
+    "Texto em português preparado com base em greatconversationmap.com/ideas/courage e nos textos primários.",
   sections: [
     {
       thinkerId: "homer",
@@ -1801,6 +1801,1032 @@ const coragemEssay: IdeaEssay = {
   ]
 };
 
+const desejoEssay: IdeaEssay = {
+  slug: "desejo",
+  title: "A conversa sobre Desejo",
+  introduction:
+    "O desejo aparece ora como falta que escraviza, ora como energia que move a alma em direção ao bem. De Platão a Freud, a conversa pergunta se devemos educá-lo, curá-lo, obedecê-lo ou interpretar as forças ocultas que falam por meio dele.",
+  sourceNote:
+    "Texto em português preparado com base em greatconversationmap.com/ideas/desire e nos textos primários.",
+  sections: [
+    {
+      thinkerId: "plato",
+      keyWork: "O Banquete",
+      paragraphs: [
+        "Platão oferece duas imagens do desejo. Na República, o apetite pode arrastar a alma para uma sucessão sem medida de prazeres; no Banquete, eros nasce da falta e impulsiona a busca do belo que não possuímos.",
+        "A educação filosófica não destrói essa energia, mas muda seu objeto. O amante passa de um corpo belo às almas, às leis, aos conhecimentos e, por fim, à contemplação do Belo em si.",
+        "Desejo pode, portanto, degradar ou elevar conforme a ordem que recebe da razão. Aristóteles recusará uma oposição tão aguda entre apetite e pensamento, procurando formar um caráter que deseje espontaneamente aquilo que reconhece como bom."
+      ],
+      quotes: [
+        {
+          text: "Aquele que o Amor toca não caminha nas trevas.",
+          source: "O Banquete"
+        },
+        {
+          text:
+            "A alma de cada homem possui o poder de aprender a verdade e o órgão para contemplá-la.",
+          source: "República, Livro VII"
+        }
+      ]
+    },
+    {
+      thinkerId: "aristotle",
+      keyWork: "Ética a Nicômaco",
+      paragraphs: [
+        "Aristóteles reúne sob orexis, desejo, o apetite corporal, o ânimo e a aspiração racional. Pensamento isolado não põe o corpo em movimento; agir exige que alguma coisa apareça como desejável.",
+        "A virtude forma prazeres e dores até que o agente queira a medida indicada pela razão prática. O temperante não vive numa guerra contínua consigo mesmo: aprendeu a desejar a quantidade e o objeto adequados.",
+        "A harmonia entre razão e desejo faz da educação moral uma formação afetiva. Lucrécio responderá que muitos desejos não precisam de aperfeiçoamento, mas de diagnóstico, pois nascem de crenças falsas e não possuem termo natural."
+      ],
+      quotes: [
+        {
+          text:
+            "O pensamento por si só nada move; move-nos o pensamento combinado com o desejo.",
+          source: "Ética a Nicômaco, Livro VI"
+        },
+        {
+          text:
+            "O homem virtuoso deseja o que é verdadeiramente bom e encontra prazer nisso.",
+          source: "Ética a Nicômaco, Livro III"
+        }
+      ]
+    },
+    {
+      thinkerId: "lucretius",
+      keyWork: "Da Natureza das Coisas",
+      paragraphs: [
+        "Lucrécio trata desejos ilimitados como causas de perturbação. Natureza requer alimento, abrigo e ausência de dor; riqueza sem fim, fama e imortalidade imaginária acrescentam ansiedade a necessidades modestas.",
+        "O medo da morte sustenta boa parte dessa corrida. Quando entendemos que morrer é a dissolução dos átomos e não uma experiência futura de sofrimento, a urgência de acumular e dominar perde força.",
+        "A terapia epicurista substitui ascensão por lucidez: examinar causas e limites pode desfazer a fixação. Agostinho aceitará que desejos se desordenam, mas sustentará que a inquietação revela um fim mais alto, não apenas um erro a ser removido."
+      ],
+      quotes: [
+        {
+          text:
+            "É mais útil observar um homem em tempos de dificuldade e perigo, pois então a verdadeira voz emerge do fundo de seu coração.",
+          source: "Da Natureza das Coisas, Livro III"
+        },
+        {
+          text:
+            "Do coração dessa fonte de delícias brota algo amargo que os sufoca mesmo entre as flores.",
+          source: "Da Natureza das Coisas, Livro IV"
+        }
+      ]
+    },
+    {
+      thinkerId: "augustine",
+      keyWork: "Confissões",
+      paragraphs: [
+        "Agostinho narra o desejo como busca do bem que se perde quando transforma bens finitos em absolutos. Luxúria, ambição e orgulho não são amor em excesso a coisas más, mas amor fora de ordem.",
+        "Ordo amoris, a ordem do amor, dispõe cada bem segundo seu valor e dirige a vontade para Deus. A conversão não extingue desejo; reorienta uma inquietação que nenhuma criatura consegue satisfazer por completo.",
+        "A graça introduz um elemento que a disciplina filosófica não produz sozinha: a vontade dividida precisa ser auxiliada para querer plenamente o que reconhece. Aquino organizará essa dinâmica distinguindo apetites naturais, sensíveis e racionais."
+      ],
+      quotes: [
+        {
+          text:
+            "Fizeste-nos para ti, Senhor, e inquieto está o nosso coração enquanto não repousa em ti.",
+          source: "Confissões, Livro I"
+        },
+        {
+          text: "Dá-me castidade e continência, mas não ainda.",
+          source: "Confissões, Livro VIII"
+        }
+      ]
+    },
+    {
+      thinkerId: "aquinas",
+      keyWork: "Suma Teológica",
+      paragraphs: [
+        "Aquino distingue apetite natural, apetite sensível e vontade, o apetite racional. Cada ser tende ao bem segundo seu modo: corpos por inclinação natural, animais pela sensação e seres humanos também pela apreensão intelectual.",
+        "As paixões não são más em si. A vontade consente, resiste e ordena desejos sensíveis, enquanto busca necessariamente o bem sob alguma aparência, mesmo quando escolhe um objeto inadequado.",
+        "Nenhum bem finito encerra a abertura da vontade ao bem universal. Spinoza rejeitará esse fim transcendente e fará do próprio esforço de perseverar, o conatus, a essência efetiva do desejo humano."
+      ],
+      quotes: [
+        {
+          text:
+            "A vontade tende naturalmente ao bem como ao seu objeto próprio.",
+          source: "Suma Teológica, I-II, Questão 8, Artigo 1"
+        },
+        {
+          text:
+            "A felicidade última do homem consiste na contemplação da verdade, que é a visão da essência divina.",
+          source: "Suma Teológica, I-II, Questão 3, Artigo 8"
+        }
+      ]
+    },
+    {
+      thinkerId: "dante",
+      keyWork: "Divina Comédia",
+      paragraphs: [
+        "Dante converte em poesia a tese de que toda criatura se move por amor. O fogo busca sua esfera, a planta busca a luz e a vontade humana busca uma forma de plenitude.",
+        "O desejo eletivo pode errar pelo objeto, pelo excesso ou pela deficiência. A arquitetura do Purgatório não elimina o amor, mas corrige sua direção e medida até que vontade e desejo concordem.",
+        "No Paraíso, a realização não é imobilidade, mas movimento perfeitamente afinado ao amor que ordena o cosmos. Hobbes romperá com esse universo de fins naturais ao descrever desejo como movimento interminável entre objetos sucessivos."
+      ],
+      quotes: [
+        {
+          text:
+            "Nem Criador nem criatura, meu filho, jamais existiram sem amor, natural ou da mente.",
+          source: "Divina Comédia, Purgatório, Canto XVII"
+        },
+        {
+          text:
+            "Mas já meu desejo e minha vontade giravam, como roda em movimento uniforme, pelo Amor que move o sol e as outras estrelas.",
+          source: "Divina Comédia, Paraíso, Canto XXXIII"
+        }
+      ]
+    },
+    {
+      thinkerId: "spinoza",
+      keyWork: "Ética",
+      paragraphs: [
+        "Spinoza define desejo como conatus consciente, o esforço pelo qual cada coisa persevera em seu ser. Ele não é uma faculdade inferior esperando ordens da razão, mas a própria essência ativa do indivíduo.",
+        "O juízo de valor segue o desejo: chamamos bom aquilo que buscamos, em vez de buscá-lo porque primeiro o julgamos bom. A diferença decisiva está entre paixões produzidas por causas externas e desejos ativos nascidos de compreensão adequada.",
+        "Liberdade não significa ausência de desejo, mas entendimento de suas causas e aumento da potência de agir. Hobbes compartilha o naturalismo, embora veja uma sucessão mecânica de apetites que exige contenção política."
+      ],
+      quotes: [
+        {
+          text:
+            "O desejo é a própria essência do homem, enquanto concebida como determinada a alguma ação por uma condição dada.",
+          source: "Ética, Parte III, Definição dos Afetos"
+        },
+        {
+          text:
+            "Não nos esforçamos, queremos, buscamos ou desejamos algo porque o julgamos bom; ao contrário, julgamos algo bom porque nos esforçamos, queremos, buscamos ou desejamos.",
+          source: "Ética, Parte III, Proposição 9, Escólio"
+        }
+      ]
+    },
+    {
+      thinkerId: "hobbes",
+      keyWork: "Leviatã",
+      paragraphs: [
+        "Hobbes descreve desejo como início de movimento em direção a um objeto e aversão como movimento de afastamento. Não existe uma vontade separada: a vontade é o último apetite que prevalece na deliberação.",
+        "A felicidade não é repouso num bem supremo, mas êxito contínuo na passagem de um desejo ao seguinte. Poder torna-se desejável porque assegura meios futuros para satisfazer apetites que ainda surgirão.",
+        "Essa inquietação permanente produz competição e torna necessária uma autoridade capaz de conter seus efeitos violentos. Kant reagirá separando moralidade da satisfação, afirmando que a vontade livre deve agir contra inclinações quando o dever assim exige."
+      ],
+      quotes: [
+        {
+          text:
+            "A felicidade desta vida não consiste no repouso de uma mente satisfeita, mas no progresso contínuo do desejo de um objeto a outro.",
+          source: "Leviatã, Parte I, Capítulo 11"
+        },
+        {
+          text:
+            "Apresento como inclinação geral de toda a humanidade um desejo perpétuo e inquieto de poder após poder, que cessa apenas na morte.",
+          source: "Leviatã, Parte I, Capítulo 11"
+        }
+      ]
+    },
+    {
+      thinkerId: "kant",
+      keyWork: "Crítica da Razão Prática",
+      paragraphs: [
+        "Kant recusa que desejos, mesmo educados, possam fundamentar obrigação universal. Inclinações pertencem à sensibilidade e variam; a lei moral deve valer independentemente do objeto que alguém queira alcançar.",
+        "Agir por dever é escolher uma máxima por respeito à lei, não pelo prazer esperado. A liberdade prática aparece quando a razão determina a vontade apesar da atração ou repulsa produzida pelas circunstâncias.",
+        "A separação preserva a autonomia, mas deixa aberta a pergunta sobre a origem de motivações que se apresentam como racionais. Melville e Freud explorarão desejos que ocupam o sujeito de modo tão profundo que sua liberdade se torna incerta."
+      ],
+      quotes: [
+        {
+          text:
+            "Dever é a necessidade de uma ação praticada por respeito à lei.",
+          source: "Fundamentação da Metafísica dos Costumes"
+        },
+        {
+          text:
+            "A inclinação, seja benigna ou de outro tipo, é cega e servil.",
+          source: "Crítica da Razão Prática"
+        }
+      ]
+    },
+    {
+      thinkerId: "melville",
+      keyWork: "Moby Dick",
+      paragraphs: [
+        "Melville dá ao desejo monomaníaco a figura de Ahab. A baleia deixa de ser um animal e se torna máscara de uma ofensa cósmica que o capitão precisa atravessar, mesmo sem conseguir nomear o que imagina existir por trás dela.",
+        "A perseguição reorganiza navio, tripulação, trabalho e natureza segundo um único objeto. Advertências, afeto e prudência não competem com esse desejo porque ele já absorveu a identidade daquele que deveria julgá-lo.",
+        "Ahab mostra uma vontade que parece soberana enquanto confessa estar presa a uma força inescrutável. William James deslocará a questão para os mecanismos da atenção, perguntando como uma ideia se torna dominante e passa à ação."
+      ],
+      quotes: [
+        {
+          text:
+            "Não me fales de blasfêmia, homem; eu golpearia o sol se ele me insultasse.",
+          source: "Moby Dick, Capítulo 36"
+        },
+        {
+          text:
+            "Agora te conheço, espírito claro, e sei que tua verdadeira adoração é o desafio.",
+          source: "Moby Dick, Capítulo 119"
+        }
+      ]
+    },
+    {
+      thinkerId: "william-james",
+      keyWork: "Princípios de Psicologia",
+      paragraphs: [
+        "William James descreve desejo como consciência sentida de algo ausente. A ideia retorna à atenção acompanhada pela percepção de impedimento, e essa tensão distingue querer de apenas imaginar.",
+        "O princípio ideomotor afirma que uma ideia de movimento tende a realizá-lo quando nenhuma ideia rival a inibe. Nos conflitos difíceis, esforço de vontade é esforço de atenção para manter uma possibilidade presente até que se converta em ato.",
+        "A vontade deixa de ser poder oculto e torna-se disputa entre conteúdos pela posse da mente. Freud levará o conflito para além da atenção consciente, sustentando que desejos reprimidos continuam ativos sob formas deslocadas."
+      ],
+      quotes: [
+        {
+          text:
+            "Desejo, anseio e vontade são estados mentais que todos conhecem e que nenhuma definição pode tornar mais claros.",
+          source: "Princípios de Psicologia, Capítulo XXVI"
+        },
+        {
+          text:
+            "O esforço de atenção é, portanto, o fenômeno essencial da vontade.",
+          source: "Princípios de Psicologia, Capítulo XI"
+        }
+      ]
+    },
+    {
+      thinkerId: "freud",
+      keyWork: "O Mal-Estar na Civilização",
+      paragraphs: [
+        "Freud rompe com a suposição de que conhecemos nossos desejos. Repressão afasta representações da consciência, mas não elimina sua energia, que retorna em sonhos, sintomas, lapsos e escolhas aparentemente inexplicáveis.",
+        "A libido pode ser desviada e sublimada em trabalho, arte, religião e vínculos sociais. A civilização depende dessas transformações, ao mesmo tempo que aumenta culpa e frustração ao exigir renúncias crescentes.",
+        "Até o dever pode carregar desejos internalizados e agressividade voltada contra o próprio eu. A conversa termina sem decidir se compreender o desejo o liberta, como esperava Spinoza, ou apenas revela que a consciência nunca governou sozinha."
+      ],
+      quotes: [
+        {
+          text:
+            "O preço que pagamos por nosso avanço na civilização é uma perda de felicidade pelo aumento do sentimento de culpa.",
+          source: "O Mal-Estar na Civilização"
+        },
+        {
+          text: "O eu não é senhor em sua própria casa.",
+          source: "Uma Dificuldade no Caminho da Psicanálise"
+        }
+      ]
+    }
+  ]
+};
+
+const punicaoEssay: IdeaEssay = {
+  slug: "punicao",
+  title: "A conversa sobre Punição",
+  introduction:
+    "A punição nasce como vingança de sangue e se converte em poder público de julgar, corrigir, dissuadir e restaurar o direito. O debate atravessa uma tensão que permanece viva: fazemos sofrer porque o culpado merece, porque esperamos reformá-lo ou porque queremos proteger a comunidade?",
+  sourceNote:
+    "Texto em português preparado com base em greatconversationmap.com/ideas/punishment e nos textos primários.",
+  sections: [
+    {
+      thinkerId: "aeschylus",
+      keyWork: "Oresteia",
+      paragraphs: [
+        "Ésquilo apresenta a punição em sua forma arcaica: o sangue derramado exige novo sangue, e a dívida alcança a casa inteira. As Erínias perseguem Orestes porque a morte da mãe não pode permanecer sem resposta.",
+        "A lei de retribuição contém uma exigência de responsabilidade, mas produz novas vítimas quando executada pelos diretamente ofendidos. Atena institui um tribunal que retira a decisão das mãos da vingança privada sem desprezar a reclamação das antigas deusas.",
+        "Punição torna-se julgamento público capaz de encerrar a sequência de represálias. Platão aceitará a autoridade da cidade, mas deslocará o fim da pena da satisfação do dano para a cura moral do infrator."
+      ],
+      quotes: [
+        {
+          text: "Quem faz sofrerá. Essa é a lei antiga.",
+          source: "Agamêmnon"
+        },
+        {
+          text:
+            "Que nenhum homem viva sem o freio da lei, nem seja escravizado pela tirania.",
+          source: "Eumênides"
+        }
+      ]
+    },
+    {
+      thinkerId: "plato",
+      keyWork: "Górgias",
+      paragraphs: [
+        "Platão inverte a intuição de que escapar da pena é vantagem. A injustiça adoece a alma; sofrer a correção é menos ruim do que conservar intacta a desordem produzida pelo crime.",
+        "A analogia médica permite graduar penas segundo a condição do agente. Alguns podem ser reformados, enquanto os incorrigíveis servem de exemplo ou são afastados para proteger a cidade.",
+        "A pena não é vingança, mas intervenção orientada por um bem objetivo. Aristóteles tornará essa medicina menos abrangente ao situar a punição na restauração de uma igualdade rompida entre pessoas."
+      ],
+      quotes: [
+        {
+          text:
+            "A função própria da punição é dupla: aquele que é justamente punido deve tornar-se melhor e beneficiar-se dela, ou deve servir de exemplo aos seus semelhantes.",
+          source: "Górgias, 525b"
+        },
+        {
+          text:
+            "A maior de todas as desgraças ligadas à injustiça é ter cometido o mal e não pagar a pena.",
+          source: "Górgias, 479d"
+        }
+      ]
+    },
+    {
+      thinkerId: "aristotle",
+      keyWork: "Ética a Nicômaco",
+      paragraphs: [
+        "Aristóteles compreende a pena como parte da justiça corretiva. Quando alguém obtém ganho injusto e outro sofre perda, o juiz busca uma igualdade aritmética que retire a vantagem e repare o desequilíbrio.",
+        "A responsabilidade depende de voluntariedade, conhecimento e circunstâncias. Atos cometidos sob força ou ignorância relevante não recebem a mesma avaliação que escolhas deliberadas.",
+        "A correção aristotélica preserva proporcionalidade sem reduzir punição a tratamento da alma. Agostinho acrescentará o horizonte do pecado e perguntará como a autoridade pode punir sem reproduzir o ódio que condena."
+      ],
+      quotes: [
+        {
+          text:
+            "Punimos aqueles que agem mal, desde que o ato não tenha sido praticado sob coação ou como resultado de ignorância pela qual o agente não era responsável.",
+          source: "Ética a Nicômaco, Livro III, Capítulo 5"
+        },
+        {
+          text:
+            "O homem injusto tem demais e aquele que sofre tem de menos; o juiz procura igualar as coisas pela pena, retirando do ganho.",
+          source: "Ética a Nicômaco, Livro V, Capítulo 4"
+        }
+      ]
+    },
+    {
+      thinkerId: "augustine",
+      keyWork: "A Cidade de Deus",
+      paragraphs: [
+        "Agostinho distingue a justiça da pena e o afeto daquele que a aplica. Uma autoridade pode corrigir por cuidado com a ordem e com o culpado; a mesma ação, movida por crueldade ou prazer na dor, torna-se moralmente corrompida.",
+        "A punição terrena permanece limitada porque nenhum juiz conhece inteiramente a interioridade humana. Ela pode restringir o mal e favorecer arrependimento, mas não substitui o juízo divino.",
+        "A misericórdia não cancela a responsabilidade, nem a responsabilidade autoriza vingança pessoal. Aquino sistematizará essa dupla finalidade, fazendo da restauração da ordem o fim primeiro e da reforma um bem possível."
+      ],
+      quotes: [
+        {
+          text:
+            "A paz dos injustos, comparada à paz dos justos, não merece sequer ser chamada de paz.",
+          source: "A Cidade de Deus, Livro XIX, Capítulo 12"
+        },
+        {
+          text:
+            "Que a punição dos maus é eterna está ensinado de modo explícito pelos oráculos divinos, e é vão que alguém conteste isso.",
+          source: "A Cidade de Deus, Livro XXI, Capítulo 23"
+        }
+      ]
+    },
+    {
+      thinkerId: "aquinas",
+      keyWork: "Suma Teológica",
+      paragraphs: [
+        "Aquino situa a pena dentro da ordem violada pelo pecado. A ação má obtém um bem fora de medida; a punição retira algo do culpado e restabelece a proporção exigida pela justiça.",
+        "A pena pode também medicinalmente corrigir o infrator e proteger outros. Esses efeitos não substituem a retribuição, mas mostram que uma resposta justa pode servir à cura individual e ao bem comum.",
+        "A autoridade pública recebe o poder de punir porque julga em nome da comunidade, não para satisfazer ira privada. Hobbes manterá o monopólio soberano, porém definirá a pena exclusivamente por sua finalidade futura de produzir obediência."
+      ],
+      quotes: [
+        {
+          text:
+            "A punição é de dois tipos: uma é retributiva, que restaura a igualdade da justiça; a outra é medicinal, que tende à correção do pecador.",
+          source: "Suma Teológica, I-II, Questão 87, Artigo 3"
+        },
+        {
+          text:
+            "É lícito matar um malfeitor na medida em que isso se dirige ao bem-estar de toda a comunidade.",
+          source: "Suma Teológica, II-II, Questão 64, Artigo 2"
+        }
+      ]
+    },
+    {
+      thinkerId: "hobbes",
+      keyWork: "Leviatã",
+      paragraphs: [
+        "Hobbes define punição como mal infligido pela autoridade pública a quem violou a lei. Sem lei promulgada e soberano reconhecido, pode haver hostilidade, mas não punição no sentido jurídico.",
+        "Sua finalidade é dispor vontades à obediência futura. Sofrimento que não pretende corrigir conduta, intimidar potenciais infratores ou proteger a paz é vingança, não exercício legítimo do poder penal.",
+        "A pena torna-se instrumento político mensurado por seus efeitos. Locke contestará que o direito de punir nasça apenas do Estado, atribuindo-o originalmente a cada pessoa sob a lei natural."
+      ],
+      quotes: [
+        {
+          text:
+            "Punição é um mal infligido pela autoridade pública àquele que fez ou omitiu o que essa mesma autoridade julga transgressão da lei, para que a vontade dos homens fique mais disposta à obediência.",
+          source: "Leviatã, Parte II, Capítulo 28"
+        },
+        {
+          text:
+            "A vingança sem consideração pelo exemplo e pelo benefício futuro é triunfo ou glória no dano de outro, sem tender a fim algum; e gloriar-se sem fim é vanglória e contrário à razão.",
+          source: "Leviatã, Parte I, Capítulo 15"
+        }
+      ]
+    },
+    {
+      thinkerId: "locke",
+      keyWork: "Segundo Tratado sobre o Governo",
+      paragraphs: [
+        "Locke afirma que a lei natural obriga antes da sociedade civil e concede a cada pessoa poder de conter seus violadores. Esse direito não autoriza crueldade: a pena deve ser proporcional à reparação e à prevenção.",
+        "Ao entrar na comunidade política, indivíduos transferem ao magistrado o poder de executar a lei. A vítima conserva interesse na reparação, enquanto o Estado exerce a punição em nome da segurança comum.",
+        "Locke combina responsabilidade anterior ao soberano com fins de dissuasão e reforma. Montesquieu examinará como a intensidade concreta dessas penas revela o tipo de regime que as administra."
+      ],
+      quotes: [
+        {
+          text:
+            "Cada homem tem o direito de punir o infrator e ser executor da lei da natureza.",
+          source: "Segundo Tratado sobre o Governo, Capítulo II"
+        },
+        {
+          text:
+            "Cada transgressão pode ser punida no grau e com a severidade suficientes para torná-la mau negócio ao infrator, levá-lo ao arrependimento e, pelo exemplo, impedir que outros façam o mesmo.",
+          source: "Segundo Tratado sobre o Governo, Capítulo II"
+        }
+      ]
+    },
+    {
+      thinkerId: "montesquieu",
+      keyWork: "O Espírito das Leis",
+      paragraphs: [
+        "Montesquieu relaciona punição e estrutura política. Despotismos dependem do terror e multiplicam suplícios; repúblicas livres podem empregar penas moderadas porque honra e vínculo cívico também sustentam obediência.",
+        "Proporcionalidade é requisito moral e prático. Quando crimes diferentes recebem a mesma pena extrema, o infrator não possui razão para evitar o delito maior e a lei perde capacidade de distinguir gravidades.",
+        "Publicidade, clareza e separação de poderes limitam o arbítrio de quem pune. Kant rejeitará, porém, que eficácia e moderação sejam o fundamento último: para ele, a medida deve vir exclusivamente do merecimento."
+      ],
+      quotes: [
+        {
+          text:
+            "A severidade das penas convém mais aos governos despóticos, cujo princípio é o terror, do que à monarquia ou à república, movidas pela honra e pela virtude.",
+          source: "O Espírito das Leis, Livro VI, Capítulo 9"
+        },
+        {
+          text:
+            "É essencial que haja certa proporção nas punições, porque é essencial evitar um grande crime mais do que um menor.",
+          source: "O Espírito das Leis, Livro VI, Capítulo 16"
+        }
+      ]
+    },
+    {
+      thinkerId: "kant",
+      keyWork: "Metafísica dos Costumes",
+      paragraphs: [
+        "Kant formula a mais rigorosa defesa moderna da retribuição. Punir alguém para intimidar outros ou produzir benefício social transforma uma pessoa em instrumento de uma finalidade externa.",
+        "A pena deve ser imposta porque o crime foi cometido e segundo a gravidade que ele merece. A lei de talião expressa igualdade jurídica, não permissão para paixões privadas ou imitação literal de todo dano.",
+        "A inocência torna-se limite absoluto: nenhum resultado autoriza punir quem não é culpado. Hegel aceitará esse olhar retrospectivo, mas reinterpretará a pena como restauração dialética do direito negado pelo crime."
+      ],
+      quotes: [
+        {
+          text:
+            "A punição judicial nunca pode ser usada meramente como meio de promover algum outro bem para o próprio criminoso ou para a sociedade civil. Deve ser imposta apenas porque o indivíduo cometeu um crime.",
+          source: "Metafísica dos Costumes, Doutrina do Direito, Observação Geral E"
+        },
+        {
+          text:
+            "Mesmo que uma sociedade civil resolvesse dissolver-se, o último assassino na prisão deveria ser executado antes que a resolução fosse cumprida.",
+          source: "Metafísica dos Costumes, Doutrina do Direito, Observação Geral E"
+        }
+      ]
+    },
+    {
+      thinkerId: "hegel",
+      keyWork: "Princípios da Filosofia do Direito",
+      paragraphs: [
+        "Hegel descreve o crime como negação do direito. O ladrão rejeita a validade da propriedade alheia enquanto pretende que sua posse do objeto roubado seja reconhecida, produzindo uma vontade contraditória.",
+        "A punição nega essa negação e restabelece a validade da ordem jurídica. Ao responsabilizar o criminoso pelas consequências racionais do ato, ela o trata como agente e não apenas como perigo a ser condicionado.",
+        "A pena seria, nesse sentido, um direito do próprio culpado, administrado pelo Estado e separado da vingança. Mill recusará essa linguagem de reconhecimento e perguntará quais sofrimentos futuros a prática penal efetivamente evita."
+      ],
+      quotes: [
+        {
+          text:
+            "O dano que recai sobre o criminoso não é apenas implicitamente justo; como justo, é ao mesmo tempo sua vontade implícita, uma realização de sua liberdade e de seu direito.",
+          source: "Princípios da Filosofia do Direito, §100"
+        },
+        {
+          text:
+            "A punição contém o direito do criminoso e, ao ser punido, ele é honrado como ser racional.",
+          source: "Princípios da Filosofia do Direito, §100, Adendo"
+        }
+      ]
+    },
+    {
+      thinkerId: "mill",
+      keyWork: "Utilitarismo",
+      paragraphs: [
+        "Mill distingue o desejo natural de retaliar da justificação moral da pena. Simpatia amplia a reação à agressão e forma o sentimento de justiça, mas intensidade afetiva não prova que infligir sofrimento seja correto.",
+        "Deterrência, reforma e proteção pública são fins legítimos quando reduzem danos. A pena deve ser a mínima necessária, pois sofrimento adicional sem benefício compensador aumenta o mal que a moral deveria diminuir.",
+        "Garantias contra punir inocentes recebem fundamento consequencialista: um sistema que tolera isso destrói confiança e segurança. Permanece a tensão entre considerar a pena devida ao passado e justificá-la inteiramente por seus resultados futuros."
+      ],
+      quotes: [
+        {
+          text:
+            "Considera-se universalmente justo que cada pessoa obtenha aquilo que merece, seja bem ou mal, e injusto que receba um bem ou sofra um mal que não merece.",
+          source: "Utilitarismo, Capítulo V"
+        },
+        {
+          text:
+            "O único fim pelo qual o poder pode ser legitimamente exercido sobre um membro de uma comunidade civilizada, contra sua vontade, é impedir dano a outros.",
+          source: "Sobre a Liberdade, Capítulo I"
+        }
+      ]
+    }
+  ]
+};
+
+const deverEssay: IdeaEssay = {
+  slug: "dever",
+  title: "A conversa sobre Dever",
+  introduction:
+    "O dever surge na tragédia como colisão entre obrigações legítimas e se transforma numa busca pelo fundamento daquilo que devemos fazer. Lei divina, justiça, função social, pacto, consciência racional e felicidade coletiva disputam a autoridade de tornar uma ação obrigatória.",
+  sourceNote:
+    "Texto em português preparado com base em greatconversationmap.com/ideas/duty e nos textos primários.",
+  sections: [
+    {
+      thinkerId: "sophocles",
+      keyWork: "Antígona",
+      paragraphs: [
+        "Sófocles apresenta deveres que não podem ser cumpridos juntos. Antígona deve obediência ao decreto da cidade, mas também ao irmão morto e às leis religiosas que exigem seu sepultamento.",
+        "Creonte e Antígona falam a partir de ordens reais de obrigação. A tragédia não oferece uma regra superior capaz de dissolver o conflito sem perda, e agir significa violar alguma exigência reconhecida.",
+        "O dever aparece antes como experiência trágica do que como sistema coerente. Platão procurará eliminar essa fragmentação fazendo da ação correta expressão de uma alma internamente ordenada."
+      ],
+      quotes: [
+        {
+          text:
+            "Eu sabia que devia morrer e, se morrer antes do tempo, considero isso um ganho.",
+          source: "Antígona"
+        },
+        {
+          text:
+            "Não julguei teus decretos fortes o bastante para superar os estatutos não escritos e infalíveis dos deuses.",
+          source: "Antígona"
+        }
+      ]
+    },
+    {
+      thinkerId: "plato",
+      keyWork: "República",
+      paragraphs: [
+        "Platão pergunta por que alguém deveria ser justo quando poderia obter vantagem sem ser descoberto. Sua resposta aproxima obrigação e saúde: injustiça é conflito entre partes da alma, não apenas violação de uma regra externa.",
+        "Quando razão, ânimo e apetite cumprem suas funções, o agente faz o que é correto porque isso pertence à sua própria realização. O dever não se opõe ao bem daquele que o cumpre; exprime a forma de uma vida ordenada.",
+        "Essa unidade responde à colisão trágica ao postular uma ordem racional comum. Aristóteles restringirá o campo do devido, distinguindo excelência pessoal da justiça dirigida especificamente ao bem de outra pessoa."
+      ],
+      quotes: [
+        {
+          text:
+            "A justiça consiste em fazer o próprio trabalho e não se intrometer no que não nos pertence.",
+          source: "República, Livro IV"
+        },
+        {
+          text:
+            "O homem justo não permite que os diversos elementos dentro dele interfiram uns nos outros.",
+          source: "República, Livro IV"
+        }
+      ]
+    },
+    {
+      thinkerId: "aristotle",
+      keyWork: "Ética a Nicômaco",
+      paragraphs: [
+        "Aristóteles localiza o dever sobretudo na justiça, pois ela se refere ao que é devido a outro. Coragem e temperança aperfeiçoam quem age; justiça regula distribuições, reparações e relações.",
+        "O devido assume forma proporcional na vida pública e forma relacional nas amizades. Promessas, lealdade e reciprocidade criam obrigações que nenhuma lei consegue descrever por inteiro.",
+        "A teoria fundamenta deveres na estrutura das relações, não num comando separado da vida boa. Cícero transformará essa herança numa linguagem sistemática de ofícios ligados à natureza racional e à posição social."
+      ],
+      quotes: [
+        {
+          text:
+            "Somente a justiça entre as virtudes é considerada o bem de outro, porque se relaciona com o próximo e faz o que é vantajoso para ele.",
+          source: "Ética a Nicômaco, Livro V"
+        },
+        {
+          text:
+            "Entre amigos não há necessidade de justiça, mas os justos ainda necessitam da qualidade da amizade.",
+          source: "Ética a Nicômaco, Livro VIII"
+        }
+      ]
+    },
+    {
+      thinkerId: "cicero",
+      keyWork: "Dos Deveres",
+      paragraphs: [
+        "Cícero organiza a filosofia moral em torno de officium, aquilo que convém a um ser racional realizar em sua posição. Dever liga natureza humana comum, papéis particulares e exigências da vida republicana.",
+        "O aparente conflito entre o honesto e o útil ocupa o centro de Dos Deveres. Uma vantagem que exige injustiça não é verdadeiramente útil, pois destrói confiança e comunidade, condições dos próprios benefícios humanos.",
+        "A obrigação ganha linguagem prática para magistrados, amigos, pais e cidadãos. Epicteto conservará a ideia de papéis, mas colocará a integridade do princípio racional acima dos resultados externos de seu cumprimento."
+      ],
+      quotes: [
+        {
+          text:
+            "Nenhum dever é mais imperativo do que o de demonstrar gratidão.",
+          source: "Dos Deveres, Livro I"
+        },
+        {
+          text:
+            "Os homens não diferem tanto por natureza quanto por hábito.",
+          source: "Dos Deveres, Livro I"
+        }
+      ]
+    },
+    {
+      thinkerId: "epictetus",
+      keyWork: "Discursos",
+      paragraphs: [
+        "Epicteto faz do dever a fidelidade ao princípio dirigente da razão. Cada pessoa ocupa relações de filho, irmão, cidadão ou governante, e deve perguntar o que essas relações exigem sem tornar sua virtude dependente da resposta alheia.",
+        "A distinção entre o que depende de nós e o que não depende protege a obrigação contra a fortuna. Podemos cumprir nosso papel com justiça mesmo quando a ação fracassa ou recebe ingratidão.",
+        "O papel não justifica submissão a atos indignos, pois a primeira obrigação é preservar o caráter racional. Marco Aurélio levará essa disciplina ao governo, onde dever pessoal e bem comum se encontram diariamente."
+      ],
+      quotes: [
+        {
+          text:
+            "Qual é o fruto de teu ensino? Tranquilidade, destemor e liberdade.",
+          source: "Discursos, Livro II"
+        },
+        {
+          text:
+            "Confronta toda impressão severa com estas palavras: és apenas uma impressão e não a coisa que pareces ser. Depois, examina-a pelas regras que possuis.",
+          source: "Manual, 1"
+        }
+      ]
+    },
+    {
+      thinkerId: "marcus-aurelius",
+      keyWork: "Meditações",
+      paragraphs: [
+        "Marco Aurélio descreve dever como trabalho cotidiano de um ser humano inserido numa comunidade racional. Nem o poder imperial dispensa a tarefa de agir com justiça, paciência e atenção ao bem comum.",
+        "A natureza social fornece o critério: aquilo que não beneficia a colmeia não beneficia a abelha. Cumprir a função humana exige cooperar, corrigir sem ódio e retornar à ação quando fadiga ou irritação desviam a mente.",
+        "A obrigação estoica nasce do pertencimento ao cosmos e à cidade. Aquino traduzirá essa racionalidade comum em lei natural, conferindo aos preceitos morais uma origem criadora e um fim último."
+      ],
+      quotes: [
+        {
+          text:
+            "Ao amanhecer, quando te custar levantar, tenha presente: levanto-me para o trabalho de um ser humano.",
+          source: "Meditações, Livro V, §1"
+        },
+        {
+          text:
+            "O objetivo da vida não é estar ao lado da maioria, mas escapar de encontrar-se nas fileiras dos insanos.",
+          source: "Meditações, Livro VI"
+        }
+      ]
+    },
+    {
+      thinkerId: "aquinas",
+      keyWork: "Suma Teológica",
+      paragraphs: [
+        "Aquino entende a lei natural como participação da criatura racional na lei eterna. Seus primeiros preceitos ordenam buscar o bem, evitar o mal e preservar os bens adequados à natureza humana.",
+        "Justiça produz obrigações estritas porque se dirige ao devido a outra pessoa. As demais virtudes também caem sob a lei natural quando seus atos são necessários à vida racional e ao bem comum.",
+        "Deveres aparentes não podem verdadeiramente contradizer-se numa ordem divina coerente; o erro está na interpretação de um deles. Hobbes romperá com essa anterioridade ao afirmar que obrigação jurídica efetiva começa apenas com o poder comum."
+      ],
+      quotes: [
+        {
+          text:
+            "A lei natural nada mais é que a luz do entendimento colocada em nós por Deus; por ela sabemos o que devemos fazer e o que devemos evitar.",
+          source: "Suma Teológica, I-II, Questão 94"
+        },
+        {
+          text:
+            "Toda lei humana tem tanto da natureza da lei quanto deriva da lei natural; se em algum ponto se afasta dela, já não é lei, mas perversão da lei.",
+          source: "Suma Teológica, I-II, Questão 95"
+        }
+      ]
+    },
+    {
+      thinkerId: "hobbes",
+      keyWork: "Leviatã",
+      paragraphs: [
+        "Hobbes distingue leis naturais, que aconselham a paz, de obrigações eficazes garantidas por um soberano. Sem poder comum, promessas permanecem frágeis porque ninguém possui segurança de que os demais cumprirão sua parte.",
+        "O pacto cria dever quando transfere direitos e estabelece uma autoridade capaz de punir sua violação. Justiça passa a significar cumprimento de convenções válidas dentro da comunidade política.",
+        "A obrigação depende de instituição e coerção, não de uma ordem de virtudes anterior ao Estado. Locke responderá que deveres naturais já vinculam pessoas antes do contrato e limitam aquilo que governos podem exigir."
+      ],
+      quotes: [
+        {
+          text:
+            "Onde não há poder comum, não há lei; onde não há lei, não há injustiça.",
+          source: "Leviatã, Parte I, Capítulo 13"
+        },
+        {
+          text:
+            "Os pactos sem a espada não passam de palavras e não têm força alguma para dar segurança a um homem.",
+          source: "Leviatã, Parte II, Capítulo 17"
+        }
+      ]
+    },
+    {
+      thinkerId: "locke",
+      keyWork: "Ensaio sobre o Entendimento Humano",
+      paragraphs: [
+        "Locke identifica três regras que influenciam obrigação: lei divina, lei civil e lei da opinião. Cada uma associa ações a sanções diferentes, do juízo religioso à punição estatal e à reputação social.",
+        "No estado de natureza, a razão já ensina que ninguém deve prejudicar vida, liberdade ou posses de outro. O governo melhora a aplicação dessa lei, mas não cria do nada os deveres que justificam sua autoridade.",
+        "Locke mede parte da motivação por prazer e dor, enquanto preserva uma lei racional anterior ao Estado. Kant eliminará sanções e felicidade do fundamento moral para localizar dever na autonomia da razão."
+      ],
+      quotes: [
+        {
+          text:
+            "Bem e mal nada mais são que prazer ou dor, ou aquilo que ocasiona ou proporciona prazer ou dor.",
+          source: "Ensaio sobre o Entendimento Humano, Livro II, Capítulo 28"
+        },
+        {
+          text:
+            "O estado de natureza possui uma lei da natureza que o governa e obriga a todos; e a razão, que é essa lei, ensina toda a humanidade que queira consultá-la.",
+          source: "Segundo Tratado sobre o Governo, Capítulo II"
+        }
+      ]
+    },
+    {
+      thinkerId: "kant",
+      keyWork: "Fundamentação da Metafísica dos Costumes",
+      paragraphs: [
+        "Kant faz do dever a necessidade de agir por respeito à lei moral. Uma ação pode coincidir com o dever por interesse ou inclinação, mas seu valor especificamente moral aparece quando a máxima é escolhida porque pode valer universalmente.",
+        "O imperativo categórico não depende de desejos, recompensas ou autoridade externa. A pessoa racional legisla a lei para si e, ao obedecê-la, exerce autonomia em vez de submissão heterônoma.",
+        "Deveres perfeitos proíbem sem exceção; deveres imperfeitos deixam latitude para desenvolver talentos e auxiliar outros. Hegel contestará que essa forma universal forneça conteúdo suficiente fora das instituições históricas."
+      ],
+      quotes: [
+        {
+          text:
+            "Dever! Nome sublime e poderoso, que nada contém de encantador ou insinuante, mas exige submissão.",
+          source: "Crítica da Razão Prática"
+        },
+        {
+          text:
+            "Age apenas segundo a máxima pela qual possas ao mesmo tempo querer que ela se torne lei universal.",
+          source: "Fundamentação da Metafísica dos Costumes"
+        }
+      ]
+    },
+    {
+      thinkerId: "hegel",
+      keyWork: "Princípios da Filosofia do Direito",
+      paragraphs: [
+        "Hegel aceita a racionalidade do dever kantiano, mas rejeita sua abstração. Uma forma universal não indica sozinha como agir sem o conteúdo fornecido por práticas, relações e instituições concretas.",
+        "Sittlichkeit, a vida ética, realiza obrigação na família, na sociedade civil e no Estado. Cuidado, contrato e cidadania possuem lógicas distintas; dever não é uma regra idêntica aplicada de fora a todos os vínculos.",
+        "Instituições podem encarnar liberdade e também reivindicar obediência. Mill responderá que sua autoridade deve ser julgada pelas consequências para o bem-estar, não apenas pela posição ocupada numa ordem histórica."
+      ],
+      quotes: [
+        {
+          text:
+            "Uma teoria imanente e coerente dos deveres só pode ser a exposição ordenada das relações exigidas pela Ideia de liberdade.",
+          source: "Princípios da Filosofia do Direito, §148"
+        },
+        {
+          text:
+            "O dever não é uma restrição à liberdade, mas apenas à liberdade abstrata, isto é, à não liberdade. O dever é alcançar nossa essência, conquistar a liberdade positiva.",
+          source: "Princípios da Filosofia do Direito, §149"
+        }
+      ]
+    },
+    {
+      thinkerId: "mill",
+      keyWork: "Utilitarismo",
+      paragraphs: [
+        "Mill fundamenta dever nas consequências para a felicidade, sem reduzi-lo a ordens do soberano. Uma ação é obrigatória quando sua omissão merece sanção legal, social ou interna.",
+        "As obrigações mais fortes protegem interesses essenciais: não causar dano, cumprir promessas e tratar pessoas imparcialmente. O sentimento de justiça reforça regras cuja observância sustenta confiança e segurança.",
+        "O princípio do dano limita o alcance da coerção social sobre escolhas que afetam apenas o próprio agente. A disputa com Kant permanece: dever recebe autoridade da forma racional da máxima ou do bem que sua observância produz?"
+      ],
+      quotes: [
+        {
+          text:
+            "Não chamamos algo de errado sem querer dizer que uma pessoa deveria ser punida de algum modo por fazê-lo: pela lei, pela opinião de seus semelhantes ou pelas censuras de sua própria consciência.",
+          source: "Utilitarismo, Capítulo V"
+        },
+        {
+          text:
+            "O único fim pelo qual o poder pode ser legitimamente exercido sobre um membro de uma comunidade civilizada, contra sua vontade, é impedir dano a outros.",
+          source: "Sobre a Liberdade, Capítulo I"
+        }
+      ]
+    }
+  ]
+};
+
+const emocaoEssay: IdeaEssay = {
+  slug: "emocao",
+  title: "A conversa sobre Emoção",
+  introduction:
+    "A emoção entra na conversa como força capaz de derrotar o melhor juízo e se transforma em parte da alma, movimento corporal, avaliação, paixão social e expressão do inconsciente. O debate pergunta menos se sentimos do que quem governa quando sentimos: a razão, o corpo, o hábito ou forças que permanecem fora da consciência.",
+  sourceNote:
+    "Texto em português preparado com base em greatconversationmap.com/ideas/emotion e nos textos primários.",
+  sections: [
+    {
+      thinkerId: "euripides",
+      keyWork: "Medeia",
+      paragraphs: [
+        "Eurípides dramatiza emoção como potência que não depende de ignorância. Medeia sabe que matar os filhos é pior do que poupá-los e, ainda assim, reconhece que sua fúria possui força maior do que suas deliberações.",
+        "A paixão não acompanha uma escolha já tomada; ela produz a ação e transforma a razão em testemunha de sua derrota. Inteligência e autoconhecimento não bastam para restaurar o governo de si.",
+        "A tragédia oferece um problema que sistemas posteriores tentarão explicar: como alguém age contra o próprio melhor juízo? Platão responderá dividindo a alma em partes com desejos e funções diferentes."
+      ],
+      quotes: [
+        {
+          text:
+            "Sei muito bem que mal pretendo fazer, mas mais forte que todas as minhas reflexões é a fúria, a fúria que traz aos mortais os maiores males.",
+          source: "Medeia, versos 1078–1080"
+        },
+        {
+          text:
+            "Sou vencida pelo mal. Sei que crimes estou prestes a cometer, mas a paixão domina meus conselhos.",
+          source: "Medeia, verso 1079"
+        }
+      ]
+    },
+    {
+      thinkerId: "plato",
+      keyWork: "República",
+      paragraphs: [
+        "Platão distribui os impulsos entre razão, ânimo e apetite. Emoções ligadas à honra e à ira pertencem ao ânimo, enquanto desejos corporais pertencem ao apetite; razão deve conhecer o bem e governar ambos.",
+        "No Fedro, o cocheiro conduz dois cavalos, um cooperativo e outro indisciplinado. A imagem não exige destruir paixão, mas treiná-la para que sua energia participe da ascensão da alma.",
+        "A harmonia platônica explica conflito pela pluralidade interna, mas conserva uma hierarquia rígida. Aristóteles dará às emoções conteúdo cognitivo, tratando-as como respostas que avaliam pessoas, situações e danos."
+      ],
+      quotes: [
+        {
+          text:
+            "A alma é como um cocheiro com uma parelha de cavalos alados, um nobre e outro não.",
+          source: "Fedro, 246a"
+        },
+        {
+          text:
+            "Em todos nós, mesmo nos homens bons, existe uma natureza selvagem e sem lei, que espreita durante o sono.",
+          source: "República, Livro IX"
+        }
+      ]
+    },
+    {
+      thinkerId: "aristotle",
+      keyWork: "Retórica",
+      paragraphs: [
+        "Aristóteles define emoções como afecções que alteram julgamentos e são acompanhadas por prazer ou dor. Ira, medo e piedade têm objetos, crenças e circunstâncias que podem ser analisados.",
+        "A ira, por exemplo, envolve crença de desprezo injusto e desejo de reparação. Mudar a interpretação da ofensa pode, portanto, mudar a própria emoção, o que torna retórica e educação moral capazes de formá-la.",
+        "Virtude não é ausência de sentimento, mas sentir em relação ao objeto certo, na medida e no momento adequados. Aquino receberá essa estrutura e a organizará numa psicologia das potências sensíveis."
+      ],
+      quotes: [
+        {
+          text:
+            "As emoções são todas aquelas afecções que levam os homens a mudar de opinião em relação a seus julgamentos e são acompanhadas por prazer e dor.",
+          source: "Retórica, Livro II"
+        },
+        {
+          text:
+            "Qualquer um pode ficar irado; difícil é irar-se com a pessoa certa, na medida certa, no momento certo, pelo motivo certo e do modo certo.",
+          source: "Ética a Nicômaco, Livro II"
+        }
+      ]
+    },
+    {
+      thinkerId: "aquinas",
+      keyWork: "Suma Teológica",
+      paragraphs: [
+        "Aquino chama paixões aos movimentos do apetite sensível. Amor, desejo, prazer, ódio, aversão e tristeza pertencem à potência concupiscível; esperança, desespero, audácia, medo e ira respondem a bens e males difíceis.",
+        "Paixões não são pecados por existir. Recebem qualidade moral quando a vontade consente nelas, as dirige ou se deixa arrastar contra o juízo da razão.",
+        "A síntese preserva a análise aristotélica e a responsabilidade do agente, admitindo que o corpo participa da vida afetiva. Shakespeare mostrará em ação aquilo que a classificação descreve, acompanhando paixões que reorganizam uma vida inteira."
+      ],
+      quotes: [
+        {
+          text:
+            "As paixões da alma, na medida em que contrariam a ordem da razão, inclinam-nos ao pecado; na medida em que são controladas pela razão, pertencem à virtude.",
+          source: "Suma Teológica, I-II, Questão 24"
+        },
+        {
+          text:
+            "Pertence à perfeição do bem moral que o homem seja movido ao bem não apenas por sua vontade, mas também por seu apetite sensível.",
+          source: "Suma Teológica, I-II, Questão 24"
+        }
+      ]
+    },
+    {
+      thinkerId: "shakespeare",
+      keyWork: "Otelo",
+      paragraphs: [
+        "Shakespeare transforma paixões em estrutura dramática. Ciúme, ambição, luto e culpa não aparecem como episódios interiores isolados, mas como forças que alteram linguagem, percepção e relação com os outros.",
+        "Em Otelo, Iago não precisa provar a infidelidade de Desdêmona; basta ensinar Otelo a interpretar cada sinal sob a forma do ciúme. A emoção cria o mundo de evidências que parece justificá-la.",
+        "A tragédia mostra que paixão e pensamento podem cooperar na destruição: o raciocínio torna-se engenhoso servidor de uma premissa afetiva. Hobbes reduzirá essa diversidade a movimentos de aproximação e afastamento que impulsionam toda ação voluntária."
+      ],
+      quotes: [
+        {
+          text:
+            "Cuidado, meu senhor, com o ciúme; é o monstro de olhos verdes que zomba da carne de que se alimenta.",
+          source: "Otelo, Ato III"
+        },
+        {
+          text:
+            "Sou um homem contra quem pecaram mais do que ele pecou.",
+          source: "Rei Lear, Ato III"
+        }
+      ]
+    },
+    {
+      thinkerId: "hobbes",
+      keyWork: "Leviatã",
+      paragraphs: [
+        "Hobbes naturaliza emoções como movimentos corporais em direção a objetos desejados ou para longe dos aversivos. Amor, ódio, esperança e medo recebem nomes diferentes conforme a situação do mesmo mecanismo.",
+        "Essas paixões são as fontes da ação voluntária. A razão calcula meios, mas não produz os fins que movem pessoas; medo da morte e desejo de uma vida confortável podem conduzir ao pacto político.",
+        "Emoção deixa de ser acidente moral e torna-se motor da sociedade. Descartes compartilha o mecanicismo corporal, porém preserva uma alma distinta que percebe e pode governar as paixões pela vontade."
+      ],
+      quotes: [
+        {
+          text:
+            "Tudo aquilo que é objeto do apetite ou desejo de um homem é o que ele, por sua parte, chama de bom.",
+          source: "Leviatã, Parte I, Capítulo 6"
+        },
+        {
+          text:
+            "As paixões que mais causam diferenças de engenho são principalmente o maior ou menor desejo de poder, riqueza, conhecimento e honra.",
+          source: "Leviatã, Parte I, Capítulo 8"
+        }
+      ]
+    },
+    {
+      thinkerId: "descartes",
+      keyWork: "As Paixões da Alma",
+      paragraphs: [
+        "Descartes investiga paixões no ponto de união entre alma e corpo. Espíritos animais, partículas sutis em movimento pelos nervos, modificam o cérebro e produzem na alma percepções referidas ao próprio sujeito.",
+        "Admiração, amor, ódio, desejo, alegria e tristeza são as seis paixões primitivas. Todas possuem função natural, preparando o corpo e fixando a atenção em coisas úteis, embora hábitos e juízos possam ligá-las a objetos inadequados.",
+        "A vontade não controla diretamente cada reação corporal, mas pode associar pensamentos diferentes aos movimentos que as provocam. Spinoza rejeitará essa soberania da alma e explicará liberdade emocional por conhecimento das causas."
+      ],
+      quotes: [
+        {
+          text:
+            "O principal efeito de todas as paixões nos homens é incitar e dispor a alma a querer as coisas para as quais elas preparam o corpo.",
+          source: "As Paixões da Alma, Artigo 40"
+        },
+        {
+          text:
+            "O principal uso da sabedoria está em ensinar-nos a ser senhores de nossas paixões e a controlá-las de modo que os males que causam se tornem suportáveis.",
+          source: "As Paixões da Alma, Artigo 212"
+        }
+      ]
+    },
+    {
+      thinkerId: "spinoza",
+      keyWork: "Ética",
+      paragraphs: [
+        "Spinoza define afeto como modificação que aumenta ou diminui a potência de agir, acompanhada pela ideia dessa modificação. Alegria é passagem a maior perfeição; tristeza, passagem a menor.",
+        "Paixões resultam de ideias inadequadas, isto é, compreensão parcial das causas que nos determinam. Não são vencidas por uma decisão abstrata da vontade, mas por afetos mais fortes associados a conhecimento mais adequado.",
+        "Compreender uma emoção muda nossa relação com ela e pode convertê-la em atividade. Hume conservará a prioridade motivacional das paixões, mas recusará que a razão possua autoridade independente para escolher fins."
+      ],
+      quotes: [
+        {
+          text:
+            "Um afeto que é paixão deixa de ser paixão assim que formamos dele uma ideia clara e distinta.",
+          source: "Ética, Parte V, Proposição 3"
+        },
+        {
+          text:
+            "Considerarei as ações e os apetites humanos como se fossem uma questão de linhas, planos e corpos.",
+          source: "Ética, Parte III, Prefácio"
+        }
+      ]
+    },
+    {
+      thinkerId: "hume",
+      keyWork: "Tratado da Natureza Humana",
+      paragraphs: [
+        "Hume afirma que razão descobre relações e meios, mas não cria os fins da ação. Paixões movem a vontade; razão serve ao mostrar como alcançar aquilo que desejamos.",
+        "Distinções morais também dependem de sentimento. Aprovação e censura surgem quando contemplamos caracteres e ações por uma perspectiva compartilhada, ampliada pela simpatia.",
+        "Essa prioridade não faz toda emoção correta, pois paixões podem repousar em crenças falsas e ser corrigidas quando a razão altera os fatos percebidos. Kant considerará insuficiente qualquer moral cujo motivo determinante venha da sensibilidade."
+      ],
+      quotes: [
+        {
+          text:
+            "A razão é, e deve ser apenas, escrava das paixões, e nunca pode pretender outro ofício senão servi-las e obedecer-lhes.",
+          source: "Tratado da Natureza Humana, Livro II, Parte III, Seção 3"
+        },
+        {
+          text:
+            "Não é contrário à razão preferir a destruição do mundo inteiro a um arranhão em meu dedo.",
+          source: "Tratado da Natureza Humana, Livro II"
+        }
+      ]
+    },
+    {
+      thinkerId: "kant",
+      keyWork: "Crítica da Razão Prática",
+      paragraphs: [
+        "Kant não nega a força das emoções, mas recusa que elas determinem o valor moral. Compaixão, entusiasmo ou afeto podem acompanhar a ação correta; não fornecem uma máxima universal.",
+        "Respeito pela lei moral é um sentimento singular porque nasce do reconhecimento racional da autoridade do dever. Ele humilha a presunção do eu sensível e torna presente a autonomia.",
+        "A austeridade kantiana separa fazer o bem de sentir prazer em fazê-lo. William James mudará o terreno da discussão ao perguntar o que uma emoção é fisiologicamente, não qual papel deveria ocupar na moral."
+      ],
+      quotes: [
+        {
+          text:
+            "Dever! Nome sublime e poderoso, que nada contém de encantador ou insinuante, mas exige submissão e não procura mover a vontade por ameaças.",
+          source: "Crítica da Razão Prática"
+        },
+        {
+          text:
+            "Uma ação praticada por dever possui seu valor moral não no propósito a ser alcançado, mas na máxima segundo a qual é decidida.",
+          source: "Fundamentação da Metafísica dos Costumes"
+        }
+      ]
+    },
+    {
+      thinkerId: "william-james",
+      keyWork: "Princípios de Psicologia",
+      paragraphs: [
+        "William James inverte a explicação ordinária da emoção. Não trememos porque sentimos medo; sentimos medo porque percebemos as mudanças corporais desencadeadas pela situação excitante.",
+        "Se retirarmos aceleração cardíaca, postura, respiração e tensão muscular, restaria uma avaliação intelectual fria, não a emoção vivida. O corpo não expressa um sentimento já formado; constitui sua matéria consciente.",
+        "A teoria de James-Lange transforma cultivo emocional em trabalho sobre hábitos e gestos. Freud irá além do corpo sentido e investigará afetos cujas fontes pulsionais foram afastadas da consciência."
+      ],
+      quotes: [
+        {
+          text:
+            "Minha tese é que as mudanças corporais seguem diretamente a percepção do fato excitante e que nosso sentimento dessas mesmas mudanças, enquanto ocorrem, é a emoção.",
+          source: "Princípios de Psicologia, Capítulo 25"
+        },
+        {
+          text:
+            "Se desejamos vencer tendências emocionais indesejáveis, devemos realizar assiduamente, e a princípio a sangue-frio, os movimentos externos das disposições contrárias que preferimos cultivar.",
+          source: "Princípios de Psicologia, Capítulo 25"
+        }
+      ]
+    },
+    {
+      thinkerId: "freud",
+      keyWork: "O Eu e o Id",
+      paragraphs: [
+        "Freud questiona a suposição de que as emoções conscientes são as forças decisivas. Afetos podem derivar de pulsões reprimidas e aparecer deslocados, de modo que ansiedade, culpa ou raiva não revelem imediatamente sua origem.",
+        "Id, eu e supereu formam uma economia de exigências conflitantes. O eu medeia realidade e pulsão; o supereu internaliza autoridade e transforma agressividade em culpa dirigida contra o próprio sujeito.",
+        "Civilização depende da renúncia pulsional, mas a energia renunciada não desaparece. A conversa termina diante de uma emoção que é simultaneamente corporal, histórica e opaca para quem a sente."
+      ],
+      quotes: [
+        {
+          text: "O eu não é senhor em sua própria casa.",
+          source: "O Eu e o Id"
+        },
+        {
+          text:
+            "É impossível ignorar em que medida a civilização se constrói sobre uma renúncia ao instinto.",
+          source: "O Mal-Estar na Civilização"
+        }
+      ]
+    }
+  ]
+};
+
 const ideaEssays: Record<string, IdeaEssay> = {
   [justicaEssay.slug]: justicaEssay,
   [bemEMalEssay.slug]: bemEMalEssay,
@@ -1808,6 +2834,10 @@ const ideaEssays: Record<string, IdeaEssay> = {
   [felicidadeEssay.slug]: felicidadeEssay,
   [amorEssay.slug]: amorEssay,
   [coragemEssay.slug]: coragemEssay,
+  [desejoEssay.slug]: desejoEssay,
+  [punicaoEssay.slug]: punicaoEssay,
+  [deverEssay.slug]: deverEssay,
+  [emocaoEssay.slug]: emocaoEssay,
   [democracyEssay.slug]: democracyEssay
 };
 
