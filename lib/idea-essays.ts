@@ -1541,12 +1541,273 @@ const amorEssay: IdeaEssay = {
   ]
 };
 
+const coragemEssay: IdeaEssay = {
+  slug: "coragem",
+  title: "A conversa sobre Coragem",
+  introduction:
+    "A coragem começa como glória do guerreiro que enfrenta a morte e, ao longo de mais de dois milênios, torna-se conhecimento do que temer, hábito moral, firmeza interior, serviço político e resistência cotidiana. A tradição nunca elimina a tensão entre avançar e suportar, entre o gesto visível e a força silenciosa, nem entre a valentia como potência e o bem que deveria orientá-la.",
+  sourceNote:
+    "Texto em português preparado com base em greatconversationmap.com/ideas/courage, data/source_coragem.md e nos textos primários.",
+  sections: [
+    {
+      thinkerId: "homer",
+      keyWork: "Ilíada",
+      paragraphs: [
+        "Em Homero, a coragem pertence ao mundo público da honra. O guerreiro enfrenta o perigo para cumprir o papel que lhe cabe, proteger os seus e conquistar kleos, a glória imperecível preservada pela memória dos que narram seus feitos.",
+        "Heitor conhece a provável destruição de Troia e ainda assim retorna ao combate. Sua bravura não nasce da expectativa de vitória, mas da decisão de sustentar deveres familiares e cívicos diante de um destino que não pode controlar.",
+        "Essa coragem possui grandeza e custo: o desejo de honra pode prolongar a violência e tornar difícil distinguir sacrifício de orgulho. Tucídides herdará o vínculo entre coragem e cidade, mas trocará a glória aristocrática pela liberdade compartilhada entre cidadãos."
+      ],
+      quotes: [
+        {
+          text:
+            "Gloriosa é a morte daquele que, por sua pátria, cai na linha de frente da batalha.",
+          source: "Ilíada, Livro XV"
+        },
+        {
+          text:
+            "Sei bem, em meu coração e em minha alma, que chegará o dia em que a sagrada Ílion será destruída.",
+          source: "Ilíada, Livro VI"
+        }
+      ]
+    },
+    {
+      thinkerId: "thucydides",
+      keyWork: "História da Guerra do Peloponeso",
+      paragraphs: [
+        "Tucídides desloca a coragem do herói singular para a cultura política de Atenas. Na oração fúnebre atribuída a Péricles, cidadãos livres defendem a cidade não por coerção permanente, mas porque reconhecem nela uma forma de vida que merece ser preservada.",
+        "A liberdade alimenta coragem ao permitir que deliberação, beleza e cultivo intelectual coexistam com firmeza militar. O combatente democrático sabe o que arrisca porque participa do mundo comum que sua ação protege.",
+        "A guerra e a peste revelam, porém, a fragilidade dessa formação: quando leis e confiança se desfazem, a audácia pode substituir a coragem. Platão responderá procurando uma disposição mais estável, produzida pela educação e resistente às pressões do medo e do prazer."
+      ],
+      quotes: [
+        {
+          text:
+            "O segredo da felicidade é a liberdade, e o segredo da liberdade é a coragem.",
+          source: "História da Guerra do Peloponeso, Livro II, Capítulo 43"
+        }
+      ]
+    },
+    {
+      thinkerId: "plato",
+      keyWork: "República",
+      paragraphs: [
+        "Platão recusa identificar coragem com exposição ao perigo ou sucesso militar. Uma pessoa pode permanecer no campo de batalha por ignorância, vergonha ou cálculo e ainda não possuir a virtude que parece demonstrar.",
+        "Na República, coragem é conservar a opinião correta, formada pela lei e pela educação, sobre aquilo que deve ser temido. Prazer, dor e ameaça funcionam como solventes; o caráter corajoso preserva o juízo racional quando essas forças procuram deformá-lo.",
+        "A definição intelectualiza a herança de Homero e Tucídides, tornando a educação da alma decisiva. Aristóteles conservará a necessidade do julgamento, mas insistirá que coragem é também uma disposição adquirida para sentir e agir na medida adequada."
+      ],
+      quotes: [
+        {
+          text:
+            "A coragem é a preservação da opinião produzida pela lei, por meio da educação, acerca das coisas e espécies de coisas que devem ser temidas.",
+          source: "República, Livro IV"
+        }
+      ]
+    },
+    {
+      thinkerId: "aristotle",
+      keyWork: "Ética a Nicômaco",
+      paragraphs: [
+        "Aristóteles situa a coragem entre covardia e temeridade. O covarde teme em excesso; o temerário se lança ao risco como se nada fosse ameaçador; o corajoso reconhece o perigo sem permitir que ele determine sozinho sua escolha.",
+        "A virtude exige objeto, motivo, modo e ocasião corretos. Enfrentar a morte por impulso, experiência técnica ou expectativa de recompensa pode imitar a coragem, mas falta-lhe a escolha do nobre como razão da ação.",
+        "A medida aristotélica reúne sentimento e razão por meio do hábito. Plutarco levará esse critério às biografias políticas, mostrando que audácia sem justiça e prudência pode servir tanto à cidade quanto à sua destruição."
+      ],
+      quotes: [
+        {
+          text:
+            "O homem corajoso suporta e teme as coisas certas, pelo motivo certo, da maneira certa e no momento certo.",
+          source: "Ética a Nicômaco, Livro III"
+        }
+      ]
+    },
+    {
+      thinkerId: "plutarch",
+      keyWork: "Vidas Paralelas",
+      paragraphs: [
+        "Plutarco examina a coragem por meio de vidas concretas, nas quais caráter e instituições se formam mutuamente. Seus protagonistas revelam modalidades diferentes de bravura, desde a disciplina espartana até a iniciativa do comandante que assume riscos diante de uma crise.",
+        "O perigo moral está na separação entre ousadia, justiça e julgamento. A mesma energia capaz de salvar uma comunidade pode produzir ambição, crueldade ou desprezo pelas leis quando a causa deixa de ser justa.",
+        "As Vidas preservam a medida aristotélica, mas mostram como exemplos e companhias educam as paixões. Epicteto reduzirá a dependência dessas circunstâncias externas ao localizar o campo decisivo da coragem naquilo que a vontade pode governar."
+      ],
+      quotes: [
+        {
+          text:
+            "A coragem não consiste em arriscar-se sem medo, mas em permanecer resolutamente disposto numa causa justa.",
+          source: "Vidas Paralelas, Pelópidas"
+        }
+      ]
+    },
+    {
+      thinkerId: "epictetus",
+      keyWork: "Discursos",
+      paragraphs: [
+        "Epicteto transfere a batalha para a prohairesis, a faculdade de escolha pela qual julgamos e orientamos nossa conduta. A coragem nasce da distinção entre acontecimentos externos, que não controlamos, e o uso moral que fazemos de nossas impressões.",
+        "O estoico pode ser confiante diante de doença, exílio ou morte porque esses eventos não retiram a integridade da escolha. Deve, ao mesmo tempo, ser cauteloso no domínio da vontade, onde erro, assentimento precipitado e desejo desordenado dependem dele.",
+        "Essa inversão impede que firmeza se confunda com imprudência: há coisas diante das quais não precisamos tremer e escolhas diante das quais nunca devemos ser descuidados. Marco Aurélio aplicará a disciplina à rotina do dever, afastando-a ainda mais do espetáculo heroico."
+      ],
+      quotes: [
+        {
+          text:
+            "Que a maior parte do que sabes permaneça no fundo de ti; sê confiante apenas quanto ao que está além do controle da vontade e cauteloso em tudo o que depende dela.",
+          source: "Discursos, Livro II, Capítulo 1"
+        }
+      ]
+    },
+    {
+      thinkerId: "marcus-aurelius",
+      keyWork: "Meditações",
+      paragraphs: [
+        "Marco Aurélio apresenta a coragem como retorno diário ao trabalho próprio de um ser racional e social. Levantar-se, cumprir o dever e suportar pessoas difíceis podem exigir uma firmeza menos visível do que a batalha, mas mais constante.",
+        "A mente não governa os acontecimentos externos; governa a resposta que lhes dá. O obstáculo pode tornar-se matéria da ação quando o juízo deixa de tratá-lo como afronta pessoal e procura nele uma tarefa compatível com justiça e cooperação.",
+        "A coragem estoica se mede pela continuidade do serviço, inclusive sob cansaço e frustração. Aquino receberá a centralidade da resistência, mas ligará a fortaleza a uma ordem de bens e ao amor que torna possível suportar até a morte."
+      ],
+      quotes: [
+        {
+          text:
+            "Pela manhã, quando te levantares sem vontade, tenha presente este pensamento: estou me levantando para o trabalho de um ser humano.",
+          source: "Meditações, Livro V, §1"
+        }
+      ]
+    },
+    {
+      thinkerId: "aquinas",
+      keyWork: "Suma Teológica",
+      paragraphs: [
+        "Aquino chama a coragem de fortaleza e a inclui entre as virtudes cardeais. Sua função é firmar o apetite diante dos males que ameaçam afastar a pessoa do bem reconhecido pela razão.",
+        "Resistir é o ato principal da fortaleza porque permanecer no bem sob um perigo prolongado exige estabilidade maior do que atacar num impulso. O martírio aperfeiçoa essa lógica quando alguém suporta a morte por fidelidade à verdade e por caridade.",
+        "A coragem não cria seu próprio fim: recebe da prudência e da justiça o bem pelo qual vale sofrer. Maquiavel contestará essa subordinação ao perguntar se a ação política eficaz pode obedecer aos mesmos critérios que governam a perfeição moral."
+      ],
+      quotes: [
+        {
+          text:
+            "O ato principal da fortaleza é resistir, isto é, permanecer imóvel em meio aos perigos.",
+          source: "Suma Teológica, II-II, Questão 123, Artigo 6"
+        },
+        {
+          text:
+            "O martírio é a maior prova da perfeição da caridade.",
+          source: "Suma Teológica, II-II, Questão 124, Artigo 3"
+        }
+      ]
+    },
+    {
+      thinkerId: "machiavelli",
+      keyWork: "O Príncipe",
+      paragraphs: [
+        "Maquiavel avalia a coragem dentro da luta com a fortuna, nome dado à instabilidade que escapa ao cálculo humano. Virtù significa capacidade de agir com energia, adaptar-se às circunstâncias e impor alguma forma aos acontecimentos.",
+        "A cautela pode ser adequada em certo tempo e fatal em outro. O governante audacioso possui vantagem quando a ocasião exige rapidez, pois resultados políticos dependem menos da pureza da intenção do que da correspondência entre temperamento e conjuntura.",
+        "Essa eficácia rompe com a fortaleza orientada ao bem de Aquino e com a medida moral de Aristóteles. Montaigne reagirá ao heroísmo do domínio examinando o medo por dentro e desconfiando das imagens públicas com que escondemos nossas fraquezas."
+      ],
+      quotes: [
+        {
+          text:
+            "É melhor ser impetuoso do que cauteloso, porque a fortuna é mulher e, para mantê-la submissa, é necessário golpeá-la e maltratá-la.",
+          source: "O Príncipe, Capítulo XXV"
+        }
+      ]
+    },
+    {
+      thinkerId: "montaigne",
+      keyWork: "Ensaios",
+      paragraphs: [
+        "Montaigne retira a coragem do palco das conquistas e a aproxima da experiência comum do medo, da dor e da morte. Confessar a própria vulnerabilidade exige uma honestidade incompatível com poses heroicas.",
+        "O medo pode desorganizar percepção e conduta antes que a razão formule uma resposta. Preparar-se para morrer não significa eliminar o temor, mas reduzir o poder das fantasias que o tornam mais opressivo do que o acontecimento.",
+        "A coragem passa a incluir lucidez sobre os limites do caráter. Hobbes também tratará o medo e a confiança como paixões naturais, porém os inserirá numa teoria em que a força individual precisa ser contida pela autoridade política."
+      ],
+      quotes: [
+        {
+          text: "A coisa que mais temo é o medo.",
+          source: "Ensaios, Livro I, \"Do Medo\""
+        }
+      ]
+    },
+    {
+      thinkerId: "hobbes",
+      keyWork: "Leviatã",
+      paragraphs: [
+        "Hobbes define a coragem como paixão produzida pela imaginação de poder superar um obstáculo. Ela não é, por natureza, virtude: expressa uma estimativa de força que pode estar correta, equivocada ou inflada pela vaidade.",
+        "No estado de natureza, confiança e medo participam da competição que torna cada pessoa ameaça potencial para as demais. A coragem individual adquire utilidade civil quando a ordem soberana a dirige para a defesa comum e limita seu emprego privado.",
+        "O critério passa da excelência do caráter à função política da paixão. Spinoza conservará a análise causal dos afetos, mas distinguirá a força guiada pela razão da confiança que apenas imagina possuir poder."
+      ],
+      quotes: [
+        {
+          text:
+            "A coragem súbita é uma paixão que procede da imaginação de poder superar o obstáculo que aparece.",
+          source: "Leviatã, Parte I, Capítulo 6"
+        }
+      ]
+    },
+    {
+      thinkerId: "spinoza",
+      keyWork: "Ética",
+      paragraphs: [
+        "Spinoza compreende a fortitudo, força de ânimo, como desejo de preservar o próprio ser sob orientação da razão. Ela reúne firmeza, cuidado racional de si, e generosidade, esforço para auxiliar os outros e uni-los por amizade.",
+        "Combater e recuar não possuem valor fixo fora das circunstâncias. Permanecer numa luta destrutiva por vergonha ou raiva pode revelar servidão às paixões, enquanto afastar-se no momento adequado pode expressar compreensão e domínio de si.",
+        "A coragem racional corrige tanto a audácia de Maquiavel quanto a paixão de confiança descrita por Hobbes. Kant perguntará, contudo, se razão e autopreservação bastam para conferir valor moral ou se a força deve ser julgada pela boa vontade que a emprega."
+      ],
+      quotes: [
+        {
+          text:
+            "Fugir no momento apropriado, tanto quanto lutar, deve ser considerado uma demonstração de força de ânimo.",
+          source: "Ética, Parte IV, Proposição 69, Escólio"
+        }
+      ]
+    },
+    {
+      thinkerId: "kant",
+      keyWork: "Fundamentação da Metafísica dos Costumes",
+      paragraphs: [
+        "Kant separa qualidades de temperamento e valor moral. Coragem, resolução e perseverança ampliam a capacidade de agir, mas essa potência pode servir a fins cruéis com a mesma eficiência com que serve ao dever.",
+        "A boa vontade fornece a orientação que falta à mera firmeza. Uma ação corajosa possui mérito moral quando nasce do respeito à lei que a razão pode reconhecer como válida para todos, não apenas da inclinação ao risco ou do desejo de honra.",
+        "A crítica retoma a pergunta de Aquino sobre o fim da fortaleza sem depender de uma teologia das virtudes. Hegel contestará o isolamento do agente moral ao situar a coragem no pertencimento concreto à vida ética do Estado."
+      ],
+      quotes: [
+        {
+          text:
+            "Coragem, resolução e perseverança, como qualidades do temperamento, são sem dúvida boas e desejáveis sob muitos aspectos; mas podem também tornar-se extremamente más e nocivas se a vontade que deve utilizá-las não for boa.",
+          source: "Fundamentação da Metafísica dos Costumes, Seção I"
+        }
+      ]
+    },
+    {
+      thinkerId: "hegel",
+      keyWork: "Princípios da Filosofia do Direito",
+      paragraphs: [
+        "Hegel insere a coragem na eticidade, a vida moral objetiva formada por instituições, costumes e pertencimentos. O indivíduo encontra deveres concretos como membro da família, da sociedade civil e do Estado, não como consciência separada do mundo histórico.",
+        "Na guerra, a disposição de arriscar a vida manifesta que o interesse privado não é o valor absoluto. A coragem política consiste em aceitar o sacrifício pessoal pelo universal encarnado na comunidade organizada.",
+        "Essa tese transforma a glória homérica em serviço institucional e responde ao formalismo que Hegel atribui a Kant. Tolstói atacará precisamente a distância entre essa nobre formulação e a experiência confusa daqueles que recebem ordens e enfrentam o fogo."
+      ],
+      quotes: [
+        {
+          text:
+            "A coragem não é apenas uma virtude pessoal, mas exige a disposição de sacrificar-se a serviço do Estado.",
+          source: "Princípios da Filosofia do Direito, Parte III"
+        }
+      ]
+    },
+    {
+      thinkerId: "tolstoy",
+      keyWork: "Guerra e Paz",
+      paragraphs: [
+        "Tolstói submete as teorias da coragem ao caos vivido da guerra. Em Guerra e Paz, soldados considerados valentes agem por tédio, excitação, hábito ou confusão, enquanto feitos decisivos ocorrem sem a consciência clara que os sistemas morais parecem pressupor.",
+        "Ruído, medo e velocidade destroem a imagem de uma batalha governada pela deliberação dos comandantes. Relatórios posteriores impõem ordem aos acontecimentos, mas a bravura real frequentemente pertence a pessoas comuns que continuam sua tarefa sem compreender o conjunto nem esperar glória.",
+        "A resistência de Pierre no cativeiro, de Maria diante da crueldade e do povo durante a invasão amplia a coragem para além do ataque. Tolstói não encerra a tradição; deixa aberta a pergunta sobre quanto de suas definições sobrevive quando a experiência retira do agente controle, clareza e reconhecimento."
+      ],
+      quotes: [
+        {
+          text:
+            "Os mais fortes de todos os guerreiros são estes dois: o Tempo e a Paciência.",
+          source: "Guerra e Paz, Livro X"
+        }
+      ]
+    }
+  ]
+};
+
 const ideaEssays: Record<string, IdeaEssay> = {
   [justicaEssay.slug]: justicaEssay,
   [bemEMalEssay.slug]: bemEMalEssay,
   [virtudeEVicioEssay.slug]: virtudeEVicioEssay,
   [felicidadeEssay.slug]: felicidadeEssay,
   [amorEssay.slug]: amorEssay,
+  [coragemEssay.slug]: coragemEssay,
   [democracyEssay.slug]: democracyEssay
 };
 
