@@ -3655,6 +3655,565 @@ const costumeEConvencaoEssay: IdeaEssay = {
   ]
 };
 
+const liberdadeEssay: IdeaEssay = {
+  slug: "liberdade",
+  title: "A conversa sobre Liberdade",
+  introduction:
+    "Da liberdade cívica grega à autonomia kantiana, passando pela libertação interior dos estoicos, pelo contrato social e pela crítica marxista à emancipação formal, a conversa sobre a liberdade percorre mais de dois milênios como a pergunta que cada geração refaz: livre de quê, e livre para quê?",
+  sourceNote:
+    "Texto em português preparado com base no arquivo source_liberdade.md e nos textos primários do corpus Great Books.",
+  sections: [
+    {
+      thinkerId: "aristotle",
+      keyWork: "Política",
+      paragraphs: [
+        "Aristóteles inaugura a conversa vinculando liberdade à constituição da cidade. Na democracia, a premissa fundamental é que todos os cidadãos são livres por natureza: liberdade significa não ser escravo, não depender da vontade de um senhor para existir politicamente. Daí derivam duas marcas práticas — o cidadão governa e é governado em turnos, e o homem livre vive como quer dentro dos limites da lei.",
+        "Essa liberdade é essencialmente pública. Ela se exerce dentro da polis, pressupondo a comunidade de iguais. Fora da cidade, o conceito perde sentido: o escravo, o bárbaro e o animal carecem da racionalidade que permite participar da deliberação comum e, por isso, não partilham desse estatuto.",
+        "Aristóteles alerta que a liberdade democrática mal compreendida degenera em licença. Quando os cidadãos a interpretam como o direito de viver exatamente como desejam, sem submissão a lei ou autoridade alguma, a cidade se dissolve em particularidades incompatíveis. A liberdade política autêntica exige moderação — e a moderação exige educação. O fio que Epicteto puxará em seguida, a liberdade como disciplina interior, não contradiz Aristóteles; aprofunda-o em outra direção."
+      ],
+      quotes: []
+    },
+    {
+      thinkerId: "epictetus",
+      keyWork: "Discursos",
+      paragraphs: [
+        "Epicteto radicalizou o conceito transportando-o do espaço cívico para a vida interior. Como ex-escravo, conhecia o poder da coerção externa. Sua conclusão foi que tal coerção jamais alcança o que importa: o uso correto das impressões, as escolhas da vontade, os desejos e as aversões. Esses permanecem, em última instância, sob nosso controle — e somente neles reside a liberdade verdadeira.",
+        "Quem deseja o que não está em seu poder — riqueza, reputação, saúde, aprovação alheia — faz de si mesmo servo de forças externas. O homem que teme a morte, a dor ou a pobreza é escravo, independentemente de seu título ou posição social. O único senhor que o livre reconhece é a razão que governa seus próprios impulsos.",
+        "A provocação de Epicteto para os séculos posteriores é estrutural: se a liberdade não depende de condições externas, então reformas políticas e revoluções sociais são incapazes de produzi-la por si mesmas. Hobbes e Rousseau erguerão teorias opostas, partindo da premissa contrária — de que liberdade e instituições estão radicalmente ligadas."
+      ],
+      quotes: [
+        {
+          text:
+            "Ninguém que vive em medo ou tristeza é livre. Quem deseja ou teme o que está fora de seu poder é escravo das circunstâncias, mesmo que nenhuma corrente o prenda.",
+          source: "Discursos, IV.1"
+        }
+      ]
+    },
+    {
+      thinkerId: "augustine",
+      keyWork: "Sobre o Livre-Arbítrio",
+      paragraphs: [
+        "Agostinho aceita a premissa estoica de que a liberdade é interior, mas a recoloca em quadro inteiramente novo: o do pecado original e da graça divina. O livre-arbítrio é real — o ser humano pode escolher entre bem e mal —, mas o pecado adâmico corrompeu a vontade de tal forma que, sozinha, ela tende ao mal. A liberdade plena não é o ponto de partida, mas o horizonte: a libertação gradual orientada pelo amor a Deus.",
+        "Agostinho distingue assim entre o livre-arbítrio como capacidade formal de escolha, que permanece após a queda, e a liberdade autêntica como orientação da vontade ao bem supremo, que requer a graça. Servidão ao pecado e liberdade cristã transcendem qualquer ordem institucional.",
+        "Essa perspectiva introduz na grande conversa uma tensão persistente: se a vontade está corrompida, nenhuma educação filosófica, nenhum contrato social e nenhuma revolução pode libertar o homem por si só. Tomás de Aquino tentará reconciliar essa intuição com a possibilidade de uma boa ordem política; Hobbes a descartará; Rousseau a ignorará; Kant a reformulará em termos racionais."
+      ],
+      quotes: []
+    },
+    {
+      thinkerId: "hobbes",
+      keyWork: "Leviatã",
+      paragraphs: [
+        "Hobbes realizou o corte mais radical com a tradição. Descartou tanto a liberdade interior dos estoicos quanto o livre-arbítrio agostiniano e propôs uma definição estritamente mecânica: liberdade é a ausência de impedimentos externos ao movimento. Um homem que age é livre enquanto suas forças e inteligência não são bloqueadas por força ou lei externas.",
+        "A implicação é desconcertante: o súdito que obedece à lei do soberano porque escolheu racionalmente fazê-lo é, a rigor, livre — nada externo bloqueia seu movimento no momento da obediência. Hobbes elimina a distinção entre liberdade e coerção suave: desde que não haja grilhões físicos, o homem pode ser considerado livre ao obedecer. A liberdade civil é compatível com a dependência política.",
+        "Essa definição abriu espaço para duas críticas simétricas. Rousseau respondeu que liberdade sem autodeterminação moral é mero apetite sem dono: não é liberdade, é impulso. Kant acrescentou que reduzir a liberdade ao movimento físico é confundir o ser humano com um objeto mecânico — a liberdade genuína exige razão, não apenas ausência de obstáculos."
+      ],
+      quotes: [
+        {
+          text:
+            "Liberdade significa propriamente a ausência de oposição — por oposição entendo impedimentos externos ao movimento.",
+          source: "Leviatã, Parte II, Capítulo 21"
+        }
+      ]
+    },
+    {
+      thinkerId: "locke",
+      keyWork: "Segundo Tratado do Governo Civil",
+      paragraphs: [
+        "Locke distinguiu liberdade natural, presente no estado de natureza, de liberdade civil, conquistada sob a lei. A liberdade natural não é a ausência hobbesiana de impedimentos, mas a submissão apenas à lei da razão, não à vontade arbitrária de outro homem. No estado de natureza, os homens são livres e iguais porque nenhum tem autoridade natural sobre os demais.",
+        "A passagem para a sociedade civil não suprime essa liberdade — aperfeiçoa-a. O consentimento dos governados funda a autoridade política, e essa autoridade só é legítima enquanto protege os direitos pré-existentes de vida, liberdade e propriedade. Liberdade civil significa viver sob uma lei estável à qual a comunidade consentiu, em vez de estar sujeita ao capricho do governante.",
+        "Locke abriu assim o caminho para uma tradição em que liberdade e lei não se opõem: a lei que resulta do consentimento é a condição, não o adversário, da liberdade. Rousseau tornará ainda mais exigente o critério de consentimento; Mill usará o mesmo princípio para proteger o indivíduo contra a própria lei da maioria."
+      ],
+      quotes: []
+    },
+    {
+      thinkerId: "rousseau",
+      keyWork: "O Contrato Social",
+      paragraphs: [
+        "Rousseau propôs a distinção mais influente da modernidade entre dois tipos de obediência: obedecer ao apetite é escravidão; obedecer à lei que a própria comunidade prescreve para si mesma é liberdade. A vontade geral — não a soma das vontades individuais, mas o interesse comum racionalmente articulado — é o soberano legítimo, e segui-la é a única forma de liberdade civil plena.",
+        "A grande novidade é que a liberdade não pode ser separada da participação ativa no processo legislativo. O cidadão que simplesmente obedece a leis que outros fizeram, mesmo que boas, permanece dependente de vontades alheias. A autenticidade da liberdade exige que o indivíduo seja ao mesmo tempo autor e destinatário da norma.",
+        "A tensão interna da proposta, detectada desde Benjamin Constant, é que a vontade geral pode ser usada para forçar o indivíduo a ser livre. Kant extrairá a força do argumento da autonomia sem aceitar esse corolário coercitivo."
+      ],
+      quotes: [
+        {
+          text:
+            "O mero impulso do apetite é escravidão; a obediência a uma lei que nós mesmos nos prescrevemos é liberdade.",
+          source: "O Contrato Social, Livro I, Capítulo 8"
+        }
+      ]
+    },
+    {
+      thinkerId: "kant",
+      keyWork: "Ciência do Direito",
+      paragraphs: [
+        "Kant sintetizou a tradição reformulando a autonomia como fundamento da liberdade. Ser livre é ser capaz de legislar para si mesmo segundo princípios universais da razão, independentemente de coerções externas e de inclinações empíricas. A liberdade não é a ausência hobbesiana de obstáculos físicos nem a participação rousseauniana na vontade geral; é a capacidade racional de determinar a própria conduta por uma lei que qualquer ser racional poderia querer.",
+        "No plano político, Kant deduz desse fundamento um direito natural inato: a liberdade de cada pessoa, na medida em que pode coexistir com a liberdade de todos segundo uma lei universal. Esse direito pertence ao ser humano em virtude de sua humanidade racional — não depende da bondade do soberano nem do consentimento contratual.",
+        "A consequência mais duradoura é a separação entre moralidade e legalidade. A lei jurídica regula ações externas; a moral exige que o sujeito aja por dever reconhecido interiormente. Mill, seu principal interlocutor no século XIX, argumentará que tal concepção é demasiado formal e ignora o cultivo das faculdades que torna a liberdade concretamente valiosa."
+      ],
+      quotes: [
+        {
+          text:
+            "Liberdade é independência da vontade coercitiva de outrem; na medida em que pode coexistir com a liberdade de todos segundo uma lei universal, é o único direito original pertencente a todo homem em virtude de sua humanidade.",
+          source: "Ciência do Direito, Introdução"
+        }
+      ]
+    },
+    {
+      thinkerId: "mill",
+      keyWork: "Sobre a Liberdade",
+      paragraphs: [
+        "Mill reorientou o debate para um novo adversário: não mais o déspota, mas a tirania social da opinião majoritária. No século XIX, as sociedades democráticas mostravam-se capazes de sufocar a dissidência sem leis, apenas por meio da pressão conformista. O problema da liberdade tornou-se proteger o indivíduo contra a maioria que ele mesmo elegeu.",
+        "Mill formulou o princípio do dano: a intervenção da sociedade na conduta individual só é legítima para prevenir dano a terceiros. Sobre si mesmo, sobre seu próprio corpo e mente, o indivíduo é soberano. Esse limite protege não apenas o excêntrico, mas a vitalidade intelectual de toda a sociedade: sem liberdade de pensamento e expressão, opiniões verdadeiras se tornam dogmas mortos.",
+        "A liberdade milliana não é indiferença ao bem-estar humano — é condição para ele. O desenvolvimento pleno das faculdades individuais requer espaço para experimentos de vida. Dostoiévski questionará se esse ideal não subestima o peso que a liberdade impõe: muitos preferem a segurança da dependência à exigência da escolha autônoma."
+      ],
+      quotes: []
+    },
+    {
+      thinkerId: "dostoyevsky",
+      keyWork: "Os Irmãos Karamázov",
+      paragraphs: [
+        "Na Lenda do Grande Inquisidor, Dostoiévski formula a objeção mais perturbadora a toda a tradição liberal. Cristo teria oferecido liberdade — e a humanidade, incapaz de suportá-la, teria optado pelo pão, pelo milagre e pela autoridade. A liberdade não é um bem natural que os homens anseiam; é um fardo que a maioria prefere depositar nas mãos de um líder misericordioso.",
+        "O argumento não é a favor da tirania, mas é um diagnóstico psicológico: a liberdade exige responsabilidade, e a responsabilidade produz angústia. Sistemas que prometem segurança e certeza em troca de obediência triunfam não pela força — triunfam porque oferecem alívio a uma necessidade real. A crítica atinge simultaneamente o otimismo de Mill sobre o indivíduo autodeterminado e o de Rousseau sobre a autodeterminação coletiva.",
+        "Marx responderá que a questão não é psicológica, mas econômica: enquanto a maioria for economicamente dependente, a liberdade formal é privilégio dos proprietários. A emancipação real requer a abolição das condições materiais que a tornam impossível para a maior parte dos seres humanos. O debate entre as visões liberal, existencial e marxista da liberdade permanece aberto — e cada resposta convoca as demais."
+      ],
+      quotes: []
+    }
+  ]
+};
+
+const governoEssay: IdeaEssay = {
+  slug: "governo",
+  title: "A conversa sobre Governo",
+  introduction:
+    "Do governo como comunidade natural em Aristóteles ao instrumento de dominação de classe em Marx, a conversa percorre dois milênios de disputas sobre a origem, a legitimidade e os fins do poder político — e jamais resolve a tensão entre a necessidade da ordem e o risco permanente da tirania.",
+  sourceNote:
+    "Texto em português preparado com base no arquivo source_governo.md e nos textos primários do corpus Great Books.",
+  sections: [
+    {
+      thinkerId: "aristotle",
+      keyWork: "Política",
+      paragraphs: [
+        "Aristóteles define o governo como expressão natural da sociabilidade humana. O ser humano é um animal político: somente na comunidade pode desenvolver a linguagem, a razão moral e as virtudes que o distinguem da besta ou do deus solitário. O governo não é, portanto, um mal necessário imposto de fora — é a forma pela qual a comunidade de iguais coordena a perseguição do bem comum.",
+        "A classificação dos regimes se baseia em dois critérios: o número de governantes (um, poucos ou muitos) e o interesse a que servem (o bem comum ou o interesse próprio). Os regimes corretos — realeza, aristocracia e politeia — governam para todos; os desvios — tirania, oligarquia e democracia — governam para si. Nenhum regime está imune à corrupção: o governante singular tende à tirania, os poucos à oligarquia, os muitos à demagogia.",
+        "O melhor regime praticável não é o mais puro, mas o mais estável: uma constituição mista que combina elementos de todos, sustentada por uma classe média numerosa capaz de moderar os extremos da riqueza e da pobreza. Aquino aprofundará essa lição; Maquiavel e Hobbes a desmantelarão com premissas radicalmente distintas."
+      ],
+      quotes: []
+    },
+    {
+      thinkerId: "aquinas",
+      keyWork: "Sobre a Realeza",
+      paragraphs: [
+        "Tomás de Aquino herdou de Aristóteles a tese de que o governo é natural, mas a reformulou em termos cristãos. Os homens são seres sociais não apenas por necessidade biológica, mas porque o fim da razão e da virtude exige comunidade. A ausência de governo não produziria liberdade — produziria dissolução. Assim, o governo não é consequência do pecado original, como queria Agostinho, mas uma exigência da própria natureza racional do homem.",
+        "A distinção de Aquino entre governo legítimo e tirania é crucial. O governante que ordena a comunidade ao bem comum exerce autoridade genuína; aquele que governa para seu próprio benefício é tirano e pode, em casos extremos, ser resistido. A lei humana só obriga moralmente quando é justa — derivada da lei natural —, e a lei natural é a participação racional na lei eterna de Deus.",
+        "O princípio do bem comum como causa final do governo tornar-se-ia pedra angular da filosofia política medieval e, transformado em linguagem secular, reaparecerá nas teorias modernas do Estado de direito. Maquiavel será o primeiro a negar esse fundamento com toda a clareza."
+      ],
+      quotes: [
+        {
+          text:
+            "A vida social não pode existir entre muitas pessoas a menos que alguém governe visando ao bem comum.",
+          source: "Sobre a Realeza"
+        }
+      ]
+    },
+    {
+      thinkerId: "machiavelli",
+      keyWork: "O Príncipe",
+      paragraphs: [
+        "Maquiavel separou a política da moral cristã e da filosofia teleológica com uma clareza que escandalizou seus contemporâneos e fascinou os modernos. O governante não deve perguntar o que é virtuoso, mas o que é eficaz para adquirir e manter o poder. A força e a astúcia — o leão e a raposa — são os instrumentos reais do governo, não o bem comum nem a lei natural.",
+        "Isso não significa que Maquiavel seja indiferente ao bem público; nos Discursos, ele é republicano convicto e afirma que o povo, em conjunto, julga melhor do que os príncipes. Mas mesmo o bem público exige, às vezes, meios moralmente reprováveis. Um príncipe que não souber ser mau quando necessário perderá o poder — e sem poder não governa.",
+        "A herança de Maquiavel é dupla. Por um lado, fundou o realismo político que percorre Hobbes, Hegel e Weber. Por outro, levantou uma questão que esses autores tentarão responder de modos diferentes: pode o governo ser ao mesmo tempo eficaz e justo, ou a eficácia política exige inevitavelmente a suspensão de princípios morais?"
+      ],
+      quotes: []
+    },
+    {
+      thinkerId: "hobbes",
+      keyWork: "Leviatã",
+      paragraphs: [
+        "Hobbes construiu sobre Maquiavel uma teoria mais radical: o governo não é natural, mas artificial. No estado de natureza, sem governo, os homens vivem em guerra perpétua de todos contra todos — uma existência solitária, pobre, sórdida, brutal e breve. O governo surge quando os indivíduos celebram um pacto e transferem seu poder natural a um soberano.",
+        "A autoridade soberana, para Hobbes, deve ser absoluta e indivisível. Dividir o poder entre rei, parlamento e tribunais é plantar a semente da guerra civil. O soberano pode ser um monarca, uma assembleia de poucos ou uma assembleia de todos — não importa a forma, importa a unidade. A obediência é racional porque qualquer governo, por mais severo, é preferível à anarquia.",
+        "Locke e Rousseau responderão que Hobbes comprou a paz a um preço demasiado alto: a supressão do direito de resistir ao tirano. Se o governo existe para proteger os governados, que justificativa tem quando os oprime?"
+      ],
+      quotes: [
+        {
+          text:
+            "O único modo de erigir tal poder comum é conferir todo poder e força a um homem, ou a uma assembleia de homens.",
+          source: "Leviatã, Parte II, Capítulo 17"
+        }
+      ]
+    },
+    {
+      thinkerId: "locke",
+      keyWork: "Segundo Tratado do Governo Civil",
+      paragraphs: [
+        "Locke aceitou o ponto de partida de Hobbes — o governo como resultado de um contrato — mas recusou suas conclusões. No estado de natureza lockeano, os homens não vivem em guerra: possuem razão suficiente para reconhecer a lei natural e os direitos que ela garante. O problema não é a anarquia, mas a ausência de árbitro imparcial para resolver disputas.",
+        "O governo surge, portanto, não para subjugar os indivíduos, mas para administrar melhor os direitos que eles já possuem antes do contrato. A propriedade — entendida como vida, liberdade e bens — é pré-política: o governo não a cria, apenas a protege. Se o governante violar essa finalidade, o contrato é rompido e o povo tem o direito de dissolvê-lo.",
+        "A teoria lockeana do governo limitado e responsável perante os governados tornou-se o alicerce do constitucionalismo liberal moderno. Montesquieu desenvolverá os mecanismos institucionais que tornam esse governo viável; Rousseau questionará se a representação é suficiente para capturar a vontade do povo."
+      ],
+      quotes: [
+        {
+          text:
+            "O grande e principal objetivo dos homens ao unirem-se em comunidades e submeterem-se ao governo é a preservação de sua propriedade.",
+          source: "Segundo Tratado do Governo Civil, Capítulo IX, §124"
+        }
+      ]
+    },
+    {
+      thinkerId: "montesquieu",
+      keyWork: "O Espírito das Leis",
+      paragraphs: [
+        "Montesquieu transformou a questão da legitimidade do governo em questão de estrutura institucional. O problema não é apenas em nome de que o governo governa, mas como seus poderes estão organizados. Sua contribuição fundamental é a doutrina da separação dos poderes: legislativo, executivo e judiciário devem ser exercidos por órgãos distintos, de modo que cada um limite os demais.",
+        "Sem essa divisão, o governo mais bem-intencionado tende à tirania: quem faz a lei não deve aplicá-la; quem a aplica não deve julgá-la. A liberdade política não depende de princípios abstratos, mas de disposições institucionais concretas que distribuem o poder e impedem sua concentração.",
+        "A análise de Montesquieu baseou-se na observação comparativa de diferentes regimes — monarquias, repúblicas, despotismos — e na conclusão de que cada forma de governo pressupõe uma cultura política correspondente. Essa atenção às condições sociais e históricas do governo influenciará profundamente Tocqueville e a ciência política moderna."
+      ],
+      quotes: []
+    },
+    {
+      thinkerId: "hegel",
+      keyWork: "Filosofia do Direito",
+      paragraphs: [
+        "Hegel inverteu a perspectiva contratualista de modo radical. Para ele, o Estado não é resultado de um acordo entre indivíduos pré-políticos: é a realidade objetiva da eticidade, o lugar onde a liberdade racional se encarna no mundo histórico. Antes do Estado, os indivíduos existem apenas como abstrações; é nele e por meio dele que alcançam existência ética concreta.",
+        "O Estado hegeliano não é o instrumento do indivíduo — o indivíduo é, em certo sentido, produto do Estado. Direitos, deveres e identidade se constituem dentro da vida ética que o Estado organiza. Locke errou ao imaginar indivíduos com direitos pré-políticos; Rousseau errou ao reduzir o Estado à vontade coletiva. O governo não expressa a vontade dos cidadãos: expressa a razão histórica objetiva.",
+        "Marx partirá de Hegel para chegar a uma conclusão oposta: se o Estado é uma realização histórica, é também uma realização contingente e superável — e o Estado burguês, em particular, é a institucionalização da dominação de classe, não da razão universal."
+      ],
+      quotes: [
+        {
+          text:
+            "O Estado é a atualidade da ideia ética.",
+          source: "Filosofia do Direito, Parte III"
+        }
+      ]
+    },
+    {
+      thinkerId: "marx",
+      keyWork: "Manifesto Comunista",
+      paragraphs: [
+        "Marx diagnosticou o governo moderno como instrumento de dominação de classe travestido de interesse geral. O Estado não existe para proteger os direitos naturais de todos, como queria Locke, nem para realizar a razão histórica, como afirmava Hegel. Existe para garantir as condições de reprodução do capital e da dominação da burguesia sobre o proletariado.",
+        "O governo capitalista executa funções de repressão direta — exército, polícia, judiciário — e funções ideológicas: apresenta os interesses da classe dominante como interesses universais, naturalizando relações de poder contingentes. A democracia liberal não supera esse problema; aprofunda-o, ao dar aparência de consenso a uma dominação estrutural.",
+        "A solução não é reformar o governo, mas transcendê-lo. Com a abolição das classes, o Estado perderia sua razão de ser e definharia. O que ficaria não seria anarquia, mas uma associação de indivíduos livres gerindo coletivamente a produção comum. Essa visão permanece o horizonte mais ambicioso — e mais disputado — de toda a filosofia política ocidental."
+      ],
+      quotes: []
+    }
+  ]
+};
+
+const leiEssay: IdeaEssay = {
+  slug: "lei",
+  title: "A conversa sobre Lei",
+  introduction:
+    "De Sófocles a Marx, a conversa sobre a lei percorre a pergunta fundamental que nenhuma constituição resolve de vez: existe uma lei acima das leis humanas, e quando — se é que alguma vez — a consciência pode desobedecê-las?",
+  sourceNote:
+    "Texto em português preparado com base no arquivo source_lei.md e nos textos primários do corpus Great Books.",
+  sections: [
+    {
+      thinkerId: "sophocles",
+      keyWork: "Antígona",
+      paragraphs: [
+        "Sófocles inaugura a conversa com um conflito que nenhum argumento resolve: Creonte proíbe que Antígona sepulte o irmão morto em combate contra Tebas; Antígona desobedece, invocando as leis não escritas e eternas dos deuses, anteriores a qualquer decreto humano. Ambos falam de lei; nenhum dos dois cede.",
+        "O que o drama expõe não é simplesmente o choque entre lei divina e lei humana, mas a impossibilidade de resolver esse choque dentro da própria ordem política. Creonte fala como governante: a lei da cidade é a condição da comunidade, e quem a viola ameaça o próprio tecido social. Antígona fala como filha e irmã: há deveres mais antigos e mais fundos do que qualquer édito, e violá-los é cometer a verdadeira impiedade.",
+        "A tragédia não coroa nenhum dos dois: Creonte perde o filho, a mulher e a legitimidade; Antígona morre sem ver sua causa triunfar. Sófocles legou ao pensamento político uma tensão que Platão tentará resolver racionalmente, Aquino hierarquizará teologicamente e Hobbes simplesmente recusará — declarando que não há lei acima do soberano."
+      ],
+      quotes: []
+    },
+    {
+      thinkerId: "plato",
+      keyWork: "As Leis",
+      paragraphs: [
+        "Platão respondeu ao dilema sofocleano propondo que a lei genuína é a expressão da razão, não da vontade arbitrária do governante. Em As Leis, seu diálogo mais longo e mais político, ele imagina uma cidade onde as leis são precedidas por preâmbulos que explicam sua razão de ser — não apenas comandam, mas persuadem. O bom legislador é aquele que educa os cidadãos sobre o porquê das normas, tornando a obediência racional em vez de meramente forçada.",
+        "A distinção entre lei tiranicamente imposta e lei racionalmente fundamentada antecipa a questão central da filosofia jurídica: uma norma injusta ainda é lei? Platão sugere que não — a lei genuína visa ao bem da cidade inteira, e o que apenas favorece o legislador é mero decreto de força.",
+        "Esse padrão racional de avaliação da lei será sistematizado por Aristóteles e depois integrado por Aquino à hierarquia das leis. A linha de tensão com Hobbes já está traçada: para Platão e seus herdeiros, a lei tem conteúdo moral necessário; para Hobbes, tem apenas origem formal no poder soberano."
+      ],
+      quotes: []
+    },
+    {
+      thinkerId: "aquinas",
+      keyWork: "Suma Teológica",
+      paragraphs: [
+        "Tomás de Aquino sistematizou a tradição em uma hierarquia quádrupla. A lei eterna é a razão divina que governa toda a criação. A lei natural é a participação da criatura racional nessa lei eterna: a inclinação ao bem, à vida em comunidade, à verdade e à ordem. A lei divina é a Escritura revelada, que corrige e complementa a razão nos assuntos concernentes à salvação. A lei humana, por fim, é a determinação particular que cada comunidade estabelece para circunstâncias concretas — e só tem validade se deriva da lei natural.",
+        "A consequência prática é que uma lei humana injusta não obriga moralmente. Ela pode ser tecnicamente vigente, mas perde sua autoridade genuína porque se afasta da fonte que lhe dá sentido. Aquino admite que a resistência a tais leis pode ser justificada — embora com cautela, para evitar escândalos maiores.",
+        "Essa teoria forneceu o fundamento teórico para séculos de resistência consciente à lei positiva: de Martinho Lutero King à resistência contra o nazismo, o argumento da lei superior foi invocado. Hobbes será o primeiro a bloquear explicitamente essa possibilidade, declarando que a dissidência de consciência não pode ter status jurídico."
+      ],
+      quotes: [
+        {
+          text:
+            "Toda lei humana tem tanto de natureza de lei quanto deriva da lei da natureza. Mas se em algum ponto se afasta da lei natural, já não é lei, mas corrupção da lei.",
+          source: "Suma Teológica, Parte I-II, Questão 95"
+        }
+      ]
+    },
+    {
+      thinkerId: "hobbes",
+      keyWork: "Leviatã",
+      paragraphs: [
+        "Hobbes cortou o nó com uma afirmação que ainda hoje provoca: antes da lei não há injustiça. A lei não deriva da razão, da natureza ou de Deus, mas exclusivamente do comando do soberano lastreado pela força. O que a lei ordena é o justo por definição — não porque o soberano seja virtuoso, mas porque a alternativa ao seu comando é a guerra civil, que é o único mal genuinamente absoluto.",
+        "A positivismo jurídico hobbesiano elimina a possibilidade de desobediência de consciência com fundamento em lei superior. Se cada indivíduo pudesse invocar Deus, a natureza ou a razão para resistir ao soberano, o resultado seria cada um seguindo sua própria consciência — e a paz seria impossível. A única coisa que dá à lei seu caráter de lei é a capacidade do soberano de fazê-la cumprir.",
+        "Locke responderá que isso confunde lei com tirania. Kant argumentará que a lei que não pode coexistir com a liberdade racional de todos não é lei no sentido pleno. Mas o desafio hobbesiano permanece: quem decide, em última instância, o que a razão ou a natureza exigem — e que poder impede que essa decisão seja imposta pela força?"
+      ],
+      quotes: [
+        {
+          text:
+            "Onde não há poder comum, não há lei; onde não há lei, não há injustiça.",
+          source: "Leviatã, Parte I, Capítulo 13"
+        }
+      ]
+    },
+    {
+      thinkerId: "locke",
+      keyWork: "Segundo Tratado do Governo Civil",
+      paragraphs: [
+        "Locke devolveu à lei seu caráter normativo sem recorrer à hierarquia teológica de Aquino. A lei natural — acessível pela razão a todos os homens — estabelece que ninguém deve lesar outro em sua vida, saúde, liberdade ou posses. A lei civil é legítima quando expressa o consentimento da comunidade para aplicar e garantir esses princípios racionais em situações concretas.",
+        "A diferença decisiva em relação a Hobbes é que a autoridade da lei não vem apenas da capacidade de fazer cumprir: vem do consentimento dos governados e da conformidade com os direitos naturais pré-políticos. Uma lei que viola esses direitos — que confisca propriedades sem julgamento, que prende sem causa — não é lei legítima, e os governados têm o direito de resistir.",
+        "Montesquieu estenderá essa análise para mostrar que a garantia da lei não depende apenas de seu conteúdo, mas de sua estrutura institucional: a separação dos poderes é a condição para que nenhum grupo utilize a lei como instrumento de dominação particular."
+      ],
+      quotes: []
+    },
+    {
+      thinkerId: "rousseau",
+      keyWork: "O Contrato Social",
+      paragraphs: [
+        "Rousseau deslocou o fundamento da lei do consentimento individual para a vontade geral. A lei legítima não é aquela à qual cada cidadão individualmente consentiu, mas aquela que expressa o interesse comum de toda a comunidade — o que cada um desejaria se pensasse como cidadão em vez de como interesse particular.",
+        "Essa distinção tem uma implicação radical: a lei pode obrigar mesmo aquele que votou contra ela, desde que a maioria tenha expressado corretamente a vontade geral. Rousseau resolve o paradoxo dizendo que quem resiste à vontade geral está, de fato, resistindo à sua própria vontade mais profunda enquanto membro da comunidade.",
+        "Kant encontrará na ideia de autolegislação o núcleo correto do argumento de Rousseau — mas o transplantará para o sujeito racional individual, evitando a dependência rousseauniana de uma maioria que poderia errar em sua leitura do interesse comum."
+      ],
+      quotes: []
+    },
+    {
+      thinkerId: "kant",
+      keyWork: "Ciência do Direito",
+      paragraphs: [
+        "Kant distinguiu lei jurídica e lei moral por seu domínio, não por sua origem racional. A lei jurídica regula as ações externas dos indivíduos entre si: preocupa-se com o que fazemos, não com o motivo pelo qual agimos. A lei moral, ao contrário, exige que o sujeito aja por dever livremente reconhecido. Ambas derivam da razão, mas têm esferas distintas.",
+        "O princípio que define a lei jurídica é formal e não-material: uma lei é legítima quando harmoniza a liberdade de cada um com a liberdade de todos segundo um princípio universal. Kant não pergunta se a lei é boa para o bem-estar, mas se pode valer como lei para todos os seres racionais sem contradição.",
+        "Esse formalismo tem consequências conservadoras e revolucionárias ao mesmo tempo. Conservadoras, porque Kant é muito cauteloso com o direito de resistência — a desordem causada pela revolução pode ser pior do que a injustiça que combate. Revolucionárias, porque qualquer lei que não passe no teste da universalidade racional perde a pretensão de obrigar moralmente. Marx utilizará o mesmo princípio para mostrar que a lei burguesa, que pretende ser universal, na verdade expressa apenas o interesse de uma classe."
+      ],
+      quotes: [
+        {
+          text:
+            "Age externamente de tal modo que o livre exercício de tua vontade possa coexistir com a liberdade de todos os outros segundo uma lei universal.",
+          source: "Ciência do Direito, Introdução"
+        }
+      ]
+    },
+    {
+      thinkerId: "marx",
+      keyWork: "Manifesto Comunista",
+      paragraphs: [
+        "Marx encerrou o percurso desmontando a pretensão de neutralidade da lei. A lei não é a expressão da razão universal nem do consentimento geral: é o conjunto de normas que uma classe dominante precisa para reproduzir as condições de sua dominação. O direito à propriedade privada não é uma conquista da razão — é a forma jurídica que o capitalismo exige para funcionar.",
+        "A lei criminal protege a propriedade dos que possuem contra os que não possuem; a lei contratual regula trocas entre partes formalmente iguais mas materialmente desiguais; o direito internacional garante a propriedade colonial. Por baixo da linguagem universal dos direitos corre a lógica particular dos interesses de classe.",
+        "A crítica marxista não dissolve a pergunta sobre a lei justa — radicaliza-a. Se a lei atual é ideológica, a pergunta passa a ser: que tipo de lei seria possível em uma sociedade sem classes? Marx não responde detalhadamente; a tradição socialista posterior debaterá se o direito pode ser transformado de instrumento de dominação em instrumento de emancipação, ou se deve simplesmente definhair junto com o Estado."
+      ],
+      quotes: []
+    }
+  ]
+};
+
+const estadoEssay: IdeaEssay = {
+  slug: "estado",
+  title: "A conversa sobre Estado",
+  introduction:
+    "De Aristóteles, que viu no Estado a condição natural da vida humana plena, a Marx, que o denunciou como instrumento de dominação transitório, o debate sobre o Estado atravessa as questões mais radicais da filosofia política: o que nos une como comunidade, quem tem autoridade sobre quem, e o que aconteceria se o Estado simplesmente desaparecesse.",
+  sourceNote:
+    "Texto em português preparado com base no arquivo source_estado.md e nos textos primários do corpus Great Books.",
+  sections: [
+    {
+      thinkerId: "plato",
+      keyWork: "A República",
+      paragraphs: [
+        "Platão concebeu o Estado como alma ampliada: assim como a alma justa é aquela em que razão, ânimo e apetite ocupam seus lugares hierárquicos corretos, o Estado justo é aquele em que filósofos governam, guerreiros defendem e artesãos produzem, cada classe exercendo sua função própria sem invadir as demais. A justiça no Estado e na alma são a mesma coisa vista em escalas diferentes.",
+        "O Estado não é um acordo entre interesses particulares, como sugerirão os contratualistas: é uma unidade orgânica com uma função teleológica — conduzir seus membros à vida boa. Platão desconfia da democracia precisamente porque ela trata a pluralidade de interesses como um bem em si, em vez de exigir que todos se subordinem à razão.",
+        "O Estado ideal platônico é uma teocracia filosófica: os governantes são aqueles que contemplaram o Bem e voltaram para a caverna para servir à comunidade. Aristóteles criticará esse modelo por ser irrealisticamente abstrato; os contratualistas o rejeitarão por ser autoritário. Mas a ideia de que o Estado tem fins substantivos que transcendem a soma das preferências individuais ressurgirá em Hegel."
+      ],
+      quotes: []
+    },
+    {
+      thinkerId: "aristotle",
+      keyWork: "Política",
+      paragraphs: [
+        "Aristóteles fundou a definição que orientou séculos de reflexão: o Estado é a comunidade suprema que engloba todas as outras — família, aldeia, associações — e existe não apenas para garantir a sobrevivência, mas para tornar possível a vida boa. Sua origem é natural, porque o ser humano é, por natureza, um animal político.",
+        "A naturalidade do Estado não significa que toda forma de Estado seja igualmente natural. O Estado que serve ao bem de todos expressa a natureza humana; o Estado que serve apenas ao governante a perverte. Aristóteles cataloga as formas de Estado com olhar empírico — estudou as constituições de cento e cinquenta e oito cidades gregas — e conclui que a melhor forma praticável é a que combina elementos de vários regimes e é sustentada por uma classe média estável.",
+        "A tese da naturalidade do Estado será o alvo preferencial dos contratualistas modernos. Hobbes argumentará que o Estado é o mais artificial dos artefatos humanos; Locke, que é um instrumento criado por indivíduos com direitos pré-políticos; Rousseau, que a sociedade civil deformou a natureza original do homem. Nenhum deles, porém, escapa completamente do problema que Aristóteles levantou: que tipo de bem o Estado deve promover, e para quem?"
+      ],
+      quotes: [
+        {
+          text:
+            "O Estado não é apenas uma comunidade de seres vivos, mas uma comunidade de iguais que visa à melhor vida possível.",
+          source: "Política, Livro VII, Capítulo 8"
+        }
+      ]
+    },
+    {
+      thinkerId: "augustine",
+      keyWork: "A Cidade de Deus",
+      paragraphs: [
+        "Agostinho escreveu A Cidade de Deus após o saque de Roma pelos visigodos em 410, quando pagãos culpavam o Cristianismo pelo enfraquecimento do Império. Sua resposta transformou a questão do Estado em questão de salvação e de amor. Existem duas cidades: a de Deus, cujos membros amam a Deus até o ponto de desprezarem a si mesmos, e a dos Homens, cujos membros amam a si mesmos até o ponto de desprezarem a Deus.",
+        "O Estado político pertence à cidade dos Homens: não é inteiramente mau — mantém uma paz relativa, que é um bem real —, mas é fundamentalmente marcado pelo pecado e pelo amor próprio. Nenhum Estado terreno, por mais virtuoso que pareça, pode ser a comunidade perfeita que o ser humano deseja. Roma não caiu por falta de deuses pagãos; caiu por falta da justiça que só o amor a Deus pode fundar.",
+        "A posição de Agostinho terá consequências políticas duradouras. Ela subordina o Estado à Igreja — instituição da cidade de Deus na terra — e limita as pretensões de qualquer autoridade política de ser o fim último da vida humana. Aquino tentará reabilitar o Estado como instituição natural com fins próprios; os reformadores protestantes voltarão a usar o dualismo agostiniano contra o poder papal e depois contra o poder estatal."
+      ],
+      quotes: []
+    },
+    {
+      thinkerId: "hobbes",
+      keyWork: "Leviatã",
+      paragraphs: [
+        "Hobbes propôs a teoria mais radicalmente artificial do Estado. Sem ele, a vida humana é solitária, pobre, sórdida, brutal e breve. O Estado não nasce de uma sociabilidade natural: nasce do medo da morte violenta e do cálculo racional que conclui que a paz vale o preço da obediência. O Leviatã é um deus mortal, uma máquina enorme feita de corpos humanos que cederam seu direito natural de autogoverno.",
+        "A soberania do Estado hobbesiano é absoluta porque qualquer divisão de autoridade produz conflito. Rei, parlamento, Igreja — apenas um pode ter a última palavra, ou a guerra civil retorna. O Leviatã não conhece limites externos de direito: só o dever de manter a paz que justificou sua criação.",
+        "É nesse ponto que Locke insurge: se o Estado pode fazer qualquer coisa em nome da paz, onde termina a proteção dos governados e começa a tirania? A resposta de Locke — os direitos naturais como limite da autoridade — definirá a tradição liberal; a resposta de Hegel — que o Estado não é instrumento dos indivíduos, mas sua realização ética — definirá o idealismo político."
+      ],
+      quotes: []
+    },
+    {
+      thinkerId: "locke",
+      keyWork: "Segundo Tratado do Governo Civil",
+      paragraphs: [
+        "Locke recusou a premissa hobbesiana do estado de natureza como guerra. Para ele, antes do Estado os homens já possuem razão, direitos naturais e — ao menos em princípio — a capacidade de resolver pacificamente a maior parte dos conflitos. O problema é a ausência de um árbitro imparcial: cada um tende a julgar sua própria causa com parcialidade.",
+        "O Estado é criado para resolver esse problema estrutural: não para substituir a liberdade natural, mas para garantir mais eficazmente os direitos que ela já contém. É um trust, uma delegação revogável: se o Estado violar a propriedade que lhe foi confiada para proteger, o poder retorna ao povo, que pode constituir novo governo.",
+        "A teoria lockeana do Estado limitado influenciou as revoluções americana e francesa e permanece como o argumento canônico do liberalismo político. Sua vulnerabilidade é a que Marx apontará: um Estado que protege a propriedade privada como direito natural está servindo, estruturalmente, aos que possuem contra os que não possuem."
+      ],
+      quotes: [
+        {
+          text:
+            "O grande e principal objetivo dos homens ao unirem-se em comunidades e submeterem-se ao governo é a preservação de sua propriedade.",
+          source: "Segundo Tratado do Governo Civil, Capítulo IX"
+        }
+      ]
+    },
+    {
+      thinkerId: "hegel",
+      keyWork: "Filosofia do Direito",
+      paragraphs: [
+        "Hegel inverteu o argumento contratualista de modo radical. O Estado não é instrumento criado por indivíduos pré-políticos com direitos anteriores; é a condição para que os indivíduos existam como seres éticos e racionais. Antes do Estado — ou fora dele — o que existe são apenas abstrações: vontades particulares sem forma objetiva. É no Estado que a liberdade deixa de ser mera capacidade interior e se realiza concretamente no mundo.",
+        "O Estado hegeliano não é o Estado real de qualquer nação histórica particular — é a Ideia do Estado, a forma racional que os Estados históricos aproximam em graus variados. A Prússia de seu tempo era, para Hegel, uma aproximação superior, mas não o término do desenvolvimento histórico.",
+        "A crítica de Marx será construída dentro da linguagem de Hegel: concordar que o Estado é um produto histórico e acrescentar que esse produto histórico é um produto da luta de classes, não da razão universal. O Estado não realiza a liberdade de todos — realiza a dominação de quem detém os meios de produção. E se é histórico, pode ser superado pela história."
+      ],
+      quotes: []
+    },
+    {
+      thinkerId: "marx",
+      keyWork: "Manifesto Comunista",
+      paragraphs: [
+        "Marx reuniu as críticas anteriores e acrescentou uma nova: o Estado não é o bem comum aristotélico, não é o Leviatã hobbesiano, não é o trust lockeano, não é a Ideia hegeliana. É o comitê executivo da burguesia — o conjunto de instituições que garantem a reprodução das relações de produção capitalistas.",
+        "A história é a história da luta de classes, e o Estado é o campo em que essa luta se institucionaliza. O Estado feudal servia aos senhores de terras; o Estado moderno serve ao capital. A democracia representativa é a forma política mais adequada ao capitalismo porque mascara com linguagem de universalidade uma dominação de classe real.",
+        "A consequência lógica é que a emancipação não virá de dentro do Estado, mas de sua superação. Com a abolição das classes, o Estado não precisaria ser destruído por força — definharia, porque perderia sua razão de ser. Essa visão de Estado como instituição transitória permanece o horizonte mais radical proposto pela grande conversa política ocidental."
+      ],
+      quotes: [
+        {
+          text:
+            "A história de toda sociedade até hoje existente é a história das lutas de classes.",
+          source: "Manifesto Comunista, Parte I"
+        }
+      ]
+    }
+  ]
+};
+
+const riquezaEssay: IdeaEssay = {
+  slug: "riqueza",
+  title: "A conversa sobre Riqueza",
+  introduction:
+    "De Aristóteles, que a julgou mero instrumento, a Marx, que a expôs como relação social de poder, a conversa sobre a riqueza interroga sua origem, seus limites morais e sua distribuição — perguntando se o enriquecimento individual serve ou destrói o bem comum.",
+  sourceNote:
+    "Texto em português preparado com base no arquivo source_riqueza.md e nos textos primários do corpus Great Books.",
+  sections: [
+    {
+      thinkerId: "plato",
+      keyWork: "A República",
+      paragraphs: [
+        "Platão abordou a riqueza com desconfiança estrutural. Na República, o amor ao dinheiro é o traço distintivo da alma oligárquica — aquela em que o apetite domina a razão e o ânimo. Uma cidade dominada por esse amor transforma-se em duas cidades em conflito permanente: a dos ricos e a dos pobres. A riqueza excessiva corrompe tanto os que a possuem quanto os que a invejam.",
+        "Para os guardiões do Estado ideal, a propriedade privada e a família são abolidas: os que governam não devem possuir nada que os incline a governar em favor próprio. A riqueza, por sua natureza, desvia a atenção do bem comum para o interesse particular. Somente quem não possui pode governar com olhos voltados para o todo.",
+        "Aristóteles discordará dessa solução, argumentando que a propriedade comum tende ao negligenciamento: o que é de todos é cuidado por nenhum. Mas herdará de Platão a desconfiança fundamental em relação à acumulação ilimitada."
+      ],
+      quotes: []
+    },
+    {
+      thinkerId: "aristotle",
+      keyWork: "Ética a Nicômaco",
+      paragraphs: [
+        "Aristóteles estabeleceu a distinção que dominará séculos de reflexão econômica e moral: há um limite natural e saudável para a acumulação de riqueza — a quantidade necessária para viver virtuosamente e participar da vida cívica. Além desse limite, a busca de riqueza deixa de ser meio e transforma-se em fim, corrompendo o caráter.",
+        "A usura — o dinheiro gerando dinheiro — é particularmente antinatural porque reverte a função do dinheiro como instrumento de troca. O mercador que compra para revender lucrativamente usa os outros como meios; o usurário faz o mesmo com o próprio dinheiro. Em ambos os casos, a riqueza deixa de servir à vida boa e passa a ser perseguida por si mesma.",
+        "A posição aristotélica não é antibusiness avant la lettre: a produção agrícola, o artesanato e o comércio de abastecimento são legítimos. O que é condenado é a crematística — a arte de fazer dinheiro sem limite e sem referência a um uso específico. Aquino desenvolverá esse argumento no contexto cristão; Locke o demolirá com a justificativa do trabalho."
+      ],
+      quotes: [
+        {
+          text:
+            "A vida de quem faz dinheiro é uma vida empreendida sob compulsão, e a riqueza evidentemente não é o bem que buscamos; é apenas útil e existe em função de outra coisa.",
+          source: "Ética a Nicômaco, Livro I"
+        }
+      ]
+    },
+    {
+      thinkerId: "aquinas",
+      keyWork: "Suma Teológica",
+      paragraphs: [
+        "Aquino defendeu a propriedade privada por razões práticas: o que é privado é mais bem cuidado, a responsabilidade é mais clara e as disputas são menores do que na posse comum. Mas a propriedade privada é legítima apenas dentro de limites morais: o proprietário deve usar seus bens também para o bem alheio, especialmente em caso de necessidade.",
+        "O argumento mais radical de Aquino sobre a riqueza é o do excedente: em situação de necessidade extrema, a propriedade perde seu caráter exclusivo. Quem rouba para não morrer de fome não comete, em sentido estrito, um roubo injusto — porque o excedente do rico pertence, por direito natural, ao pobre que passa fome. O proprietário é administrador, não senhor absoluto, dos bens que possui.",
+        "A usura continua proibida por Aquino, pois o dinheiro, como meio de troca, não pode ser vendido — seria cobrar pelo uso do tempo, que pertence a Deus. Locke inverterá completamente essa perspectiva ao mostrar que o dinheiro é uma convenção humana que não está sujeita a limites naturais de acumulação."
+      ],
+      quotes: [
+        {
+          text:
+            "As riquezas externas são úteis para as necessidades do corpo... Mas o bem do homem não consiste nelas.",
+          source: "Suma Teológica, Parte I-II, Questão 2, Artigo 1"
+        }
+      ]
+    },
+    {
+      thinkerId: "locke",
+      keyWork: "Segundo Tratado do Governo Civil",
+      paragraphs: [
+        "Locke fundou a propriedade no trabalho: quando o homem mistura seu trabalho com a natureza, torna aquela parte dela sua. No estado de natureza, o limite da acumulação legítima era a deterioração: não se pode apropriar mais do que se pode usar antes de estragar.",
+        "A invenção do dinheiro, porém, derrubou esse limite natural. O dinheiro não apodrece: permite acumular valor indefinidamente sem desperdício. E como a convenção monetária exige o consentimento tácito de toda a comunidade, a acumulação ilimitada de dinheiro é implicitamente aprovada por todos que participam de uma economia monetizada.",
+        "A consequência é uma ruptura decisiva com Aristóteles e Aquino: a acumulação ilimitada de riqueza é não apenas permitida, mas racionalmente justificada pelo trabalho e pelo consentimento. Adam Smith construirá sobre esse fundamento a teoria do mercado como mecanismo benéfico de coordenação; Marx mostrará que o que Locke chamou de consentimento é, na verdade, a naturalização de uma relação de poder histórica."
+      ],
+      quotes: [
+        {
+          text:
+            "O que ele retira do estado que a natureza dispôs e deixou, misturou com seu trabalho e juntou a ele algo seu, tornando-o, assim, sua propriedade.",
+          source: "Segundo Tratado do Governo Civil, Capítulo V"
+        }
+      ]
+    },
+    {
+      thinkerId: "rousseau",
+      keyWork: "Discurso sobre a Desigualdade",
+      paragraphs: [
+        "Rousseau inverteu a narrativa lockeana: o primeiro homem que cercou um pedaço de terra, declarou 'isto é meu' e encontrou pessoas simples o suficiente para acreditar nele foi o verdadeiro fundador da sociedade civil — e de todos os seus crimes. A propriedade privada não protegeu a liberdade natural: destruiu-a, substituindo a independência primitiva pela dependência recíproca e pela desigualdade.",
+        "No estado de natureza rousseauniano, o homem era livre, são e bom — não porque fosse racional, mas porque suas necessidades eram simples e a natureza as satisfazia. A sociedade civil corrompeu essa condição introduzindo a comparação, a inveja, o status e a dependência econômica. A riqueza não é o fruto do trabalho honesto; é o produto da desigualdade que o contrato social original legalizou.",
+        "Adam Smith lerá os mesmos fenômenos — divisão do trabalho, acumulação, mercado — como mecanismos benéficos. Rousseau os leu como fontes de alienação. Marx unirá os dois: a leitura smithiana de como a riqueza é produzida com a intuição rousseauniana de que ela é produzida às custas dos que a criam."
+      ],
+      quotes: []
+    },
+    {
+      thinkerId: "smith",
+      keyWork: "A Riqueza das Nações",
+      paragraphs: [
+        "Adam Smith transformou a pergunta sobre a riqueza: em vez de perguntar se ela é moralmente legítima, perguntou como ela é produzida e distribuída. Sua resposta fundamental é que a origem da riqueza não é a terra (como pensavam os fisiocratas) nem o comércio (como pensavam os mercantilistas), mas o trabalho dinamizado pela divisão de tarefas.",
+        "O exemplo do alfinete é famoso: dez trabalhadores dividindo as etapas da produção produzem incomparavelmente mais do que dez artesãos trabalhando cada um sozinho do início ao fim. A especialização multiplica a produtividade; o mercado coordena a especialização através dos preços. E o mecanismo de coordenação não requer benevolência — requer apenas que cada agente persiga seu próprio interesse.",
+        "A mão invisível não é uma metáfora mística: é a hipótese de que, em condições de concorrência, a busca privada do lucro tende a produzir resultados coletivamente benéficos sem planejamento central. Marx respeitará a análise da produção capitalista em Smith — e a usará para mostrar que o que Smith chamou de benefício comum é, na verdade, extração sistemática de mais-valia."
+      ],
+      quotes: [
+        {
+          text:
+            "Não é da benevolência do açougueiro, do cervejeiro ou do padeiro que esperamos nosso jantar, mas da consideração que eles têm por seu próprio interesse.",
+          source: "A Riqueza das Nações, Livro I, Capítulo 2"
+        }
+      ]
+    },
+    {
+      thinkerId: "marx",
+      keyWork: "O Capital",
+      paragraphs: [
+        "Marx aceitou a análise smithiana como ponto de partida e a radicalizou. O capital não é uma 'coisa' — uma máquina, uma fábrica, uma soma de dinheiro — mas uma relação social específica: a relação entre quem possui os meios de produção e quem vende sua força de trabalho para sobreviver. A riqueza capitalista se produz extraindo desses trabalhadores uma mais-valia — um tempo de trabalho não pago que se acumula como lucro.",
+        "O processo é sistêmico, não pessoal. O capitalista não precisa ser cruel nem o trabalhador preguiçoso: a lógica do mercado competitivo obriga ambos. Quem não extrai mais-valia suficiente perde capital para os concorrentes; quem não vende sua força de trabalho não sobrevive. A desigualdade não é acidente moral, é produto estrutural do sistema.",
+        "A dialética marxista da riqueza é a mais provocante: a acumulação de riqueza em um polo produz necessariamente acumulação de miséria no polo oposto. A teoria do valor-trabalho, a análise da mais-valia e a lei da concentração do capital compõem o diagnóstico mais sistemático do capitalismo jamais produzido dentro da tradição dos Great Books — e o mais disputado."
+      ],
+      quotes: [
+        {
+          text:
+            "A acumulação de riqueza num polo é ao mesmo tempo acumulação de miséria, agonia do trabalho, escravidão, ignorância, brutalidade, degradação moral no polo oposto.",
+          source: "O Capital, Volume I, Capítulo 25"
+        }
+      ]
+    }
+  ]
+};
+
 const ideaEssays: Record<string, IdeaEssay> = {
   [justicaEssay.slug]: justicaEssay,
   [bemEMalEssay.slug]: bemEMalEssay,
@@ -3671,7 +4230,12 @@ const ideaEssays: Record<string, IdeaEssay> = {
   [honraEssay.slug]: honraEssay,
   [habitoEssay.slug]: habitoEssay,
   [temperancaEssay.slug]: temperancaEssay,
-  [costumeEConvencaoEssay.slug]: costumeEConvencaoEssay
+  [costumeEConvencaoEssay.slug]: costumeEConvencaoEssay,
+  [liberdadeEssay.slug]: liberdadeEssay,
+  [governoEssay.slug]: governoEssay,
+  [leiEssay.slug]: leiEssay,
+  [estadoEssay.slug]: estadoEssay,
+  [riquezaEssay.slug]: riquezaEssay
 };
 
 export function getIdeaEssay(slug: string) {
