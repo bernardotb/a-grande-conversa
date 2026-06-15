@@ -4214,6 +4214,563 @@ const riquezaEssay: IdeaEssay = {
   ]
 };
 
+const guerraEPazEssay: IdeaEssay = {
+  slug: "guerra-e-paz",
+  title: "A conversa sobre Guerra e Paz",
+  introduction:
+    "Da glória heróica da Ilíada ao diagnóstico estrutural do capitalismo em Marx, a guerra e a paz percorrem toda a tradição ocidental como o par de tensões mais permanente da vida política. O que legitima a guerra? O que torna a paz possível? E quem, afinal, paga o preço de cada resposta?",
+  sourceNote:
+    "Texto em português preparado com base no arquivo source_guerra-e-paz.md e nos textos primários do corpus Great Books.",
+  sections: [
+    {
+      thinkerId: "homer",
+      keyWork: "Ilíada",
+      paragraphs: [
+        "A Ilíada de Homero não é um canto de triunfo militar — é a tragédia do custo da guerra. Aquiles sabe desde o início que vai morrer; Heitor sabe que Troia vai cair. Os dois lutam mesmo assim, porque a alternativa — recuar, sobreviver sem glória — seria pior do que a morte. A kleos, o renome que sobrevive ao guerreiro, é o único sentido que a morte violenta pode ter.",
+        "Homero apresenta a guerra com toda a sua brutalidade, incluindo os lamentos dos vencidos, as viúvas, os filhos orphãos. Andrômaca suplica Heitor que não volte ao campo de batalha. Heitor reconhece que Troia vai ser destruída, que sua esposa vai ser escravizada, mas não consegue ficar. A honra e o dever para com os companheiros pesam mais do que a sobrevivência pessoal.",
+        "A Odisseia completa o quadro: o regresso da guerra é tão perigoso quanto a guerra em si. Odisseu demora dez anos para voltar para casa. O herói de guerra retorna transformado, quase irreconhecível, e precisa de outra batalha — desta vez no interior do próprio lar — para reencontrar a paz. Homero estabelece que a guerra e a paz não são simplesmente opostos; a paz precisa ser conquistada tão difícil quanto a vitória militar.",
+        "No universo homérico, os deuses interferem diretamente nos conflitos. Zeus pesa as almas na balança do destino; Ares e Afrodite entram no campo de batalha. Mas essa dimensão divina não elimina a responsabilidade humana: Zeus mesmo, na abertura da Odisseia, distingue entre a moira, a fração de destino proporcional a cada um, e a desgraça autoinfligida pela hybris. A guerra que os homens iniciam por orgulho desmedido vai além do que os deuses ordenaram."
+      ],
+      quotes: [
+        {
+          text: "Uma morte gloriosa é daquele que, pela pátria, cai na linha de frente da batalha.",
+          source: "Ilíada, Livro XV"
+        }
+      ]
+    },
+    {
+      thinkerId: "herodotus",
+      keyWork: "Histórias",
+      paragraphs: [
+        "Heródoto abre as Histórias com uma pergunta: por que gregos e bárbaros guerrearam entre si? Sua resposta percorre séculos de raptos, vingança e retaliação, mas o motor real que ele identifica é a hybris — o orgulho desmedido que leva líderes poderosos a acreditar que podem desafiar os limites da fortuna. Creso ignora o aviso de Sólon; Xerxes chicoteia o mar após a tempestade destruir sua ponte de barcos.",
+        "A sentença de Sólon a Creso — 'não chames nenhum homem feliz antes de sua morte' — funciona como epígrafe moral das Guerras Pérsicas. Creso a ignorou, atacou os persas e perdeu tudo. Xerxes reuniu o maior exército que o mundo já vira e foi derrotado por cidades menores que lutavam pela liberdade.",
+        "Heródoto sugere uma diferença qualitativa entre os exércitos: os gregos lutavam como cidadãos livres que defendiam sua própria comunidade; os persas, como súditos obedecendo a um senhor. Essa diferença de motivação explica vitórias improvávies como as de Maratona e Salamina. A liberdade política é, para Heródoto, uma fonte de força militar que nenhuma superioridade numérica consegue compensar.",
+        "O historiador também registra as consequências da guerra para os vencidos — cidades destruídas, populações escravizadas, templos incendiados. Não romantiza a vitória grega. As Guerras Pérsicas ensinam que a fortuna gira, que a hybris precipita a queda, e que a grandeza hoje não é garantia de nada amanhã."
+      ],
+      quotes: [
+        {
+          text: "Na paz, os filhos enterram seus pais. Na guerra, os pais enterram seus filhos.",
+          source: "Histórias, Livro I (Creso a Ciro, após a derrota)"
+        }
+      ]
+    },
+    {
+      thinkerId: "thucydides",
+      keyWork: "História da Guerra do Peloponeso",
+      paragraphs: [
+        "Tucídides foi o primeiro a tentar uma análise rigorosamente causal da guerra. Seu diagnóstico das causas da Guerra do Peloponeso distingue entre os pretextos declarados e a causa verdadeira: o crescimento do poder de Atenas e o medo que esse crescimento inspirou em Esparta. Não foi uma questão de ideologia, de ofensa moral ou de honra — foi poder e medo.",
+        "O Diálogo dos Mélios radicaliza essa tese. Quando os atenienses negociam com os habitantes de Melos, recusam explicitamente discutir justiça: os fortes fazem o que podem, os fracos sofrem o que devem. A lógica do poder nu, sem verniz moral, nunca foi enunciada mais claramente na literatura ocidental.",
+        "Mas Tucídides não endossa essa posição — ele a documenta para mostrar suas consequências. Atenas massacrou os mélios e pouco depois sofreu o desastre da Sicília, a expedição mais ambiciosa e mais catastrófica de sua história. O excesso de poder inspira excesso de ambição, e o excesso de ambição leva à ruína.",
+        "A Oração Fúnebre de Péricles no Livro II apresenta o polo oposto: o ideal ateniense de liberdade, cultura, deliberação pública, igualdade perante a lei. Tucídides coloca lado a lado esse ideal e sua corrupção progressiva — a guerra desgasta a democracia, multiplica as facções internas, embrutece a linguagem política e dissolve os laços de confiança que tornavam a cidade possível. A guerra do Peloponeso é a história de uma civilização que se autodestrói."
+      ],
+      quotes: [
+        {
+          text: "O crescimento do poder de Atenas, e o alarme que isso inspirou em Esparta, tornaram a guerra inevitável.",
+          source: "História da Guerra do Peloponeso, Livro I, Cap. 23"
+        },
+        {
+          text: "Os fortes fazem o que podem e os fracos sofrem o que devem.",
+          source: "História da Guerra do Peloponeso, Livro V, Cap. 89 (Diálogo dos Mélios)"
+        }
+      ]
+    },
+    {
+      thinkerId: "plato",
+      keyWork: "República / Fédon",
+      paragraphs: [
+        "Para Platão, a raiz da guerra é o desejo irrestrito — em particular o desejo por mais riqueza do que o necessário. Na República, Sócrates descreve como a 'cidade saudável' (aquela que satisfaz as necessidades básicas) se transforma na 'cidade febril' por acumulação de luxos. Quando a cidade quer mais do que o necessário, precisa tomar de outras; as outras resistem; a guerra é o resultado inevitável.",
+        "No Fédon, Platão articula essa tese mais diretamente: todas as guerras são empreendidas para adquirir riqueza, e a razão pela qual precisamos adquirir riqueza é o corpo — porque somos escravos de suas demandas. A guerra não é um fenômeno político autônomo; é sintoma de uma alma coletiva desordenada, dominada pelo apetite em vez da razão.",
+        "A paz verdadeira, para Platão, exigiria uma reestruturação radical da alma coletiva. Uma cidade justa — aquela em que razão, coragem e apetite estão em equilíbrio sob o comando da sabedoria — não teria motivo para guerrear por cobiça. As guerras defensivas podem ser necessárias, mas a política externa de uma cidade saudável seria fundamentalmente diferente da política imperial de Atenas.",
+        "Essa análise psicológica da guerra permanece incômoda porque localiza a causa não nos inimigos externos, mas nos desejos internos. Não é o bárbaro que ameaça a paz — é a parte apetitiva de cada alma e de cada cidade que não foi educada para reconhecer seus próprios limites."
+      ],
+      quotes: [
+        {
+          text: "As guerras e as facções e os combates não têm outra fonte além do corpo e de seus desejos.",
+          source: "Fédon, 66c"
+        }
+      ]
+    },
+    {
+      thinkerId: "aristotle",
+      keyWork: "Política / Ética a Nicômaco",
+      paragraphs: [
+        "Aristóteles inverte a perspectiva dominante em Esparta — a de que o Estado existe para fazer guerra. Para ele, a guerra é um meio; a paz é o fim. Uma constituição que forme cidadãos apenas para o combate não sabe o que fazer com a vitória: conquista o ócio, mas não tem a virtude necessária para usá-lo bem.",
+        "O exemplo espartano era eloquente. Esparta dominou o Peloponeso pela força e depois declinou rapidamente quando não havia mais guerras para fazer. Uma cidade construída em torno da guerra é inútil em tempo de paz — e o tempo de paz, para Aristóteles, é o tempo da vida política plena, da deliberação, da amizade cívica, da contemplação.",
+        "Aristóteles também analisa os diferentes tipos de guerra: guerra defensiva (legítima), guerra para dominar povos que merecem ser escravizados (controversa em si mesma), guerras de conquista imperial (ilegítimas porque visam apenas ao poder). O critério é sempre teleológico: a guerra é justificada quando é meio necessário para alcançar a paz e a vida virtuosa, não quando é um fim em si mesma.",
+        "A paz verdadeira não é simplesmente ausência de guerra — é a condição em que os cidadãos podem exercer plenamente suas capacidades, cultivar virtudes, deliberar juntos sobre o bem comum. Essa concepção positiva da paz, distinta da mera trégua militar, influenciará tanto os pensadores medievais quanto o projeto kantiano de paz perpétua."
+      ],
+      quotes: [
+        {
+          text: "Fazemos guerra para que possamos viver em paz.",
+          source: "Ética a Nicômaco, Livro X, Cap. 7"
+        }
+      ]
+    },
+    {
+      thinkerId: "cicero",
+      keyWork: "Dos Deveres",
+      paragraphs: [
+        "Cícero foi o primeiro pensador ocidental a sistematizar as condições que tornam uma guerra legítima. Em Dos Deveres, ele estabelece que nenhuma guerra é justa a menos que tenha sido precedida de uma demanda formal de satisfação, de uma advertência e de uma declaração formal — o que os romanos chamavam de feciales, o direito sagrado dos arautos.",
+        "As condições de Cícero para o jus ad bellum (o direito de ir à guerra) são: causa justa (geralmente autodefesa ou reparação de injustiça), autoridade legítima (não facções privadas), declaração formal, e a guerra como último recurso. Uma paz honrosa é sempre preferível a uma guerra vitoriosa. Isso não é pacifismo — Cícero era romano e entendia a força — mas é a ideia de que a força deve ser subordinada ao direito.",
+        "O jus in bello (a conduta dentro da guerra) também tem regras. Devem ser poupados os que se rendem; as promessas feitas ao inimigo devem ser cumpridas; o objetivo é sempre a paz, não o extermínio. A memória do comportamento romano em guerras — às vezes generoso, às vezes brutal — tornava esses princípios tanto um ideal normativo quanto uma autocrítica implícita.",
+        "A tradição da guerra justa que Cícero fundou será retomada por Agostinho, sistematizada por Aquino e rearticulada no direito internacional moderno por Hugo Grotius. O projeto é sempre o mesmo: distinguir guerra legítima de pura violência, impor limites morais onde a força parece ilimitada."
+      ],
+      quotes: [
+        {
+          text: "Nenhuma guerra é justa, a menos que seja travada após uma demanda oficial de satisfação ter sido submetida, ou após aviso dado e declaração formal feita.",
+          source: "Dos Deveres, Livro I, Cap. 11, §36"
+        }
+      ]
+    },
+    {
+      thinkerId: "hobbes",
+      keyWork: "Leviatã",
+      paragraphs: [
+        "Hobbes produziu o diagnóstico mais sombrio da condição humana sem governo: um estado de natureza em que a vida é 'solitária, pobre, sórdida, brutal e curta'. Não se trata de batalhas constantes, mas da disposição permanente para o combate — a guerra de todos contra todos como condição estrutural na ausência de um poder soberano.",
+        "Para Hobbes, a paz não emerge espontaneamente da natureza humana; precisa ser construída artificialmente pelo pacto social. Os indivíduos transferem seus direitos naturais a um soberano que, em troca, garante a segurança coletiva. Sem esse Leviatã, nenhuma arte, nenhuma ciência, nenhuma cultura é possível — porque todos os recursos devem ser destinados à sobrevivência imediata.",
+        "A consequência para a política internacional é perturbadora: entre soberanos, não existe poder superior capaz de garantir a paz. O estado de natureza hobbesiano — guerra permanente de todos contra todos — é exatamente o estado em que as nações se encontram entre si. A paz internacional, portanto, é sempre precária, dependente de equilíbrios de poder e acordos que nenhum soberano está obrigado a respeitar.",
+        "Hobbes não era militarista — reconhecia que a guerra era irracional e que os humanos tinham bons motivos para evitá-la. Mas sua análise tornou a paz perpétua kantiana necessária precisamente ao mostrar que sem instituições que a produzam, a guerra é o estado natural das relações entre Estados soberanos."
+      ],
+      quotes: [
+        {
+          text: "O homem que vive sem um poder comum que o mantenha em respeito encontra-se naquela condição chamada guerra; e tal guerra é de todo homem contra todo homem.",
+          source: "Leviatã, Parte I, Cap. 13"
+        }
+      ]
+    },
+    {
+      thinkerId: "kant",
+      keyWork: "À Paz Perpétua",
+      paragraphs: [
+        "Kant aceitou o diagnóstico hobbesiano — sem instituições, a guerra é o estado natural entre nações — e tirou a conclusão oposta. Se a paz não surge espontaneamente, ela deve ser construída intencionalmente. À Paz Perpétua (1795) é o projeto mais ambicioso de arquitetura institucional para a paz na história da filosofia.",
+        "As condições de Kant para a paz perpétua incluem: que os Estados sejam repúblicas (porque os cidadãos que pagarão o custo da guerra terão voz na decisão de declará-la); que exista uma federação de Estados livres (não um Estado mundial, que seria tirania, mas uma aliança voluntária de respeito mútuo); e que exista um direito cosmopolita que proteja os cidadãos do mundo como viajantes e visitantes, não apenas como súditos de seus próprios Estados.",
+        "O argumento é ao mesmo tempo moral e estratégico. Moralmente, a guerra entre seres racionais é sempre um mal a ser evitado; politicamente, as repúblicas têm menos incentivo para guerrear do que as monarquias absolutas, porque o povo que sofre as consequências da guerra é o mesmo que decide por ela. Kant antecipou aqui o que o século XX chamaria de 'paz democrática' — a observação empírica de que democracias raramente guerreiam entre si.",
+        "Kant também distingue a paz perpétua de uma mera trégua. A paz verdadeira não é simplesmente cessação das hostilidades enquanto as partes se rearma; exige transformação das instituições políticas e do direito internacional. É um projeto histórico de longo prazo, não um estado que os Estados possam alcançar por decreto."
+      ],
+      quotes: [
+        {
+          text: "O estado de paz entre homens que vivem lado a lado não é o estado natural; o estado natural é de guerra... um estado de paz deve, portanto, ser estabelecido.",
+          source: "À Paz Perpétua, Seção I"
+        }
+      ]
+    },
+    {
+      thinkerId: "marx",
+      keyWork: "Manifesto Comunista / O Capital",
+      paragraphs: [
+        "Marx rejeitou as análises morais e institucionalistas da guerra como insuficientes. Para ele, as guerras modernas são conflitos de classe disfarçados de conflitos nacionais — expressões das contradições do capitalismo na disputa por mercados, matérias-primas, rotas comerciais e zonas de influência.",
+        "O Manifesto Comunista proclama que os trabalhadores não têm pátria. Isso não é apenas retórica: significa que as lealdades nacionais que mobilizam os trabalhadores para as guerras são uma forma de falsa consciência — um instrumento pelo qual as classes dominantes recrutam os oprimidos para defender interesses que não são os seus. O proletário que morre numa guerra imperialista defende o capital do seu patrão, não a si mesmo.",
+        "A análise marxista da guerra é estrutural: enquanto existir concorrência capitalista entre potências, haverá guerras para controlar recursos e mercados. A paz duradoura exige a transformação das relações de produção, não apenas novas instituições diplomáticas. Kant propõe uma federação de repúblicas; Marx propõe a dissolução do sistema que torna as guerras imperialistas necessárias.",
+        "A ironia histórica é que os regimes que se proclamaram marxistas no século XX produziram guerras tão devastadoras quanto os capitalistas — o que tanto marxistas heterodoxos quanto liberais usaram como argumento: os primeiros para criticar a deformação burocrática da revolução, os segundos para refutar a análise marxista da guerra como fenômeno puramente capitalista."
+      ],
+      quotes: [
+        {
+          text: "Os trabalhadores não têm pátria. Não podemos tirar deles o que não têm.",
+          source: "Manifesto Comunista, Seção II"
+        }
+      ]
+    },
+    {
+      thinkerId: "tolstoy",
+      keyWork: "Guerra e Paz",
+      paragraphs: [
+        "Tolstói escreveu o romance mais ambicioso sobre a guerra na tradição ocidental — e usou-o para demolir todas as teorias que encontrou. Guerra e Paz é ao mesmo tempo narrativa épica e ensaio filosófico: nos capítulos entre as cenas de batalha, Tolstói argumenta que os historiadores e estrategistas entendem mal o que acontece nas guerras.",
+        "O argumento central é que as batalhas não são controladas pelos generais. As ordens chegam tarde, a informação é incompleta, o terreno desobedece aos mapas, os soldados agem por instinto e medo mais do que por tática. Napoleão, o gênio militar mais admirado de sua época, em Waterloo deu ordens que não foram executadas, recebeu relatórios falsos e manteve a ilusão de controle enquanto a batalha ia para onde ia por sua própria inércia.",
+        "Kutúzov, o general russo, representa a sabedoria oposta: ele recua, espera, desgasta o inimigo, rejeita batalhas desnecessárias. Sua estratégia não é brilhante — é paciente. Ele entende que o destino de Napoleão na Rússia já estava decidido pelo inverno, pela imensidão do território e pelo espírito das tropas. O general sábio não controla a guerra — reconhece o que não pode ser controlado e age em conformidade.",
+        "A mensagem moral de Tolstói é inseparável de sua análise histórica: a grandeza autêntica não tem nada a ver com conquistas militares. Pierre Bezukhov, o personagem mais próximo do ideal tolstoiano, encontra a paz interior não nas batalhas, mas na simplicidade, na bondade, na verdade vivida no cotidiano. A guerra é o lugar onde a ilusão de poder humano se revela mais claramente — e mais tragicamente."
+      ],
+      quotes: [
+        {
+          text: "Os mais fortes de todos os guerreiros são estes dois — o Tempo e a Paciência.",
+          source: "Guerra e Paz, Vol. III, Parte 3, Cap. 1"
+        },
+        {
+          text: "Não há grandeza onde não há simplicidade, bondade e verdade.",
+          source: "Guerra e Paz, Vol. III"
+        }
+      ]
+    }
+  ]
+};
+
+const destinoEssay: IdeaEssay = {
+  slug: "destino",
+  title: "A conversa sobre o Destino",
+  introduction:
+    "Da moira implacável de Homero à dissolução kantiana do fatalismo na liberdade moral, o destino percorre a tradição ocidental como a tensão irresolvida entre o que é fixado antes de nós e o que depende de nossas escolhas. Cada resposta ao destino revela uma teoria do humano.",
+  sourceNote:
+    "Texto em português preparado com base no arquivo source_destino.md e nos textos primários do corpus Great Books.",
+  sections: [
+    {
+      thinkerId: "homer",
+      keyWork: "Ilíada / Odisseia",
+      paragraphs: [
+        "Em Homero, o destino (moira) é uma força impessoal que nem os deuses podem contrariar plenamente. Quando Zeus considera salvar Sarpédon da morte que lhe está destinada, Hera o adverte: os outros deuses farão o mesmo com seus favoritos, e a ordem do mundo vai desmoronar. Zeus obedece ao destino. Os humanos, então, existem numa tensão permanente entre a fatalidade cósmica e a escolha de como enfrentá-la.",
+        "Aquiles é o exemplo perfeito. Ele sabe desde o início que vai morrer jovem se ficar em Troia; poderia voltar para casa e viver longa vida sem glória. Ele escolhe ficar. A morte é destino fixo; a glória (kleos) é a resposta que o herói dá a esse destino — a única forma de afirmar a liberdade dentro da necessidade. O herói homérico não muda o que vai acontecer; decide como acontece.",
+        "A Odisseia complica o quadro. Zeus, no canto inicial, distingue entre moira — a fração de destino que cabe a cada um — e a desgraça autoinfligida pela hybris. Os companheiros de Odisseu morreram não apenas porque era seu destino, mas porque devoraram os bois sagrados de Hélio e provocaram sua própria destruição além da medida. Há uma parte do destino que é inevitável e uma parte que depende da prudência ou da imprudência do agente.",
+        "Esse é o problema que a tragédia grega vai herdar e radicalizar: onde termina a moira e começa a responsabilidade humana? A tradição homérica não tem uma resposta clara — e talvez seja justamente essa ambiguidade que tornará o tema inesgotável para os séculos seguintes."
+      ],
+      quotes: [
+        {
+          text: "Mesmo o mais forte de todos os seres vivos deve curvar-se ao destino. Também eu jaço morto quando minha hora chegar. Mas agora que eu ganhe renome nobre.",
+          source: "Ilíada, Livro XVIII"
+        }
+      ]
+    },
+    {
+      thinkerId: "aeschylus",
+      keyWork: "Oresteia",
+      paragraphs: [
+        "Em Ésquilo, o destino assume a forma de maldição ancestral que percorre gerações. A casa dos Atridas carrega um crime original — o banquete de Tiestes — que se propaga de pai a filho em ciclos de vingança e sangue. Agamêmnon mata Ifigênia; Clitemnestra mata Agamêmnon; Orestes mata Clitemnestra; as Erínias perseguem Orestes. O destino não é apenas individual — é uma linhagem inteira aprisionada numa cadeia de violência.",
+        "A fórmula esquiliana do destino é pathei mathos: aprender pelo sofrimento. O coro de Agamêmnon medita sobre isso enquanto espera notícias da guerra: o sofrimento não é arbitrário, mas pedagógico — Zeus inscreveu no cosmos a lei de que a sabedoria chega pela dor. O destino educa; a questão é se o preço do aprendizado é justo.",
+        "A Oresteia é a única trilogia completa de Ésquilo que sobreviveu, e sua resolução é notável. O ciclo de vingança é interrompido não por um deus que intervém por capricho, mas pela fundação do tribunal do Areópago — a primeira corte de homicídios em Atenas. O destino trágico da casa dos Atridas é superado pela instituição da justiça civil. Ésquilo sugere que a história humana pode avançar, que a maldição pode ser quebrada, que o destino não precisa ser eterno.",
+        "Essa confiança nas instituições humanas como remédio para o destino é peculiar a Ésquilo. Sófocles e Eurípides serão muito mais céticos quanto à capacidade do direito e da razão humanos para conter o que os deuses e o destino puseram em movimento."
+      ],
+      quotes: [
+        {
+          text: "Zeus, que guiou os homens a pensar, que estabeleceu que a sabedoria chega apenas pelo sofrimento.",
+          source: "Agamêmnon, versos 176–182"
+        }
+      ]
+    },
+    {
+      thinkerId: "sophocles",
+      keyWork: "Édipo Rei",
+      paragraphs: [
+        "O Édipo Rei de Sófocles é a formulação mais célebre e mais perturbadora do destino na literatura ocidental. A profecia — que Édipo mataria o pai e desposaria a mãe — se cumpre precisamente porque os envolvidos tentam evitá-la. Laio abandona o filho para escapar da profecia; Édipo foge de Corinto pelo mesmo motivo; os dois se encontram numa encruzilhada e a tragédia se consuma.",
+        "A ironia trágica central é que a investigação que Édipo conduz com tanta inteligência e determinação é exatamente o que revela seu próprio crime. Cada passo dado em direção à verdade é um passo em direção à destruição. A competência de Édipo — sua capacidade de decifrar enigmas, de investigar, de não desistir — é o instrumento do próprio destino. A inteligência não escapa ao destino; o destino a usa.",
+        "Tirésias, o profeta cego que vê o que o rei vidente recusa, representa a posição que Sófocles parece endossar: o destino já se cumpriu antes mesmo de a investigação começar. Édipo procura o assassino de Laio sem saber que o assassino é ele mesmo; o coro e o público sabem desde o início. A dimensão de horror vem precisamente dessa distância entre o que Édipo sabe e o que o público já sabe.",
+        "O coro final extrai a lição mais sombria: não chames nenhum homem feliz antes de sua morte. Enquanto a vida continua, o destino permanece insondável. A única conclusão possível é a humildade radical diante da imprevisibilidade — não do acaso, mas do destino que age através das próprias ações do herói."
+      ],
+      quotes: [
+        {
+          text: "Digo que tu és o assassino do homem cujo assassino buscas.",
+          source: "Édipo Rei, verso 362 (Tirésias a Édipo)"
+        },
+        {
+          text: "Não chames nenhum homem feliz antes de sua morte.",
+          source: "Édipo Rei, verso 1530 (coro final)"
+        }
+      ]
+    },
+    {
+      thinkerId: "euripides",
+      keyWork: "Medeia / As Bacantes",
+      paragraphs: [
+        "Eurípides torna o destino ainda mais perturbador ao remover qualquer plano providencial coerente. Em suas tragédias, os deuses são caprichosos ou indiferentes, e o destino se manifesta menos como ordem cósmica do que como paixão incontrolável que o logos não consegue domar. Medeia age movida por eros e furor; Penteu é destruído por Dionísio por resistir ao deus que não reconhecia; Hipólito é punido por Afrodite por uma devoção exclusiva a Ártemis.",
+        "A diferença em relação a Sófocles é significativa. Em Édipo, o destino tem uma lógica — é horrível, mas coerente. Em Eurípides, o destino parece quase arbitrário: os deuses deflagram forças irracionais nos humanos e depois os abandonam às consequências. Não há aprendizado, não há pedagogia divina. Há apenas vítimas.",
+        "Medeia é o caso mais extremo. Ela sabe que vai matar os filhos; delibera, vacila, e no fim executa. A paixão — a mistura de amor ferido e sede de vingança — é mais forte do que o amor materno e do que a razão. Eurípides mostra que o destino pode se manifestar como força interna irresistível, não como decreto externo. O que nos destrói pode estar dentro de nós mesmos.",
+        "A fórmula de encerramento de várias tragédias de Eurípides é deliberadamente desconcertante: o destino decepciona qualquer expectativa racional — o que parecia esperado não acontece; o inesperado encontra um caminho. Essa imprevisibilidade estrutural é o último argumento de Eurípides contra qualquer teodiceia que pretenda explicar o sofrimento como justo ou pedagógico."
+      ],
+      quotes: [
+        {
+          text: "Os deuses realizam muitas coisas contra nossa esperança; o que parecia esperado não se cumpre, e para o inesperado um deus encontra um caminho.",
+          source: "Medeia, versos finais (coro)"
+        }
+      ]
+    },
+    {
+      thinkerId: "plato",
+      keyWork: "República / Fedro",
+      paragraphs: [
+        "Platão inverte radicalmente a tradição trágica. No Mito de Er, no final da República, as almas que estão prestes a reencarnar escolhem seu próximo destino antes de beber do rio do Esquecimento. A escolha é livre — e um profeta adverte que a responsabilidade é da alma que escolhe, não de Deus. 'A virtude não tem senhor; cada um a terá em maior ou menor grau conforme a honrar ou desonrar.'",
+        "A inversão é completa. Em Homero e na tragédia, o destino é o que os deuses impõem ao humano; em Platão, o destino é a consequência das escolhas que a própria alma fez quando ainda possuía plena liberdade. A moira não é cósmica — é moral. O herói que se lamenta do destino lamenta, no fundo, as escolhas que sua alma fez em vidas anteriores.",
+        "Essa estrutura exige a imortalidade da alma e a reencarnação como pré-condições metafísicas. Se a alma morre com o corpo, não há como responsabilizá-la por escolhas feitas antes do nascimento. O Fedro apresenta a alma como fonte de todo movimento, imortal por natureza, capaz de percorrer o cosmos e contemplar as Formas antes de descer à vida encarnada.",
+        "Platão preserva algo da grandeza trágica — a vida ainda é difícil, ainda há sofrimento, ainda há escolhas erradas que arrastam a alma para vidas degradadas. Mas o quadro é fundamentalmente diferente: o cosmos é justo, cada alma recebe o que merece, e a educação filosófica é o instrumento pelo qual o humano aprende a fazer as escolhas certas antes de reencarnar."
+      ],
+      quotes: [
+        {
+          text: "A alma que escolheu deve tomar total responsabilidade por sua escolha. Deus é inocente.",
+          source: "A República, Livro X, 617e (Mito de Er)"
+        }
+      ]
+    },
+    {
+      thinkerId: "aristotle",
+      keyWork: "Poética",
+      paragraphs: [
+        "Aristóteles não trata o destino como categoria metafísica — essa discussão ele deixa para os teólogos e cosmólogos. O que lhe interessa na Poética é a lógica dramática do destino: como o destino opera dentro de uma narrativa trágica de modo a produzir o efeito de piedade e terror no espectador.",
+        "Os dois conceitos aristotélicos centrais são hamartia (a falha trágica que precipita a queda do herói) e peripéteia (a reviravolta, a mudança de boa fortuna para má ou vice-versa). O destino trágico eficaz não resulta de um herói perfeitamente virtuoso destruído por força arbitrária — isso produziria revolta, não catarse. Ele resulta de um herói que, sendo essencialmente bom, comete um erro de julgamento cujas consequências se revelam progressivamente devastadoras.",
+        "A anagnorisis — o reconhecimento, a passagem da ignorância ao conhecimento — é o momento em que o destino se revela ao herói. Em Édipo, é quando ele descobre quem é. O terror que isso provoca no espectador vem do reconhecimento de que o herói não era ignorante por covardia ou má-fé, mas porque o destino estava oculto na textura das próprias ações.",
+        "Aristóteles desloca o destino do plano cosmológico para o plano narrativo. O que importa não é se Édipo estava 'destinado' por forças cósmicas, mas se a sequência de ações que o levou à ruína obedece à necessidade ou verossimilhança interna. O destino eficaz, para Aristóteles, é aquele que parece inevitável em retrospecto sem ter parecido inevitável no momento — isso é o que produz a experiência trágica autêntica."
+      ],
+      quotes: [
+        {
+          text: "A reviravolta de intenção é uma mudança pela qual a ação gira para o seu oposto... O reconhecimento é uma mudança da ignorância para o conhecimento.",
+          source: "Poética, Capítulo XI"
+        }
+      ]
+    },
+    {
+      thinkerId: "boethius",
+      keyWork: "Consolação da Filosofia",
+      paragraphs: [
+        "Boécio escreveu a Consolação da Filosofia na prisão, aguardando a execução. A Fortuna que o havia elevado ao cargo de cônsul e depois o derrubou é a protagonista de uma das imagens mais duradouras da Idade Média: a Roda da Fortuna. A própria Fortuna fala na obra e declara sua natureza: ela gira continuamente, eleva quem estava em baixo e derruba quem estava em cima. Não é crueldade — é sua essência. Quem confia nos dons da Fortuna está confiando em algo que é, por definição, instável.",
+        "Boécio distingue entre Fortuna (o destino mundano, variável) e Providência (o plano divino estável que dirige tudo ao bem). Por trás da aparente arbitrariedade da Fortuna existe uma Providência que Deus conhece integralmente, embora os humanos não possam apreendê-la. O mal que nos parece injusto pode ser, do ponto de vista da eternidade, um bem disfarçado.",
+        "O problema mais agudo que Boécio formula — e que dominará a teologia medieval — é a tensão entre providência e livre-arbítrio. Se Deus conhece todos os eventos futuros, inclusive as escolhas humanas, como pode o humano ser livre? Boécio resolve com o conceito de eternidade divina: Deus não conhece o futuro como futuro, mas como eterno presente. O que, para nós, ainda não aconteceu, para Deus já está diante de si. A presciência divina não constrange a escolha humana assim como ver alguém caminhar não o força a caminhar.",
+        "A Consolação tornou-se um dos livros mais lidos da Idade Média — traduzido por Alfred, o Grande, por Chaucer e por Rainha Elizabeth I. A Roda da Fortuna penetrou na iconografia e na literatura medievais como a imagem mais precisa do que o destino mundano pode fazer: elevar e derrubar, sem distinção de mérito."
+      ],
+      quotes: [
+        {
+          text: "Giro a roda que gira. Alegro-me em ver o alto descer e o baixo ascender. Sobe se queres, mas, pela mesma regra, não tomes como ofensa descer quando é minha lei.",
+          source: "Consolação da Filosofia, Livro II, Prosa 2 (Fortuna falando)"
+        }
+      ]
+    },
+    {
+      thinkerId: "dante",
+      keyWork: "Divina Comédia",
+      paragraphs: [
+        "A Divina Comédia é o grande poema do destino redimido. Dante herda de Boécio a distinção entre Fortuna e Providência e a integra num sistema teológico completo: o Inferno mostra o destino eterno dos que escolheram o amor próprio acima de tudo; o Purgatório, o caminho de purificação dos que escolheram bem mas com amor mal ordenado; o Paraíso, a plenitude do destino para os que chegaram a amar o que merece ser amado.",
+        "O livre-arbítrio é preservado integralmente. A inscrição no portal do Inferno — 'Abandonai toda esperança, vós que entrais' — sela um destino eterno, mas esse destino é sempre autoinfligido. Ninguém está no Inferno por decreto arbitrário divino; cada condenado está exatamente onde suas escolhas o colocaram. A Providência de Dante não anula a liberdade — a confirma, tornando cada escolha eternamente consequente.",
+        "A teleologia dantesca substitui a fatalidade trágica. Na tragédia grega, o destino é aquilo de que não se escapa; em Dante, o destino é o lugar aonde as escolhas chegam. O Paraíso não é uma recompensa externa — é a consumação do desejo que foi gradualmente purificado e orientado. O verso final — 'o amor que move o sol e as outras estrelas' — é ao mesmo tempo cosmologia e antropologia: a força que rege o universo é a mesma que, quando alinhada com a vontade humana, constitui a bem-aventurança.",
+        "Dante unifica o destino grego, a providência cristã e o amor neoplatônico numa única visão coerente. O ser humano não está submetido a um destino cego, nem é completamente livre de consequências; está situado num cosmos onde a liberdade e o amor são a mesma coisa quando plenamente exercidos."
+      ],
+      quotes: [
+        {
+          text: "Abandonai toda esperança, vós que entrais.",
+          source: "Inferno, Canto III, verso 9"
+        },
+        {
+          text: "O amor que move o sol e as outras estrelas.",
+          source: "Paraíso, Canto XXXIII, verso final"
+        }
+      ]
+    },
+    {
+      thinkerId: "shakespeare",
+      keyWork: "Macbeth / Hamlet",
+      paragraphs: [
+        "Shakespeare explora o destino como tensão irresolvida — e jamais a resolve. Em Macbeth, as bruxas profetizam que Macbeth será rei; mas a profecia não determina o como. É a ambição que a profecia desperta, e a ambição de Lady Macbeth que acelera as coisas, que transforma uma possibilidade em ato. O destino cria o campo; a escolha humana executa.",
+        "Macbeth é ao mesmo tempo vítima e autor de seu destino. Ele poderia ter esperado; a profecia não dizia quando. Escolheu acelerar e pagou com a paranoia, os assassinatos em série e a dissolução moral. As bruxas não mentiram — disseram a verdade de um modo que a ambição humana não conseguiu ouvir sem distorcer.",
+        "Hamlet é o oposto complementar. Onde Macbeth age rápido demais, Hamlet hesita. O fantasma do pai impõe-lhe um destino — vingar o assassinato — que Hamlet resiste, procrastina, questiona. Essa resistência também é parte do destino: Hamlet reconcilia livre-arbítrio e providência no quinto ato com a famosa frase — 'há uma divindade que molda nossos fins, por mais que os desbastemos à nossa maneira'. O homem esboça; a divindade conclui.",
+        "O corpus shakespeariano contém, ao mesmo tempo, as duas posições. Cássio diz a Brutus que a culpa não está nas estrelas, mas em nós mesmos — posição antifatalista clara. Hamlet diz que há uma divindade que molda nossos fins — posição providencialista. Shakespeare não escolhe entre elas; apresenta o problema em toda a sua complexidade e deixa o espectador com a tensão intacta."
+      ],
+      quotes: [
+        {
+          text: "Há uma divindade que molda nossos fins, por mais que os desbastemos à nossa maneira.",
+          source: "Hamlet, Ato V, Cena 2"
+        },
+        {
+          text: "A culpa, caro Brutus, não está em nossas estrelas, mas em nós mesmos, que somos inferiores.",
+          source: "Júlio César, Ato I, Cena 2 (Cássio a Brutus)"
+        }
+      ]
+    },
+    {
+      thinkerId: "kant",
+      keyWork: "Crítica da Razão Pura / Crítica da Razão Prática",
+      paragraphs: [
+        "Kant dissolve o destino como categoria metafísica ao separar rigorosamente dois domínios: o da natureza, onde impera a causalidade necessária e determinista, e o da razão prática, onde a liberdade é postulada como condição de possibilidade do dever moral. O 'destino' no sentido fatalista pertence ao primeiro domínio — é a cadeia causal que a física descreve. Mas o humano como agente moral pertence ao segundo.",
+        "O ser humano é o único ente que Kant coloca em dois mundos simultaneamente: como fenômeno, está sujeito às leis da natureza; como noumeno, como ser racional, é livre. Essa dualidade não é uma contradição — é a estrutura mesma do humano. Quando Kant diz que devemos agir de certo modo, pressupõe que podemos — e 'poder' implica liberdade real, não determinismo mascarado.",
+        "A consequência para o debate sobre o destino é dupla. De um lado, Kant invalida qualquer astrologismo ou fatalismo que pretenda ler o destino nas estrelas ou nos eventos externos: o reino da natureza é causal, não teleológico no sentido providencial. De outro, rejeita também o ceticismo radical sobre a liberdade: sem liberdade, não há moralidade, não há imputação, não há responsabilidade.",
+        "A imagem final da Crítica da Razão Prática — os dois objetos de admiração crescente: o céu estrelado acima e a lei moral dentro de mim — captura a dualidade kantiana. O céu estrelado representa o determinismo cosmológico; a lei moral representa a liberdade. Os dois coexistem sem se contradizer. Essa coexistência é a resposta kantiana à questão que os gregos, Boécio, Dante e Shakespeare deixaram aberta."
+      ],
+      quotes: [
+        {
+          text: "Duas coisas enchem a mente de admiração e reverência sempre crescentes: o céu estrelado acima de mim e a lei moral dentro de mim.",
+          source: "Crítica da Razão Prática, Conclusão"
+        }
+      ]
+    }
+  ]
+};
+
+const deusEssay: IdeaEssay = {
+  slug: "deus",
+  title: "A conversa sobre Deus",
+  introduction:
+    "Da ordenação racional do cosmos pelo Demiurgo platônico ao diagnóstico nietzscheano da morte cultural de Deus, a conversa sobre Deus atravessa toda a tradição ocidental como o debate mais fundamental sobre o fundamento de tudo o mais — conhecimento, moral, política, sentido.",
+  sourceNote:
+    "Texto em português preparado com base no arquivo source_deus.md e nos textos primários do corpus Great Books.",
+  sections: [
+    {
+      thinkerId: "plato",
+      keyWork: "Timeu",
+      paragraphs: [
+        "O Timeu apresenta a cosmologia mais influente da Antiguidade: um Demiurgo — artesão divino, não criador onipotente — que, contemplando as Formas eternas como modelo, imprime ordem ao caos original e produz o mundo visível. Deus não cria o universo do nada (ex nihilo) — ele organiza a matéria pré-existente segundo o padrão do bem e do belo.",
+        "A bondade do Demiurgo é a explicação para a bondade do cosmos. Porque o criador é bom e deseja que tudo se assemelhe o máximo possível a ele, o universo que ele produz é ordenado, inteligível e tende ao bem. O cosmos é racional porque tem origem racional. O caos original — a matéria sem forma — não tem bondade; a bondade é o que a razão divina introduz ao ordenar.",
+        "O Demiurgo platônico não é pessoal no sentido cristão: não intervém na história, não ouve orações, não se envolve com os humanos individualmente. É razão pura orientada para o bem, artesão que faz o melhor possível com o material disponível. O 'possível' é importante: há uma resistência da matéria ao plano divino, e é por isso que o mundo não é perfeito.",
+        "Essa cosmologia estabelece os termos do debate filosófico sobre Deus para os séculos seguintes. Deus como razão ordenadora, como bondade fundamental, como origem da inteligibilidade do cosmos — essas ideias serão retomadas, transformadas e contestadas por Aristóteles, pelos neoplatônicos, pelos teólogos cristãos e pelos filósofos modernos."
+      ],
+      quotes: [
+        {
+          text: "O deus, desejando que todas as coisas fossem boas e, tanto quanto possível, nada fosse imperfeito, encontrando o universo visível num estado não de repouso mas de movimento inarmônico e desordenado, reduziu-o da desordem à ordem.",
+          source: "Timeu, 30a"
+        }
+      ]
+    },
+    {
+      thinkerId: "aristotle",
+      keyWork: "Metafísica",
+      paragraphs: [
+        "O Deus de Aristóteles é radicalmente diferente do Demiurgo platônico. O Primeiro Motor Imóvel, apresentado no Livro XII da Metafísica, é ato puro — ser sem potencialidade, sem matéria, sem mudança. Tudo o que existe no cosmos está em movimento; todo movimento requer uma causa; a cadeia de causas não pode ser infinita; portanto, deve existir um primeiro motor que move sem ser movido.",
+        "Mas como o Primeiro Motor move sem ser movido? Não como causa eficiente — não empurrando ou puxando as coisas. Ele move como causa final: como o objeto do desejo e do amor. Assim como o amado move o amante sem se mover, o Primeiro Motor atrai o cosmos para si. O universo está, em algum sentido, apaixonado por Deus — ou pelo bem que Deus representa.",
+        "A atividade divina é noesis noeseos — pensamento que pensa a si mesmo, contemplação pura. Deus não pensa o mundo, não conhece as criaturas individualmente, não se preocupa com os humanos. Pensar algo inferior à sua perfeição seria diminuir-se. Deus é a perfeição autossuficiente que serve de polo de atração para todo o movimento cósmico, sem nunca se engajar com o particular.",
+        "O Deus aristotélico é profundamente diferente do Deus pessoal das tradições abraâmicas. Não cria, não governa, não ama no sentido usual. Mas a sua estrutura formal — ato puro, causa final, pensamento puro — será incorporada por Tomás de Aquino ao projeto de síntese entre razão grega e fé cristã, tornando-se o esqueleto filosófico da teologia escolástica."
+      ],
+      quotes: [
+        {
+          text: "O pensamento pensa a si mesmo porque participa da natureza do objeto do pensamento; pois torna-se objeto de pensamento ao entrar em contato e pensar seus objetos, de modo que pensamento e objeto do pensamento são o mesmo.",
+          source: "Metafísica, Livro XII (Lambda), 1072b"
+        },
+        {
+          text: "Há algo que move sem ser movido, sendo eterno, substância e atualidade... E o objeto do desejo e o objeto do pensamento movem desta maneira; movem sem serem movidos.",
+          source: "Metafísica, Livro XII (Lambda), 1072a"
+        }
+      ]
+    },
+    {
+      thinkerId: "augustine",
+      keyWork: "Confissões / Cidade de Deus",
+      paragraphs: [
+        "Agostinho é o primeiro pensador a partir de uma crise pessoal para uma teologia filosófica de âmbito universal. As Confissões abrem com uma das frases mais citadas da história do pensamento ocidental: 'Fizeste-nos para Ti, e nosso coração está inquieto até que repousa em Ti.' A inquietude não é uma falha moral — é a estrutura ontológica do ser humano criado por Deus e incompleto sem ele.",
+        "O percurso agostiniano até Deus passa pelo maniqueísmo (que explicava o mal com um segundo princípio divino) e pelo neoplatonismo (que apontava para a imaterialidade e a transcendência do bem) antes de chegar ao Deus cristão. A contribuição específica do neoplatonismo foi mostrar que Deus não pode ser uma substância corpórea — que a verdade é interior, imaterial, imutável. A contribuição específica do Evangelho foi mostrar que esse Deus imaterial e transcendente se tornou carne e sofreu.",
+        "A frase do Livro X das Confissões — 'tarde Te amei, ó Beleza tão antiga e tão nova; tarde Te amei!' — captura o paradoxo agostiniano: Deus estava dentro de mim o tempo todo, e eu o buscava fora. A busca exterior — nos livros, nos prazeres, nas honras — era a busca pela coisa errada no lugar errado. A conversão é a inversão de direção: de fora para dentro, do múltiplo para o uno.",
+        "A Cidade de Deus desenvolve as implicações políticas dessa teologia. Há duas cidades que se entrelaçam na história: a Cidade de Deus, cujos membros amam a Deus acima de tudo, e a cidade terrena, cujos membros amam a si mesmos acima de Deus. A história humana é o drama do conflito e entrelaçamento dessas duas cidades — até o julgamento final que as separará definitivamente."
+      ],
+      quotes: [
+        {
+          text: "Fizeste-nos para Ti, e nosso coração está inquieto até que repousa em Ti.",
+          source: "Confissões, Livro I, Capítulo 1"
+        },
+        {
+          text: "Tarde Te amei, ó Beleza tão antiga e tão nova; tarde Te amei! Pois eis que Tu estavas dentro de mim e eu estava fora; e eu Te buscava fora.",
+          source: "Confissões, Livro X, Capítulo 27"
+        }
+      ]
+    },
+    {
+      thinkerId: "anselm",
+      keyWork: "Proslogion",
+      paragraphs: [
+        "Anselmo de Cantuária produziu o argumento mais audacioso da história da filosofia da religião: a prova ontológica da existência de Deus. O argumento parte não do mundo externo, mas do próprio conceito de Deus: Deus é 'aquilo além do qual nada maior pode ser concebido' (id quo maius cogitari nequit). Se esse ser existisse apenas no intelecto e não na realidade, poder-se-ia conceber algo maior — um ser que existisse tanto no intelecto quanto na realidade. Mas isso contradiz a definição. Logo, Deus necessariamente existe.",
+        "O argumento opera puramente a partir do conceito de Deus — não precisa de evidências empíricas, não precisa de experiências religiosas, não precisa de revelação. A própria ideia de Deus como o maior ser concebível implica sua existência. É o primeiro argumento a priori da teologia filosófica ocidental.",
+        "O 'insensato' do Salmo 14 — aquele que disse no coração que não há Deus — funciona como interlocutor interno do argumento. Anselmo concede que o insensato nega Deus, mas argumenta que mesmo ao negar, ele tem em mente o conceito do maior ser concebível. E ter esse conceito na mente e ao mesmo tempo afirmar que ele não existe na realidade é uma contradição.",
+        "Anselmo vai além do próprio argumento no capítulo 15 do Proslogion: Deus é não apenas aquilo além do qual nada maior pode ser concebido, mas algo maior do que qualquer coisa que possa ser concebida. Deus transcende até o limite do concebível — antecipando a teologia negativa que afirma que Deus está sempre além de qualquer conceito que dele formemos."
+      ],
+      quotes: [
+        {
+          text: "E cremos que Tu és um ser além do qual nada maior pode ser concebido.",
+          source: "Proslogion, Capítulo 2"
+        },
+        {
+          text: "Portanto, Senhor, não só és aquilo além do qual nada maior pode ser concebido, mas és algo maior do que pode ser concebido.",
+          source: "Proslogion, Capítulo 15"
+        }
+      ]
+    },
+    {
+      thinkerId: "aquinas",
+      keyWork: "Suma Teológica",
+      paragraphs: [
+        "Tomás de Aquino não começa pela fé e busca racionalizá-la — começa pela razão e mostra que ela conduz ao mesmo lugar que a fé. A Suma Teológica abre com as Cinco Vias, cinco caminhos que partem de efeitos observáveis no mundo e chegam a Deus como sua causa necessária. São provas a posteriori, não a priori como Anselmo: partem da experiência, não do conceito.",
+        "A Primeira Via — a do movimento — herda diretamente Aristóteles: tudo o que se move é movido por outro; a cadeia não pode ser infinita; logo, existe um Primeiro Motor Imóvel. As outras quatro seguem estruturas paralelas: a cadeia de causas eficientes (Segunda Via), a contingência dos seres (Terceira Via), os graus de perfeição (Quarta Via) e a ordem teleológica dos seres não racionais (Quinta Via). Cada uma conclui num Ser Necessário, Causa Primeira, Perfeição Máxima ou Inteligência Ordenadora — e esse ser, diz Aquino, 'todos entendem que é Deus'.",
+        "Além das provas, Aquino trabalha a questão do mal: como pode um Deus bom e onipotente permitir o mal? A resposta, herdada de Agostinho e sistematizada por Aquino, é que o mal é privatio boni — privação de bem, não uma substância independente. Deus não cria o mal; o mal é o que acontece quando algo bom é corrompido ou está incompleto. O fogo é bom; a queimadura é privação da integridade do tecido, não uma coisa criada por Deus.",
+        "A síntese tomista é o projeto mais ambicioso de harmonização entre razão e fé na história do pensamento cristão. Razão e revelação não se contradizem — percorrem dois caminhos para a mesma verdade. A razão chega a Deus como Ser Necessário e Causa Primeira; a revelação acrescenta que esse Deus é amor, que se encarna, que redime. O que a razão não pode alcançar — os mistérios da Trindade, da Encarnação, da graça — não contradiz a razão; simplesmente a excede."
+      ],
+      quotes: [
+        {
+          text: "É evidente para nossos sentidos que algumas coisas se movem. Ora, tudo o que é movido é movido por outro... Portanto, é necessário chegar a um primeiro motor, movido por nenhum outro; e isso todos entendem que é Deus.",
+          source: "Suma Teológica, Parte I, Questão 2, Artigo 3 (Primeira Via)"
+        }
+      ]
+    },
+    {
+      thinkerId: "dante",
+      keyWork: "Divina Comédia",
+      paragraphs: [
+        "Dante não prova Deus — ele o vê. A Divina Comédia é a tentativa mais ambiciosa da literatura ocidental de converter em experiência poética o que a teologia expressou em argumentos. O poema inteiro é uma allegoria da alma que, extraviada no meio do caminho da vida, precisa percorrer o Inferno, o Purgatório e o Paraíso para recuperar a orientação correta — e essa orientação correta é Deus.",
+        "No Paraíso, Dante se aproxima gradualmente da luz divina — cada esfera celeste que sobe é uma intensificação da luminosidade e da beatitude. O problema é que a luz final excede a capacidade de ver e de lembrar: o poeta admite que não consegue descrever o que viu porque sua memória não suportou a intensidade. Só pode registrar o efeito: sua vontade e seu desejo foram colocados em movimento perfeito, 'como uma roda que gira com movimento uniforme, pelo Amor que move o sol e as outras estrelas'.",
+        "Dante unifica as grandes tradições sobre Deus que o precederam. Do Demiurgo platônico herda a ideia de Deus como razão ordenadora do cosmos. Do Primeiro Motor aristotélico herda a ideia de Deus como polo de atração de todo movimento. De Agostinho herda a ideia de Deus como Beleza interior que a alma busca fora antes de encontrar dentro. De Aquino herda a arquitetura teológica que estrutura os três reinos da Comédia.",
+        "O Deus de Dante é simultaneamente transcendente (acima de qualquer capacidade humana de compreender) e imanente (sua glória penetra e ilumina gradualmente toda a realidade, em um lugar mais e em outro menos). Os versos de abertura do Paraíso estabelecem isso: a glória divina atravessa o universo e brilha em um lugar mais e em outro menos — essa gradação da luz é a estrutura do cosmos dantesco."
+      ],
+      quotes: [
+        {
+          text: "Mas agora meu desejo e minha vontade, como uma roda que gira com movimento uniforme, eram movidos pelo Amor que move o sol e as outras estrelas.",
+          source: "Divina Comédia, Paraíso, Canto XXXIII, versos 143-145"
+        }
+      ]
+    },
+    {
+      thinkerId: "descartes",
+      keyWork: "Meditações sobre Filosofia Primeira",
+      paragraphs: [
+        "Descartes recomeça a filosofia do zero — e Deus é indispensável ao projeto. Depois de estabelecer o cogito (penso, logo existo) como única certeza indubitável, Descartes pergunta: de onde vem a ideia de um ser infinitamente perfeito na minha mente finita? A ideia de infinito não pode ter sido produzida por uma mente finita — o efeito não pode ter mais realidade que a causa. Logo, deve existir um ser realmente infinito que plantou essa ideia em mim: Deus.",
+        "O argumento cartesiano é uma versão do argumento cosmológico, mas com uma torção: parte não do mundo externo, mas da existência do sujeito que tem a ideia de Deus. É subjetivo sem ser puramente conceitual como o argumento de Anselmo — a existência do eu que tem a ideia é o ponto de partida, não a análise do conceito de Deus.",
+        "Uma vez provada a existência de Deus, Descartes usa a perfeição divina como âncora epistemológica. Porque Deus é perfeito, ele não é enganador. Porque não é enganador, garante que as percepções claras e distintas da razão correspondem à realidade. Sem Deus, o cogito ficaria suspenso numa bolha de certeza subjetiva sem qualquer conexão com o mundo externo — o que os contemporâneos chamaram de 'problema do mundo externo'. Deus é o que conecta a mente e o mundo.",
+        "A consequência filosófica é que toda a ciência moderna, para Descartes, repousa em última análise sobre a garantia divina. O método matemático-dedutivo que ele propõe é confiável porque Deus garantiu a confiabilidade da razão. Os ataques posteriores à existência de Deus — de Hume, de Kant, de Nietzsche — terão, portanto, implicações que vão muito além da teologia: ameaçam a fundação do edifício do conhecimento tal como Descartes o construiu."
+      ],
+      quotes: [
+        {
+          text: "O simples fato de que existo e tenho dentro de mim uma ideia de um ser mais perfeito — isto é, Deus — fornece uma prova muito clara de que Deus de fato existe.",
+          source: "Meditações sobre Filosofia Primeira, Meditação III"
+        }
+      ]
+    },
+    {
+      thinkerId: "spinoza",
+      keyWork: "Ética",
+      paragraphs: [
+        "Espinosa produziu a teologia mais radical da era moderna: Deus é a Natureza, e a Natureza é Deus (Deus sive Natura). Não existe nada fora de Deus — tudo o que existe são modos, expressões de uma única substância infinita com infinitos atributos. Pensar Deus como um ser pessoal que criou o mundo de fora e intervém nele é uma projeção antropomórfica, não um argumento filosófico.",
+        "A Ética de Espinosa é organizada more geometrico — como um sistema de geometria, com definições, axiomas, proposições e demonstrações. A existência de Deus não é uma questão de fé ou de argumento empírico: decorre com necessidade lógica das definições. Assim como os ângulos de um triângulo somam necessariamente 180 graus, assim Deus necessariamente existe — porque a definição de substância como aquilo que existe por si mesmo e é concebido por si mesmo implica que há exatamente uma substância desse tipo, e ela é infinita.",
+        "A consequência mais perturbadora é que não há milagres, não há providência pessoal, não há oração que altere o curso dos eventos. Tudo segue de Deus com necessidade geométrica — não porque Deus quis assim, mas porque o sistema racional do cosmos não poderia ser de outro modo. Livre-arbítrio é, para Espinosa, uma ilusão nascida da ignorância das causas que nos determinam.",
+        "Paradoxalmente, a liberdade em Espinosa não é ausente — é redefinida. Somos livres quando agimos a partir da necessidade da nossa própria natureza, quando entendemos as causas que nos determinam e as acolhemos com alegria em vez de resistir a elas com paixões tristes. O amor intelectual a Deus — a compreensão sub specie aeternitatis da necessidade do cosmos — é a forma mais alta de liberdade e beatitude que Espinosa conhece."
+      ],
+      quotes: [
+        {
+          text: "Por Deus entendo um ser absolutamente infinito, isto é, uma substância que consiste em infinitos atributos, cada um dos quais exprime uma essência eterna e infinita.",
+          source: "Ética, Parte I, Definição VI"
+        },
+        {
+          text: "Tudo o que é, é em Deus, e nada pode ser ou ser concebido sem Deus.",
+          source: "Ética, Parte I, Proposição XV"
+        }
+      ]
+    },
+    {
+      thinkerId: "kant",
+      keyWork: "Crítica da Razão Pura / Crítica da Razão Prática",
+      paragraphs: [
+        "Kant executa a crítica mais sistemática e influente das provas tradicionais da existência de Deus. Na Dialética Transcendental da Crítica da Razão Pura, examina os três argumentos clássicos — ontológico (Anselmo, Descartes), cosmológico (Aquino) e físico-teológico (o argumento do design) — e mostra que todos eles cometem o mesmo erro: aplicam conceitos do entendimento (como causalidade, substância, perfeição) para além do âmbito da experiência possível, onde esses conceitos têm uso legítimo.",
+        "O argumento ontológico falha porque existência não é um predicado — afirmar que algo existe não acrescenta nada ao conceito do objeto. Posso conceber um ser perfeito; mas a perfeição do conceito não garante a existência da coisa concebida. O argumento cosmológico falha porque a lei de causalidade só vale dentro da experiência, não pode ser aplicada à totalidade do cosmos para concluir uma causa primeira fora dela. O argumento físico-teológico falha por razões similares.",
+        "Mas Kant não é ateu — ele apenas limita o âmbito da razão teórica. A Crítica da Razão Prática reintroduz Deus como postulado necessário da moralidade. A lei moral exige que virtude e felicidade se harmonizem no sumo bem. Mas a natureza não garante essa harmonia — os virtuosos podem sofrer, os injustos podem prosperar. Para que a moralidade faça sentido completo, precisa existir um ser que garanta, a longo prazo, a correspondência entre virtude e felicidade. Esse ser é Deus — não provado, mas postulado como condição de possibilidade da vida moral.",
+        "A frase mais célebre de Kant sobre religião resume tudo: 'tive de negar o conhecimento para abrir espaço para a fé'. O limite do conhecimento especulativo é a condição de possibilidade da fé moral. Deus não pode ser objeto de ciência; pode ser objeto de fé racional fundada na exigência da moralidade."
+      ],
+      quotes: [
+        {
+          text: "O ideal do Ser Supremo não é nada além de um princípio regulativo da razão, que nos dirige a olhar toda conexão no mundo como se ela se originasse de uma causa necessária e suficiente.",
+          source: "Crítica da Razão Pura, Dialética Transcendental, Livro II"
+        },
+        {
+          text: "Tive de negar o conhecimento para abrir espaço para a fé.",
+          source: "Crítica da Razão Pura, Prefácio à Segunda Edição"
+        }
+      ]
+    },
+    {
+      thinkerId: "nietzsche",
+      keyWork: "A Gaia Ciência / Assim Falou Zaratustra",
+      paragraphs: [
+        "'Deus está morto' — a proclamação do louco na Gaia Ciência (§125) não é um argumento filosófico contra a existência de Deus. É um diagnóstico cultural: a civilização europeia, ao desenvolver sua própria racionalidade crítica, sua ciência e seu historicismo, tornou inviável a crença sincera no Deus cristão como fundamento da vida e dos valores. A morte de Deus não é um evento teológico — é um evento cultural que ainda não foi absorvido em todas as suas consequências.",
+        "O 'nós' que matou Deus é a própria modernidade racional — não os ateus declarados, mas toda a tradição de busca pela verdade que o próprio Deus cristão havia iniciado. A honestidade intelectual que o Deus da moral cristã exigia tornou-se, por fim, incompatível com a crença no próprio Deus. Nietzsche vê nisso uma ironia histórica profunda.",
+        "O problema não é a morte de Deus em si — é o vácuo que deixa. Todos os valores morais e epistemológicos do Ocidente haviam sido fundamentados em Deus. Sem esse fundamento, eles perdem o alicerce. O niilismo — a conclusão de que nada tem valor, de que tudo é indiferente — é a sombra que avança sobre a Europa depois da morte de Deus. O louco que anuncia a morte de Deus na praça pública encontra apenas riso e incompreensão: as pessoas ainda não entenderam o que fizeram.",
+        "A resposta nietzscheana não é o luto — é a criação de novos valores. O além-do-homem (Übermensch) é o projeto de uma humanidade que, em vez de se agarrar aos valores mortos ou desabar no niilismo, assume a tarefa de criar novos valores a partir da afirmação da vida. Zaratustra desce da montanha não para pregar uma nova doutrina, mas para ensinar como se transforma o espírito: de camelo (que carrega o peso da tradição) em leão (que diz 'não' aos valores estabelecidos) em criança (que cria novos valores com inocência e leveza)."
+      ],
+      quotes: [
+        {
+          text: "Deus está morto. Deus permanece morto. E nós o matamos. Como nos consolaremos, nós, os assassinos de todos os assassinos?",
+          source: "A Gaia Ciência, §125 — 'O Louco'"
+        },
+        {
+          text: "Que festas expiatórias, que jogos sagrados teremos de inventar? A grandeza deste ato não é demasiado grande para nós? Não devemos nós mesmos nos tornar deuses para simplesmente parecer dignos dela?",
+          source: "A Gaia Ciência, §125 — 'O Louco'"
+        }
+      ]
+    }
+  ]
+};
+
 const ideaEssays: Record<string, IdeaEssay> = {
   [justicaEssay.slug]: justicaEssay,
   [bemEMalEssay.slug]: bemEMalEssay,
@@ -4235,7 +4792,10 @@ const ideaEssays: Record<string, IdeaEssay> = {
   [governoEssay.slug]: governoEssay,
   [leiEssay.slug]: leiEssay,
   [estadoEssay.slug]: estadoEssay,
-  [riquezaEssay.slug]: riquezaEssay
+  [riquezaEssay.slug]: riquezaEssay,
+  [guerraEPazEssay.slug]: guerraEPazEssay,
+  [destinoEssay.slug]: destinoEssay,
+  [deusEssay.slug]: deusEssay
 };
 
 export function getIdeaEssay(slug: string) {
