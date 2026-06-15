@@ -36,16 +36,30 @@ export function ConversationThread({ thinkers }: { thinkers: SyntopiconThinker[]
                     <span className="hidden group-open:inline">Fechar conexão</span>
                   </span>
                 </summary>
-                <div className="border-t px-5 py-4">
-                  {thinker.respondsTo.length ? (
-                    <>
+                <div className="border-t px-5 py-4 space-y-5">
+                  {thinker.quotes && thinker.quotes.length > 0 && (
+                    <div className="space-y-4">
+                      {thinker.quotes.map((q, i) => (
+                        <blockquote key={i} className="border-l-2 border-[var(--accent)] pl-4">
+                          <p className="font-serif text-base italic leading-7 text-[var(--primary)]">
+                            &ldquo;{q.text}&rdquo;
+                          </p>
+                          <cite className="mt-1.5 block text-[0.68rem] not-italic tracking-wide text-[var(--faint)]">
+                            — {q.source}
+                          </cite>
+                        </blockquote>
+                      ))}
+                    </div>
+                  )}
+                  {thinker.respondsTo.length > 0 ? (
+                    <div>
                       <p className="text-[0.64rem] font-semibold uppercase tracking-[0.17em] text-[var(--faint)]">
                         Responde a
                       </p>
                       <p className="mt-2 font-serif text-lg text-[var(--accent)]">
                         {thinker.respondsTo.join(" · ")}
                       </p>
-                    </>
+                    </div>
                   ) : (
                     <p className="text-sm italic text-[var(--secondary)]">
                       Ponto inicial deste fio cronológico.

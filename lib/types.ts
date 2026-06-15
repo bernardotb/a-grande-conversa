@@ -98,6 +98,7 @@ export type SyntopiconThinker = {
   dates: string;
   era: string;
   summary: string;
+  quotes?: Array<{ text: string; source: string }>;
   respondsTo: string[];
 };
 
@@ -112,6 +113,19 @@ export type SyntopiconIdea = {
   thinkers: SyntopiconThinker[];
   readingList: string[];
   sourceUrl: string;
+};
+
+export type IdeaEssay = {
+  slug: string;
+  title: string;
+  introduction: string;
+  sourceNote: string;
+  sections: Array<{
+    thinkerId: string;
+    keyWork: string;
+    paragraphs: string[];
+    quotes: Array<{ text: string; source: string }>;
+  }>;
 };
 
 export type ReferenceBook = {

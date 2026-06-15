@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ConversationThread } from "@/components/ConversationThread";
+import { IdeaEssay } from "@/components/IdeaEssay";
 import { ReferenceNav } from "@/components/ReferenceNav";
 import { IdeaQuoteBlock } from "@/components/IdeaQuoteBlock";
 import { EvidenceBadge } from "@/components/EvidenceBadge";
 import { getSyntopiconIdea, syntopiconIdeas } from "@/lib/data";
+import { getIdeaEssay } from "@/lib/idea-essays";
 import {
   getIdeaEnrichment,
   getDebate,
@@ -40,6 +42,7 @@ export default async function IdeaPage({
   if (!idea) notFound();
 
   const enrichment = getIdeaEnrichment(idea.slug);
+  const essay = getIdeaEssay(idea.slug);
   const relatedDebates = (enrichment?.relatedDebateIds ?? [])
     .map(getDebate)
     .filter(Boolean) as NonNullable<ReturnType<typeof getDebate>>[];
@@ -79,6 +82,8 @@ export default async function IdeaPage({
         )}
 
         <ConversationThread thinkers={idea.thinkers} />
+
+        {essay && <IdeaEssay essay={essay} thinkers={idea.thinkers} />}
 
         {/* Debates relacionados */}
         {relatedDebates.length > 0 && (
