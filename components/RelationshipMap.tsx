@@ -84,14 +84,15 @@ function buildOverviewLayout(
   links: KnowledgeGraphLink[],
 ): Map<string, Point> {
   const domains = Array.from(new Set(nodes.map((node) => node.domain)));
+  const singleDomain = domains.length <= 1;
   const domainCenters = new Map(
     domains.map((domain, index) => {
       const angle = (index / domains.length) * Math.PI * 2 - Math.PI / 2;
       return [
         domain,
         {
-          x: graphCenter.x + Math.cos(angle) * 285,
-          y: graphCenter.y + Math.sin(angle) * 220,
+          x: singleDomain ? graphCenter.x : graphCenter.x + Math.cos(angle) * 285,
+          y: singleDomain ? graphCenter.y : graphCenter.y + Math.sin(angle) * 220,
         },
       ] as const;
     }),
@@ -359,6 +360,28 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
   );
   const positions = focusLayout?.positions ?? overviewLayout;
 
+  const svgViewBox = useMemo(() => {
+    const points = visibleNodes
+      .map((n) => positions.get(n.slug))
+      .filter((p): p is Point => p !== undefined);
+
+    if (points.length === 0) {
+      return `0 0 ${graphWidth} ${graphHeight}`;
+    }
+
+    const pad = 72;
+    const xs = points.map((p) => p.x);
+    const ys = points.map((p) => p.y);
+    const minX = Math.min(...xs) - pad;
+    const minY = Math.min(...ys) - pad;
+    const fitW = Math.max(...xs) + pad - minX;
+    const fitH = Math.max(...ys) + pad - minY;
+    const cx = minX + fitW / 2;
+    const cy = minY + fitH / 2;
+
+    return `${cx - fitW / 2 / zoomLevel} ${cy - fitH / 2 / zoomLevel} ${fitW / zoomLevel} ${fitH / zoomLevel}`;
+  }, [positions, visibleNodes, zoomLevel]);
+
   const degreeBySlug = useMemo(() => {
     const degrees = new Map<string, number>();
     visibleLinks.forEach((link) => {
@@ -538,6 +561,7 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
               setDomain(event.target.value);
               setSelectedSlug(null);
               setInspectedLink(null);
+              setZoomLevel(1);
             }}
             className="mt-2 w-full border-b bg-[var(--surface)] py-2.5 text-sm text-[var(--primary)] outline-none focus:border-[var(--accent)]"
           >
@@ -570,7 +594,7 @@ export function RelationshipMap({ nodes, links, initialSlug }: RelationshipMapPr
           }}
         >
           <svg
-            viewBox={`${graphCenter.x - graphWidth / 2 / zoomLevel} ${graphCenter.y - graphHeight / 2 / zoomLevel} ${graphWidth / zoomLevel} ${graphHeight / zoomLevel}`}
+            viewBox={svgViewBox}
             role="img"
             aria-labelledby="knowledge-graph-title knowledge-graph-description"
             className="min-h-[32rem] min-w-[760px] lg:min-w-0"
