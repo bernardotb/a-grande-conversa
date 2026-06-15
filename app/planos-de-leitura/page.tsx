@@ -10,10 +10,7 @@ export const metadata: Metadata = {
 export default function ReadingPlansPage() {
   return (
     <>
-      <nav className="fixed left-6 top-6 z-30">
-        <Link href="/" className="text-sm text-[var(--secondary)] hover:text-[var(--accent)]">‹ Início</Link>
-      </nav>
-      <article className="gc-page pb-20 pt-24">
+      <article className="gc-page pb-20 pt-12">
         <header className="mb-16 max-w-2xl">
           <h1 className="font-serif text-5xl leading-none">Planos de Leitura dos Grandes Livros</h1>
           <p className="mt-3 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--secondary)]">

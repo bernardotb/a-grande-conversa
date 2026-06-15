@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { ReferenceBookCatalog } from "@/components/ReferenceBookCatalog";
 import { referenceBooks } from "@/lib/data";
 
@@ -12,23 +11,22 @@ const authorCount = new Set(referenceBooks.map((book) => book.author)).size;
 
 export default function BooksPage() {
   return (
-    <>
-      <nav className="fixed left-6 top-6 z-30">
-        <Link href="/" className="text-sm text-[var(--secondary)] hover:text-[var(--accent)]">‹ Início</Link>
-      </nav>
-      <article className="gc-page pb-20 pt-24">
-        <header className="mb-14 max-w-2xl">
-          <h1 className="font-serif text-5xl leading-none">Grandes Livros do Mundo Ocidental</h1>
-          <p className="mt-3 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--secondary)]">
-            {referenceBooks.length} obras · {authorCount} autores
+    <div className="pb-24 pt-12">
+      <div className="mx-auto max-w-5xl px-5 sm:px-8">
+        <header className="mb-16 max-w-2xl">
+          <p className="section-eyebrow">Catálogo editorial</p>
+          <h1 className="mt-3 font-serif text-5xl leading-none">Grandes Livros do Mundo Ocidental</h1>
+          <p className="gc-prose mt-6">
+            Cada obra é uma entrada na Grande Conversa — e um caminho para as ideias
+            que ajudou a formar.
           </p>
-          <p className="gc-prose mt-9">
-            As obras citadas pelo <em>Syntopicon</em>, de Homero a Freud. Cada título
-            conduz de volta às Grandes Ideias que ajudou a formar.
-          </p>
+          <div className="mt-6 flex flex-wrap gap-3">
+            <span className="stat-pill">{referenceBooks.length} obras</span>
+            <span className="stat-pill">{authorCount} autores</span>
+          </div>
         </header>
         <ReferenceBookCatalog books={referenceBooks} />
-      </article>
-    </>
+      </div>
+    </div>
   );
 }

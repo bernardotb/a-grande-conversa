@@ -31,6 +31,15 @@ export default {
           400: "#b9954f",
           500: "#9b7837",
           600: "#785923"
+        },
+        editorial: {
+          bg: "#FAF7F2",
+          text: "#2C2C2C",
+          muted: "#6B6B6B",
+          accent: "#B8973A",
+          blue: "#1E3A5F",
+          wine: "#5C1A2E",
+          border: "#DDD5C8"
         }
       },
       fontFamily: {

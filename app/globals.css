@@ -3,27 +3,45 @@
 @tailwind utilities;
 
 :root {
-  --cream: #f7f3ec;
-  --surface: #fbf8f2;
-  --primary: #211d1a;
-  --ink: #3f3934;
-  --secondary: #716861;
-  --faint: #a69c93;
-  --accent: #965c3d;
-  --accent-light: #b27655;
-  --border: #ddd5ca;
+  /* Editorial design tokens */
+  --color-bg:          #FAF7F2;
+  --color-text:        #2C2C2C;
+  --color-text-muted:  #6B6B6B;
+  --color-accent:      #B8973A;
+  --color-accent-blue: #1E3A5F;
+  --color-accent-wine: #5C1A2E;
+  --color-border:      #DDD5C8;
+
+  /* Compatibility aliases */
+  --cream:        #FAF7F2;
+  --surface:      #F5F0E8;
+  --primary:      #211d1a;
+  --ink:          #2C2C2C;
+  --secondary:    #6B6B6B;
+  --faint:        #a69c93;
+  --accent:       #B8973A;
+  --accent-light: #cba84a;
+  --border:       #DDD5C8;
 }
 
 .dark {
-  --cream: #191714;
-  --surface: #211e1a;
-  --primary: #f4eee5;
-  --ink: #d6cdc3;
-  --secondary: #aaa097;
-  --faint: #746c65;
-  --accent: #d29069;
+  --color-bg:          #191714;
+  --color-text:        #d6cdc3;
+  --color-text-muted:  #aaa097;
+  --color-accent:      #d29069;
+  --color-accent-blue: #5B89B4;
+  --color-accent-wine: #9B4A5E;
+  --color-border:      #3c3732;
+
+  --cream:        #191714;
+  --surface:      #211e1a;
+  --primary:      #f4eee5;
+  --ink:          #d6cdc3;
+  --secondary:    #aaa097;
+  --faint:        #746c65;
+  --accent:       #d29069;
   --accent-light: #e1ae8d;
-  --border: #3c3732;
+  --border:       #3c3732;
 }
 
 * {
@@ -147,5 +165,95 @@ button {
     scroll-behavior: auto !important;
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
+  }
+}
+
+/* ─── Editorial utility classes ──────────────────────────────────── */
+
+@layer components {
+  .card-editorial {
+    background: var(--surface);
+    border: 1px solid var(--color-border);
+    box-shadow: 0 2px 12px rgba(66, 52, 40, 0.06);
+    transition: border-color 150ms ease, box-shadow 150ms ease;
+  }
+
+  .card-editorial:hover {
+    border-color: color-mix(in srgb, var(--color-accent) 50%, var(--color-border));
+    box-shadow: 0 4px 20px rgba(66, 52, 40, 0.10);
+  }
+
+  .badge-domain {
+    display: inline-block;
+    padding: 0.125rem 0.5rem;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+    border: 1px solid color-mix(in srgb, var(--color-accent) 35%, transparent);
+  }
+
+  .stat-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.15rem 0.5rem;
+    font-size: 0.68rem;
+    color: var(--color-text-muted);
+    border: 1px solid var(--color-border);
+    font-family: ui-monospace, "Courier New", monospace;
+  }
+
+  .btn-primary {
+    display: inline-block;
+    padding: 0.625rem 1.5rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    background: var(--color-accent);
+    color: var(--color-bg);
+    transition: opacity 150ms ease;
+  }
+
+  .btn-primary:hover {
+    opacity: 0.85;
+  }
+
+  .btn-secondary {
+    display: inline-block;
+    padding: 0.625rem 1.5rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    border: 1px solid var(--color-accent);
+    color: var(--color-accent);
+    transition: background 150ms ease, color 150ms ease;
+  }
+
+  .btn-secondary:hover {
+    background: var(--color-accent);
+    color: var(--color-bg);
+  }
+
+  .section-eyebrow {
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+  }
+
+  .page-shell {
+    min-height: 100vh;
+    background: var(--color-bg);
+  }
+
+  .page-hero {
+    padding: 5rem 1.5rem;
+    text-align: center;
+    background: var(--color-bg);
   }
 }

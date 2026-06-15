@@ -1,4 +1,5 @@
 import type { SyntopiconThinker } from "@/lib/types";
+import { ThinkerCard } from "@/components/ThinkerCard";
 
 export function ConversationThread({ thinkers }: { thinkers: SyntopiconThinker[] }) {
   const groups = thinkers.reduce<Array<{ era: string; thinkers: SyntopiconThinker[] }>>(
@@ -24,49 +25,7 @@ export function ConversationThread({ thinkers }: { thinkers: SyntopiconThinker[]
           </p>
           <div className="grid gap-8">
             {group.thinkers.map((thinker) => (
-              <details key={thinker.id} id={`p-${thinker.id}`} className="gc-card group mx-auto w-full max-w-xl">
-                <summary className="cursor-pointer list-none px-5 py-4">
-                  <div className="flex items-baseline justify-between gap-4">
-                    <h3 className="font-serif text-2xl leading-none">{thinker.name}</h3>
-                    <span className="whitespace-nowrap text-xs text-[var(--secondary)]">{thinker.dates}</span>
-                  </div>
-                  <p className="mt-3 text-sm leading-6 text-[var(--secondary)]">{thinker.summary}</p>
-                  <span className="mt-3 block text-[0.62rem] uppercase tracking-[0.18em] text-[var(--accent)]">
-                    <span className="group-open:hidden">Abrir conexão</span>
-                    <span className="hidden group-open:inline">Fechar conexão</span>
-                  </span>
-                </summary>
-                <div className="border-t px-5 py-4 space-y-5">
-                  {thinker.quotes && thinker.quotes.length > 0 && (
-                    <div className="space-y-4">
-                      {thinker.quotes.map((q, i) => (
-                        <blockquote key={i} className="border-l-2 border-[var(--accent)] pl-4">
-                          <p className="font-serif text-base italic leading-7 text-[var(--primary)]">
-                            &ldquo;{q.text}&rdquo;
-                          </p>
-                          <cite className="mt-1.5 block text-[0.68rem] not-italic tracking-wide text-[var(--faint)]">
-                            — {q.source}
-                          </cite>
-                        </blockquote>
-                      ))}
-                    </div>
-                  )}
-                  {thinker.respondsTo.length > 0 ? (
-                    <div>
-                      <p className="text-[0.64rem] font-semibold uppercase tracking-[0.17em] text-[var(--faint)]">
-                        Responde a
-                      </p>
-                      <p className="mt-2 font-serif text-lg text-[var(--accent)]">
-                        {thinker.respondsTo.join(" · ")}
-                      </p>
-                    </div>
-                  ) : (
-                    <p className="text-sm italic text-[var(--secondary)]">
-                      Ponto inicial deste fio cronológico.
-                    </p>
-                  )}
-                </div>
-              </details>
+              <ThinkerCard key={thinker.id} thinker={thinker} />
             ))}
           </div>
         </section>

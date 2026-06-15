@@ -21,7 +21,7 @@ export function ReferenceNav() {
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="fixed left-6 top-6 z-40 grid size-10 place-items-center rounded-full border bg-[var(--cream)] font-serif text-xl text-[var(--accent)] shadow-sm"
+        className="fixed left-4 top-[5.25rem] z-40 grid size-10 place-items-center rounded-full border bg-[var(--cream)] font-serif text-xl text-[var(--accent)] shadow-sm"
         aria-label="Abrir navegação"
       >
         §

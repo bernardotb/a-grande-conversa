@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond, Source_Sans_3 } from "next/font/google";
 import "@/app/globals.css";
 import { siteConfig } from "@/lib/data";
+import { Header } from "@/components/Header";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -60,6 +61,7 @@ export default function RootLayout({
         >
           Ir para o conteúdo
         </a>
+        <Header />
         <main id="conteudo">{children}</main>
       </body>
     </html>

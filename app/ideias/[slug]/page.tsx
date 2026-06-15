@@ -53,7 +53,7 @@ export default async function IdeaPage({
   return (
     <>
       <ReferenceNav />
-      <header className="sticky top-0 z-20 border-b bg-[color:var(--cream)]/95 px-6 py-7 text-center backdrop-blur">
+      <header className="sticky top-20 z-20 border-b bg-[color:var(--cream)]/95 px-6 py-7 text-center backdrop-blur">
         <p className="text-[0.65rem] font-semibold uppercase tracking-[0.2em] text-[var(--accent)]">
           {idea.domainName}
         </p>
