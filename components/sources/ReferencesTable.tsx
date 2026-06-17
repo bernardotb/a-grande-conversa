@@ -10,6 +10,7 @@ import { TechnicalReference } from './TechnicalReference'
 interface ReferencesTableProps {
   references: SyntopiconReference[]
   topics: JusticeTopic[]
+  initialTopicFilter?: string
 }
 
 const evidenceBadge: Record<SyntopiconReference['evidenceStatus'], string> = {
@@ -19,8 +20,8 @@ const evidenceBadge: Record<SyntopiconReference['evidenceStatus'], string> = {
   pedagogica: 'text-violet-700 border-violet-200 bg-violet-50',
 }
 
-export function ReferencesTable({ references, topics }: ReferencesTableProps) {
-  const [topicFilter, setTopicFilter] = useState('all')
+export function ReferencesTable({ references, topics, initialTopicFilter }: ReferencesTableProps) {
+  const [topicFilter, setTopicFilter] = useState(initialTopicFilter ?? 'all')
   const [authorFilter, setAuthorFilter] = useState('all')
   const [volumeFilter, setVolumeFilter] = useState('all')
   const [relevanceFilter, setRelevanceFilter] = useState('all')

@@ -9,7 +9,12 @@ export const metadata: Metadata = {
     'Índice documental rastreável das fontes primárias para o debate filosófico sobre Justiça. Referências dos Great Books of the Western World, organizadas por tópico, autor, volume e status de verificação.',
 }
 
-export default function JusticaReferenciasPage() {
+export default async function JusticaReferenciasPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ topico?: string }>
+}) {
+  const { topico } = await searchParams
   const references = getJusticeReferences()
 
   return (
@@ -55,7 +60,11 @@ export default function JusticaReferenciasPage() {
 
       {/* Tabela filtrável */}
       <div className="gc-page px-4 py-10">
-        <ReferencesTable references={references} topics={justiceTopics} />
+        <ReferencesTable
+          references={references}
+          topics={justiceTopics}
+          initialTopicFilter={topico}
+        />
       </div>
 
       {/* Navegação */}
