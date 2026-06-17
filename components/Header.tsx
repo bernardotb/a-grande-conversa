@@ -44,6 +44,36 @@ export function Header() {
               {item.label}
             </Link>
           ))}
+
+          {/* Eixo toggle */}
+          <div className="flex items-center gap-1 border-l border-antique-500/20 pl-5">
+            <Link
+              href="/#seis-ideias"
+              className={`rounded-full px-3 py-1 font-sans text-[0.62rem] font-semibold uppercase tracking-[0.12em] transition ${
+                pathname.startsWith('/ideias/verdade') ||
+                pathname.startsWith('/ideias/bem') ||
+                pathname.startsWith('/ideias/beleza')
+                  ? 'bg-violet-700 text-white'
+                  : 'text-violet-400/70 hover:text-violet-300'
+              }`}
+              title="Eixo Julgar — Verdade, Bem, Beleza"
+            >
+              Julgar
+            </Link>
+            <Link
+              href="/#seis-ideias"
+              className={`rounded-full px-3 py-1 font-sans text-[0.62rem] font-semibold uppercase tracking-[0.12em] transition ${
+                pathname.startsWith('/ideias/liberdade') ||
+                pathname.startsWith('/ideias/igualdade') ||
+                pathname.startsWith('/ideias/justica')
+                  ? 'bg-green-700 text-white'
+                  : 'text-green-500/70 hover:text-green-400'
+              }`}
+              title="Eixo Agir — Liberdade, Igualdade, Justiça"
+            >
+              Agir
+            </Link>
+          </div>
         </nav>
 
         <div className="flex items-center gap-2">
