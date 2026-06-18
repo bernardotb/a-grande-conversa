@@ -158,6 +158,30 @@ button {
   animation: gc-fade-up 700ms ease both;
 }
 
+/* ─── React Flow overrides ───────────────────────────────────────── */
+.react-flow__node {
+  padding: 0 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.react-flow__controls-button {
+  background: transparent !important;
+  border-bottom-color: rgba(185,149,79,0.15) !important;
+  color: rgba(230,212,173,0.5) !important;
+}
+
+.react-flow__controls-button:hover {
+  background: rgba(185,149,79,0.08) !important;
+  color: rgba(230,212,173,0.9) !important;
+}
+
+.react-flow__controls-button svg {
+  fill: currentColor;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

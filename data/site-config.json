@@ -8,9 +8,9 @@
   "navigation": [
     { "label": "Acervo", "href": "/acervo" },
     { "label": "Percursos", "href": "/percursos" },
-    { "label": "Debates", "href": "/debates" },
+    { "label": "Ideias", "href": "/ideias" },
     { "label": "Obras", "href": "/obras" },
-    { "label": "Mapa", "href": "/mapa-intelectual" }
+    { "label": "Mapa", "href": "/mapa" }
   ],
   "footerLinks": [
     { "label": "Sobre", "href": "/sobre" },

@@ -2,12 +2,11 @@
 
 import dynamic from 'next/dynamic'
 
-const IntellectualMap = dynamic(
-  () =>
-    import('./IntellectualMap').then((m) => ({ default: m.IntellectualMap })),
+const FlowMap = dynamic(
+  () => import('./FlowMap').then(m => ({ default: m.FlowMap })),
   { ssr: false },
 )
 
 export function MapClientWrapper() {
-  return <IntellectualMap />
+  return <FlowMap />
 }
