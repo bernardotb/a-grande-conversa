@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getSixIdea } from '@/lib/seis-grandes-ideias'
+import { AtlasIdeaSection } from '@/components/atlas/AtlasIdeaSection'
+import overviewData from '@/data/atlas-six-ideas/overview.json'
 import { IdeaPageTemplate } from '@/components/sgi/IdeaPageTemplate'
 import { conflitosFilosoficos } from '@/lib/mapa-data'
 import { notFound } from 'next/navigation'
@@ -22,10 +24,12 @@ export default function JusticaPage() {
   const volumes = getJusticeVolumes()
   const references = getJusticeReferences()
   const topics = justiceTopics
+  const atlasIdea = overviewData.ideas.find((i: { idea_en: string }) => i.idea_en === 'Justice')
 
   return (
     <>
       <IdeaPageTemplate idea={idea} conflitos={conflitos} />
+      {atlasIdea && <AtlasIdeaSection idea={atlasIdea as never} ptSlug="justica" />}
 
       {/* ── Mini-grafo da Justiça ── */}
       <section className="border-t border-[var(--border)] bg-[var(--surface)] px-6 py-14">
