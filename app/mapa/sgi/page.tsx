@@ -1,16 +1,12 @@
 import type { Metadata } from 'next'
-import { MapaIntelectualSGI } from '@/components/sgi/MapaIntelectualSGI'
+import { AtlasShell } from '@/components/atlas/AtlasShell'
 
 export const metadata: Metadata = {
-  title: 'Mapa Intelectual — Seis Grandes Ideias',
+  title: 'Atlas das Seis Ideias',
   description:
-    'Navegue pelo mapa interativo das Seis Grandes Ideias de Adler e explore os pensadores que moldaram cada conceito ao longo de 2.500 anos.',
+    'Ecossistema documental de Adler, Syntopicon e Great Books. 3.575 nós, 11.372 arestas, 2.461 referências e 159 tópicos navegáveis.',
 }
 
-export default function MapaSGIPage() {
-  return (
-    <main style={{ height: 'calc(100vh - 5rem)' }} className="relative">
-      <MapaIntelectualSGI />
-    </main>
-  )
+export default function AtlasSGIPage() {
+  return <AtlasShell />
 }
