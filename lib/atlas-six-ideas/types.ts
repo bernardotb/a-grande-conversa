@@ -18,6 +18,14 @@ export type AtlasNodeType =
   | 'work'
   | 'volume'
   | 'passage'
+  // v2 virtual/structural types
+  | 'adler_group'
+  | 'adler_chapter'
+  | 'question_group'
+  | 'tension_group'
+  | 'syntopicon_chapter'
+  | 'documentary_reservoir'
+  | 'reference_group'
 
 export interface AtlasNode {
   id: string
@@ -52,6 +60,11 @@ export interface AtlasNode {
   sphere_field?: string
   mapping_note?: string
   question?: string
+  // v2 — subtopic parent link (present in syntopicon_subtopic nodes)
+  parent_topic_id?: string
+  // v2 — topic numbering (e.g. "1", "2a", "6d")
+  original_number?: string
+  topic_number?: string
 }
 
 export interface AtlasEdge {
@@ -208,6 +221,71 @@ export const NODE_TYPE_LABELS: Record<string, string> = {
   system: 'Sistema',
   sphere: 'Esfera',
 }
+
+// v2 — visual identity per idea
+export type SixIdeaEn = 'Truth' | 'Goodness' | 'Beauty' | 'Liberty' | 'Equality' | 'Justice'
+
+export const IDEA_NUMBER_ORDER: SixIdeaEn[] = [
+  'Truth', 'Goodness', 'Beauty', 'Liberty', 'Equality', 'Justice',
+]
+
+export interface IdeaVisualIdentity {
+  colorPrimary: string
+  colorLight: string
+  sphere: 'judgment' | 'action'
+  numberLabel: string
+}
+
+export const IDEA_VISUAL_IDENTITY: Record<SixIdeaEn, IdeaVisualIdentity> = {
+  Truth: {
+    colorPrimary: '#8b9fcf',
+    colorLight: '#8b9fcf22',
+    sphere: 'judgment',
+    numberLabel: '01',
+  },
+  Goodness: {
+    colorPrimary: '#b8a0c8',
+    colorLight: '#b8a0c822',
+    sphere: 'judgment',
+    numberLabel: '02',
+  },
+  Beauty: {
+    colorPrimary: '#d0a070',
+    colorLight: '#d0a07022',
+    sphere: 'judgment',
+    numberLabel: '03',
+  },
+  Liberty: {
+    colorPrimary: '#6aaa80',
+    colorLight: '#6aaa8022',
+    sphere: 'action',
+    numberLabel: '04',
+  },
+  Equality: {
+    colorPrimary: '#c0884a',
+    colorLight: '#c0884a22',
+    sphere: 'action',
+    numberLabel: '05',
+  },
+  Justice: {
+    colorPrimary: '#5a9e7a',
+    colorLight: '#5a9e7a22',
+    sphere: 'action',
+    numberLabel: '06',
+  },
+}
+
+// v2 — edge types
+export type AtlasEdgeTypeV2 =
+  | 'idea_to_system'
+  | 'adler_structure'
+  | 'syntopicon_structure'
+  | 'adler_to_syntopicon_correspondence'
+  | 'topic_to_subtopic'
+  | 'topic_to_reference_group'
+  | 'documentary_path'
+  | 'field_ring'
+  | 'cross_field'
 
 export const IDEA_ROUTE_MAP: Record<string, string> = {
   Truth: '/ideias/verdade',

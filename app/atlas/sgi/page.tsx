@@ -7,6 +7,6 @@ export const metadata: Metadata = {
     'Explore as seis grandes ideias do Syntopicon — Verdade, Bondade, Beleza, Liberdade, Igualdade e Justiça — através de 3.575 nós, 11.372 arestas e 2.461 referências documentais.',
 }
 
-export default function AtlasSGIPage() {
+export default function AtlasSGICanonicalPage() {
   return <AtlasShellV2 />
 }
