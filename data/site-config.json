@@ -10,6 +10,7 @@
     { "label": "Percursos", "href": "/percursos" },
     { "label": "Ideias", "href": "/ideias" },
     { "label": "Obras", "href": "/obras" },
+    { "label": "Atlas", "href": "/mapa/sgi" },
     { "label": "Mapa", "href": "/mapa" }
   ],
   "footerLinks": [

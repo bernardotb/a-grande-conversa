@@ -45,34 +45,22 @@ export function Header() {
             </Link>
           ))}
 
-          {/* Eixo toggle */}
+          {/* Classificação visual — não funciona como filtro. */}
           <div className="flex items-center gap-1 border-l border-antique-500/20 pl-5">
-            <Link
-              href="/#seis-ideias"
-              className={`rounded-full px-3 py-1 font-sans text-[0.62rem] font-semibold uppercase tracking-[0.12em] transition ${
-                pathname.startsWith('/ideias/verdade') ||
-                pathname.startsWith('/ideias/bem') ||
-                pathname.startsWith('/ideias/beleza')
-                  ? 'bg-violet-700 text-white'
-                  : 'text-violet-400/70 hover:text-violet-300'
-              }`}
-              title="Eixo Julgar — Verdade, Bem, Beleza"
+            <span
+              className="flex items-center gap-1.5 px-2 py-1 font-sans text-[0.58rem] font-semibold uppercase tracking-[0.12em] text-violet-400/70"
+              title="Julgar — Verdade, Bondade e Beleza"
             >
+              <span className="h-1.5 w-1.5 rounded-full bg-violet-400/70" />
               Julgar
-            </Link>
-            <Link
-              href="/#seis-ideias"
-              className={`rounded-full px-3 py-1 font-sans text-[0.62rem] font-semibold uppercase tracking-[0.12em] transition ${
-                pathname.startsWith('/ideias/liberdade') ||
-                pathname.startsWith('/ideias/igualdade') ||
-                pathname.startsWith('/ideias/justica')
-                  ? 'bg-green-700 text-white'
-                  : 'text-green-500/70 hover:text-green-400'
-              }`}
-              title="Eixo Agir — Liberdade, Igualdade, Justiça"
+            </span>
+            <span
+              className="flex items-center gap-1.5 px-2 py-1 font-sans text-[0.58rem] font-semibold uppercase tracking-[0.12em] text-green-500/70"
+              title="Agir — Liberdade, Igualdade e Justiça"
             >
+              <span className="h-1.5 w-1.5 rounded-full bg-green-500/70" />
               Agir
-            </Link>
+            </span>
           </div>
         </nav>
 

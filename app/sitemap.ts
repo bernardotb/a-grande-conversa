@@ -16,6 +16,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/autores`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/planos-de-leitura`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/mapa-intelectual`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/mapa/sgi`, lastModified: now, changeFrequency: "weekly", priority: 0.95 },
+    { url: `${BASE_URL}/atlas/sgi`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
     { url: `${BASE_URL}/busca`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
     { url: `${BASE_URL}/sobre`, lastModified: now, changeFrequency: "yearly", priority: 0.4 },
     { url: `${BASE_URL}/metodologia-e-fontes`, lastModified: now, changeFrequency: "yearly", priority: 0.4 },

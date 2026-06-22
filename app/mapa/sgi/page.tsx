@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { AtlasShellV2 } from '@/components/atlas/v2/AtlasShellV2'
+import { AtlasShellV3 } from '@/components/atlas/v3/AtlasShellV3'
 
 export const metadata: Metadata = {
   title: 'Atlas das Seis Ideias',
@@ -8,5 +8,5 @@ export const metadata: Metadata = {
 }
 
 export default function AtlasSGIPage() {
-  return <AtlasShellV2 />
+  return <AtlasShellV3 />
 }

@@ -15,6 +15,15 @@ const VB = '0 0 560 540'
 const SOVEREIGN_R = 38
 const RELATED_R   = 30
 
+const IDEA_SLUG_TO_EN: Record<string, string> = {
+  verdade: 'Truth',
+  bem: 'Goodness',
+  beleza: 'Beauty',
+  liberdade: 'Liberty',
+  igualdade: 'Equality',
+  justica: 'Justice',
+}
+
 function nodeR(role: HomeIdea['role']) {
   return role === 'soberana' ? SOVEREIGN_R : RELATED_R
 }
@@ -48,26 +57,26 @@ export function HomeConstellation() {
 
   return (
     <section
-      id="constelacao"
-      className="bg-library-950 border-t border-library-700/30 py-16 px-6"
+      id="seis-ideias"
+      className="flex min-h-[calc(100vh-5rem)] items-center bg-library-950 px-6 py-12"
       aria-label="Constelação das seis ideias"
     >
-      <div className="mx-auto max-w-5xl">
+      <div className="mx-auto w-full max-w-6xl">
         {/* Section eyebrow */}
         <div className="text-center mb-10">
           <p className="font-sans text-[0.62rem] font-semibold uppercase tracking-[0.28em] text-antique-400/50">
-            As Seis Grandes Ideias
+            Atlas das Seis Ideias
           </p>
           <h2 className="mt-3 font-serif text-2xl font-light text-parchment-100">
-            Uma única conversa em dois campos
+            Seis ideias, uma única conversa
           </h2>
           <p className="mt-2 font-serif text-sm italic text-parchment-200/40">
-            Clique numa ideia para ver sua pergunta central e tensões.
+            Julgar e Agir permanecem juntos. Selecione uma ideia para abrir sua cartografia.
           </p>
         </div>
 
         {/* Desktop: SVG + info panel side-by-side */}
-        <div className="hidden lg:grid lg:grid-cols-[1fr_340px] lg:gap-8 lg:items-center">
+        <div className="hidden lg:grid lg:grid-cols-[minmax(0,1fr)_380px] lg:gap-10 lg:items-center">
           <ConstellationSVG
             selected={selected}
             onSelect={select}
@@ -120,7 +129,7 @@ function ConstellationSVG({ selected, onSelect, nodeOp, edgeOp, pos }: SVGProps)
     <svg
       viewBox={VB}
       xmlns="http://www.w3.org/2000/svg"
-      className="w-full max-w-lg mx-auto"
+      className="mx-auto w-full max-w-2xl"
       role="img"
       aria-label="Constelação das seis grandes ideias"
     >
@@ -290,14 +299,14 @@ function InfoPanel({ idea }: { idea: HomeIdea | null }) {
       {/* CTA */}
       <div className="mt-6 flex flex-wrap gap-2">
         <Link
-          href={`/ideias/${idea.slug}`}
+          href={`/mapa/sgi?idea=${IDEA_SLUG_TO_EN[idea.slug] ?? idea.slug}`}
           className="border px-4 py-2 font-sans text-[0.62rem] font-semibold uppercase tracking-[0.16em] transition hover:opacity-80"
           style={{
             borderColor: idea.color + '55',
             color: idea.color,
           }}
         >
-          Explorar →
+          Abrir no Atlas →
         </Link>
         <Link
           href="/acervo"
@@ -371,11 +380,11 @@ function MobileIdeaRow({
             </ul>
           )}
           <Link
-            href={`/ideias/${idea.slug}`}
+            href={`/mapa/sgi?idea=${IDEA_SLUG_TO_EN[idea.slug] ?? idea.slug}`}
             className="mt-4 inline-block border px-4 py-2 font-sans text-[0.6rem] font-semibold uppercase tracking-[0.16em] transition hover:opacity-75"
             style={{ borderColor: idea.color + '55', color: idea.color }}
           >
-            Explorar {idea.publicName} →
+            Abrir {idea.publicName} no Atlas →
           </Link>
         </div>
       )}
